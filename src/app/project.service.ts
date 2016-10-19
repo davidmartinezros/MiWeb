@@ -15,33 +15,24 @@ export class ProjectService {
 
     getProjects(): Promise<Project[]> {
         return this.http.get(this.projectsUrl)
-               .toPromise()
-               .then(response => response.json().data as Project[])
-               .catch(this.handleError);
+            .toPromise()
+            .then(response => response.json().data as Project[])
+            .catch(this.handleError);
     }
 
     getProject(id: number): Promise<Project> {
         return this.getProjects()
              .then(projects => projects.find(project => project.id === id));
     }
-
-    /*update(project: Project): Promise<Project> {
-        const url = `${this.projectsUrl}/${project.id}`;
-        return this.http
-            .put(url, JSON.stringify(project), {headers: this.headers})
+    
+    getProjectsForTheme(theme: string): Promise<Project[]> {
+        const url = `${this.projectsUrl}/?tema=${theme}`;
+        return this.http.get(url)
             .toPromise()
-            .then(() => project)
+            .then(response => response.json().data as Project[])
             .catch(this.handleError);
-    }*/
-
-    /*create(name: string): Promise<Project> {
-        return this.http
-            .post(this.projectsUrl, JSON.stringify({name: name}), {headers: this.headers})
-            .toPromise()
-            .then(res => res.json().data)
-            .catch(this.handleError);
-    }*/
-
+    }
+    
     delete(id: number): Promise<void> {
         const url = `${this.projectsUrl}/${id}`;
         return this.http.delete(url, {headers: this.headers})

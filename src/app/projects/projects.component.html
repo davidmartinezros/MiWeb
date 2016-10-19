@@ -1,18 +1,38 @@
 <h3>Angular2 Projects with Typescript</h3>
 <ul class="projects">
-    <li *ngFor="let project of projects"
-    [class.selected]="project === selectedProject" 
-    (click)="onSelect(project)">
+    <li *ngFor="let project of projectsAngular2"
+    [class.selected]="project === selectedProjectAngular2" 
+    (click)="onSelectAngular2(project)">
         <span class="badge">{{project.id}}</span>
         <span>{{project.titol}}</span>
         <span class="buttons">
-            <button (click)="onSelect(project)">view</button>
-            <button (click)="delete(project); $event.stopPropagation()">discard</button>
+            <span class="theme">({{project.tema}})</span>
+            <button (click)="onSelectAngular2(project)">view</button>
+            <button (click)="deleteAngular2(project); $event.stopPropagation()">discard</button>
         </span>
     </li>
 </ul>
-<div *ngIf="selectedProject">
-    <h3><a href="{{selectedProject.link}}">{{selectedProject.id}}.{{selectedProject.titol}} ({{selectedProject.data}})</a></h3>
-    <p innerHTML="{{selectedProject.html}}"></p>
-    <p>Here you can obtain the source code from my <a href="{{selectedProject.repositori}}">repository project</a></p>
+<div *ngIf="selectedProjectAngular2">
+    <h3><a href="{{selectedProjectAngular2.link}}" target="_blank">{{selectedProjectAngular2.id}}.{{selectedProjectAngular2.titol}} ({{selectedProjectAngular2.data}})</a></h3>
+    <p innerHTML="{{selectedProjectAngular2.html}}"></p>
+    <p *ngIf="selectedProjectAngular2.repositori">Here you can obtain the source code from my <a href="{{selectedProjectAngular2.repositori}}" target="_blank">repository project</a></p>
+</div>
+<h3>Unity Projects</h3>
+<ul class="projects">
+    <li *ngFor="let project of projectsUnity"
+    [class.selected]="project === selectedProjectUnity" 
+    (click)="onSelectUnity(project)">
+        <span class="badge">{{project.id}}</span>
+        <span>{{project.titol}}</span>
+        <span class="buttons">
+            <span class="theme">({{project.tema}})</span>
+            <button (click)="onSelectUnity(project)">view</button>
+            <button (click)="deleteUnity(project); $event.stopPropagation()">discard</button>
+        </span>
+    </li>
+</ul>
+<div *ngIf="selectedProjectUnity">
+    <h3><a href="{{selectedProjectUnity.link}}" target="_blank">{{selectedProjectUnity.id}}.{{selectedProjectUnity.titol}} ({{selectedProjectUnity.data}})</a></h3>
+    <p innerHTML="{{selectedProjectUnity.html}}"></p>
+    <p *ngIf="selectedProjectUnity.repositori">Here you can obtain the source code from my <a href="{{selectedProjectUnity.repositori}}" target="_blank">repository project</a></p>
 </div>

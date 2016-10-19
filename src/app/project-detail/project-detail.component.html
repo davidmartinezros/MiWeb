@@ -1,6 +1,6 @@
 <div *ngIf="project">
-  <h3><a href="{{project.link}}">{{project.id}}.{{project.titol}} ({{project.data}})</a></h3>
+  <h3><a href="{{project.link}}" target="_blank">{{project.id}}. {{project.titol}} ({{project.data}})</a></h3>
   <p innerHTML="{{project.html}}"></p>
-  <p>Here you can obtain the source code from my <a href="{{project.repositori}}">repository project</a></p>
+  <p *ngIf="project.repositori">Here you can obtain the source code from my <a href="{{project.repositori}}">repository project</a></p>
   <button (click)="goBack()">Back</button>
 </div>

@@ -15,4 +15,10 @@ export class ProjectSearchService {
       .map((r: Response) => r.json().data as Project[]);
   }
 
+  searchTheme(theme: string): Observable<Project[]> {
+    return this.http
+      .get(`app/projects/?tema=${theme}`)
+      .map((r: Response) => r.json().data as Project[]);
+  }
+
 }

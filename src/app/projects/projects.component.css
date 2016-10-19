@@ -6,7 +6,7 @@
   margin: 0 0 2em 0;
   list-style-type: none;
   padding: 0;
-  width: 40em;
+  width: 50em;
 }
 .projects li {
   cursor: pointer;
@@ -47,6 +47,9 @@
 }
 .projects .buttons {
   float: right;
+}
+.projects .buttons .theme {
+  color: #38488f;
 }
 a:link, a:visited {
 	color: #607D8B;

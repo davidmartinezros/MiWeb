@@ -12,35 +12,59 @@ import { ProjectService } from '../project.service';
 })
 
 export class ProjectsComponent implements OnInit {
-  projects: Project[];
-  selectedProject: Project;
+  projectsAngular2: Project[];
+  selectedProjectAngular2: Project;
 
+  projectsUnity: Project[];
+  selectedProjectUnity: Project;
   constructor(
     private router: Router,
     private projectService: ProjectService) { }
 
-  getProjects(): void {
-    this.projectService.getProjects().then(projects => this.projects = projects);
+  getProjectsAngular2(): void {
+    this.projectService.getProjectsForTheme('Angular2').then(projectsAngular2 => this.projectsAngular2 = projectsAngular2);
+  }
+
+  getProjectsUnity(): void {
+    this.projectService.getProjectsForTheme('Unity').then(projectsUnity => this.projectsUnity = projectsUnity);
   }
 
   ngOnInit(): void {
-    this.getProjects();
+    this.getProjectsAngular2();
+    this.getProjectsUnity();
   }
 
-  onSelect(project: Project): void {
-    this.selectedProject = project;
+  onSelectAngular2(project: Project): void {
+    this.selectedProjectAngular2 = project;
   }
 
-  gotoDetail(): void {
-    this.router.navigate(['/detail', this.selectedProject.id]);
+  onSelectUnity(project: Project): void {
+    this.selectedProjectUnity = project;
   }
 
-  delete(project: Project): void {
+  gotoDetailAngular2(): void {
+    this.router.navigate(['/detail', this.selectedProjectAngular2.id]);
+  }
+
+  gotoDetailUnity(): void {
+    this.router.navigate(['/detail', this.selectedProjectUnity.id]);
+  }
+
+  deleteAngular2(project: Project): void {
     this.projectService
       .delete(project.id)
       .then(() => {
-        this.projects = this.projects.filter(h => h !== project);
-        if (this.selectedProject === project) { this.selectedProject = null; }
+        this.projectsAngular2 = this.projectsAngular2.filter(h => h !== project);
+        if (this.selectedProjectAngular2 === project) { this.selectedProjectAngular2 = null; }
+      });
+  }
+
+  deleteUnity(project: Project): void {
+    this.projectService
+      .delete(project.id)
+      .then(() => {
+        this.projectsUnity = this.projectsUnity.filter(h => h !== project);
+        if (this.selectedProjectUnity === project) { this.selectedProjectUnity = null; }
       });
   }
 }
