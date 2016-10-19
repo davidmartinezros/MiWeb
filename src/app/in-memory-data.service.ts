@@ -89,13 +89,20 @@ export class InMemoryDataService implements InMemoryDbService {
       tema: 'Unity',
       data: '13/10/2016',
       link: 'http://davidmartinezros.com/3D/PersonMovement/',
-      html: 'In this example, you can see the player and you can move him only in the platform. The camera follows the player (the follows could be do better). The player can walk, run and jump. It want to emulate a Platforms Games (at least initially).',
+      html: `
+      In this example, you can see the player and you can move him only in the platform.<br/>
+      The camera follows the player (the follows could be do better).<br/>
+      The player can walk, run and jump. It want to emulate a Platforms Games (at least initially).
+      `,
       repositori: null},
       {id: 105, titol: 'A Texture Shader Example',
       tema: 'Unity',
       data: '17/10/2016',
       link: 'http://davidmartinezros.com/3D/MiFirstShader/',
-      html: 'This example shows three cubes. One with a texture, another with another texture and the middle one with a Shader Texture with 50% of a the first texture and 50% of the second texture.',
+      html: `
+      This example shows three cubes.<br/>
+      One with a texture, another with another texture and the middle one with a Shader Texture with 50% of a the first texture and 50% of the second texture.
+      `,
       repositori: null},
       {id: 106, titol: 'A Two Cameras Example',
       tema: 'Unity',
@@ -103,7 +110,7 @@ export class InMemoryDataService implements InMemoryDbService {
       link: 'http://davidmartinezros.com/3D/DifferentsCameras/',
       html: `
       This example shows the screen divided for the middle.<br/>
-      On the left side, there's a perspective camera that follows the player allways behind him.<br/>
+      On the left side, there's a perspective camera that follows the player always behind him.<br/>
       On the right side, there's a multipurpose perspective camera that follows the player recovering the position behind him.
       `,
       repositori: null},
