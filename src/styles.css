@@ -1,0 +1,45 @@
+/* Master Styles */
+h1 {
+  color: #369;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 250%;
+}
+h2, h3 {
+  color: #444;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+}
+body {
+  margin: 2em;
+}
+body, input[text], button {
+  color: #888;
+  font-family: Cambria, Georgia;
+}
+/* . . . */
+/* everywhere else */
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+div.info {
+	background-color: white;
+	border-radius: 1em;
+}
+td.image {
+	color: white;
+	background-color: #BBD8DC !important;
+}
+td.links {
+	color: #DDD;
+  background-color: #607D8B;
+  left: .1em;
+}
+td.links a {
+	color: white;
+	text-decoration: none;
+}
+a:link, a:visited {
+	color: #38488f;
+	text-decoration: none;
+}

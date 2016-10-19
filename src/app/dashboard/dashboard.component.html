@@ -1,0 +1,8 @@
+<project-search></project-search>
+<div class="grid grid-pad">
+  <div *ngFor="let project of projects" (click)="gotoDetail(project)" class="col-1-4">
+    <div class="module project">
+      <h4>{{project.titol}}</h4>
+    </div>
+  </div>
+</div>

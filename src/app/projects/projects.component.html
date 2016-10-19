@@ -1,0 +1,18 @@
+<h3>Angular2 Projects with Typescript</h3>
+<ul class="projects">
+    <li *ngFor="let project of projects"
+    [class.selected]="project === selectedProject" 
+    (click)="onSelect(project)">
+        <span class="badge">{{project.id}}</span>
+        <span>{{project.titol}}</span>
+        <span class="buttons">
+            <button (click)="onSelect(project)">view</button>
+            <button (click)="delete(project); $event.stopPropagation()">discard</button>
+        </span>
+    </li>
+</ul>
+<div *ngIf="selectedProject">
+    <h3><a href="{{selectedProject.link}}">{{selectedProject.id}}.{{selectedProject.titol}} ({{selectedProject.data}})</a></h3>
+    <p innerHTML="{{selectedProject.html}}"></p>
+    <p>Here you can obtain the source code from my <a href="{{selectedProject.repositori}}">repository project</a></p>
+</div>
