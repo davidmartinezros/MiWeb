@@ -1,11 +1,6 @@
 <div *ngIf="project">
-  <h2>{{project.titol}} details!</h2>
-  <div>
-    <label>id: </label>{{project.id}}</div>
-  <div>
-    <label>titol: </label>
-    <input [(ngModel)]="project.titol" placeholder="titol" />
-    <!--button (click)="save()">Save</button-->
-  </div>
+  <h3><a href="{{project.link}}">{{project.id}}.{{project.titol}} ({{project.data}})</a></h3>
+  <p innerHTML="{{project.html}}"></p>
+  <p>Here you can obtain the source code from my <a href="{{project.repositori}}">repository project</a></p>
   <button (click)="goBack()">Back</button>
 </div>
