@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, trigger, state, style, transition, animate } from '@angular/core';
 import { Router } from '@angular/router';
 
 import { Project } from '../project';
@@ -8,7 +8,20 @@ import { ProjectService } from '../project.service';
   selector: 'app-projects',
   templateUrl: './projects.component.html',
   styleUrls: [ './projects.component.css' ],
-  providers: [ProjectService]
+  providers: [ProjectService],
+  animations: [
+    trigger('visibility', [
+        state('shown', style({
+            height: '*',
+            opacity: 1
+        })),
+        state('hidden', style({
+            height: '0px',
+            opacity: 0
+        })),
+        transition('* => *', [animate(500, style({height: '250px', opacity: 0})), animate(500)])
+    ])
+  ]
 })
 
 export class ProjectsComponent implements OnInit {
@@ -17,6 +30,7 @@ export class ProjectsComponent implements OnInit {
 
   projectsUnity: Project[];
   selectedProjectUnity: Project;
+  
   constructor(
     private router: Router,
     private projectService: ProjectService) { }
