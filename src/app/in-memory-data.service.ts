@@ -15,7 +15,7 @@ export class InMemoryDataService implements InMemoryDbService {
       link: 'http://davidmartinezros.com/Angular2/TourOfHeroes/',
       html: `
       This example includes the next objetives:<br/>
-      - Use of a href="https://angular.io/docs/ts/latest/guide/template-syntax.html#!#event-binding" target="_blank">event binding</a>.<br/>
+      - Use of <a href="https://angular.io/docs/ts/latest/guide/template-syntax.html#!#event-binding" target="_blank">event binding</a>.<br/>
       - Use of <a href="https://angular.io/docs/ts/latest/guide/forms.html#!#ngModel" target="_blank">form and ngModel</a> (directive two-way binding).<br/>
       - Uses of css styles and html templates.<br/>
       - List of Heroes.<br/>
@@ -34,7 +34,7 @@ export class InMemoryDataService implements InMemoryDbService {
       link: 'http://davidmartinezros.com/Angular2/TourOfHeroesWithCli/',
       html: `
       This example is the same as the <b><a href="/detail/2">2. My first Application Example (17/10/2016)</a></b>.<br/>
-      What it's different is than, in this one, I use Angular-cli for generate the project, the components and for build.<br/>
+      What it's different is than, in this one, I use <a href="https://github.com/angular/angular-cli#creating-a-build" target="_blank">Angular-Cli</a> for generate the project, the components and for build.<br/>
       <a href="https://github.com/angular/angular-cli#creating-a-build" target="_blank">Angular-Cli</a> is in the 17th beta version for the moment, but it feels interesting.<br/><br/>
 
       With Angular-Cli you can:<br/>

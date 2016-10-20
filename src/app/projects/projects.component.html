@@ -13,9 +13,9 @@
     </li>
 </ul>
 <div *ngIf="selectedProjectAngular2">
-    <h3><a href="{{selectedProjectAngular2.link}}" target="_blank">{{selectedProjectAngular2.id}}.{{selectedProjectAngular2.titol}} ({{selectedProjectAngular2.data}})</a></h3>
+    <h3>{{selectedProjectAngular2.id}}.{{selectedProjectAngular2.titol}} ({{selectedProjectAngular2.data}}) - <a href="{{selectedProjectAngular2.link}}" target="_blank">project link</a></h3>
     <p innerHTML="{{selectedProjectAngular2.html}}"></p>
-    <p *ngIf="selectedProjectAngular2.repositori">Here you can obtain the source code from my <a href="{{selectedProjectAngular2.repositori}}" target="_blank">repository project</a></p>
+    <p *ngIf="selectedProjectAngular2.repositori">Here you can obtain the source code from my <a href="{{selectedProjectAngular2.repositori}}" target="_blank">repository project</a>.</p>
 </div>
 <h3>Unity Projects</h3>
 <ul class="projects">
@@ -32,7 +32,7 @@
     </li>
 </ul>
 <div *ngIf="selectedProjectUnity">
-    <h3><a href="{{selectedProjectUnity.link}}" target="_blank">{{selectedProjectUnity.id}}.{{selectedProjectUnity.titol}} ({{selectedProjectUnity.data}})</a></h3>
+    <h3>{{selectedProjectUnity.id}}.{{selectedProjectUnity.titol}} ({{selectedProjectUnity.data}}) - <a href="{{selectedProjectUnity.link}}" target="_blank">project link</a></h3>
     <p innerHTML="{{selectedProjectUnity.html}}"></p>
-    <p *ngIf="selectedProjectUnity.repositori">Here you can obtain the source code from my <a href="{{selectedProjectUnity.repositori}}" target="_blank">repository project</a></p>
+    <p *ngIf="selectedProjectUnity.repositori">Here you can obtain the source code from my <a href="{{selectedProjectUnity.repositori}}" target="_blank">repository project</a>.</p>
 </div>
