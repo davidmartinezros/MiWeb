@@ -1,1 +1,1 @@
-ng build --base-href http://www.davidmartinezros.com --prod --env=prod
+ng build --base-href http://davidmartinezros.com --prod --env=prod
