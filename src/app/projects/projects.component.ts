@@ -11,15 +11,26 @@ import { ProjectService } from '../project.service';
   providers: [ProjectService],
   animations: [
     trigger('visibility', [
-        state('shown', style({
+        state('firstpos', style({
             height: '*',
             opacity: 1
         })),
-        state('hidden', style({
+        state('secondpos', style({
             height: '0px',
             opacity: 0
         })),
-        transition('* => *', [animate(500, style({height: '250px', opacity: 0})), animate(500)])
+        transition('firstpos => secondpos', [animate(500, style({height: '0px', opacity: 0}))]),
+        transition('secondpos => firstpos', [animate(500, style({height: '*', opacity: 1}))])
+    ]),
+    trigger('movementtrigger', [
+      state('firstpos', style({transform: 'translateX(0)'})),
+      state('secondpos', style({transform: 'translateX(5%)'})),
+      transition('firstpos => secondpos', [
+        animate('500ms ease-in')
+      ]),
+      transition('secondpos => firstpos', [
+        animate('500ms ease-out')
+      ])
     ])
   ]
 })
@@ -31,6 +42,12 @@ export class ProjectsComponent implements OnInit {
   projectsUnity: Project[];
   selectedProjectUnity: Project;
   
+  state: string ='firstpos';
+  
+  togglestates() {
+    this.state = (this.state === 'firstpos' ? 'secondpos' : 'firstpos');
+  }
+
   constructor(
     private router: Router,
     private projectService: ProjectService) { }
@@ -49,10 +66,12 @@ export class ProjectsComponent implements OnInit {
   }
 
   onSelectAngular2(project: Project): void {
+    project.togglestates
     this.selectedProjectAngular2 = project;
   }
 
   onSelectUnity(project: Project): void {
+    project.togglestates;
     this.selectedProjectUnity = project;
   }
 
