@@ -11,25 +11,35 @@ import { ProjectService } from '../project.service';
   providers: [ProjectService],
   animations: [
     trigger('visibility', [
-        state('firstpos', style({
+        state('in', style({
             height: '*',
             opacity: 1
         })),
-        state('secondpos', style({
+        state('out', style({
             height: '0px',
             opacity: 0
         })),
-        transition('firstpos => secondpos', [animate(500, style({height: '0px', opacity: 0}))]),
-        transition('secondpos => firstpos', [animate(500, style({height: '*', opacity: 1}))])
+        transition('void => *', [animate(500, style({height: '0px', opacity: 0}))]),
+        transition('* => void', [animate(500, style({height: '*', opacity: 1}))])
     ]),
-    trigger('movementtrigger', [
-      state('firstpos', style({transform: 'translateX(0)'})),
-      state('secondpos', style({transform: 'translateX(5%)'})),
-      transition('firstpos => secondpos', [
-        animate('500ms ease-in')
+    trigger('flyInOut', [
+      state('in', style({transform: 'translateX(0) scale(1)'})),
+      state('out',   style({transform: 'translateX(0) scale(1.1)'})),
+      transition('out => in', animate('100ms ease-in')),
+      transition('in => out', animate('100ms ease-out')),
+      transition('void => out', [
+        style({transform: 'translateX(-100%) scale(1)'}),
+        animate(100)
       ]),
-      transition('secondpos => firstpos', [
-        animate('500ms ease-out')
+      transition('out => void', [
+        animate(100, style({transform: 'translateX(100%) scale(1)'}))
+      ]),
+      transition('void => in', [
+        style({transform: 'translateX(0) scale(0)'}),
+        animate(200)
+      ]),
+      transition('in => void', [
+        animate(200, style({transform: 'translateX(0) scale(0)'}))
       ])
     ])
   ]
@@ -42,10 +52,10 @@ export class ProjectsComponent implements OnInit {
   projectsUnity: Project[];
   selectedProjectUnity: Project;
   
-  state: string ='firstpos';
+  state: string ='out';
   
-  togglestates() {
-    this.state = (this.state === 'firstpos' ? 'secondpos' : 'firstpos');
+  toggleState() {
+    this.state = (this.state === 'in') ? 'out': 'in';
   }
 
   constructor(
