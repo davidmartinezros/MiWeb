@@ -10,7 +10,7 @@
 }
 .projects li {
   cursor: pointer;
-  position: relative;
+  /*position: relative;*/
   left: 0;
   background-color: #EEE;
   margin: .5em;
@@ -27,10 +27,10 @@
   background-color: #DDD;
   left: .1em;
 }
-.projects .text {
+/*.projects .text {
   position: relative;
   top: -3px;
-}
+}*/
 .projects .badge {
   display: inline-block;
   font-size: small;
@@ -38,9 +38,9 @@
   padding: 0.8em 0.7em 0 0.7em;
   background-color: #607D8B;
   line-height: 1em;
-  position: relative;
-  left: -1px;
-  top: -4px;
+  /*position: relative;*/
+  /*left: -1px;*/
+  /*top: -4px;*/
   height: 1.8em;
   margin-right: .8em;
   border-radius: 4px 0 0 4px;
@@ -56,5 +56,5 @@
   background-color: #ffffff;
   left: .1em;
   padding: 0.8em 0.7em 0 1.7em;
-  border: 1px solid#BBD8DC;  
+  border: 1px solid #BBD8DC;  
 }

@@ -6,9 +6,7 @@ export class Project {
   link: string;
   text: string;
   repositori: string;
-  state: string = 'hidden';
+
+  public show: boolean = false;
   
-  togglestates() {
-    this.state = (this.state === 'hidden' ? 'shown' : 'hidden');
-  }
 }

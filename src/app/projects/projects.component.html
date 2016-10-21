@@ -1,36 +1,36 @@
 <h3>Angular2 Projects with Typescript</h3>
 <ul class="projects">
     <li *ngFor="let project of projectsAngular2"
-    [class.selected]="project === selectedProjectAngular2" 
-    (click)="onSelectAngular2(project);toggleState()">
+    [class.selected]="project.show" 
+    (click)="project.show = !project.show;">
         <span class="badge">{{project.id}}</span>
         <span>{{project.titol}}</span>
         <span class="buttons">
             <span class="theme">({{project.tema}})</span>
             <button (click)="deleteAngular2(project); $event.stopPropagation()">discard</button>
         </span>
-        <div *ngIf="(project === selectedProjectAngular2)" [@flyInOut]="state">
-            <h3>{{selectedProjectAngular2.id}}. {{selectedProjectAngular2.titol}} ({{selectedProjectAngular2.data}}) - <a href="{{selectedProjectAngular2.link}}" target="_blank">project link</a></h3>
-            <p innerHTML="{{selectedProjectAngular2.html}}"></p>
-            <p *ngIf="selectedProjectAngular2.repositori">Here you can obtain the source code from my <a href="{{selectedProjectAngular2.repositori}}" target="_blank">repository project</a>.</p>
+        <div *ngIf="project.show" [@animation]="project.show">
+            <h3>{{project.id}}. {{project.titol}} ({{project.data}}) - <a href="{{project.link}}" target="_blank">project link</a></h3>
+            <p innerHTML="{{project.html}}"></p>
+            <p *ngIf="project.repositori">Here you can obtain the source code from my <a href="{{project.repositori}}" target="_blank">repository project</a>.</p>
         </div>
     </li>
 </ul>
 <h3>Unity Projects</h3>
 <ul class="projects">
     <li *ngFor="let project of projectsUnity"
-    [class.selected]="project === selectedProjectUnity" 
-    (click)="onSelectUnity(project);toggleState()">
+    [class.selected]="project.show" 
+    (click)="project.show = !project.show;">
         <span class="badge">{{project.id}}</span>
         <span>{{project.titol}}</span>
         <span class="buttons">
             <span class="theme">({{project.tema}})</span>
             <button (click)="deleteUnity(project); $event.stopPropagation()">discard</button>
         </span>
-        <div *ngIf="(project === selectedProjectUnity)" [@visibility]="state">
-            <h3>{{selectedProjectUnity.id}}. {{selectedProjectUnity.titol}} ({{selectedProjectUnity.data}}) - <a href="{{selectedProjectUnity.link}}" target="_blank">project link</a></h3>
-            <p innerHTML="{{selectedProjectUnity.html}}"></p>
-            <p *ngIf="selectedProjectUnity.repositori">Here you can obtain the source code from my <a href="{{selectedProjectUnity.repositori}}" target="_blank">repository project</a>.</p>
+        <div *ngIf="project.show" [@animation]="project.show">
+            <h3>{{project.id}}. {{project.titol}} ({{project.data}}) - <a href="{{project.link}}" target="_blank">project link</a></h3>
+            <p innerHTML="{{project.html}}"></p>
+            <p *ngIf="project.repositori">Here you can obtain the source code from my <a href="{{project.repositori}}" target="_blank">repository project</a>.</p>
         </div>
     </li>
 </ul>

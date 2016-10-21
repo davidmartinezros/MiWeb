@@ -10,7 +10,7 @@ import { ProjectService } from '../project.service';
   styleUrls: [ './projects.component.css' ],
   providers: [ProjectService],
   animations: [
-    trigger('visibility', [
+    /*trigger('visibility', [
         state('in', style({
             height: '*',
             opacity: 1
@@ -21,8 +21,8 @@ import { ProjectService } from '../project.service';
         })),
         transition('void => *', [animate(500, style({height: '0px', opacity: 0}))]),
         transition('* => void', [animate(500, style({height: '*', opacity: 1}))])
-    ]),
-    trigger('flyInOut', [
+    ]),*/
+    /*trigger('flyInOut', [
       state('in', style({transform: 'translateX(0) scale(1)'})),
       state('out',   style({transform: 'translateX(0) scale(1.1)'})),
       transition('out => in', animate('100ms ease-in')),
@@ -41,22 +41,24 @@ import { ProjectService } from '../project.service';
       transition('in => void', [
         animate(200, style({transform: 'translateX(0) scale(0)'}))
       ])
+    ]),*/
+    trigger('animation', [
+      transition('void => *', [
+        style({transform: 'scale(0)', opacity:0}),
+        animate(500, style({transform: 'scale(1)', opacity:1})) 
+      ]),
+      transition('* => void', [
+        animate(500, style({transform: 'scale(0)', opacity:0})) 
+      ])
     ])
   ]
 })
 
 export class ProjectsComponent implements OnInit {
+
   projectsAngular2: Project[];
-  selectedProjectAngular2: Project;
 
   projectsUnity: Project[];
-  selectedProjectUnity: Project;
-  
-  state: string ='out';
-  
-  toggleState() {
-    this.state = (this.state === 'in') ? 'out': 'in';
-  }
 
   constructor(
     private router: Router,
@@ -75,30 +77,11 @@ export class ProjectsComponent implements OnInit {
     this.getProjectsUnity();
   }
 
-  onSelectAngular2(project: Project): void {
-    project.togglestates
-    this.selectedProjectAngular2 = project;
-  }
-
-  onSelectUnity(project: Project): void {
-    project.togglestates;
-    this.selectedProjectUnity = project;
-  }
-
-  gotoDetailAngular2(): void {
-    this.router.navigate(['/detail', this.selectedProjectAngular2.id]);
-  }
-
-  gotoDetailUnity(): void {
-    this.router.navigate(['/detail', this.selectedProjectUnity.id]);
-  }
-
   deleteAngular2(project: Project): void {
     this.projectService
       .delete(project.id)
       .then(() => {
         this.projectsAngular2 = this.projectsAngular2.filter(h => h !== project);
-        if (this.selectedProjectAngular2 === project) { this.selectedProjectAngular2 = null; }
       });
   }
 
@@ -107,7 +90,6 @@ export class ProjectsComponent implements OnInit {
       .delete(project.id)
       .then(() => {
         this.projectsUnity = this.projectsUnity.filter(h => h !== project);
-        if (this.selectedProjectUnity === project) { this.selectedProjectUnity = null; }
       });
   }
 }
