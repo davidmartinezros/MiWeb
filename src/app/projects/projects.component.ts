@@ -63,7 +63,7 @@ export class ProjectsComponent implements OnInit {
   constructor(
     private router: Router,
     private projectService: ProjectService) { }
-
+  
   getProjectsAngular2(): void {
     this.projectService.getProjectsForTheme('Angular2').then(projectsAngular2 => this.projectsAngular2 = projectsAngular2);
   }
