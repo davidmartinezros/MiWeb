@@ -26,8 +26,11 @@ div.info {
 	background-color: white;
 	border-radius: 1em;
 }
+table.presentation {
+  width: 100%;
+}
 td.image {
-	color: white;
+  color: white;
 	background-color: #BBD8DC !important;
 }
 td.links {
