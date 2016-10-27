@@ -34,13 +34,13 @@ export class InMemoryDataService implements InMemoryDbService {
       link: 'http://davidmartinezros.com/Angular2/TourOfHeroesWithCli/',
       html: `
       This example is the same as the <b><a href="/detail/2">2. My first Application Example (17/10/2016)</a></b>.<br/>
-      What it's different is than, in this one, I use <a href="https://github.com/angular/angular-cli#creating-a-build" target="_blank">Angular-Cli</a> for generate the project, the components and for build.<br/>
-      <a href="https://github.com/angular/angular-cli#creating-a-build" target="_blank">Angular-Cli</a> is in the 17th beta version for the moment, but it feels interesting.<br/><br/>
+      What it's different is than, in this one, I use <a href="https://github.com/angular/angular-cli/blob/master/README.md" target="_blank">Angular-Cli</a> for generate the project, the components and for build.<br/>
+      <a href="https://github.com/angular/angular-cli/blob/master/README.md" target="_blank">Angular-Cli</a> is in the 17th beta version for the moment, but it feels interesting.<br/><br/>
 
       With Angular-Cli you can:<br/>
       - Generate your project with a Cli Project Structure.<br/>
       - Generate the elements of your web (Components, Modules, Services, Classes, etc.).<br/>
-      - Build the project and <a href="https://github.com/angular/angular-cli#creating-a-build" target="_blank">Angular-Cli</a> generate only the files necessary identifying the developing mode (dev, prod, etc.). This build compact the project and you don't need the node_modules carpet with the dependencies.<br/><br/>
+      - Build the project and <a href="https://github.com/angular/angular-cli/blob/master/README.md" target="_blank">Angular-Cli</a> generate only the files necessary identifying the developing mode (dev, prod, etc.). This build compact the project and you don't need the node_modules carpet with the dependencies.<br/><br/>
 
       You can do the example in the next tutorial and with the angular-cli instructions.
       `,
@@ -65,8 +65,17 @@ export class InMemoryDataService implements InMemoryDbService {
       tema: 'Angular2',
       data: '19/10/2016',
       link: 'http://davidmartinezros.com',
-      html: 'I develop my Web with <a href="https://angular.io" target="_blank">Angular2</a> and Typescript, using <a href="https://github.com/angular/angular-cli" target="_blank">Angular-Cli</a>.',
+      html: 'I develop my Web with <a href="https://angular.io" target="_blank">Angular2</a> and Typescript, using <a href="https://github.com/angular/angular-cli/blob/master/README.md" target="_blank">Angular-Cli</a>.',
       repositori: 'https://github.com/davidmartinezros/MiWeb'},
+      {id: 6, titol: 'Bind json array to html table',
+      tema: 'Angular2',
+      data: '27/10/2016',
+      link: 'http://davidmartinezros.com/Angular2/bind-json-array-to-html-table',
+      html: `This example is developed with <a href="https://github.com/angular/angular-cli/blob/master/README.md" target="_blank">Angular-Cli</a>.<br/><br/>
+      Is a simple example that load a JSON file into an html table with an Angular-Cli Service.<br/><br/>
+      Here in <a href="https://davidlearns.blogspot.com.es/2016/10/bind-json-data-to-html-table-with.html" target="blank">davidlearns.blogspot.com</a> you can see the explanation of the example and you can learn to do it.
+      `,
+      repositori: 'https://github.com/davidmartinezros/bind-json-array-to-html-table'},
       {id: 101, titol: 'My First Example',
       tema: 'Unity',
       data: '10/10/2016',
