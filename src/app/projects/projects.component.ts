@@ -60,6 +60,8 @@ export class ProjectsComponent implements OnInit {
 
   projectsUnity: Project[];
 
+  projectsTrends: Project[];
+
   constructor(
     private router: Router,
     private projectService: ProjectService) { }
@@ -72,9 +74,14 @@ export class ProjectsComponent implements OnInit {
     this.projectService.getProjectsForTheme('Unity').then(projectsUnity => this.projectsUnity = projectsUnity);
   }
 
+  getProjectsTrennds(): void {
+    this.projectService.getProjectsForTheme('Google Trends').then(projectsTrends => this.projectsTrends = projectsTrends);
+  }
+
   ngOnInit(): void {
     this.getProjectsAngular2();
     this.getProjectsUnity();
+    this.getProjectsTrennds();
   }
 
   deleteAngular2(project: Project): void {
@@ -90,6 +97,14 @@ export class ProjectsComponent implements OnInit {
       .delete(project.id)
       .then(() => {
         this.projectsUnity = this.projectsUnity.filter(h => h !== project);
+      });
+  }
+
+  deleteTrends(project: Project): void {
+    this.projectService
+      .delete(project.id)
+      .then(() => {
+        this.projectsTrends = this.projectsTrends.filter(h => h !== project);
       });
   }
 }

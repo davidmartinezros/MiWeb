@@ -123,6 +123,30 @@ export class InMemoryDataService implements InMemoryDbService {
       On the right side, there's a multipurpose perspective camera that follows the player recovering the position behind him.
       `,
       repositori: 'https://github.com/davidmartinezros/CameraProject'},
+      {id: 201, titol: 'Comparative between AngularJS and Angular2',
+      tema: 'Google Trends',
+      data: '28/10/2016',
+      link: 'http://davidmartinezros.com/web/comparative_Angular2.html',
+      html: `
+      This is a comparative between AngularJS and Angular2 with the Google application <a href="http://www.google.com/trends" target="_blank">Trends</a>
+      `,
+      repositori: null},
+      {id: 202, titol: 'Comparative between Unity and the other Game Engine',
+      tema: 'Google Trends',
+      data: '28/10/2016',
+      link: 'http://davidmartinezros.com/web/comparative_Unity.html',
+      html: `
+      This is a comparative between <a href="https://unity3d.com" target="_blank">Unity</a> and the other Game Engine with the Google application <a href="http://www.google.com/trends" target="_blank">Trends</a>
+      `,
+      repositori: null},
+      {id: 203, titol: 'Comparative between Sketchup and the other 3D modeling computer program',
+      tema: 'Google Trends',
+      data: '28/10/2016',
+      link: 'http://davidmartinezros.com/web/comparative_Sketchup.html',
+      html: `
+      This is a comparative between <a href="http://www.sketchup.com/download" target="_blank">Sketchup</a> and the other 3D modeling computer program with the Google application <a href="http://www.google.com/trends" target="_blank">Trends</a>
+      `,
+      repositori: null},
     ];
     return {projects};
   }
