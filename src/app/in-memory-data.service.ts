@@ -123,6 +123,17 @@ export class InMemoryDataService implements InMemoryDbService {
       On the right side, there's a multipurpose perspective camera that follows the player recovering the position behind him.
       `,
       repositori: 'https://github.com/davidmartinezros/CameraProject'},
+      {id: 107, titol: 'Import from Blender',
+      tema: 'Unity',
+      data: '29/10/2016',
+      link: 'http://davidmartinezros.com/3D/ImportingColladas/',
+      html: `
+      This example shows a dragon that was generated in Blender 3D modeling computer program gets from <a href="http://tf3dm.com/3d-models/blender" target="_blank">tf3dm.com</a>.<br/>
+      This Dragon have animations created in Blender and I use one of this on a key event.<br/>
+      There's load a default animation that loads on the beginning.<br/>
+      If you press the key up arrow the dragon walk.
+      `,
+      repositori: 'https://github.com/davidmartinezros/ImportingColladas'},
       {id: 201, titol: 'Comparative between AngularJS and Angular2',
       tema: 'Google Trends',
       data: '28/10/2016',
