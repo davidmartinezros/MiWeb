@@ -7,13 +7,15 @@ import { ProjectDetailComponent }  from '../project-detail/project-detail.compon
 const routes: Routes = [
   { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
   { path: 'dashboard',  component: DashboardComponent },
+  { path: 'projects',     component: ProjectsComponent },
   { path: 'detail/:id', component: ProjectDetailComponent },
-  { path: 'projects',     component: ProjectsComponent }
 ];
 
 @NgModule({
-  imports: [ RouterModule.forRoot(routes) ],
+  imports: [ RouterModule.forRoot(routes, { useHash: true }) ],
   exports: [ RouterModule ]
 })
 
-export class AppRoutingModule {}
+export class AppRoutingModule {
+
+}
