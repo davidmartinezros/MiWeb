@@ -76,6 +76,19 @@ export class InMemoryDataService implements InMemoryDbService {
       Here in <a href="https://davidlearns.blogspot.com.es/2016/10/bind-json-data-to-html-table-with.html" target="blank">davidlearns.blogspot.com</a> you can see the explanation of the example and you can learn to do it.
       `,
       repositori: 'https://github.com/davidmartinezros/bind-json-array-to-html-table'},
+      {id: 7, titol: 'Components Animations Project',
+      tema: 'Angular2',
+      data: '30/10/2016',
+      link: 'http://davidmartinezros.com/Angular2/components-animations-project',
+      html: `This project is developed with <a href="https://github.com/angular/angular-cli/blob/master/README.md" target="_blank">Angular-Cli</a>.<br/><br/>
+      Are some animation components that everyone could use in his html components.<br/><br/>
+      You have to extends the effect you want for your component and implements the html template and css file.<br/><br/>
+      For example:<br/>
+      export class MyComponent extends BounceAnimationComponent { }<br/><br/>
+      The animations are bounce, fade, flip, roll, rotate, zoom and others.<br/><br/>
+      The source code have inspired my project is <a href="http://daneden.github.io/animate.css/" target="_blank">http://daneden.github.io/animate.css/</a>.
+      `,
+      repositori: 'https://github.com/davidmartinezros/components-animations-project'},
       {id: 101, titol: 'My First Example',
       tema: 'Unity',
       data: '10/10/2016',
