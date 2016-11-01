@@ -1,0 +1,28 @@
+.badge {
+  display: inline-block;
+  font-size: small;
+  color: white;
+  padding: 0.8em 0.7em 0 0.7em;
+  background-color: #607D8B;
+  line-height: 1em;
+  height: 1.8em;
+  margin-right: .8em;
+  border-radius: 4px 0 0 4px;
+}
+.buttons {
+  float: right;
+  padding: .3em 0.7em 0;
+}
+.buttons .theme {
+  color: #369;
+}
+.buttons .button {
+  cursor: pointer;
+}
+div {
+  color: #888;;
+  background-color: #ffffff;
+  left: .1em;
+  padding: 0.8em 0.7em 0 1.7em;
+  border: 1px solid #BBD8DC;  
+}
