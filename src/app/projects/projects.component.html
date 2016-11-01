@@ -1,16 +1,16 @@
 <h3>Angular2 Projects with Typescript</h3>
 <ul class="projects">
-    <li *ngFor="let project of projectsAngular2"
+    <li *ngFor="let project of ( projects | projectPipeFilter : 'Angular2' ) "
     [class.selected]="project.show" 
     (click)="project.show = !project.show;">
         <span class="badge">{{project.id}}</span>
         <span>{{project.titol}}</span>
         <span class="buttons">
             <span class="theme">({{project.tema}})</span>
-            <button class="button" (click)="deleteAngular2(project); $event.stopPropagation()">discard</button>
+            <button (click)="delete(project); $event.stopPropagation()">discard</button>
         </span>
         <div *ngIf="project.show" [@animation]="project.show" (click)="$event.stopPropagation()">
-            <h3>{{project.id}}. {{project.titol}} ({{project.data}}) - <a href="{{project.link}}" target="_blank">project link</a></h3>
+            <h3>{{project.id}}. {{project.titol}} ({{project.data | date:'fullDate'}}) - <a href="{{project.link}}" target="_blank">project link</a></h3>
             <p innerHTML="{{project.html}}"></p>
             <p *ngIf="project.repositori">Here you can obtain the source code from my <a href="{{project.repositori}}" target="_blank">repository project</a>.</p>
         </div>
@@ -18,17 +18,17 @@
 </ul>
 <h3>Unity Projects</h3>
 <ul class="projects">
-    <li *ngFor="let project of projectsUnity"
+    <li *ngFor="let project of ( projects | projectPipeFilter : 'Unity' ) "
     [class.selected]="project.show" 
     (click)="project.show = !project.show;">
         <span class="badge">{{project.id}}</span>
         <span>{{project.titol}}</span>
         <span class="buttons">
             <span class="theme">({{project.tema}})</span>
-            <button (click)="deleteUnity(project); $event.stopPropagation()">discard</button>
+            <button (click)="delete(project); $event.stopPropagation()">discard</button>
         </span>
         <div *ngIf="project.show" [@animation]="project.show" (click)="$event.stopPropagation()">
-            <h3>{{project.id}}. {{project.titol}} ({{project.data}}) - <a href="{{project.link}}" target="_blank">project link</a></h3>
+            <h3>{{project.id}}. {{project.titol}} ({{project.data | date:'fullDate'}}) - <a href="{{project.link}}" target="_blank">project link</a></h3>
             <p innerHTML="{{project.html}}"></p>
             <p *ngIf="project.repositori">Here you can obtain the source code from my <a href="{{project.repositori}}" target="_blank">repository project</a>.</p>
         </div>
@@ -36,17 +36,17 @@
 </ul>
 <h3>Google Trends Comparative</h3>
 <ul class="projects">
-    <li *ngFor="let project of projectsTrends"
+    <li *ngFor="let project of ( projects | projectPipeFilter : 'Trends' ) "
     [class.selected]="project.show" 
     (click)="project.show = !project.show;">
         <span class="badge">{{project.id}}</span>
         <span>{{project.titol}}</span>
         <span class="buttons">
             <span class="theme">({{project.tema}})</span>
-            <button (click)="deleteTrends(project); $event.stopPropagation()">discard</button>
+            <button (click)="delete(project); $event.stopPropagation()">discard</button>
         </span>
         <div *ngIf="project.show" [@animation]="project.show" (click)="$event.stopPropagation()">
-            <h3>{{project.id}}. {{project.titol}} ({{project.data}}) - <a href="{{project.link}}" target="_blank">project link</a></h3>
+            <h3>{{project.id}}. {{project.titol}} ({{project.data | date:'fullDate'}}) - <a href="{{project.link}}" target="_blank">project link</a></h3>
             <p innerHTML="{{project.html}}"></p>
             <p *ngIf="project.repositori">Here you can obtain the source code from my <a href="{{project.repositori}}" target="_blank">repository project</a>.</p>
         </div>

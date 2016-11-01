@@ -4,12 +4,14 @@ import { Router } from '@angular/router';
 import { Project } from '../project';
 import { ProjectService } from '../project.service';
 
+import { ProjectPipeFilterPipe } from '../project-pipe-filter.pipe';
+
 @Component({
   selector: 'app-projects',
   templateUrl: './projects.component.html',
   styleUrls: [ './projects.component.css' ],
   providers: [ProjectService],
-  animations: [
+  animations: [ 
     /*trigger('visibility', [
         state('in', style({
             height: '*',
@@ -56,55 +58,30 @@ import { ProjectService } from '../project.service';
 
 export class ProjectsComponent implements OnInit {
 
-  projectsAngular2: Project[];
-
-  projectsUnity: Project[];
-
-  projectsTrends: Project[];
+  projects: Project[];
 
   constructor(
     private router: Router,
     private projectService: ProjectService) { }
   
-  getProjectsAngular2(): void {
-    this.projectService.getProjectsForTheme('Angular2').then(projectsAngular2 => this.projectsAngular2 = projectsAngular2);
-  }
-
-  getProjectsUnity(): void {
-    this.projectService.getProjectsForTheme('Unity').then(projectsUnity => this.projectsUnity = projectsUnity);
-  }
-
-  getProjectsTrennds(): void {
-    this.projectService.getProjectsForTheme('Google Trends').then(projectsTrends => this.projectsTrends = projectsTrends);
-  }
-
   ngOnInit(): void {
-    this.getProjectsAngular2();
-    this.getProjectsUnity();
-    this.getProjectsTrennds();
+    this.getProjects();
   }
 
-  deleteAngular2(project: Project): void {
+  getProjects(): void {
+    this.projectService.getProjects().then(projects => this.projects = projects);
+  }
+
+  getProjectsFiltered(theme: string): Project[] {
+    return this.projects.filter(item => item.tema === theme);
+  }
+
+  delete(project: Project): void {
     this.projectService
       .delete(project.id)
       .then(() => {
-        this.projectsAngular2 = this.projectsAngular2.filter(h => h !== project);
+        this.projects = this.projects.filter(h => h !== project);
       });
   }
 
-  deleteUnity(project: Project): void {
-    this.projectService
-      .delete(project.id)
-      .then(() => {
-        this.projectsUnity = this.projectsUnity.filter(h => h !== project);
-      });
-  }
-
-  deleteTrends(project: Project): void {
-    this.projectService
-      .delete(project.id)
-      .then(() => {
-        this.projectsTrends = this.projectsTrends.filter(h => h !== project);
-      });
-  }
 }

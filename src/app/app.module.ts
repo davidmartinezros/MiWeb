@@ -17,6 +17,7 @@ import { InMemoryDataService }  from './in-memory-data.service';
 import { ProjectSearchComponent } from './project-search/project-search.component';
 
 import './rxjs-extensions';
+import { ProjectPipeFilterPipe } from './project-pipe-filter.pipe';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import './rxjs-extensions';
     DashboardComponent,
     ProjectDetailComponent,
     ProjectsComponent,
-    ProjectSearchComponent
+    ProjectSearchComponent,
+    ProjectPipeFilterPipe
   ],
   imports: [
     BrowserModule,
