@@ -1,5 +1,5 @@
-<h3> {{title}} </h3>
-<ul class="projects">
+<h3> {{title}} [<input type="checkbox" #input  (change)="checked = input.checked" />expand]</h3>
+<ul *ngIf="checked" class="projects">
     <li *ngFor="let project of ( projects | projectPipeFilter : [{tema: tema, cercaText: cercaText}] ) "
     [class.selected]="project.show" 
     (click)="project.show = !project.show;">
