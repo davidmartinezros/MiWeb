@@ -4,7 +4,7 @@ export class Project {
   titol: string;
   data: string;
   link: string;
-  text: string;
+  html: string;
   repositori: string;
 
   public show: boolean = false;

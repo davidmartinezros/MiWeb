@@ -1,44 +1,22 @@
-import { Component, OnInit, trigger, state, style, transition, animate } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter} from '@angular/core';
 import { Router } from '@angular/router';
-
-import { Project } from '../project';
-import { ProjectService } from '../project.service';
-
-import { ProjectPipeFilterPipe } from '../project-pipe-filter.pipe';
 
 @Component({
   selector: 'app-projects',
   templateUrl: './projects.component.html',
   styleUrls: [ './projects.component.css' ],
-  providers: [ProjectService],
 })
 
 export class ProjectsComponent implements OnInit {
 
-  projects: Project[];
+  cercaText: string;
+  
+  @Output() update = new EventEmitter();
 
-  constructor(
-    private router: Router,
-    private projectService: ProjectService) { }
+  constructor(private router: Router) { }
   
   ngOnInit(): void {
-    this.getProjects();
-  }
-
-  getProjects(): void {
-    this.projectService.getProjects().then(projects => this.projects = projects);
-  }
-
-  getProjectsFiltered(theme: string): Project[] {
-    return this.projects.filter(item => item.tema === theme);
-  }
-
-  delete(project: Project): void {
-    this.projectService
-      .delete(project.id)
-      .then(() => {
-        this.projects = this.projects.filter(h => h !== project);
-      });
+    this.update.emit('');
   }
 
 }

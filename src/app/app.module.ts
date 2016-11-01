@@ -19,6 +19,7 @@ import { ProjectSearchComponent } from './project-search/project-search.componen
 import './rxjs-extensions';
 import { ProjectPipeFilterPipe } from './project-pipe-filter.pipe';
 import { ProjectComponent } from './project/project.component';
+import { ProjectListComponent } from './project-list/project-list.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { ProjectComponent } from './project/project.component';
     ProjectsComponent,
     ProjectSearchComponent,
     ProjectPipeFilterPipe,
-    ProjectComponent
+    ProjectComponent,
+    ProjectListComponent
   ],
   imports: [
     BrowserModule,

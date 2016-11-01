@@ -1,24 +1,7 @@
-<h3>Angular2 Projects with Typescript</h3>
-<ul class="projects">
-    <li *ngFor="let project of ( projects | projectPipeFilter : 'Angular2' ) "
-    [class.selected]="project.show" 
-    (click)="project.show = !project.show;">
-        <app-project [project]="project"></app-project>
-    </li>
-</ul>
-<h3>Unity Projects</h3>
-<ul class="projects">
-    <li *ngFor="let project of ( projects | projectPipeFilter : 'Unity' ) "
-    [class.selected]="project.show" 
-    (click)="project.show = !project.show;">
-        <app-project [project]="project"></app-project>
-    </li>
-</ul>
-<h3>Google Trends Comparative</h3>
-<ul class="projects">
-    <li *ngFor="let project of ( projects | projectPipeFilter : 'Trends' ) "
-    [class.selected]="project.show" 
-    (click)="project.show = !project.show;">
-        <app-project [project]="project"></app-project>
-    </li>
-</ul>
+<h4>Project Search <input #input type="text" (input)="update.emit(input.value)" (update)="cercaText = $event"/></h4>
+
+<app-project-list [tema]="'Angular2'" [cercaText]="input.value" [title]="'Angular2 Projects with Typescript'"></app-project-list>
+
+<app-project-list [tema]="'Unity'" [cercaText]="input.value" [title]="'Unity Projects'"></app-project-list>
+
+<app-project-list [tema]="'Trends'" [cercaText]="input.value" [title]="'Google Trends Comparative'"></app-project-list>
