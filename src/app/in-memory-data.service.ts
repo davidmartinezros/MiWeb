@@ -97,6 +97,7 @@ export class InMemoryDataService implements InMemoryDbService {
       There is a tree component loaded from a json file data with a structure of parents and childs.<br/><br/>
       There tree is generated recursively with a <b>app-tree-node</b> component that call it self.<br/><br/>
       And when is loaded the app-tree-node, there are loaded the parents called recursively and the next childs too.<br/><br/>
+      You <b>can load the json file you want</b> and the tree will show the file you choose.<br/><br/>
       The project is inspired in a tree component I had done in java with xsl reading xml files five years ago.<br/><br/>
       And I thought: <b>Could I try to do this in Angular2?</b>
       `,
