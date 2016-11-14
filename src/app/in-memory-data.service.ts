@@ -33,7 +33,7 @@ export class InMemoryDataService implements InMemoryDbService {
       data: '10/18/2016',
       link: 'http://davidmartinezros.com/Angular2/TourOfHeroesWithCli/',
       html: `
-      This example is the same as the <b><a href="/detail/2">2. My first Application Example (17/10/2016)</a></b>.<br/>
+      This example is the same as the <b><a href="/#/detail/2">2. My first Application Example (17/10/2016)</a></b>.<br/>
       What it's different is than, in this one, I use <a href="https://github.com/angular/angular-cli/blob/master/README.md" target="_blank">Angular-Cli</a> for generate the project, the components and for build.<br/>
       <a href="https://github.com/angular/angular-cli/blob/master/README.md" target="_blank">Angular-Cli</a> is in the 17th beta version for the moment, but it feels interesting.<br/><br/>
 
@@ -50,7 +50,7 @@ export class InMemoryDataService implements InMemoryDbService {
       data: '10/18/2016',
       link: 'http://davidmartinezros.com/Angular2/TourOfHeroesWithCliCRUD/',
       html: `
-      This example is the same as the <b><a href="/detail/3">3. My first Application Example with Angular-cli (18/10/2016)</a></b>.<br/>
+      This example is the same as the <b><a href="/#/detail/3">3. My first Application Example with Angular-cli (18/10/2016)</a></b>.<br/>
       Here is implemented the edition, deleting and searching of a heroe.<br/><br/>
 
       You can:<br/>
