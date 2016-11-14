@@ -13,8 +13,8 @@ import { Project } from '../project';
 })
 
 export class ProjectDetailComponent implements OnInit {
-    @Input()
-    project: Project;
+    
+    @Input() project: Project;
 
     constructor(
         private projectService: ProjectService,
@@ -28,6 +28,15 @@ export class ProjectDetailComponent implements OnInit {
             this.projectService.getProject(id)
                 .then(project => this.project = project);
         });
+    }
+
+    goLink(): void {
+        // Es pot crida amb goLink($event)
+        // i s'ha de declarar amb goLink(event): void {
+        // una altra manera que no es pot indicar el target=_blank
+        //location.href = this.project.link;
+        window.open(this.project.link,'_blank');
+        event.preventDefault();
     }
 
     goBack(): void {
