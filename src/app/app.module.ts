@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { NgModule, forwardRef } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { HttpModule } from '@angular/http';
+import { HttpModule, Http } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing/app-routing.module';
@@ -36,12 +36,13 @@ import { ProjectListComponent } from './project-list/project-list.component';
     BrowserModule,
     FormsModule,
     HttpModule,
-    InMemoryWebApiModule.forRoot(InMemoryDataService),
+    InMemoryWebApiModule.forRoot(InMemoryDataService, { delay: 100 }),
     AppRoutingModule,
   ],
   providers: [
     ProjectService,
     ProjectSearchService
+    /*[{ provide: HttpModule, useExisting: forwardRef(() => InMemoryDataService) }]*/
   ],
   bootstrap: [
     AppComponent
