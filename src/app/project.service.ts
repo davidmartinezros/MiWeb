@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Headers, Http } from '@angular/http';
+import { Headers, Http, Response } from '@angular/http';
 
 import 'rxjs/add/operator/toPromise';
 
@@ -8,15 +8,15 @@ import { Project } from './project';
 @Injectable()
 export class ProjectService {
     
-    private projectsUrl = 'app/projects';  // URL to web api
+    private projectsUrl = './assets/data/projects.json';  // URL to web api
     private headers = new Headers({'Content-Type': 'application/json'});
 
     constructor(private http: Http) { }
 
     getProjects(): Promise<Project[]> {
         return this.http.get(this.projectsUrl)
+            .map((res:Response) => res.json())
             .toPromise()
-            .then(response => response.json().data as Project[])
             .catch(this.handleError);
     }
 
@@ -26,11 +26,8 @@ export class ProjectService {
     }
     
     getProjectsForTheme(theme: string): Promise<Project[]> {
-        const url = `${this.projectsUrl}/?tema=${theme}`;
-        return this.http.get(url)
-            .toPromise()
-            .then(response => response.json().data as Project[])
-            .catch(this.handleError);
+        return this.getProjects()
+             .then(projects => projects.find(project => project.tema === theme));
     }
     
     delete(id: number): Promise<void> {

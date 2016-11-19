@@ -38,4 +38,5 @@ export class ProjectDetailComponent implements OnInit {
         this.projectService.update(this.project)
             .then(() => this.goBack());
     }*/
+    
 }
