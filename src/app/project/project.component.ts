@@ -1,10 +1,11 @@
-import { Component, OnInit, trigger, state, style, transition, animate } from '@angular/core';
+import { Component, OnInit, Input, trigger, state, style, transition, animate } from '@angular/core';
+
+import { Project } from '../project';
 
 @Component({
   selector: 'app-project',
   templateUrl: './project.component.html',
   styleUrls: ['./project.component.css'],
-  inputs: ['project'],
   animations: [ 
     /*trigger('visibility', [
         state('in', style({
@@ -51,9 +52,20 @@ import { Component, OnInit, trigger, state, style, transition, animate } from '@
 })
 export class ProjectComponent implements OnInit {
 
+  @Input() project: Project;
+
   constructor() { }
 
   ngOnInit() {
   }
+
+  goLink(): void {
+        // Es pot crida amb goLink($event)
+        // i s'ha de declarar amb goLink(event): void {
+        // una altra manera que no es pot indicar el target=_blank
+        //location.href = this.project.link;
+        window.open(this.project.link,'_blank');
+        event.preventDefault();
+    }
 
 }
