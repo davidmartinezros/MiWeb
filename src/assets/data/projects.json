@@ -64,6 +64,14 @@
     "repositori": "https://github.com/davidmartinezros/component-tree-project"
     },
     {
+    "id": 9, "titol": "Component Divs Project",
+    "tema": "Angular2",
+    "data": "12/08/2016",
+    "link": "http://davidmartinezros.com/Angular2/component-divs-project/",
+    "html": "This project is developed with <a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'>Angular-Cli</a>.<br/><br/>There are some divs components loaded from a json file data with title, content and styles.<br/><br/>These divs are draggable and droppable and you can use them with the <b>app-div-node</b> component.<br/><br/> This component is generated in the <b>app-layout</b> component with callback functions that make the events between divs.<br/><br/><b>Try it and have fun!</b>",
+    "repositori": "https://github.com/davidmartinezros/component-divs-project"
+    },
+    {
     "id": 101, "titol": "My First Example",
     "tema": "Unity",
     "data": "10/10/2016",
