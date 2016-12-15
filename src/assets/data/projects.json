@@ -36,7 +36,7 @@
     "tema": "Angular2",
     "data": "10/19/2016",
     "link": "http://davidmartinezros.com",
-    "html": "I develop my Web with <a href='https://angular.io' target='_blank'>Angular2</a> and Typescript, using <a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'>Angular-Cli</a>.",
+    "html": "I develop my Web with <a href='https://angular.io' target='_blank'>Angular2</a> and Typescript, using <a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'>Angular-Cli</a>.<br/><br/>This project is always changing and I regularly update with the other projects.<br/><br/>In my web you can take a look to the projects I have done and the actual and future projects.<br/><br/>The projects are done with <a href='https://angular.io' target='blank'>Angular 2</a> or with <a href='https://unity3d.com' target='blank'>Unity</a>.<br/><br/>With and eye on the objectives of a Web Editor and The Remake of Gost'n Goblins.<br/><br/><b>Try it and have fun!</b>",
     "repositori": "https://github.com/davidmartinezros/MiWeb"
     },
     {
@@ -52,7 +52,7 @@
     "tema": "Angular2",
     "data": "10/30/2016",
     "link": "http://davidmartinezros.com/Angular2/components-animations-project",
-    "html": "This project is developed with <a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'>Angular-Cli</a>.<br/><br/>Are some animation components that everyone could use in his html components.<br/><br/>You have to extends the effect you want for your component and implements the html template and css file.<br/><br/>For example:<br/>export class MyComponent extends BounceAnimationComponent { }<br/><br/>The animations are bounce, fade, flip, roll, rotate, zoom and others.<br/><br/>The source code have inspired my project is <a href='http://daneden.github.io/animate.css/' target='_blank'>http://daneden.github.io/animate.css/</a>.",
+    "html": "This project is developed with <a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'>Angular-Cli</a>.<br/><br/>Are some animation components that everyone could use in his html components.<br/><br/>You have to extends the effect you want for your component and implements the html template and css file.<br/><br/>For example:<br/>export class MyComponent extends BounceAnimationComponent { }<br/><br/>The animations are bounce, fade, flip, roll, rotate, zoom and others.<br/><br/>The source code have inspired my project is <a href='http://daneden.github.io/animate.css/' target='_blank'>http://daneden.github.io/animate.css/</a>.<br/><br/><b>Try it and have fun!</b>",
     "repositori": "https://github.com/davidmartinezros/components-animations-project"
     },
     {
@@ -60,7 +60,7 @@
     "tema": "Angular2",
     "data": "11/06/2016",
     "link": "http://davidmartinezros.com/Angular2/component-tree-project/",
-    "html": "This project is developed with <a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'>Angular-Cli</a>.<br/><br/>There is a tree component loaded from a json file data with a structure of ancestors and children.<br/><br/>This tree is generated recursively with a <b>app-tree-node</b> component that calls itself.<br/><br/>And when the app-tree-node is loaded, ancestors are loaded recursively and the next children as well.<br/><br/>You <b>can load the json file you want</b> and the tree will show the file you choose.<br/><br/>The project is inspired in a tree component I did in java with xsl reading xml files five years ago.<br/><br/>And I thought: <b>Could I try to do this in Angular2?</b>",
+    "html": "This project is developed with <a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'>Angular-Cli</a>.<br/><br/>There is a tree component loaded from a json file data with a structure of ancestors and children.<br/><br/>This tree is generated recursively with a <b>app-tree-node</b> component that calls itself.<br/><br/>And when the app-tree-node is loaded, ancestors are loaded recursively and the next children as well.<br/><br/>You <b>can load the json file you want</b> and the tree will show the file you choose.<br/><br/>The project is inspired in a tree component I did in java with xsl reading xml files five years ago.<br/><br/>And I thought: <b>Could I try to do this in Angular2?</b><br/><br/><b>Try it and have fun!</b>",
     "repositori": "https://github.com/davidmartinezros/component-tree-project"
     },
     {
@@ -76,7 +76,7 @@
     "tema": "Unity",
     "data": "10/10/2016",
     "link": "http://davidmartinezros.com/3D/MyFirstScene/",
-    "html": "The camera follows the character in a terrain.",
+    "html": "The camera follows the character in a terrain.<br/><br/><a href='http://unity3d.com' target='_blank'>Unity</a> do all the work!",
     "repositori": "https://github.com/davidmartinezros/MiPrimerProyecto"
     },
     {
@@ -108,7 +108,7 @@
     "tema": "Unity",
     "data": "10/17/2016",
     "link": "http://davidmartinezros.com/3D/MiFirstShader/",
-    "html": "This example shows three cubes.<br/>One with a texture, another with another texture and the middle one with a Shader Texture with 50% of a the first texture and 50% of the second texture.",
+    "html": "This example shows three cubes.<br/><br/>One with a texture, another with another texture and the middle one with a Shader Texture with 50% of a the first texture and 50% of the second texture.",
     "repositori": "https://github.com/davidmartinezros/ShadersProject"
     },
     {
@@ -116,7 +116,7 @@
     "tema": "Unity",
     "data": "10/18/2016",
     "link": "http://davidmartinezros.com/3D/DifferentsCameras/",
-    "html": "This example shows the screen divided for the middle.<br/>On the left side, there's a perspective camera that follows the player always behind him.<br/>On the right side, there's a multipurpose perspective camera that follows the player recovering the position behind him.",
+    "html": "This example shows the screen divided for the middle.<br/><br/>On the left side, there's a perspective camera that follows the player always behind him.<br/><br/>On the right side, there's a multipurpose perspective camera that follows the player recovering the position behind him.",
     "repositori": "https://github.com/davidmartinezros/CameraProject"
     },
     {
@@ -124,7 +124,7 @@
     "tema": "Unity",
     "data": "10/29/2016",
     "link": "http://davidmartinezros.com/3D/ImportingColladas/",
-    "html": "This example shows a dragon that was generated in Blender 3D modeling computer program gets from <a href='http://tf3dm.com/3d-models/blender' target='_blank'>tf3dm.com</a>.<br/>This Dragon have animations created in Blender and I use one of this on a key event.<br/>There's load a default animation that loads on the beginning.<br/>If you press the key up arrow the dragon walk.",
+    "html": "This example shows a dragon that was generated in Blender 3D modeling computer program gets from <a href='http://tf3dm.com/3d-models/blender' target='_blank'>tf3dm.com</a>.<br/><br/>This Dragon have animations created in Blender and I use one of this on a key event.<br/><br/>There's load a default animation that loads on the beginning.<br/><br/>If you press the key up arrow the dragon walk.",
     "repositori": "https://github.com/davidmartinezros/ImportingColladas"
     },
     {
@@ -132,7 +132,7 @@
     "tema": "Unity",
     "data": "10/30/2016",
     "link": "http://davidmartinezros.com/3D/WaterProject/",
-    "html": "This example shows a terrain with textures and with water.<br/>This is my first example with water, so it's very easy.",
+    "html": "This example shows a terrain with textures and with water.<br/><br/>This is my first example with water, so it's very easy.",
     "repositori": "https://github.com/davidmartinezros/WaterProject"
     },
     {
@@ -140,7 +140,7 @@
     "tema": "Google Trends",
     "data": "10/28/2016",
     "link": "http://davidmartinezros.com/web/comparative_Angular2.html",
-    "html": "This is a comparative between AngularJS and Angular2 with the Google application <a href='http://www.google.com/trends' target='_blank'>Trends</a>",
+    "html": "This is a comparative between AngularJS and Angular2 with the Google application <a href='http://www.google.com/trends' target='_blank'>Trends</a>.",
     "repositori": null
     },
     {
@@ -148,7 +148,7 @@
     "tema": "Google Trends",
     "data": "10/28/2016",
     "link": "http://davidmartinezros.com/web/comparative_Unity.html",
-    "html": "This is a comparative between <a href='https://unity3d.com' target='_blank'>Unity</a> and the other Game Engine with the Google application <a href='http://www.google.com/trends' target='_blank'>Trends</a>",
+    "html": "This is a comparative between <a href='https://unity3d.com' target='_blank'>Unity</a> and the other Game Engine with the Google application <a href='http://www.google.com/trends' target='_blank'>Trends</a>.",
     "repositori": null
     },
     {
@@ -156,7 +156,7 @@
     "tema": "Google Trends",
     "data": "10/28/2016",
     "link": "http://davidmartinezros.com/web/comparative_Sketchup.html",
-    "html": "This is a comparative between <a href='http://www.sketchup.com/download' target='_blank'>Sketchup</a> and the other 3D modeling computer program with the Google application <a href='http://www.google.com/trends' target='_blank'>Trends</a>",
+    "html": "This is a comparative between <a href='http://www.sketchup.com/download' target='_blank'>Sketchup</a> and the other 3D modeling computer program with the Google application <a href='http://www.google.com/trends' target='_blank'>Trends</a>.",
     "repositori": null
     }
 ]
