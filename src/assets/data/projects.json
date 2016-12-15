@@ -140,7 +140,7 @@
     "tema": "Google Trends",
     "data": "10/28/2016",
     "link": "http://davidmartinezros.com/web/comparative_Angular2.html",
-    "html": "This is a comparative between AngularJS and Angular2 with the Google application <a href='http://www.google.com/trends' target='_blank'>Trends</a>.",
+    "html": "This is a comparative between AngularJS and Angular2 with the Google application <a href='http://www.google.com/trends' target='_blank'>Trends</a>.<br/><br/><b>· Conclusions at October of 2016</b><br/><br/>- Angular2 began one year ago, but it's relevance doesn't arrive at 25% of AngularJS's relevance.<br/>- Angular2 and AngularJS are mostly use in India.<br/>- Angular2 only arrive in India, Canada, USA, Japan and Europe. The rest of the World doesn't know it. ",
     "repositori": null
     },
     {
@@ -148,7 +148,7 @@
     "tema": "Google Trends",
     "data": "10/28/2016",
     "link": "http://davidmartinezros.com/web/comparative_Unity.html",
-    "html": "This is a comparative between <a href='https://unity3d.com' target='_blank'>Unity</a> and the other Game Engine with the Google application <a href='http://www.google.com/trends' target='_blank'>Trends</a>.",
+    "html": "This is a comparative between <a href='https://unity3d.com' target='_blank'>Unity</a> and the other Game Engine with the Google application <a href='http://www.google.com/trends' target='_blank'>Trends</a>.<br/><br/><b> · Conclusions at October of 2016</b><br/><br/>- Unity is mostly use Game Engine.<br/>- PlayStation4 and Xbox 360 are more relevant than Unity.<br/>- Nvidia is equatable with Unity.<br/>- In China, people are more interested in produce Games than in play them.<br/>- PlayStation4 is the most used in USA, Canada, Australia and Europe.<br/>- XBox 360 is most used in South America and Mexico.<br/>- Nvidia is most used in Rusia",
     "repositori": null
     },
     {
@@ -156,7 +156,15 @@
     "tema": "Google Trends",
     "data": "10/28/2016",
     "link": "http://davidmartinezros.com/web/comparative_Sketchup.html",
-    "html": "This is a comparative between <a href='http://www.sketchup.com/download' target='_blank'>Sketchup</a> and the other 3D modeling computer program with the Google application <a href='http://www.google.com/trends' target='_blank'>Trends</a>.",
+    "html": "This is a comparative between <a href='http://www.sketchup.com/download' target='_blank'>Sketchup</a> and the other 3D modeling computer program with the Google application <a href='http://www.google.com/trends' target='_blank'>Trends</a>.<br/><br/><b>· Conclusions at October of 2016</b><br/><br/>- Skechtup and Blender are the most relevant 3D modeling computer program in the last year.<br/>- Sketchup is mostly used in South Ameria and Australia and Blender in USA and Europe.<br/>- 3d Studio Max and Maya are mostly used in Asia and India.<br/>- Studying the evolution, we can see that 3d Studio Max and Maya were more important in the USA and in Europe ten years ago.<br/>- In the last five years, Sketchup and Blender got more relevance, because these last ones are free.<br/>- Considering that the USA and Europe are the future, Sketchtup and Blender are the 3D modeling computer program of the future as well.<br/>- Like we saw in the comparative between <a href='/web/comparative_Unity.html' target='_blank'>Game Engines</a>, XBox is mostly used were is mostly used Sketchup. And PlayStation4 is mostly used were is mostly used Blender.",
+    "repositori": null
+    },
+    {
+    "id": 204, "titol": "Comparative between VR (Virtual Reality) and PlayStation4 and XBox 360 GameConsoles",
+    "tema": "Google Trends",
+    "data": "12/15/2016",
+    "link": "http://davidmartinezros.com/web/comparative_VR.html",
+    "html": "This is a comparative between <a href='https://en.wikipedia.org/wiki/Virtual_reality' target='_blank'>VR (Virtual Reality)</a> and <a href='https://www.playstation.com' target='_blank'>PlayStation4</a> and <a href='https://www.xbox.com/' target='_blank'>XBox 360</a> GameConsoles with the Google application <a href='http://www.google.com/trends' target='_blank'>Trends</a>.<br/><br/><b>· Conclusions at December of 2016</b><br/><br/>- VR is growing in all the World in the last year.<br/>- PlayStation4 and Xbox 360 are more relevant than VR.<br/>- The growing of PlayStation4 and XBox 360 is influenced by VR.<br/>- VR is more relevant in Europe, North America, Canada and Australia.",
     "repositori": null
     }
 ]
