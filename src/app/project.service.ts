@@ -25,11 +25,6 @@ export class ProjectService {
              .then(projects => projects.find(project => project.id === id));
     }
     
-    getProjectsForTheme(theme: string): Promise<Project[]> {
-        return this.getProjects()
-             .then(projects => projects.find(project => project.tema === theme));
-    }
-    
     delete(id: number): Promise<void> {
         const url = `${this.projectsUrl}/${id}`;
         return this.http.delete(url, {headers: this.headers})

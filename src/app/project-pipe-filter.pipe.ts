@@ -41,6 +41,8 @@ export class ProjectPipeFilterPipe implements PipeTransform {
         project.tema.toLocaleLowerCase().indexOf(tema) != -1) 
         && (
           project.titol.toLocaleLowerCase().indexOf(cercaText) != -1
+          || project.tema.toLocaleLowerCase().indexOf(cercaText) != -1
+          || project.tipus.toLocaleLowerCase().indexOf(cercaText) != -1
           || project.html.toLocaleLowerCase().indexOf(cercaText) != -1
           || project.tema.toLocaleLowerCase().indexOf(cercaText) != -1
           || project.link.toLocaleLowerCase().indexOf(cercaText) != -1

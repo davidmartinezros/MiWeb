@@ -11,11 +11,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { ProjectDetailComponent } from './project-detail/project-detail.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ProjectService } from './project.service';
-
-import { MyCustomHttp } from './my-custom-http';
-
-// Imports for loading & configuring the in-memory web api
-import { InMemoryWebApiModule } from 'angular-in-memory-web-api/in-memory-web-api.module';
+import { PipesModule } from './pipes/pipes.module';
 
 import './rxjs-extensions';
 import { ProjectPipeFilterPipe } from './project-pipe-filter.pipe';
@@ -37,6 +33,7 @@ import { ProjectListComponent } from './project-list/project-list.component';
     FormsModule,
     HttpModule,
     AppRoutingModule,
+    PipesModule
   ],
   providers: [
     ProjectService,
