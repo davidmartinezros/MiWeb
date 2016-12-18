@@ -25,21 +25,22 @@ export class DashboardComponent implements OnInit {
   gotoDetail(project: Project): void {
     let link = ['/detail', project.id];
     this.router.navigate(link);
-    console.log(project.titol);
-    console.log(project.tema);
+    //console.log(project.titol);
+    //console.log(project.tema);
   }
 
-  getColor(project: Project): string {
-    let color = "#607D8B";
+  getStyleClass(project: Project): string {
+    let styleClass = "module_example";
     if(project.tipus === 'Example') {
-      color = "#607D8B";
+      styleClass = "module_example";
     } else if(project.tipus === 'Component') {
-      color = "yellow";
+      styleClass = "module_component";
     } else if(project.tipus === 'Project') {
-      color = "green";
+      styleClass = "module_project";
     } else if(project.tipus === 'Comparative') {
-      color = "black";
+      styleClass = "module_comparative";
     }
-    return "background-color:" + color;
+    console.log(styleClass);
+    return styleClass;
   }
 }

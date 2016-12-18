@@ -16,6 +16,8 @@ export class ProjectListComponent implements OnInit {
 
   @Input() cercaText: string;
 
+  checked: boolean = true;
+
   projects: Project[];
 
   constructor(

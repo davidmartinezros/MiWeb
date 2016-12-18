@@ -43,9 +43,28 @@ export class ProjectDetailComponent implements OnInit {
         this.location.back();
     }
 
-    /*save(): void {
+    /*
+    save(): void {
         this.projectService.update(this.project)
             .then(() => this.goBack());
-    }*/
+    }
+    */
     
+    /*
+    getColor(): string {
+        let color = "#607D7B";
+        if(this.project.tipus === 'Example') {
+        color = "#607D7B";
+        } else if(this.project.tipus === 'Component') {
+        color = "#607D3B";
+        } else if(this.project.tipus === 'Project') {
+        color = "#607D0B";
+        } else if(this.project.tipus === 'Comparative') {
+        color = "#607D5B";
+        }
+        console.log(color);
+        return "background-color:" + color;
+    }
+    */
+
 }

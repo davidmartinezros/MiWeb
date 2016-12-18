@@ -22,22 +22,8 @@ h3 {
 .col-1-4 {
   width: 25%;
 }
-.module {
-    padding: 20px;
-    text-align: center;
-    color: #eee;
-    max-height: 120px;
-    min-width: 120px;
-    background-color: #607D8B;
-    border-radius: 2px;
-}
 h4 {
   position: relative;
-}
-.module:hover {
-  background-color: #EEE;
-  cursor: pointer;
-  color: #607d8b;
 }
 .grid-pad {
   padding: 10px 0;
@@ -57,4 +43,60 @@ h4 {
     .module {
       min-width: 60px;
     }
+}
+.module_example {
+    padding: 20px;
+    text-align: center;
+    color: #BBD8DC;
+    max-height: 120px;
+    min-width: 120px;
+    background-color: #607D8B;
+    border-radius: 2px;
+}
+.module_example:hover {
+  background-color: #BBD8DC;
+  cursor: pointer;
+  color: #607D8B;
+}
+.module_component {
+    padding: 20px;
+    text-align: center;
+    color: #eee;
+    max-height: 120px;
+    min-width: 120px;
+    background-color: #607D3B;
+    border-radius: 2px;
+}
+.module_component:hover {
+  background-color: #BBD8DC;
+  cursor: pointer;
+  color: #607D8B;
+}
+.module_project {
+    padding: 20px;
+    text-align: center;
+    color: #eee;
+    max-height: 120px;
+    min-width: 120px;
+    background-color: #607D0B;
+    border-radius: 2px;
+}
+.module_project:hover {
+  background-color: #BBD8DC;
+  cursor: pointer;
+  color: #607D8B;
+}
+.module_comparative {
+    padding: 20px;
+    text-align: center;
+    color: #eee;
+    max-height: 120px;
+    min-width: 120px;
+    background-color: #607D5B;
+    border-radius: 2px;
+}
+.module_comparative:hover {
+  background-color: #BBD8DC;
+  cursor: pointer;
+  color: #607D8B;
 }

@@ -68,4 +68,19 @@ export class ProjectComponent implements OnInit {
         event.preventDefault();
     }
 
+    getStyleClass(): string {
+      let styleClass = "badge_example";
+      if(this.project.tipus === 'Example') {
+        styleClass = "badge_example";
+      } else if(this.project.tipus === 'Component') {
+        styleClass = "badge_component";
+      } else if(this.project.tipus === 'Project') {
+        styleClass = "badge_project";
+      } else if(this.project.tipus === 'Comparative') {
+        styleClass = "badge_comparative";
+      }
+      console.log(styleClass);
+      return styleClass;
+    }
+
 }
