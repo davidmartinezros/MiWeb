@@ -50,7 +50,7 @@ h4 {
     color: #BBD8DC;
     max-height: 120px;
     min-width: 120px;
-    background-color: #607D8B;
+    background-color: #d95232;
     border-radius: 2px;
 }
 .module_example:hover {
@@ -64,7 +64,7 @@ h4 {
     color: #eee;
     max-height: 120px;
     min-width: 120px;
-    background-color: #607D3B;
+    background-color: #00abf0;
     border-radius: 2px;
 }
 .module_component:hover {
@@ -78,7 +78,7 @@ h4 {
     color: #eee;
     max-height: 120px;
     min-width: 120px;
-    background-color: #607D0B;
+    background-color: #3b5998;
     border-radius: 2px;
 }
 .module_project:hover {
@@ -92,7 +92,7 @@ h4 {
     color: #eee;
     max-height: 120px;
     min-width: 120px;
-    background-color: #607D5B;
+    background-color: #ae181f;
     border-radius: 2px;
 }
 .module_comparative:hover {

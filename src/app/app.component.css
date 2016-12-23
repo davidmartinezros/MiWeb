@@ -26,3 +26,30 @@ nav a:hover {
 nav a.active {
   color: #039be5;
 }
+
+.legend ul {
+  list-style: none;
+}
+
+.legend ul li a {
+  display: inline-block;
+  color:#fff;
+  background: #000;
+  width:130px;
+  padding: 10px 15px;
+  text-decoration: none;
+  -webkit-transition:all 500ms ease;
+  -o-transition:all 500ms ease;
+  transition:all 500ms ease; /* Establecemos una transición a todas las propiedades */
+}
+
+.legend ul li .legend-examples {background:#d95232;} /* Establecemos los colores de cada red social, aprovechando su class */
+.legend ul li .legend-components {background: #00abf0;}
+.legend ul li .legend-projects {background: #3b5998;}
+.legend ul li .legend-comparatives {background: #ae181f;}
+
+.legend ul li a:hover {
+  background-color: #BBD8DC; /* Cambiamos el fondo cuando el usuario pase el mouse */
+  color: #607D8B;
+  padding: 10px 15px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+}
