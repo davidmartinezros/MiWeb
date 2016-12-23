@@ -1,0 +1,120 @@
+[class*='col-'] {
+  float: left;
+}
+*, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+h3 {
+  text-align: center; margin-bottom: 0;
+}
+[class*='col-'] {
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+[class*='col-']:last-of-type {
+  padding-right: 0;
+}
+.grid {
+  margin: 0;
+}
+.col-1-4 {
+  width: 25%;
+}
+h4 {
+  position: relative;
+}
+.grid-pad {
+  padding: 10px 0;
+}
+.grid-pad > [class*='col-']:last-of-type {
+  padding-right: 20px;
+}
+@media (max-width: 600px) {
+    .module {
+      font-size: 10px;
+      max-height: 75px; }
+}
+@media (max-width: 1024px) {
+    .grid {
+      margin: 0;
+    }
+    .module {
+      min-width: 60px;
+    }
+}
+.module_example {
+    padding: 20px;
+    text-align: center;
+    color: #BBD8DC;
+    max-height: 120px;
+    min-width: 120px;
+    background-color: #d95232;
+    border-radius: 2px;
+}
+.module_example:hover {
+  background-color: #BBD8DC;
+  cursor: pointer;
+  color: #607D8B;
+}
+.module_component {
+    padding: 20px;
+    text-align: center;
+    color: #eee;
+    max-height: 120px;
+    min-width: 120px;
+    background-color: #00abf0;
+    border-radius: 2px;
+}
+.module_component:hover {
+  background-color: #BBD8DC;
+  cursor: pointer;
+  color: #607D8B;
+}
+.module_project {
+    padding: 20px;
+    text-align: center;
+    color: #eee;
+    max-height: 120px;
+    min-width: 120px;
+    background-color: #3b5998;
+    border-radius: 2px;
+}
+.module_project:hover {
+  background-color: #BBD8DC;
+  cursor: pointer;
+  color: #607D8B;
+}
+.module_comparative {
+    padding: 20px;
+    text-align: center;
+    color: #eee;
+    max-height: 120px;
+    min-width: 120px;
+    background-color: #ae181f;
+    border-radius: 2px;
+}
+.module_comparative:hover {
+  background-color: #BBD8DC;
+  cursor: pointer;
+  color: #607D8B;
+}
+
+button {
+  margin-top: 20px;
+  font-family: Arial;
+  background-color: #eee;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer; cursor: hand;
+}
+button:hover {
+  background-color: #cfd8dc;
+}
+button:disabled {
+  background-color: #eee;
+  color: #ccc; 
+  cursor: auto;
+}

@@ -20,6 +20,11 @@ export class ProjectService {
             .catch(this.handleError);
     }
 
+    getTypeProjects(tipus: string): Promise<Project[]> {
+        return this.getProjects()
+             .then(projects => projects.filter(project => project.tipus.toLowerCase() === tipus.toLowerCase()));
+    }
+
     getProject(id: number): Promise<Project> {
         return this.getProjects()
              .then(projects => projects.find(project => project.id === id));

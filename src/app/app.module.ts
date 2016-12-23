@@ -17,6 +17,7 @@ import './rxjs-extensions';
 import { ProjectPipeFilterPipe } from './project-pipe-filter.pipe';
 import { ProjectComponent } from './project/project.component';
 import { ProjectListComponent } from './project-list/project-list.component';
+import { ProjectTypeComponent } from './project-type/project-type.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { ProjectListComponent } from './project-list/project-list.component';
     ProjectsComponent,
     ProjectPipeFilterPipe,
     ProjectComponent,
-    ProjectListComponent
+    ProjectListComponent,
+    ProjectTypeComponent
   ],
   imports: [
     BrowserModule,

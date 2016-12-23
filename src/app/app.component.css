@@ -14,17 +14,34 @@ nav a {
   margin-top: 10px;
   display: inline-block;
   background-color: #eee;
+  color: #999;
   border-radius: 4px;
+  cursor: pointer; cursor: hand;
 }
-nav a:visited, a:link {
-  color: #607D8B;
-}
+
 nav a:hover {
-  color: #039be5;
-  background-color: #CFD8DC;
+  background-color: #cfd8dc;
 }
-nav a.active {
-  color: #039be5;
+
+button {
+  padding: 5px 10px;
+  text-decoration: none;
+  color: #607D8B;
+  margin-top: 20px;
+  font-family: Arial;
+  background-color: #eee;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer; cursor: hand;
+}
+button:hover {
+  background-color: #cfd8dc;
+}
+button:disabled {
+  background-color: #eee;
+  color: #ccc; 
+  cursor: auto;
 }
 
 .legend ul {
