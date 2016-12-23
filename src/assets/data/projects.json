@@ -187,5 +187,14 @@
     "link": "http://davidmartinezros.com/web/comparative_VR.html",
     "html": "This is a comparative between <a href='https://en.wikipedia.org/wiki/Virtual_reality' target='_blank'>VR (Virtual Reality)</a> and <a href='https://www.playstation.com' target='_blank'>PlayStation4</a> and <a href='https://www.xbox.com/' target='_blank'>XBox 360</a> GameConsoles with the Google application <a href='http://www.google.com/trends' target='_blank'>Trends</a>.<br/><br/><b>· Conclusions at December of 2016</b><br/><br/>- VR is growing in all the World in the last year.<br/>- PlayStation4 and Xbox 360 are more relevant than VR.<br/>- The growing of PlayStation4 and XBox 360 is influenced by VR.<br/>- VR is more relevant in Europe, North America, Canada and Australia.",
     "repositori": null
+    },
+    {
+    "id": 205, "titol": "Comparatives Google Searches",
+    "tema": "Google Trends",
+    "tipus": "Comparative",
+    "data": "12/23/2016",
+    "link": "http://davidmartinezros.com/web/comparative_GoogleSearches.html",
+    "html": "Objectives:<br/><br/>- This project aims to investigate and find out which subjects are of interest to the world.<br/>- As the interests of the world are very wide, center the searches in regions with similar interests (I begin with Spain).<br/>- And as interests vary over time, I will focus on the present.<br/>- The Searches use the <a href='https://www.google.com/trends/explore' target='_blank'>Google Trends Engine</a>.",
+    "repositori": null
     }
 ]
