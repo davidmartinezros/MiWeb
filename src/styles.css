@@ -75,11 +75,13 @@ a:hover {
 	}
 
 	.social ul li .icon-facebook {background:#3b5998;} /* Establecemos los colores de cada red social, aprovechando su class */
-	.social ul li .icon-twitter {background: #00abf0;}
-	.social ul li .icon-google-plus {background: #d95232;}
-  .social ul li .icon-instagram {background: #000000;}
-	.social ul li .icon-pinterest {background: #ae181f;}
-  .social ul li .icon-github {background: #333333;}
+	.social ul li .icon-twitter {background: #55acee;}
+	.social ul li .icon-google-plus {background: #dd4b39;}
+  .social ul li .icon-instagram {background: #125688;}
+	.social ul li .icon-pinterest {background: #cb2027;}
+  .social ul li .icon-github {background: #000000;}
+	.social ul li .icon-youtube {background: #bb0000;}
+	.social ul li .icon-linkedin {background: #007bb5;}
 	.social ul li .icon-mail {background: #666666;}
  
 	.social ul li a:hover {
