@@ -1,11 +1,11 @@
 /* Master Styles */
 h1 {
-  color: #369;
+  color: #21618C;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 250%;
 }
 h2, h3 {
-  color: #369;
+  color: #21618C;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: lighter;
 }
@@ -82,10 +82,11 @@ a:hover {
   .social ul li .icon-github {background: #000000;}
 	.social ul li .icon-youtube {background: #bb0000;}
 	.social ul li .icon-linkedin {background: #007bb5;}
+	.social ul li .icon-flickr {background: #ff0084;}
 	.social ul li .icon-mail {background: #666666;}
  
 	.social ul li a:hover {
 		background-color: #BBD8DC; /* Cambiamos el fondo cuando el usuario pase el mouse */
-		color: #607D8B;
+		color: #21618C;
 		padding: 10px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
 	}

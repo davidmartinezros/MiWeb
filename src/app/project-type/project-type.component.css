@@ -47,58 +47,58 @@ h4 {
 .module_example {
     padding: 20px;
     text-align: center;
-    color: #BBD8DC;
+    color: #fff;
     max-height: 120px;
     min-width: 120px;
-    background-color: #d95232;
+    background-color: #5DADE2;
     border-radius: 2px;
 }
 .module_example:hover {
   background-color: #BBD8DC;
   cursor: pointer;
-  color: #607D8B;
+  color: #21618C;
 }
 .module_component {
     padding: 20px;
     text-align: center;
-    color: #eee;
+    color: #fff;
     max-height: 120px;
     min-width: 120px;
-    background-color: #00abf0;
+    background-color: #3498DB;
     border-radius: 2px;
 }
 .module_component:hover {
   background-color: #BBD8DC;
   cursor: pointer;
-  color: #607D8B;
+  color: #21618C;
 }
 .module_project {
     padding: 20px;
     text-align: center;
-    color: #eee;
+    color: #fff;
     max-height: 120px;
     min-width: 120px;
-    background-color: #3b5998;
+    background-color: #2E86C1;
     border-radius: 2px;
 }
 .module_project:hover {
   background-color: #BBD8DC;
   cursor: pointer;
-  color: #607D8B;
+  color: #21618C;
 }
 .module_comparative {
     padding: 20px;
     text-align: center;
-    color: #eee;
+    color: #fff;
     max-height: 120px;
     min-width: 120px;
-    background-color: #ae181f;
+    background-color: #2874A6;
     border-radius: 2px;
 }
 .module_comparative:hover {
   background-color: #BBD8DC;
   cursor: pointer;
-  color: #607D8B;
+  color: #21618C;
 }
 
 button {

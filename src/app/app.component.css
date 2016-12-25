@@ -60,13 +60,13 @@ button:disabled {
   transition:all 500ms ease; /* Establecemos una transición a todas las propiedades */
 }
 
-.legend ul li .legend-examples {background:#d95232;} /* Establecemos los colores de cada red social, aprovechando su class */
-.legend ul li .legend-components {background: #00abf0;}
-.legend ul li .legend-projects {background: #3b5998;}
-.legend ul li .legend-comparatives {background: #ae181f;}
+.legend ul li .legend-examples {background:#5DADE2;} /* Establecemos los colores de cada red social, aprovechando su class */
+.legend ul li .legend-components {background: #3498DB;}
+.legend ul li .legend-projects {background: #2E86C1;}
+.legend ul li .legend-comparatives {background: #2874A6;}
 
 .legend ul li a:hover {
   background-color: #BBD8DC; /* Cambiamos el fondo cuando el usuario pase el mouse */
-  color: #607D8B;
+  color: #21618C;
   padding: 10px 15px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
 }
