@@ -81,6 +81,15 @@
     "repositori": "https://github.com/davidmartinezros/component-divs-project"
     },
     {
+    "id": 10, "titol": "Climate Project",
+    "tema": "Angular2",
+    "tipus": "Project",
+    "data": "01/26/2017",
+    "link": "http://davidmartinezros.com/Angular2/climate-project/",
+    "html": "This project show the weather prediction in Spain the next four days. Use a configurable widget provided by <a href='http://www.aemet.es/es/portada' target='_blank'>AEMET</a>.<br/<br/>You can find any municipality in Spain.<br/><br/> I'm going to improve enhancements shortly!",
+    "repositori": "https://github.com/davidmartinezros/climate-project"
+    },
+    {
     "id": 101, "titol": "My First Example",
     "tema": "Unity",
     "tipus": "Example",
