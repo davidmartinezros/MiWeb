@@ -90,6 +90,15 @@
     "repositori": "https://github.com/davidmartinezros/climate-project"
     },
     {
+    "id": 11, "titol": "Mi 3D World",
+    "tema": "Angular2",
+    "tipus": "Example",
+    "data": "03/09/2017",
+    "link": "http://davidmartinezros.com/Angular2/Mi3DWorld/",
+    "html": "This example shows a 3D Scene with some cubes that you can picking them and they change the color and the camera is moved.<br/<br/>This example needs the gl-matrix.js and the litegl.js library for running.",
+    "repositori": "https://github.com/davidmartinezros/Mi3DWorld"
+    },
+    {
     "id": 101, "titol": "My First Example",
     "tema": "Unity",
     "tipus": "Example",
