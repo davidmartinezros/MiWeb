@@ -99,6 +99,24 @@
     "repositori": "https://github.com/davidmartinezros/Mi3DWorld"
     },
     {
+    "id": 12, "titol": "Mi 3D World2",
+    "tema": "Angular2",
+    "tipus": "Example",
+    "data": "03/19/2017",
+    "link": "http://davidmartinezros.com/Angular2/Mi3DWorld2/",
+    "html": "This example shows a 3D Scene with a big cube and some cubes that you can picking them and they change the color.<br/<br/>You can rotate the camera dragging on the mouse in the scene.<br/><br/>This example needs the gl-matrix.js and the litegl.js library for running.",
+    "repositori": "https://github.com/davidmartinezros/Mi3DWorld"
+    },
+    {
+    "id": 13, "titol": "Mi 3D World3",
+    "tema": "Angular2",
+    "tipus": "Example",
+    "data": "03/29/2017",
+    "link": "http://davidmartinezros.com/Angular2/Mi3DWorld3/",
+    "html": "This example shows a 3D Scene with some cubes that you can picking them and they change the color and the camera is moved.<br/<br/>The cubes are in X axe, when you pick one of them, this one is propagated on the Z axe, and occurs the same when you pick them.<br/<br/>So the cubes are propagated on the three axes X, Y and Z.<br/<br/>This example needs the gl-matrix.js and the litegl.js library for running.",
+    "repositori": "https://github.com/davidmartinezros/Mi3DWorld"
+    },
+    {
     "id": 101, "titol": "My First Example",
     "tema": "Unity",
     "tipus": "Example",
