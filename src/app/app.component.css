@@ -13,35 +13,15 @@ nav a {
   text-decoration: none;
   margin-top: 10px;
   display: inline-block;
-  background-color: #eee;
-  color: #999;
+  background-color: #5DADE2;
+  color: #21618C;
   border-radius: 4px;
   cursor: pointer; cursor: hand;
 }
 
 nav a:hover {
-  background-color: #cfd8dc;
-}
-
-button {
-  padding: 5px 10px;
-  text-decoration: none;
-  color: #607D8B;
-  margin-top: 20px;
-  font-family: Arial;
-  background-color: #eee;
-  border: none;
-  padding: 5px 10px;
-  border-radius: 4px;
-  cursor: pointer; cursor: hand;
-}
-button:hover {
-  background-color: #cfd8dc;
-}
-button:disabled {
-  background-color: #eee;
-  color: #ccc;
-  cursor: auto;
+  background-color: #21618C;
+  color: #FFF;
 }
 .leyenda {
 	background-color:#BBD8DC;
@@ -75,4 +55,13 @@ button:disabled {
   background-color: #BBD8DC; /* Cambiamos el fondo cuando el usuario pase el mouse */
   color: #21618C;
   padding: 10px 15px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+}
+
+.leyendas {
+  color: #21618C;
+	font-weight: normal;
+}
+.dashboard-proyectos {
+	display: block;
+	margin: auto;
 }
