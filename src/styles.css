@@ -1,49 +1,68 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  margin: 1em;
+}
+button {
+  padding: 5px 10px;
+  text-decoration: none;
+  color: #607D8B;
+  margin-top: 20px;
+  font-family: Arial;
+  background-color: #eee;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer; cursor: hand;
+}
+button:hover {
+  background-color: #cfd8dc;
+}
+button:disabled {
+  background-color: #eee;
+  color: #ccc;
+  cursor: auto;
+}
 /* Master Styles */
 h1 {
   color: #21618C;
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 250%;
 }
 h2, h3 {
   color: #21618C;
-  font-family: Arial, Helvetica, sans-serif;
+	background-color: #FFF;
   font-weight: lighter;
 }
-body {
-  margin: 2em;
+.imgBackground {
+		padding-top: 10px;
+		padding-bottom: 10px;
+    background-image: url('./assets/background.jpg');
 }
-body, input[text], button {
-  color: #888;
-  font-family: Cambria, Georgia;
+p {
+	color: #21618C;
+	background-color: #FFF;
+	font-weight: normal;
+}
+.projects {
+	color: #21618C;
+	font-weight: normal;
+}
+.projects>ul {
+	 list-style-type: circle;
 }
 /* . . . */
-/* everywhere else */
-* {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-div.info {
-  padding-left:70px;
-	background-color: white;
-	border-radius: 1em;
-}
-table.presentation {
-  width: 100%;
-}
-td.image {
-  color: white;
-	background-color: #BBD8DC !important;
-}
-td.links {
+div.links {
 	color: #DDD;
   background-color: #607D8B;
   left: .1em;
 }
-td.links a {
+div.links a {
 	color: white;
 	text-decoration: none;
 }
 a:link, a:visited {
+	font-weight: bold;
 	color: #38488f;
 	text-decoration: none;
 }

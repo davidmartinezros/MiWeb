@@ -1,5 +1,5 @@
 <div class="grid grid-pad">
-  <div *ngFor="let project of projects" (click)="gotoDetail(project)" class="col-1-4">
+  <div *ngFor="let project of projects" (click)="gotoDetail(project)" class="col-sm-3">
     <div [class]="getStyleClass(project)">
       <h4>{{project.titol}}</h4>
       <h6>({{project.tema}})</h6>

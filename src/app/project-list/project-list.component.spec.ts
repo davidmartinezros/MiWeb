@@ -5,7 +5,7 @@ import { ProjectListComponent } from './project-list.component';
 
 describe('Component: ProjectList', () => {
   it('should create an instance', () => {
-    let component = new ProjectListComponent();
+    let component = ProjectListComponent;
     expect(component).toBeTruthy();
   });
 });
