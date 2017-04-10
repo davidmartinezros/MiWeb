@@ -40,10 +40,16 @@ button:hover {
 }
 button:disabled {
   background-color: #eee;
-  color: #ccc; 
+  color: #ccc;
   cursor: auto;
 }
-
+.leyenda {
+	background-color:#BBD8DC;
+	color: #21618C;
+}
+.legend {
+	 border:1px solid #21618C;
+}
 .legend ul {
   list-style: none;
 }
