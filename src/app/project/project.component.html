@@ -1,10 +1,14 @@
-<span [class]="getStyleClass()">{{project.id}}</span>
-<span>{{project.titol}}</span>
-<span class="buttons">
-    <span class="theme">({{project.tema}})</span>
-</span>
-<div *ngIf="project.show" [@animation]="project.show" (click)="$event.stopPropagation()">
-    <h3>{{project.id}}. {{project.titol}} ({{project.data | date:'fullDate'}}) - <button (click)="goLink()">project link</button></h3>
-    <p innerHTML="{{project.html}}"></p>
-    <p *ngIf="project.repositori">Here you can obtain the source code from my <a href="{{project.repositori}}" target="_blank">repository project</a>.</p>
+<div class="row">
+    <div class="col-xs-12">
+        <span [class]="getStyleClass()">{{project.id}}</span>
+        <span>{{project.titol}}</span>
+        <span class="buttons">
+            <span class="theme">({{project.tema}})</span>
+        </span>
+        <div class="divContent" *ngIf="project.show" [@animation]="project.show" (click)="$event.stopPropagation()">
+            <h3>{{project.id}}. {{project.titol}} ({{project.data | date:'fullDate'}}) - <button (click)="goLink()">project link</button></h3>
+            <p innerHTML="{{project.html}}"></p>
+            <p *ngIf="project.repositori">Here you can obtain the source code from my <a href="{{project.repositori}}" target="_blank">repository project</a>.</p>
+        </div>
+    </div>
 </div>

@@ -1,7 +1,12 @@
-<h4>Project Search <input #input type="text" (input)="update.emit(input.value)" (update)="cercaText = $event"/></h4>
-
-<app-project-list [tema]="'Angular2'" [cercaText]="input.value" [title]="'Angular2 Projects with Typescript'"></app-project-list>
-
-<app-project-list [tema]="'Unity'" [cercaText]="input.value" [title]="'Unity Projects'"></app-project-list>
-
-<app-project-list [tema]="'Trends'" [cercaText]="input.value" [title]="'Google Trends Comparative'"></app-project-list>
+<div class="row">
+    <h4>Project Search <input #input type="text" (input)="update.emit(input.value)" (update)="cercaText = $event"/></h4>
+</div>
+<div class="row">
+    <app-project-list [tema]="'Angular2'" [cercaText]="input.value" [title]="'Angular2 Projects with Typescript'"></app-project-list>
+</div>
+<div class="row">
+    <app-project-list [tema]="'Unity'" [cercaText]="input.value" [title]="'Unity Projects'"></app-project-list>
+</div>
+<div class="row">
+    <app-project-list [tema]="'Trends'" [cercaText]="input.value" [title]="'Google Trends Comparative'"></app-project-list>
+</div>

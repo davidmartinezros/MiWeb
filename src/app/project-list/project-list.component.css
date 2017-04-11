@@ -6,7 +6,6 @@
   margin: 0 0 2em 0;
   list-style-type: none;
   padding: 0;
-  width: 55em;
 }
 .projects li {
   cursor: pointer;
@@ -14,7 +13,6 @@
   background-color: #EEE;
   margin: .5em;
   padding: .3em 0;
-  height: auto;
   border-radius: 4px;
 }
 .projects li.selected:hover {

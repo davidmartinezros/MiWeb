@@ -1,6 +1,10 @@
-<div *ngIf="project">
-  <h3>{{project.id}}. {{project.titol}} ({{project.data}}) - <button (click)="goLink()">project link</button></h3>
-  <p innerHTML="{{project.html}}"></p>
-  <p *ngIf="project.repositori">Here you can obtain the source code from my <a href="{{project.repositori}}" target="_blank">repository project</a>.</p>
-  <button (click)="goBack()">Back</button>
+<div class="row">
+    <div class="col-xs-12">
+        <div *ngIf="project">
+          <h3>{{project.id}}. {{project.titol}} ({{project.data}}) - <button (click)="goLink()">project link</button></h3>
+          <p innerHTML="{{project.html}}"></p>
+          <p *ngIf="project.repositori">Here you can obtain the source code from my <a href="{{project.repositori}}" target="_blank">repository project</a>.</p>
+          <button (click)="goBack()">Back</button>
+        </div>
+    </div>
 </div>

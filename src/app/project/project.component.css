@@ -2,44 +2,32 @@
   display: inline-block;
   font-size: small;
   color: white;
-  padding: 0.8em 0.7em 0 0.7em;
+  padding: 10px 10px 10px 10px;
   background-color: #5DADE2;
-  line-height: 1em;
-  height: 1.8em;
-  margin-right: .8em;
   border-radius: 4px 0 0 4px;
 }
 .badge_component {
   display: inline-block;
   font-size: small;
   color: white;
-  padding: 0.8em 0.7em 0 0.7em;
+  padding: 10px 10px 10px 10px;
   background-color: #3498DB;
-  line-height: 1em;
-  height: 1.8em;
-  margin-right: .8em;
   border-radius: 4px 0 0 4px;
 }
 .badge_project {
   display: inline-block;
   font-size: small;
   color: white;
-  padding: 0.8em 0.7em 0 0.7em;
+  padding: 10px 10px 10px 10px;
   background-color: #2E86C1;
-  line-height: 1em;
-  height: 1.8em;
-  margin-right: .8em;
   border-radius: 4px 0 0 4px;
 }
 .badge_comparative {
   display: inline-block;
   font-size: small;
   color: white;
-  padding: 0.8em 0.7em 0 0.7em;
+  padding: 10px 10px 10px 10px;
   background-color: #2874A6;
-  line-height: 1em;
-  height: 1.8em;
-  margin-right: .8em;
   border-radius: 4px 0 0 4px;
 }
 .buttons {
@@ -49,11 +37,11 @@
 .buttons .theme {
   color: #369;
 }
-div {
+div.divContent {
   color: #888;;
   background-color: #ffffff;
   left: .1em;
-  padding: 0.8em 0.7em 0 1.7em;
+  padding: 10px 10px 10px 10px;
   border: 1px solid #BBD8DC;  
 }
 label {
@@ -69,7 +57,6 @@ input {
   padding-left: .4em;
 }
 button {
-  margin-top: 20px;
   font-family: Arial;
   background-color: #eee;
   border: none;
