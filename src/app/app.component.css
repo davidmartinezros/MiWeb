@@ -1,13 +1,3 @@
-h1 {
-  font-size: 1.2em;
-  color: #999;
-  margin-bottom: 0;
-}
-h2 {
-  font-size: 2em;
-  margin-top: 0;
-  padding-top: 0;
-}
 nav a {
   padding: 5px 10px;
   text-decoration: none;
@@ -34,12 +24,15 @@ nav a:hover {
   list-style: none;
 }
 
+.legend ul li {
+  padding: 5px 5px 5px 5px;
+}
+
 .legend ul li a {
-  display: inline-block;
+  display: block;
+  padding: 10px 10px 10px 10px;
   color:#fff;
   background: #000;
-  width:130px;
-  padding: 10px 15px;
   text-decoration: none;
   -webkit-transition:all 500ms ease;
   -o-transition:all 500ms ease;
@@ -54,12 +47,13 @@ nav a:hover {
 .legend ul li a:hover {
   background-color: #BBD8DC; /* Cambiamos el fondo cuando el usuario pase el mouse */
   color: #21618C;
-  padding: 10px 15px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+  padding: 10px 10px 10px 10px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
 }
 
-.leyendas {
+.legendTexts {
   color: #21618C;
 	font-weight: normal;
+  vertical-align: -webkit-baseline-middle;
 }
 .dashboard-proyectos {
 	display: block;
