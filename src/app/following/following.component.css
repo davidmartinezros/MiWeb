@@ -8,10 +8,10 @@
   padding-bottom: 5px;
 }
 .module_example {
-    text-align: center;
-    color: #fff;
-    background-color: #5DADE2;
-    border-radius: 2px;
+  text-align: center;
+  color: #fff;
+  background-color: #5DADE2;
+  border-radius: 2px;
 }
 .module_example:hover {
   background-color: #BBD8DC;
@@ -19,10 +19,10 @@
   color: #21618C;
 }
 .module_component {
-    text-align: center;
-    color: #fff;
-    background-color: #3498DB;
-    border-radius: 2px;
+  text-align: center;
+  color: #fff;
+  background-color: #3498DB;
+  border-radius: 2px;
 }
 .module_component:hover {
   background-color: #BBD8DC;
@@ -30,10 +30,10 @@
   color: #21618C;
 }
 .module_project {
-    text-align: center;
-    color: #fff;
-    background-color: #2E86C1;
-    border-radius: 2px;
+  text-align: center;
+  color: #fff;
+  background-color: #2E86C1;
+  border-radius: 2px;
 }
 .module_project:hover {
   background-color: #BBD8DC;
@@ -41,13 +41,29 @@
   color: #21618C;
 }
 .module_comparative {
-    text-align: center;
-    color: #fff;
-    background-color: #2874A6;
-    border-radius: 2px;
+  text-align: center;
+  color: #fff;
+  background-color: #2874A6;
+  border-radius: 2px;
 }
 .module_comparative:hover {
   background-color: #BBD8DC;
   cursor: pointer;
   color: #21618C;
+}
+.textosTaula {
+  text-align: center;
+  color: #000;
+  background-color: #FFF;
+  border-radius: 2px;
+}
+.textosTaula:hover {
+  background-color: #BBD8DC;
+  cursor: pointer;
+  color: #21618C;
+}
+.capcaleresTaula {
+  background-color: #21618C;
+  color: #FFF;
+  border-radius: 2px;
 }

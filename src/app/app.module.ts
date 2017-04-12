@@ -9,6 +9,7 @@ import { LocationStrategy, HashLocationStrategy } from '@angular/common';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing/app-routing.module';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { FollowingComponent } from './following/following.component';
 import { ProjectDetailComponent } from './project-detail/project-detail.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ProjectService } from './project.service';
@@ -24,6 +25,7 @@ import { ProjectTypeComponent } from './project-type/project-type.component';
   declarations: [
     AppComponent,
     DashboardComponent,
+    FollowingComponent,
     ProjectDetailComponent,
     ProjectsComponent,
     ProjectPipeFilterPipe,
