@@ -41,7 +41,7 @@
     "tipus": "Project",
     "data": "10/19/2016",
     "link": "http://davidmartinezros.com",
-    "html": "I develop my Web with <a href='https://angular.io' target='_blank'>Angular2</a> and Typescript, using <a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'>Angular-Cli</a>.<br/><br/>This project is always changing and I regularly update with the other projects.<br/><br/>In my web you can take a look to the projects I have done and the actual and future projects.<br/><br/>The projects are done with <a href='https://angular.io' target='blank'>Angular 2</a> or with <a href='https://unity3d.com' target='blank'>Unity</a>.<br/><br/>With and eye on my objectives: a <b>Web Editor</b> and a <b>Remake of Ghost'n Goblins</b>.<br/><br/><b>Try it and have fun!</b>",
+    "html": "I develop my Web with <b>angular 4</b> using <b>angular/Cli</b>.<br/>Is a responsive web done with <b>bootstrap 3</b>.<br/><br/>The projects are done with <a href='https://angular.io' target='blank'>angular</a>, <a href='https://unity3d.com' target='blank'>unity</a> or <a href='https://www.java.com/' target='_blank'>java</a>.<br/><b>New objectives</b>: a <a href='/#/detail/301'>Artificial Intelligence Learning</a>, a <a href='/#/detail/14'>Remake of Snake Game</a> and a <a href='/#/detail/109'>Remake of Ghost'n Goblins</a>.",
     "repositori": "https://github.com/davidmartinezros/MiWeb"
     },
     {
@@ -198,6 +198,15 @@
     "repositori": "https://github.com/davidmartinezros/WaterProject"
     },
     {
+    "id": 109, "titol": "Remake of Ghost'n Goblins",
+    "tema": "Unity",
+    "tipus": "Project",
+    "data": "04/13/2017",
+    "link": "https://github.com/davidmartinezros/RemakeGhostnGoblins",
+    "html": "This project is a remake of the Ghost'n Goblins Game taking advantage of new technologies.<br/><br/><b>Coming Soon!</b>",
+    "repositori": "https://github.com/davidmartinezros/RemakeGhostnGoblins"
+    },
+    {
     "id": 201, "titol": "Comparative between AngularJS and Angular2",
     "tema": "Google Trends",
     "tipus": "Comparative",
@@ -241,5 +250,14 @@
     "link": "http://davidmartinezros.com/web/comparative_GoogleSearches.html",
     "html": "Objectives:<br/><br/>- This project aims to investigate and find out which subjects are of interest to the world.<br/>- As the interests of the world are very wide, center the searches in regions with similar interests (I begin with Spain).<br/>- And as interests vary over time, I will focus on the present.<br/>- The Searches use the <a href='https://www.google.com/trends/explore' target='_blank'>Google Trends Engine</a>.",
     "repositori": null
+    },
+    {
+    "id": 301, "titol": "Artificial Intelligence Learning",
+    "tema": "Java",
+    "tipus": "Project",
+    "data": "04/13/2017",
+    "link": "http://davidmartinezros.com:8080/calling-to-internet-1.0.0-SNAPSHOT/api/lru/state",
+    "html": "This Project is done in <b>Java 8</b> with <b>Spring Boot 1.5</b> and <b>Angular 4</b> with <b>Bootstrap 3</b>.<br/><br/>I'm doing the architecture and thinking and designing the concepts.<br/><br/><b/>Coming Soon!</b>",
+    "repositori": "https://github.com/davidmartinezros/HowDoYouLearn"
     }
 ]
