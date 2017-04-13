@@ -10,16 +10,16 @@ body {
 button {
 	padding: 5px 10px;
   text-decoration: none;
-  color: #607D8B;
-  font-family: Arial;
-  background-color: #eee;
-  border: none;
+	color: white;
+	background-color: orangered;
+  border: red;
   padding: 5px 10px;
   border-radius: 4px;
   cursor: pointer; cursor: hand;
 }
 button:hover {
-  background-color: #cfd8dc;
+  background-color: red;
+  border: orangered;
 }
 button:disabled {
   background-color: #eee;
