@@ -2,9 +2,9 @@
     <div class="row div withPaddingTop">
         <div class="col-xs-12">
             <div *ngIf="project">
-                <h2 class="withPaddingLeft">{{project.id}}. {{project.titol}} ({{project.data}}) - <button (click)="goLink()">project link</button></h2>
+                <h2 class="withPaddingLeft">{{project.id}}. {{project.titol}} ({{project.data}}) - <button *ngIf="project.link" (click)="goLink()">project link</button></h2>
                 <p innerHTML="{{project.html}}"></p>
-                <p *ngIf="project.repositori">Here you can obtain the source code from my <a href="{{project.repositori}}" target="_blank">repository project</a>.</p>
+                <p *ngIf="project.repositori" class="capcalera withPaddingLeft">Source code in the <a href="{{project.repositori}}" target="_blank">repository project</a>.</p>
             </div>
         </div>
     </div>

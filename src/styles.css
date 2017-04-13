@@ -112,7 +112,6 @@ img {
 	padding: 10px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
 }
 .capcalera {
-  border:1px solid #21618C;
   background-color:#BBD8DC;
 	color: #21618C;
   opacity: 1.0;
