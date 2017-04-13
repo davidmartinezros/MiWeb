@@ -1,12 +1,14 @@
-<div class="row">
-    <div class="col-xs-12">
-        <h3> {{title}} [<input type="checkbox" #input (change)="checked = input.checked" checked />expand]</h3>
-        <ul *ngIf="checked" class="projects">
-            <li *ngFor="let project of ( projects | projectPipeFilter : [{tema: tema, cercaText: cercaText}] ) "
-            [class.selected]="project.show" 
-            (click)="project.show = !project.show;">
-                <app-project [project]="project"></app-project>
-            </li>
-        </ul>
+<div class="withPaddingTop">
+    <div class="row div">
+        <div class="col-xs-12">
+            <h3> {{title}} [<input type="checkbox" #input (change)="checked = input.checked" checked />expand]</h3>
+            <ul *ngIf="checked" class="projects">
+                <li *ngFor="let project of ( projects | projectPipeFilter : [{tema: tema, cercaText: cercaText}] ) "
+                [class.selected]="project.show" 
+                (click)="project.show = !project.show;">
+                    <app-project [project]="project"></app-project>
+                </li>
+            </ul>
+        </div>
     </div>
 </div>

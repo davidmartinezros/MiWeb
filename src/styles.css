@@ -1,11 +1,14 @@
 * {
+	font-weight: normal;
   font-family: Arial, Helvetica, sans-serif;
 }
 body {
-  margin: 1em;
+	background-image: url('./assets/background.jpg');
+  margin: 5px;
+	padding: 0;
 }
 button {
-  padding: 5px 10px;
+	padding: 5px 10px;
   text-decoration: none;
   color: #607D8B;
   font-family: Arial;
@@ -26,46 +29,47 @@ button:disabled {
 /* Master Styles */
 h1 {
   color: #21618C;
+	background-color: #FFF;
   font-size: 250%;
 }
-h2, h3 {
+h2 {
+	color: #21618C;
+	background-color:#BBD8DC;
+}	
+h3 {
   color: #21618C;
 	background-color: #FFF;
 }
-.imgBackground {
-		padding-top: 10px;
-		padding-bottom: 10px;
-    background-image: url('./assets/background.jpg');
+h4 {
+  color: #FFF;
 }
-p {
+.div {
+	list-style-type: circle;
 	color: #21618C;
-	background-color: #FFF;
-	font-weight: normal;
+	background-color: #fff;
+	opacity: 0.8;
+  filter:alpha(opacity=80); /* For IE8 and earlier */
 }
-.projects {
-	color: #21618C;
-	font-weight: normal;
-}
-.projects>ul {
-	 list-style-type: circle;
-}
-/* . . . */
-div.links {
-	color: #DDD;
-  background-color: #607D8B;
-  left: .1em;
-}
-div.links a {
-	color: white;
-	text-decoration: none;
+.div:hover, .div:active {
+	opacity: 1.0;
+  filter:alpha(opacity=100); /* For IE8 and earlier */
 }
 a:link, a:visited {
 	font-weight: bold;
-	color: #38488f;
+	color: orangered;
 	text-decoration: none;
+	font-size: 130%;
 }
 a:hover {
+	color: red;
   text-decoration: underline;
+}
+a:active {
+	color: white;
+	background-color: red;
+}
+img {
+	margin: 10px;
 }
 
 /* redes sociales*/
@@ -76,34 +80,62 @@ a:hover {
 	z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
 }
  
-	.social ul {
-		list-style: none;
-	}
- 
-	.social ul li a {
-		display: inline-block;
-		color:#fff;
-		background: #000;
-		padding: 10px 15px;
-		text-decoration: none;
-		-webkit-transition:all 500ms ease;
-		-o-transition:all 500ms ease;
-		transition:all 500ms ease; /* Establecemos una transición a todas las propiedades */
-	}
+.social ul {
+	list-style: none;
+}
 
-	.social ul li .icon-facebook {background:#3b5998;} /* Establecemos los colores de cada red social, aprovechando su class */
-	.social ul li .icon-twitter {background: #55acee;}
-	.social ul li .icon-google-plus {background: #dd4b39;}
-  .social ul li .icon-instagram {background: #125688;}
-	.social ul li .icon-pinterest {background: #cb2027;}
-  .social ul li .icon-github {background: #000000;}
-	.social ul li .icon-youtube {background: #bb0000;}
-	.social ul li .icon-linkedin {background: #007bb5;}
-	.social ul li .icon-flickr {background: #ff0084;}
-	.social ul li .icon-mail {background: #666666;}
- 
-	.social ul li a:hover {
-		background-color: #BBD8DC; /* Cambiamos el fondo cuando el usuario pase el mouse */
-		color: #21618C;
-		padding: 10px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
-	}
+.social ul li a {
+	display: inline-block;
+	color:#fff;
+	background: #000;
+	padding: 10px 15px;
+	text-decoration: none;
+	-webkit-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition:all 500ms ease; /* Establecemos una transición a todas las propiedades */
+}
+
+.social ul li .icon-facebook {background:#3b5998;} /* Establecemos los colores de cada red social, aprovechando su class */
+.social ul li .icon-twitter {background: #55acee;}
+.social ul li .icon-google-plus {background: #dd4b39;}
+.social ul li .icon-instagram {background: #125688;}
+.social ul li .icon-pinterest {background: #cb2027;}
+.social ul li .icon-github {background: #000000;}
+.social ul li .icon-youtube {background: #bb0000;}
+.social ul li .icon-linkedin {background: #007bb5;}
+.social ul li .icon-flickr {background: #ff0084;}
+.social ul li .icon-mail {background: #666666;}
+
+.social ul li a:hover {
+	background-color: #BBD8DC; /* Cambiamos el fondo cuando el usuario pase el mouse */
+	color: #21618C;
+	padding: 10px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+}
+.capcalera {
+  border:1px solid #21618C;
+  background-color:#BBD8DC;
+	color: #21618C;
+  opacity: 1.0;
+  filter:alpha(opacity=100); /* For IE8 and earlier */
+}
+.withPaddingLeft {
+	padding-left: 10px;
+}
+.withPaddingTop {
+  padding-top: 10px;
+}
+nav a:link, nav a:visited {
+  padding: 10px;
+  text-decoration: none;
+  margin-top: 10px;
+  display: inline-block;
+  background-color: #BBD8DC;
+  color: #21618C;
+  border-radius: 4px;
+  cursor: pointer; cursor: hand;
+}
+nav a:hover, nav a:active {
+	text-decoration: none;
+  background-color: #21618C;
+  color: #FFF;
+}

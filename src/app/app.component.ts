@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
 })
 
 export class AppComponent {
-  title = 'I publish all my projects in my domain <b><a href="http://www.davidmartinezros.com" target="_blank">davidmartinezros.com</a></b> and here you can take a look. <b>Try it and have fun!</b>';
+  title = ' I publish all my projects in my <a href="http://github.com/davidmartinezros" target="_blank">git repository</a>. <b>Try it and have fun!</b>';
 }

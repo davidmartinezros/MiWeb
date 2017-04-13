@@ -1,36 +1,12 @@
-nav a {
-  padding: 5px 10px;
-  text-decoration: none;
-  margin-top: 10px;
-  display: inline-block;
-  background-color: #5DADE2;
-  color: #21618C;
-  border-radius: 4px;
-  cursor: pointer; cursor: hand;
-}
-
-nav a:hover {
-  background-color: #21618C;
-  color: #FFF;
-}
-.leyenda {
-	background-color:#BBD8DC;
-	color: #21618C;
-}
-.legend {
-	 border:1px solid #21618C;
-}
-.legend ul {
+.div ul {
   list-style: none;
 }
-
-.legend ul li {
-  padding: 5px 5px 5px 5px;
+.div ul li {
+  padding-top: 10px;
 }
-
-.legend ul li a {
+.div ul li a {
   display: block;
-  padding: 10px 10px 10px 10px;
+  padding: 10px;
   color:#fff;
   background: #000;
   text-decoration: none;
@@ -39,20 +15,17 @@ nav a:hover {
   transition:all 500ms ease; /* Establecemos una transición a todas las propiedades */
 }
 
-.legend ul li .legend-examples {background:#5DADE2;} /* Establecemos los colores de cada red social, aprovechando su class */
-.legend ul li .legend-components {background: #3498DB;}
-.legend ul li .legend-projects {background: #2E86C1;}
-.legend ul li .legend-comparatives {background: #2874A6;}
+.div ul li .legend-examples {background:#5DADE2;} /* Establecemos los colores de cada red social, aprovechando su class */
+.div ul li .legend-components {background: #3498DB;}
+.div ul li .legend-projects {background: #2E86C1;}
+.div ul li .legend-comparatives {background: #2874A6;}
 
-.legend ul li a:hover {
+.div ul li a:hover {
   background-color: #BBD8DC; /* Cambiamos el fondo cuando el usuario pase el mouse */
   color: #21618C;
-  padding: 10px 10px 10px 10px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
 }
-
 .legendTexts {
   color: #21618C;
-	font-weight: normal;
   vertical-align: -webkit-baseline-middle;
 }
 .dashboard-proyectos {
