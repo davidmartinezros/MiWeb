@@ -14,7 +14,7 @@
     max-height: 120px;
     min-width: 120px;
     background-color: #5DADE2;
-    border-radius: 2px;
+    border-radius: 4px;
 }
 .module_example:hover {
   background-color: #BBD8DC;
@@ -28,7 +28,7 @@
     max-height: 120px;
     min-width: 120px;
     background-color: #3498DB;
-    border-radius: 2px;
+    border-radius: 4px;
 }
 .module_component:hover {
   background-color: #BBD8DC;
@@ -42,7 +42,7 @@
     max-height: 120px;
     min-width: 120px;
     background-color: #2E86C1;
-    border-radius: 2px;
+    border-radius: 4px;
 }
 .module_project:hover {
   background-color: #BBD8DC;
@@ -56,7 +56,7 @@
     max-height: 120px;
     min-width: 120px;
     background-color: #2874A6;
-    border-radius: 2px;
+    border-radius: 4px;
 }
 .module_comparative:hover {
   background-color: #BBD8DC;

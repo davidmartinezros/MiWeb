@@ -1,6 +1,9 @@
-<div class="row">
-    <div class="col-xs-12">
-        <h4>Project Search <input #input type="text" (input)="update.emit(input.value)" (update)="cercaText = $event"/></h4>
+<div class="row withPaddingTop">
+    <div class="col-xs-12 withPaddingLeft withPaddingTop capcalera">
+        <p>
+            <label>Find in projects</label>
+            <input #input class="inputSearch" type="text" (input)="update.emit(input.value)" (update)="cercaText = $event" placeholder="What are you looking for?"/>
+        </p>
     </div>
 </div>
 <app-project-list [tema]="'Angular2'" [cercaText]="input.value" [title]="'Angular2 Projects'"></app-project-list>
