@@ -37,9 +37,9 @@
 .buttons .theme {
   color: #369;
 }
-div.divContent {
+div.divContentDetail {
   color: #888;;
-  background-color: #ffffff;
+  background-color: #fff;
   left: .1em;
   padding: 10px 10px 10px 10px;
   border: 1px solid #BBD8DC;  

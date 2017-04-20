@@ -85,8 +85,9 @@ h2 {
 	background-color:#BBD8DC;
 }	
 h3 {
-  color: #21618C;
-	background-color: #FFF;
+  border-radius: 4px;
+	color: #21618C;
+	background-color:#BBD8DC;
 }
 h4 {
   color: #FFF;
