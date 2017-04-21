@@ -1,6 +1,6 @@
 <div class="row withPaddingTop">
-    <div class="col-xs-12 withPaddingLeft withPaddingTop capcalera">
-        <p>
+    <div class="col-xs-12">
+        <p class="capcalera withPaddingLeft withPaddingTop withPaddingBottom">
             <label>Find in projects</label>
             <input #input class="inputSearch" type="text" (input)="update.emit(input.value)" (update)="cercaText = $event" placeholder="What are you looking for?"/>
         </p>

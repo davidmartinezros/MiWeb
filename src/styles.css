@@ -58,14 +58,14 @@ button {
   text-decoration: none;
 	color: white;
 	background-color: orangered;
-  border: red;
+  border: 1px solid red;
   padding: 5px 10px;
   border-radius: 4px;
   cursor: pointer; cursor: hand;
 }
 button:hover {
   background-color: red;
-  border: orangered;
+  border: 1px solid orangered;
 }
 button:disabled {
   background-color: #eee;
@@ -171,6 +171,9 @@ img {
 .withPaddingTop {
   padding-top: 10px;
 }
+.withPaddingBottom {
+	padding-bottom: 10px;
+}
 nav a:link, nav a:visited {
 	font-weight: normal;
   font-size: 100%;
@@ -178,12 +181,13 @@ nav a:link, nav a:visited {
   text-decoration: none;
   margin-top: 10px;
   display: inline-block;
-  background-color: #BBD8DC;
-  color: #21618C;
-	border: 1px solid #21618C;
+  background-color: orangered;
+  color: white;
+	border: 1px solid red;
   border-radius: 4px;
   cursor: pointer; cursor: hand;
 }
 nav a:hover, nav a:active {
-  background-color: white;
+  background-color: red;
+  border: 1px solid orangered;
 }
