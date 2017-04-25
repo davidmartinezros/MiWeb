@@ -6,9 +6,9 @@
             <span class="theme">({{project.tema}})</span>
         </span>
         <div class="divContentDetail" *ngIf="project.show" [@animation]="project.show" (click)="$event.stopPropagation()">
-            <h3>{{project.id}}. {{project.titol}} ({{project.data | date:'fullDate'}}) - <button (click)="goLink()">project link</button></h3>
+            <p class="titolProjecteText withPaddingLeft">{{project.id}}. {{project.titol}} ({{project.data | date:'fullDate'}}) - <button (click)="goLink()">project link</button></p>
             <p innerHTML="{{project.html}}"></p>
-            <p *ngIf="project.repositori">Here you can obtain the source code from my <a href="{{project.repositori}}" target="_blank">repository project</a>.</p>
+            <p *ngIf="project.repositori" class="repositoriText withPaddingLeft">Source code in the <a href="{{project.repositori}}" target="_blank">repository project</a>.</p>
         </div>
     </div>
 </div>
