@@ -86,7 +86,7 @@
     "tipus": "Project",
     "data": "01/26/2017",
     "link": "http://davidmartinezros.com/Angular2/climate-project/",
-    "html": "This project show the weather prediction in Spain the next four days. Use a configurable widget provided by <a href='http://www.aemet.es/es/portada' target='_blank'>AEMET</a>.<br/<br/>You can find any municipality in Spain.<br/><br/> I'm going to improve enhancements shortly!",
+    "html": "This project show the weather prediction of any municipality in Spain the next four days.<br/><br/>Use a configurable widget provided by <a href='http://www.aemet.es/es/portada' target='_blank'>AEMET</a>.<br/><br/>If <b>anyone is interesting</b> in this project, <a href='mailto:davidnezan@gmail.com'>contact me</a> to improve the product and make it commercial!",
     "repositori": "https://github.com/davidmartinezros/climate-project"
     },
     {
@@ -203,7 +203,7 @@
     "tipus": "Project",
     "data": "04/13/2017",
     "link": "https://github.com/davidmartinezros/RemakeGhostnGoblins",
-    "html": "This project is a remake of the Ghost'n Goblins Game taking advantage of new technologies.<br/><br/>My collaborators will be <b>Jordi Via</b> and <b>Xavi Guerrero</b>.<br/><br/><b>Coming Soon!</b>",
+    "html": "This project is a remake of the Ghost'n Goblins Game taking advantage of new technologies.<br/><br/>My collaborators will be <a href='https://twitter.com/JordiViaVia' target='_blank'>Jordi Via</a> and <a href='mailto:xavi.warrior.peace@gmail.com'>Xavi Guerrero</a>.<br/><br/><b>Coming Soon!</b>",
     "repositori": "https://github.com/davidmartinezros/RemakeGhostnGoblins"
     },
     {
@@ -257,7 +257,7 @@
     "tipus": "Project",
     "data": "04/13/2017",
     "link": "http://davidmartinezros.com:8080/calling-to-internet-1.0.0-SNAPSHOT/api/lru/state",
-    "html": "This Project is done in <b>Java 8</b> with <b>Spring Boot 1.5</b> and <b>Angular 4</b> with <b>Bootstrap 3</b>.<br/><br/>I'm doing the architecture and thinking and designing the concepts.<br/><br/>For the moment, I've done an Spring Boot <a href='http://davidmartinezros.com:8080/how-do-you-learn-SB-1.0.0-SNAPSHOT/api/howdyl/state' target='_blank'>LRU Cache of Unity Knowledge Rest Service</a> and an Spring Boot <a href='http://davidmartinezros.com:8080/calling-to-internet-1.0.0-SNAPSHOT/api/lru/state' target='_blank'>Calling to Internet Rest Service</a>.<br/><br/><b>Coming Soon!</b>",
+    "html": "This Project is done in <b>Java 8</b> with <b>Spring Boot 1.5</b> and <b>Angular 4</b> with <b>Bootstrap 3</b>.<br/><br/>I'm doing the architecture and thinking and designing the concepts.<br/><br/>For the moment, I've done:<br/><br/>An Spring Boot <a href='http://davidmartinezros.com:8080/how-do-you-learn-SB-2.0.0-SNAPSHOT/api/howdyl/state' target='_blank'>Unity Knowledge Rest Service</a> saved in a <b>MongoDB</b>.<br/>An Spring Boot <a href='http://davidmartinezros.com:8080/calling-to-internet-1.0.0-SNAPSHOT/api/lru/state' target='_blank'>Calling to Internet Rest Service</a> using <b>Google Search Engine</b>.<br/><br/><b>Coming Soon!</b>",
     "repositori": "https://github.com/davidmartinezros/HowDoYouLearn"
     }
 ]
