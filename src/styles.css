@@ -173,6 +173,9 @@ img {
 .withPaddingLeft {
 	padding-left: 10px;
 }
+.withPaddingRight {
+	padding-right: 10px;
+}
 .withPaddingTop {
   padding-top: 10px;
 }
