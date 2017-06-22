@@ -4,7 +4,6 @@ import { NgModule, forwardRef } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule, Http, XHRBackend, RequestOptions } from '@angular/http';
 import { Router } from '@angular/router';
-import { LocationStrategy, HashLocationStrategy } from '@angular/common';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing/app-routing.module';

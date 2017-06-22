@@ -26,7 +26,7 @@
     "data": "10/18/2016",
     "estat": "FINISHED",
     "link": "http://davidmartinezros.com/Angular2/TourOfHeroesWithCli/",
-    "html": "This example is the same as the <b><a href='/#/detail/2'>2. My first Application Example (17/10/2016)</a></b>.<br/>What it's different is than, in this one, I use <a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'>Angular-Cli</a> for generate the project, the components and for build.<br/><a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'>Angular-Cli</a> is in the 17th beta version for the moment, but it feels interesting.<br/><br/>With Angular-Cli you can:<br/>- Generate your project with a Cli Project Structure.<br/>- Generate the elements of your web (Components, Modules, Services, Classes, etc.).<br/>- Build the project and <a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'>Angular-Cli</a> generate only the files necessary identifying the developing mode (dev, prod, etc.). This build compact the project and you don't need the node_modules carpet with the dependencies.<br/><br/>You can do the example in the next tutorial and with the angular-cli instructions.",
+    "html": "This example is the same as the <b><a href='/detail/2'>2. My first Application Example (17/10/2016)</a></b>.<br/>What it's different is than, in this one, I use <a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'>Angular-Cli</a> for generate the project, the components and for build.<br/><a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'>Angular-Cli</a> is in the 17th beta version for the moment, but it feels interesting.<br/><br/>With Angular-Cli you can:<br/>- Generate your project with a Cli Project Structure.<br/>- Generate the elements of your web (Components, Modules, Services, Classes, etc.).<br/>- Build the project and <a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'>Angular-Cli</a> generate only the files necessary identifying the developing mode (dev, prod, etc.). This build compact the project and you don't need the node_modules carpet with the dependencies.<br/><br/>You can do the example in the next tutorial and with the angular-cli instructions.",
     "repositori": "https://github.com/davidmartinezros/angular-tour-of-heroes-by-me-with-cli"
     },
     {
@@ -36,7 +36,7 @@
     "data": "10/18/2016",
     "estat": "FINISHED",
     "link": "http://davidmartinezros.com/Angular2/TourOfHeroesWithCliCRUD/",
-    "html": "This example is the same as the <b><a href='/#/detail/3'>3. My first Application Example with Angular-cli (18/10/2016)</a></b>.<br/>Here is implemented the edition, deleting and searching of a heroe.<br/><br/>You can:<br/>- Edit a hero in the detail of a hero.<br/>- Delete a hero in the list of heroes.<br/>- Search a hero in the dashboard.<br/><br/>You can do the example in the next <a href='https://angular.io/docs/ts/latest/tutorial/toh-pt6.html' target='_blank'>tutorial</a>.",
+    "html": "This example is the same as the <b><a href='/detail/3'>3. My first Application Example with Angular-cli (18/10/2016)</a></b>.<br/>Here is implemented the edition, deleting and searching of a heroe.<br/><br/>You can:<br/>- Edit a hero in the detail of a hero.<br/>- Delete a hero in the list of heroes.<br/>- Search a hero in the dashboard.<br/><br/>You can do the example in the next <a href='https://angular.io/docs/ts/latest/tutorial/toh-pt6.html' target='_blank'>tutorial</a>.",
     "repositori": "https://github.com/davidmartinezros/angular-tour-of-heroes-by-me-with-cli"
     },
     {
@@ -46,7 +46,7 @@
     "data": "10/19/2016",
     "estat": "WORKING",
     "link": "http://davidmartinezros.com",
-    "html": "I develop my Web with <b>angular 4</b> using <b>angular/Cli</b>.<br/>Is a responsive web done with <b>bootstrap 3</b>.<br/><br/>The projects are done with <a href='https://angular.io' target='blank'>angular</a>, <a href='https://unity3d.com' target='blank'>unity</a> or <a href='https://www.java.com/' target='_blank'>java</a>.<br/><b>New objectives</b>: a <a href='/#/detail/301'>Artificial Intelligence Learning</a>, a <a href='/#/detail/14'>Remake of Snake Game</a> and a <a href='/#/detail/109'>Remake of Ghost'n Goblins</a>.",
+    "html": "I develop my Web with <b>angular 4</b> using <b>angular/Cli</b>.<br/>Is a responsive web done with <b>bootstrap 3</b>.<br/><br/>The projects are done with <a href='https://angular.io' target='blank'>angular</a>, <a href='https://unity3d.com' target='blank'>unity</a> or <a href='https://www.java.com/' target='_blank'>java</a>.<br/><b>New objectives</b>: a <a href='/detail/301'>Artificial Intelligence Learning</a>, a <a href='/detail/14'>Remake of Snake Game</a> and a <a href='/detail/109'>Remake of Ghost'n Goblins</a>.",
     "repositori": "https://github.com/davidmartinezros/MiWeb"
     },
     {
