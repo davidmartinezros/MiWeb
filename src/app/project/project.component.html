@@ -7,7 +7,7 @@
         </span>
         <div class="withPaddingBottom" *ngIf="project.show">
             <div class="divContentDetail withPaddingTop withPaddingLeft withPaddingRight" [@animation]="project.show" (click)="$event.stopPropagation()">
-                <p class="titolProjecteText withPaddingLeft">Beginning date: {{project.data | date:'fullDate'}} | STATE: {{project.estat}} | <button (click)="goLink()">project link</button></p>
+                <p class="titolProjecteText withPaddingLeft">Beginning date: {{project.data | date:'fullDate'}} <button (click)="goLink()">project link</button> <span class="estilEstat">STATE: <b>{{project.estat}}</b></span></p>
                 <p innerHTML="{{project.html}}"></p>
                 <p *ngIf="project.repositori" class="repositoriText withPaddingLeft">Source code in the <a href="{{project.repositori}}" target="_blank">repository project</a>.</p>
             </div>

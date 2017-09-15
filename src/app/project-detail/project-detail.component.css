@@ -10,3 +10,7 @@ input {
   font-size: 1em;
   padding-left: .4em;
 }
+.estilEstat {
+  border: 1px solid #21618C;
+  padding: 5px;
+}
