@@ -1,11 +1,11 @@
-.div ul {
+.legend-ul {
   list-style: none;
   padding-left: 0px;
 }
-.div ul li {
+.legend-li {
   padding-top: 10px;
 }
-.div ul li a {
+.legend-link {
   border-radius: 4px;
 	border: 1px solid #21618C;
   display: block;
@@ -17,16 +17,16 @@
   -o-transition:all 500ms ease;
   transition:all 500ms ease; /* Establecemos una transición a todas las propiedades */
 }
-
-.div ul li .legend-examples {background:#5DADE2;} /* Establecemos los colores de cada red social, aprovechando su class */
-.div ul li .legend-components {background: #3498DB;}
-.div ul li .legend-projects {background: #2E86C1;}
-.div ul li .legend-comparatives {background: #2874A6;}
-
-.div ul li a:hover {
+.legend-link:hover {
   background-color: #BBD8DC; /* Cambiamos el fondo cuando el usuario pase el mouse */
   color: #21618C;
 }
+
+.legend-examples {background:#5DADE2;} /* Establecemos los colores de cada red social, aprovechando su class */
+.legend-components {background: #3498DB;}
+.legend-projects {background: #2E86C1;}
+.legend-comparatives {background: #2874A6;}
+
 .legendTexts {
   color: #21618C;
   vertical-align: -webkit-baseline-middle;
@@ -34,4 +34,7 @@
 .dashboard-proyectos {
 	display: block;
 	margin: auto;
+}
+.pButtonTry {
+  text-align: center;
 }
