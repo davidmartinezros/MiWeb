@@ -147,6 +147,29 @@ img {
 	color: #21618C;
 	padding: 10px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
 }
+.home {
+	padding: 10px;
+	position: fixed;
+	bottom: 18px;
+	z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+}
+.home a:link, .home a:visited {
+	font-weight: normal;
+  font-size: 100%;
+  padding: 5px;
+  text-decoration: none;
+  margin-top: 10px;
+  display: inline-block;
+  background-color: orangered;
+  color: white;
+	border: 1px solid red;
+  border-radius: 4px;
+  cursor: pointer; cursor: hand;
+}
+.home a:hover, .home a:active {
+  background-color: red;
+  border: 1px solid orangered;
+}
 .capcalera {
 	border-radius: 4px;
   background-color:#BBD8DC;
