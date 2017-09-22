@@ -1,13 +1,19 @@
 <div class="div">
     <div class="row">
-        <div class="col-xs-2">
-            <span [class]="getStyleClass()">{{project.id}}</span>
+        <div class="col-xs-2" style="padding-top: 2px">
+            <div [class]="getStyleClass()">{{project.id}}</div>
         </div>
         <div class="col-xs-10">
-            <span>{{project.titol}}</span>
-            <span class="buttons">
-                <span class="theme">({{project.tema}})</span>
-            </span>
+            <div class="row">
+                <div class="col-xs-12">
+                    {{project.titol}}
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12" class="buttons">
+                    <span class="theme">({{project.tema}})</span>
+                </div>
+            </div>
         </div>
     </div>
     <div class="row">

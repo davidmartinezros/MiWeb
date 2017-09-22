@@ -2,37 +2,45 @@
   display: inline-block;
   font-size: small;
   color: white;
+  margin-left: 2px;
   padding: 10px 10px 10px 10px;
   background-color: #5DADE2;
   border-radius: 4px 0 0 4px;
+  border: 1px solid #21618C;
 }
 .badge_component {
   display: inline-block;
   font-size: small;
   color: white;
+  margin-left: 2px;
   padding: 10px 10px 10px 10px;
   background-color: #3498DB;
   border-radius: 4px 0 0 4px;
+  border: 1px solid #21618C;
 }
 .badge_project {
   display: inline-block;
   font-size: small;
   color: white;
+  margin-left: 2px;
   padding: 10px 10px 10px 10px;
   background-color: #2E86C1;
   border-radius: 4px 0 0 4px;
+  border: 1px solid #21618C;
 }
 .badge_comparative {
   display: inline-block;
   font-size: small;
   color: white;
+  margin-left: 2px;
   padding: 10px 10px 10px 10px;
   background-color: #2874A6;
   border-radius: 4px 0 0 4px;
+  border: 1px solid #21618C;
 }
 .buttons {
   float: right;
-  padding: .3em 0.7em 0;
+  padding: .3em 1.4em 0;
 }
 .buttons .theme {
   color: orangered;
