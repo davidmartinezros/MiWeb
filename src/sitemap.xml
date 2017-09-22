@@ -155,4 +155,28 @@
 <url>
   <loc>http://davidmartinezros.com/index.html</loc>
 </url>
+<url>
+  <loc>http://davidmartinezros.com/Angular2/bind-json-array-to-html-table/</loc>
+</url>
+<url>
+  <loc>http://davidmartinezros.com/Angular2/HelloWorld/</loc>
+</url>
+<url>
+  <loc>http://davidmartinezros.com/Angular2/Mi3DWorld/</loc>
+</url>
+<url>
+  <loc>http://davidmartinezros.com/Angular2/Mi3DWorld2/</loc>
+</url>
+<url>
+  <loc>http://davidmartinezros.com/Angular2/Mi3DWorld3/</loc>
+</url>
+<url>
+  <loc>http://davidmartinezros.com/Angular2/TourOfHeroes/</loc>
+</url>
+<url>
+  <loc>http://davidmartinezros.com/Angular2/TourOfHeroesWithCli/</loc>
+</url>
+<url>
+  <loc>http://davidmartinezros.com/Angular2/TourOfHeroesWithCliCRUD/</loc>
+</url>
 </urlset>
