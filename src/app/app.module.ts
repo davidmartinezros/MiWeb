@@ -15,7 +15,6 @@ import { ProjectService } from './project.service';
 import { PipesModule } from './pipes/pipes.module';
 
 import './rxjs-extensions';
-import { ProjectPipeFilterPipe } from './project-pipe-filter.pipe';
 import { ProjectComponent } from './project/project.component';
 import { ProjectListComponent } from './project-list/project-list.component';
 import { ProjectTypeComponent } from './project-type/project-type.component';
@@ -52,7 +51,6 @@ store.dispatch({
     FollowingComponent,
     ProjectDetailComponent,
     ProjectsComponent,
-    ProjectPipeFilterPipe,
     ProjectComponent,
     ProjectListComponent,
     ProjectTypeComponent

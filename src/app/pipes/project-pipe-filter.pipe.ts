@@ -1,12 +1,12 @@
 import { Pipe, PipeTransform } from '@angular/core';
 
-import { Project } from './project';
+import { Project } from '../project';
 
 @Pipe({
   name: 'projectPipeFilter',
   pure: false
 })
-export class ProjectPipeFilterPipe implements PipeTransform {
+export class ProjectPipeFilter implements PipeTransform {
 
   transform(projects: Project[], args: any[]): Project[] {
 
