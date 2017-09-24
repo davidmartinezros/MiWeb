@@ -1,14 +1,23 @@
 <div class="withPaddingBottom">
     <div class="row div">
         <div class="col-xs-12">
-            <h3> {{title}} [<input type="checkbox" #input (change)="checked = input.checked" checked />expand]</h3>
-            <ul *ngIf="checked" class="projects">
-                <li *ngFor="let project of ( projects | projectPipeFilter : [{tema: tema, cercaText: cercaText}] ) "
-                [class.selected]="project.show" 
-                (click)="project.show = !project.show;">
-                    <app-project [project]="project"></app-project>
-                </li>
-            </ul>
+            <md-expansion-panel>
+                <md-expansion-panel-header>
+                    <md-panel-title style="padding:10px">
+                        {{title}}
+                    </md-panel-title>
+                    <md-panel-description style="padding:10px">
+                        {{description}}
+                    </md-panel-description>
+                </md-expansion-panel-header>
+                <ul class="projects">
+                    <li *ngFor="let project of ( projects | projectPipeFilter : [{tema: tema, cercaText: cercaText}] ) "
+                    [class.selected]="project.show" 
+                    (click)="project.show = !project.show;">
+                        <app-project [project]="project"></app-project>
+                    </li>
+                </ul>
+            </md-expansion-panel>            
         </div>
     </div>
 </div>

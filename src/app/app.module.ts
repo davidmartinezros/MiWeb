@@ -28,6 +28,8 @@ import {
   createStore,
 } from 'redux';
 
+import { MdExpansionModule } from '@angular/material';
+
 function todos(state = [], action) {
   switch (action.type) {
     case 'ADD_TODO':
@@ -62,7 +64,8 @@ store.dispatch({
     FormsModule,
     HttpModule,
     AppRoutingModule,
-    PipesModule
+    PipesModule,
+    MdExpansionModule
   ],
   providers: [
     ProjectService

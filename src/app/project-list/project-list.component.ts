@@ -12,6 +12,8 @@ export class ProjectListComponent implements OnInit {
 
   @Input() title: string;
 
+  @Input() description: string;
+
   @Input() tema: string;
 
   @Input() cercaText: string;

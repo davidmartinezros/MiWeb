@@ -40,7 +40,7 @@ export class FollowingComponent implements OnInit {
     } else if(project.tipus === 'Comparative') {
       styleClass = "module_comparative";
     }
-    console.log(styleClass);
+    //console.log(styleClass);
     return styleClass;
   }
 }
