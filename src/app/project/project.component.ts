@@ -79,7 +79,7 @@ export class ProjectComponent implements OnInit {
       } else if(this.project.tipus === 'Comparative') {
         styleClass = "badge_comparative";
       }
-      console.log(styleClass);
+      //console.log(styleClass);
       return styleClass;
     }
 
