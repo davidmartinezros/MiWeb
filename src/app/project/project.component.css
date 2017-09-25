@@ -3,6 +3,8 @@
   font-size: small;
   color: white;
   margin-left: 2px;
+  margin-top: 2px;
+  margin-bottom: 2px;
   padding: 10px 10px 10px 10px;
   background-color: #5DADE2;
   border-radius: 4px 0 0 4px;
@@ -13,6 +15,8 @@
   font-size: small;
   color: white;
   margin-left: 2px;
+  margin-top: 2px;
+  margin-bottom: 2px;
   padding: 10px 10px 10px 10px;
   background-color: #3498DB;
   border-radius: 4px 0 0 4px;
@@ -23,6 +27,8 @@
   font-size: small;
   color: white;
   margin-left: 2px;
+  margin-top: 2px;
+  margin-bottom: 2px;
   padding: 10px 10px 10px 10px;
   background-color: #2E86C1;
   border-radius: 4px 0 0 4px;
@@ -33,6 +39,8 @@
   font-size: small;
   color: white;
   margin-left: 2px;
+  margin-top: 2px;
+  margin-bottom: 2px;
   padding: 10px 10px 10px 10px;
   background-color: #2874A6;
   border-radius: 4px 0 0 4px;
@@ -66,4 +74,5 @@ input {
 .estilEstat {
   border: 1px solid #21618C;
   padding: 5px;
+  margin-left:15px; 
 }

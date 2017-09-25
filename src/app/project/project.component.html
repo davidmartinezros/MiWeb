@@ -1,30 +1,53 @@
-<div class="div">
-    <div class="row">
-        <div class="col-xs-2" style="padding-top: 2px">
-            <div [class]="getStyleClass()">{{project.id}}</div>
-        </div>
-        <div class="col-xs-10">
-            <div class="row">
-                <div class="col-xs-12">
-                    {{project.titol}}
+    <div class="div">
+        <div class="row">
+            <div class="col-xs-3 col-md-2 col-lg-1">
+                <div [class]="getStyleClass()">{{project.id}}</div>
+            </div>
+            <div class="col-xs-9 col-md-10 col-log-11">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <b>{{project.titol}}</b>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <i>{{project.data | date:'fullDate'}}</i>
+                    </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-xs-12" class="buttons">
-                    <span class="theme">({{project.tema}})</span>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="withPaddingBottom" *ngIf="project.show">
+                    <div class="divContentDetail withPaddingTop withPaddingLeft withPaddingRight" [@animation]="project.show" (click)="$event.stopPropagation()">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <div class="titolProjecteText withPaddingLeft">
+                                    <div class="row">
+                                        <div class="col-xs-12 col-md-3 col-sm-3 col-lg-2">
+                                            <button (click)="goLink()">project link</button>
+                                        </div>
+                                        <div class="col-xs-7 col-md-3 col-sm-3 col-lg-2 estilEstat">
+                                            STATE: <b>{{project.estat}}</b>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                                <div class="col-xs-12">
+                                    <div innerHTML="{{project.html}}"></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <div *ngIf="project.repositori" class="repositoriText withPaddingLeft">
+                                    Source code in the <a href="{{project.repositori}}" target="_blank">repository project</a>.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="row">
-        <div class="col-xs-12">
-            <div class="withPaddingBottom" *ngIf="project.show">
-                <div class="divContentDetail withPaddingTop withPaddingLeft withPaddingRight" [@animation]="project.show" (click)="$event.stopPropagation()">
-                    <p class="titolProjecteText withPaddingLeft">Beginning date: {{project.data | date:'fullDate'}} <button (click)="goLink()">project link</button> <span class="estilEstat">STATE: <b>{{project.estat}}</b></span></p>
-                    <p innerHTML="{{project.html}}"></p>
-                    <p *ngIf="project.repositori" class="repositoriText withPaddingLeft">Source code in the <a href="{{project.repositori}}" target="_blank">repository project</a>.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>

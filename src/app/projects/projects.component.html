@@ -1,6 +1,7 @@
 <div class="row withPaddingTop">
     <div class="col-xs-12">
         <p class="capcalera withPaddingLeft withPaddingTop withPaddingBottom">
+            <i class="material-icons" style="vertical-align: middle">search</i>
             <label>Find in projects</label>
             <input #input class="inputSearch" type="text" (input)="update.emit(input.value)" (update)="cercaText = $event" placeholder="What are you looking for?"/>
         </p>
