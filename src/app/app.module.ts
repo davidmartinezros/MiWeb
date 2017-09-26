@@ -29,6 +29,9 @@ import {
 } from 'redux';
 
 import { MdExpansionModule } from '@angular/material';
+import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
+import { HttpClientModule, HttpClient } from '@angular/common/http';
+import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 
 function todos(state = [], action) {
   switch (action.type) {
@@ -63,9 +66,17 @@ store.dispatch({
     BrowserAnimationsModule,
     FormsModule,
     HttpModule,
+    HttpClientModule,
     AppRoutingModule,
     PipesModule,
-    MdExpansionModule
+    MdExpansionModule,
+    TranslateModule.forRoot({
+      loader: {
+        provide: TranslateLoader,
+        useFactory: (createTranslateLoader),
+        deps: [HttpClient]
+      }
+    })
   ],
   providers: [
     ProjectService
@@ -83,4 +94,7 @@ export class AppModule {
 
   }
 
+}
+export function createTranslateLoader(http: HttpClient) {
+  return new TranslateHttpLoader(http, './assets/i18n/', '.json');
 }
