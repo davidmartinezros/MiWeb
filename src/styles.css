@@ -80,7 +80,7 @@ h2 {
 	border-radius: 4px;
 	color: #21618C;
 	background-color:#BBD8DC;
-}	
+}
 h3 {
   border-radius: 4px;
 	color: #21618C;
@@ -97,7 +97,8 @@ a:link, a:visited {
 }
 a:hover {
 	color: red;
-  text-decoration: underline;
+	text-decoration: underline;
+	cursor: pointer; cursor: hand;
 }
 a:active {
 	color: white;

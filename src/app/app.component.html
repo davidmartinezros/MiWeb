@@ -24,8 +24,8 @@
         </ul>
       </div>
       <div class="home">
-        <a href="http://davidmartinezros.com">Home</a>
-        <a href="https://www.linkedin.com/in/david-mart%C3%ADnez-ros-912862131/" target="_blank">About</a>
+        <a href="http://davidmartinezros.com">{{ 'Home' | translate }}</a>
+        <a href="https://www.linkedin.com/in/david-mart%C3%ADnez-ros-912862131/" target="_blank">{{ 'About' | translate }}</a>
       </div>
     </div>
     <div class="col-sm-11 col-xs-12 withPaddingTop divContent">
@@ -33,21 +33,33 @@
         <div class="col-sm-3 hidden-xs">
           <img class="img-thumbnail hidden-xs" src="assets/foto_petita.jpg" alt="David Martinez Ros" title="David Martinez Ros" width="250" height="250"/>
         </div>
-        <div class="col-sm-1 hidden-xs">
-        </div>
-        <div class="col-sm-8 col-xs-12">
+        <div class="col-sm-9 col-xs-12">
           <div class="row div">
             <div class="col-xs-12">
-              <h2 class="withPaddingLeft">David Martinez Ros (<a href="http://www.twitter.com/davidnezan" target="_blank">@davidnezan</a>)</h2>
+              <div class="row">
+                <div class="col-xs-10">
+                  <h2 class="withPaddingLeft">
+                    David Martinez Ros (<a href="http://www.twitter.com/davidnezan" target="_blank">@davidnezan</a>)
+                  </h2>
+                </div>
+                <div class="col-xs-1">
+                  <a (click)="changeLanguage('es')">ES</a>
+                </div>
+                <div class="col-xs-1">
+                  <a (click)="changeLanguage('en')">EN</a>
+                </div>
+              </div>
+              
               <p>
-                Hi, I'm <strong>David</strong> from <a href="https://www.google.com/maps/place/Barcelona" target="_blank">Barcelona</a> | <a href="https://www.google.com/maps/place/Catalonia" target="_blank">Catalonia</a> | <a href="https://www.google.com/maps/place/Spain" target="_blank">Spain</a> | <a href="https://www.google.com/maps/place/Europe" target="_blank">Europe</a>.<br/>
-                I'm a <strong>Full Stack Developer</strong> doing <strong>Angular</strong>, <strong>Ionic</strong>, <strong>Java</strong> and <strong>Unity</strong> Projects.
+                <span [innerHtml]="'Introduction1' | translate"></span>
+                <br/>
+                <span [innerHtml]="'Introduction2' | translate"></span>
               </p>
               <p class="repositoriText withPaddingLeft">
-                I publish all my works in my <a href="http://github.com/davidmartinezros" target="_blank">git repository</a>.
+                <span [innerHtml]="'Introduction3' | translate"></span>
               </p>
               <p class="pButtonTry">
-                <button onclick="alert('This is just a joke, but thanks for trying.')">TRY IT AND HAVE FUN!</button>
+                <button onclick="alert('This is just a joke, but thanks for trying.')">{{ 'IntroductionAlertMessage' | translate }}</button>
               </p>
             </div>
           </div>
@@ -57,70 +69,47 @@
         <div class="col-sm-12">
           <div class="row">
             <div class="col-sm-12">
-              <div>{{ 'HELLO' | translate }}</div>
-              <h2 class="withPaddingLeft">Current activities I am working in:</h2>
+              <h2 class="withPaddingLeft">{{ 'Title1' | translate }}</h2>
             </div>
           </div>
           <div class="row">
             <div class="col-sm-12">
               <ul>
                 <li>
-                  <strong>Components with Angular:</strong>
+                  <strong>{{ 'Subtitle1.1' | translate }}</strong>
                   <ul>
-                    <li>
-                      <a href="http://davidmartinezros.com/Angular2/components-animations-project/" target="_blank">animations</a>, a
-                      <a href="http://davidmartinezros.com/Angular2/component-tree-project/" target="_blank">tree</a> and
-                      <a href="http://davidmartinezros.com/Angular2/component-divs-project/" target="_blank">divs draggable</a>.
-                    </li>
+                    <li [innerHtml]="'Description1.1.1' | translate "></li>
                   </ul>
                 </li>
                 <li>
-                  <strong>Projects with Angular:</strong>
+                  <strong>{{ 'Subtitle1.2' | translate }}</strong>
                   <ul>
-                    <li>
-                      <a href="http://davidmartinezros.com/Angular2/climate-project/" target="_blank">weather forecasts</a>, a
-                      <a href="http://davidmartinezros.com/Angular2/TheSnakeGame/" target="_blank">3d snake game</a>.
-                    </li>
+                    <li [innerHtml]="'Description1.2.1' | translate "></li>
                   </ul>
                 </li>
                 <li>
-                  <strong>Project with Angular and Java:</strong>
+                  <strong>{{ 'Subtitle1.3' | translate }}</strong>
                   <ul>
-                    <li>
-                      <a routerLink="/detail/301" routerLinkActive="active">artificial intelligence learning</a> (backend) - <a routerLink="/detail/15" routerLinkActive="active">myyme</a> (frontend).
-                    </li>
+                    <li [innerHtml]="'Description1.3.1' | translate "></li>
                   </ul>
                 </li>
                 <li>
-                  <strong>Project with Ionic and Java:</strong>
+                  <strong>{{ 'Subtitle1.4' | translate }}</strong>
                   <ul>
-                    <li>
-                      <a routerLink="/detail/401" routerLinkActive="active">which monument</a>.
-                    </li>
+                    <li [innerHtml]="'Description1.4.1' | translate "></li>
                   </ul>
                 </li>
                 <li>
-                  <strong>Game with Unity:</strong>
+                  <strong>{{ 'Subtitle1.5' | translate }}</strong>
                   <ul>
-                    <li>
-                      Looking for collaborators for remake the <strong>new</strong>
-                      <a routerLink="/detail/109" routerLinkActive="active">ghost'n goblins</a>
-                      taking advantage of new technologies (<a href="https://en.wikipedia.org/wiki/Ghosts_%27n_Goblins" target="_blank">reference</a>).
-                    </li>
+                    <li [innerHtml]="'Description1.5.1' | translate "></li>
                   </ul>
                 </li>
                 <li>
-                  <strong>Google trends comparatives:</strong>
+                  <strong>{{ 'Subtitle1.6' | translate }}</strong>
                   <ul>
-                    <li>
-                      I have done some investigations:
-                      <a href="http://davidmartinezros.com/web/comparative_Angular2.html" target="_blank">where goes angular?</a> and
-                      <a href="http://davidmartinezros.com/web/comparative_Unity.html" target="_blank">where is unity?</a>.
-                    </li>
-                    <li>
-                      I'm doing some studies:
-                      <a href="http://davidmartinezros.com/web/comparative_GoogleSearches.html" target="_blank">what are people interested in?</a>.
-                    </li>
+                    <li [innerHtml]="'Description1.6.1' | translate "></li>
+                    <li [innerHtml]="'Description1.6.2' | translate "></li>
                   </ul>
                 </li>
               </ul>
@@ -130,8 +119,7 @@
       </div>
       <div class="row">
         <div class="col-xs-12 withPaddingTop">
-          <p class="capcalera withPaddingLeft">For any technical trouble:
-                <a href="http://davidlearns.blogspot.com" target="_blank">davidlearns.blogspot.com</a>.</p>
+          <p class="capcalera withPaddingLeft" [innerHtml]="'Title2' | translate"></p>
         </div>
       </div>
       <div class="row">
@@ -142,45 +130,45 @@
                 <div class="col-xs-12">
                   <div class="row div">
                     <div class="col-xs-12">
-                      <h2 class="withPaddingLeft">Legend</h2>
+                      <h2 class="withPaddingLeft">{{ 'Title3' | translate }}</h2>
                       <ul class="legend-ul">
                         <li class="legend-li">
                           <div class="row">
                             <div class="col-xs-6 col-sm-4 col-lg-2">
-                              <a routerLink="/type/example" routerLinkActive="active" class="legend-link legend-examples">Examples</a>
+                              <a routerLink="/type/example" routerLinkActive="active" class="legend-link legend-examples">{{ 'Subtitle3.1' | translate }}</a>
                             </div>
                             <div class="col-xs-6 col-sm-8 col-lg-9">
-                              <span class="legendTexts">To come up with a good idea, first you have to do a lot of testing.</span>
+                              <span class="legendTexts">{{ 'Description3.1.1' | translate }}</span>
                             </div>
                           </div>
                         </li>
                         <li class="legend-li">
                           <div class="row">
                             <div class="col-xs-6 col-sm-4 col-lg-2">
-                              <a routerLink="/type/component" routerLinkActive="active" class="legend-link legend-components">Components</a>
+                              <a routerLink="/type/component" routerLinkActive="active" class="legend-link legend-components">{{ 'Subtitle3.2' | translate }}</a>
                             </div>
                             <div class="col-xs-6 col-sm-8 col-lg-9">
-                              <span class="legendTexts">Reusable components in Angular 2 and Unity 3D for make the programmer's life easier.</span>
+                              <span class="legendTexts">{{ 'Description3.2.1' | translate }}</span>
                             </div>
                           </div>
                         </li>
                         <li class="legend-li">
                           <div class="row">
                             <div class="col-xs-6 col-sm-4 col-lg-2">
-                              <a routerLink="/type/project" routerLinkActive="active" class="legend-link legend-projects">Projects</a>
+                              <a routerLink="/type/project" routerLinkActive="active" class="legend-link legend-projects">{{ 'Subtitle3.3' | translate }}</a>
                             </div>
                             <div class="col-xs-6 col-sm-8 col-lg-9">
-                              <span class="legendTexts">Current or future projects.</span>
+                              <span class="legendTexts">{{ 'Description3.3.1' | translate }}</span>
                             </div>
                           </div>
                         </li>
                         <li class="legend-li">
                           <div class="row">
                             <div class="col-xs-6 col-sm-4 col-lg-2">
-                              <a routerLink="/type/comparative" routerLinkActive="active" class="legend-link legend-comparatives">Comparatives</a>
+                              <a routerLink="/type/comparative" routerLinkActive="active" class="legend-link legend-comparatives">{{ 'Subtitle3.4' | translate }}</a>
                             </div>
                             <div class="col-xs-6 col-sm-8 col-lg-9">
-                              <span class="legendTexts">Worldwide Google Searches investigations with Google Trends.</span>
+                              <span class="legendTexts">{{ 'Description3.4.1' | translate }}</span>
                             </div>
                           </div>
                         </li>
@@ -192,9 +180,9 @@
             </div>
             <div class="col-xs-12 withPaddingTop">
               <nav class="dashboard-proyectos div withPaddingLeft withPaddingBottom">
-                <a routerLink="/dashboard" routerLinkActive="active">Dashboard View</a>
-                <a routerLink="/projects" routerLinkActive="active">List Of Projects</a>
-                <a routerLink="/following" routerLinkActive="active">Following</a>
+                <a routerLink="/dashboard" routerLinkActive="active">{{ 'Menu1' | translate }}</a>
+                <a routerLink="/projects" routerLinkActive="active">{{ 'Menu2' | translate }}</a>
+                <a routerLink="/following" routerLinkActive="active">{{ 'Menu3' | translate }}</a>
               </nav>
             </div>
             <div class="col-xs-12">
