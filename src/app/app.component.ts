@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -11,9 +12,24 @@ export class AppComponent {
 
   private language: String;
   
-  constructor(private translate: TranslateService) {
-    var userLang = navigator.language;
-    this.changeLanguage(userLang);
+  constructor(
+    private translate: TranslateService,
+    private route: ActivatedRoute) {
+      var userLang = "";
+      this.route.params.subscribe(params => {
+        userLang = params['lang'];
+      });
+      if(userLang == "") {
+        userLang = navigator.language;
+        if(userLang.startsWith("zh")) {
+          userLang = "zh";
+        }
+      }
+      if(userLang == "es" || userLang == "en" || userLang == "zh") {
+        this.changeLanguage(userLang);
+      } else {
+        this.changeLanguage("en");
+      }
   }
 
   public changeLanguage(language) {
