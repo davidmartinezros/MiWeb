@@ -58,7 +58,7 @@
                 <span [innerHtml]="'Introduction3' | translate"></span>
               </p>
               <p class="pButtonTry">
-                <button onclick="alert('This is just a joke, but thanks for trying.')">{{ 'IntroductionAlertMessage' | translate }}</button>
+                <button (click)="showIntroductionAlert()">{{ 'IntroductionAlertMessage' | translate }}</button>
               </p>
             </div>
           </div>

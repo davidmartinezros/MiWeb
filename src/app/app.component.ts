@@ -15,21 +15,24 @@ export class AppComponent {
   constructor(
     private translate: TranslateService,
     private route: ActivatedRoute) {
+      debugger;
       var userLang = "";
-      this.route.params.subscribe(params => {
+      this.route.queryParams.subscribe(params => {
         userLang = params['lang'];
-      });
-      if(userLang == "") {
-        userLang = navigator.language;
-        if(userLang.startsWith("zh")) {
-          userLang = "zh";
+        console.log("queryParams:" + userLang);
+
+        if(!userLang || userLang == "") {
+          userLang = navigator.language;
+          if(userLang.startsWith("zh")) {
+            userLang = "zh";
+          }
         }
-      }
-      if(userLang == "es" || userLang == "en" || userLang == "zh") {
-        this.changeLanguage(userLang);
-      } else {
-        this.changeLanguage("en");
-      }
+        if(userLang == "es" || userLang == "en" || userLang == "zh") {
+          this.changeLanguage(userLang);
+        } else {
+          this.changeLanguage("en");
+        }
+      });
   }
 
   public changeLanguage(language) {
@@ -44,6 +47,14 @@ export class AppComponent {
 
     this.language = language;
     
+  }
+
+  public showIntroductionAlert() {
+    this.translate.get("IntroductionAlert").subscribe(
+      key => {
+        window.alert(key);
+      }
+    );
   }
 
 
