@@ -7,6 +7,7 @@ import { ProjectService } from '../project.service';
 @Component({
   selector: 'app-dashboard',
   templateUrl: 'dashboard.component.html',
+  //changeDetection: ChangeDetectionStrategy.Default,
   styleUrls: ['dashboard.component.css'],
 })
 
@@ -18,8 +19,16 @@ export class DashboardComponent implements OnInit {
               private projectService: ProjectService) { }
 
   ngOnInit(): void {
-    this.projectService.getProjects()
-        .then(projects => this.projects = projects);
+    this.getProjects();
+  }
+
+  getProjects() {
+    setInterval(() => {
+      this.projectService.getProjects()
+        .then(projects => 
+          { this.projects = projects }
+        );
+    }, 1000);
   }
 
   gotoDetail(project: Project): void {

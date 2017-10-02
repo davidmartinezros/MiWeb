@@ -18,8 +18,16 @@ export class FollowingComponent implements OnInit {
               private projectService: ProjectService) { }
 
   ngOnInit(): void {
-    this.projectService.getProjects()
-        .then(projects => this.projects = projects);
+    this.getProjects();
+  }
+
+  getProjects() {
+    setInterval(() => {
+      this.projectService.getProjects()
+        .then(projects => 
+          { this.projects = projects }
+        );
+    }, 1000);
   }
 
   gotoDetail(project: Project): void {

@@ -90,7 +90,7 @@ export class AppModule {
   constructor() {
 
     console.log(store.getState());
-    // [ 'Use Redux', 'Read the docs' ]
+    // [ 'Use Redux', 'Read the web' ]
 
   }
 

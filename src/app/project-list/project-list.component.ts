@@ -30,13 +30,19 @@ export class ProjectListComponent implements OnInit {
   }
 
   getProjects(): void {
-    this.projectService.getProjects().then(projects => this.projects = projects);
+    setInterval(() => {
+      this.projectService.getProjects()
+        .then(projects => 
+          { this.projects = projects }
+        );
+    }, 1000);
   }
 
   getProjectsFiltered(theme: string): Project[] {
     return this.projects.filter(item => item.tema === theme);
   }
 
+  /*
   delete(project: Project): void {
     this.projectService
       .delete(project.id)
@@ -44,4 +50,6 @@ export class ProjectListComponent implements OnInit {
         this.projects = this.projects.filter(h => h !== project);
       });
   }
+  */
+  
 }
