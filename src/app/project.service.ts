@@ -18,7 +18,6 @@ export class ProjectService {
 
     getProjects(): Promise<Project[]> {
         return this.translate.get("projects")
-            .map((res:Response) => res)
             .toPromise()
             .catch(this.handleError);
         /*

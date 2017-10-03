@@ -2,23 +2,23 @@
     <div class="col-xs-12">
         <p class="capcalera withPaddingLeft withPaddingTop withPaddingBottom">
             <i class="material-icons" style="vertical-align: middle">search</i>
-            <label>Find in projects</label>
-            <input #input class="inputSearch" type="text" (input)="update.emit(input.value)" (update)="cercaText = $event" placeholder="What are you looking for?"/>
+            <label>{{'FindInProjectsTitle' | translate}}</label>
+            <input #input class="inputSearch" type="text" (input)="update.emit(input.value)" (update)="cercaText = $event" [placeholder]="'FindInProjectsDescription' | translate"/>
         </p>
     </div>
 </div>
-<app-project-list [tema]="'Angular2'" [cercaText]="input.value" [title]="'Angular2 Projects'" 
-    [description]="'Angular is a JavaScript-based open-source front-end web application framework'">
+<app-project-list [tema]="'Angular2'" [cercaText]="input.value" [title]="'TitleGroupAngular2' | translate" 
+    [description]="'DescriptionGroupAngular2' | translate">
 </app-project-list>
-<app-project-list [tema]="'Unity'" [cercaText]="input.value" [title]="'Unity Projects'"
-    [description]="'Unity is a cross-platform game engine developed by Unity Technologies'">
+<app-project-list [tema]="'Unity'" [cercaText]="input.value" [title]="'TitleGroupUnity' | translate"
+    [description]="'DescriptionGroupUnity' | translate">
 </app-project-list>
-<app-project-list [tema]="'Trends'" [cercaText]="input.value" [title]="'Google Trends Comparative'"
-    [description]="'Google Trends is a public web facility that shows how often a particular search-term is entered'">
+<app-project-list [tema]="'Trends'" [cercaText]="input.value" [title]="'TitleGroupGoogleTrends' | translate"
+    [description]="'DescriptionGroupGoogleTrends' | translate">
 </app-project-list>
-<app-project-list [tema]="'Java'" [cercaText]="input.value" [title]="'Java Projects'"
-    [description]="'Java is a general-purpose computer programming language that is concurrent, class-based, object-oriented'">
+<app-project-list [tema]="'Java'" [cercaText]="input.value" [title]="'TitleGroupJava' | translate"
+    [description]="'DescriptionGroupJava' | translate">
 </app-project-list>
-<app-project-list [tema]="'Ionic'" [cercaText]="input.value" [title]="'Ionic Projects'"
-    [description]="'Ionic is a complete open-source SDK for hybrid mobile app development'">
+<app-project-list [tema]="'Ionic'" [cercaText]="input.value" [title]="'TitleGroupIonic' | translate"
+    [description]="'DescriptionGroupIonic' | translate">
 </app-project-list>

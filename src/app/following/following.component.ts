@@ -3,6 +3,7 @@ import { Router } from '@angular/router';
 
 import { Project } from '../project';
 import { ProjectService } from '../project.service';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-following',
@@ -14,8 +15,10 @@ export class FollowingComponent implements OnInit {
 
   projects: Project[] = [];
 
-  constructor(private router: Router,
-              private projectService: ProjectService) { }
+  constructor(
+    private router: Router,
+    private projectService: ProjectService,
+    private translate: TranslateService) { }
 
   ngOnInit(): void {
     this.getProjects();
