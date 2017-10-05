@@ -148,6 +148,9 @@ img {
 	color: #21618C;
 	padding: 10px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
 }
+.parent {
+	position: fixed;
+}
 .home {
 	padding: 10px;
 	position: fixed;
@@ -160,7 +163,7 @@ img {
   padding: 5px;
   text-decoration: none;
   margin-top: 10px;
-  display: inline-block;
+  /*display: inline-block;*/
   background-color: orangered;
   color: white;
 	border: 1px solid red;
