@@ -24,3 +24,13 @@
   background-color: #DDD;
   left: .1em;
 }
+.groupProjects {
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+@media only screen and (max-width: 480px) {
+  .groupProjects {
+    display: inline-block;
+  }
+}
