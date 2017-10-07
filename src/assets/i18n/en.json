@@ -1,6 +1,5 @@
 {
-    "Home": "Home",
-    "About": "About",
+    "ShareText": "share with your friends",
     "Introduction1": "Hi, I'm <strong>David</strong> from <a href='https://www.google.com/maps/place/Barcelona' target='_blank'>Barcelona</a> | <a href='https://www.google.com/maps/place/Catalonia' target='_blank'>Catalonia</a> | <a href='https://www.google.com/maps/place/Spain' target='_blank'>Spain</a> | <a href='https://www.google.com/maps/place/Europe' target='_blank'>Europe</a>.<br/>",
     "Introduction2": "I'm a <strong>Full Stack Developer</strong> doing <strong>Angular</strong>, <strong>Ionic</strong>, <strong>Java</strong> and <strong>Unity</strong> Projects.",
     "Introduction3": "I publish all my works in my <a href='http://github.com/davidmartinezros' target='_blank'>git repository</a>.",

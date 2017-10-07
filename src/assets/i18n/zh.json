@@ -1,6 +1,5 @@
 {
-    "Home": "家",
-    "About": "关于",
+    "ShareText": "share with your friends",
     "Introduction1": "嗨，我是<a href='https://www.google.com/maps/place/Barcelona' target='_blank'>巴塞罗那</a>的<strong>大卫</ strong> <a href='https://www.google.com/maps/place/Catalonia' target='_blank'>加泰罗尼亚</a> | <a href='https://www.google.com/maps/place/Spain' target='_blank'>西班牙</a> | <a href='https://www.google.com/maps/place/Europe' target='_blank'>欧洲</a>.<br/>",
     "Introduction2": "我是一个<strong>全堆栈开发者</ strong>，<strong>角</ strong>，<strong>离子的</ strong>，<strong>Java</ strong>和<strong>团结</ strong>项目.",
     "Introduction3": "我在我的<a href='http://github.com/davidmartinezros' target='_blank'> git存储库</a>中发布我的所有作品.",

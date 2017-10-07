@@ -1,54 +1,62 @@
 <div class="container-fluid">
   <div class="row">
-    <div class="col-sm-3 col-md-2 col-lg-2 hidden-xs">
-      <div class="social">
-        <ul>
-          <li>
-            <a href="https://www.facebook.com/sharer.php?u=https://www.davidmartinezros.com&title=A%20Catalan%20Software%20Engineer!%20Try%20it%20and%20have%20fun!"
-              target="_blank" class="icon-facebook"></a>
-          </li>
-          <li>
-            <a href="https://twitter.com/intent/tweet?text=A%20Catalan%20Software%20Engineer!%20Try%20it%20and%20have%20fun!&url=https%3A%2F%2Fwww.davidmartinezros.com%2F&via=davidnezan"
-              target="_blank" class="icon-twitter"></a>
-          </li>
-          <li>
-            <a href="https://plus.google.com/share?url=https%3A%2F%2Fwww.davidmartinezros.com&text=A%20Catalan%20Software%20Engineer!%20Try%20it%20and%20have%20fun!"
-              target="_blank" class="icon-google-plus"></a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/shareArticle?title=A%20Catalan%20Software%20Engineer!%20Try+it+and+have+fun%21&mini=true&url=https%3A%2F%2Fwww%2Edavidmartinezros%2Ecom"
-              target="_blank" class="icon-linkedin"></a>
-          </li>
-          <li><a href="mailto:davidnezan@gmail.com" class="icon-mail"></a></li>
-          <li><a href="https://www.github.com/davidmartinezros" target="_blank" class="icon-github"></a></li>
-        </ul>
-      </div>
-      <div class="home">
-        <a href="http://davidmartinezros.com">{{ 'Home' | translate }}</a>
-        <a href="https://www.linkedin.com/in/david-mart%C3%ADnez-ros-912862131/" target="_blank">{{ 'About' | translate }}</a>
+    <div class="col-xs-12">
+        <div class="barraSuperior">
+        <div class="row">
+          <div class="col-lg-5 col-md-5 col-sm-5 col-xs-8">
+              <span class="titolBarraSuperior">
+                <span class="withPaddingLeft">
+                  David Martinez Ros
+                </span>
+                <span class="withPaddingLeft">
+                  (<a href="http://www.twitter.com/davidnezan" target="_blank">@davidnezan</a>)
+                </span>
+              </span>
+          </div>
+          <div class="col-lg-1 hidden-md hidden-sm hidden-xs withPaddingTop">
+            {{ 'ShareText' | translate }}
+          </div>
+          <div class="col-lg-4 col-md-5 col-sm-5 hidden-xs">
+            <div class="social">
+              <ul>
+                <li>
+                  <a href="https://www.facebook.com/sharer.php?u=https://www.davidmartinezros.com&title=A%20Catalan%20Software%20Engineer!%20Try%20it%20and%20have%20fun!"
+                    target="_blank" class="icon-facebook"></a>
+                </li>
+                <li>
+                  <a href="https://twitter.com/intent/tweet?text=A%20Catalan%20Software%20Engineer!%20Try%20it%20and%20have%20fun!&url=https%3A%2F%2Fwww.davidmartinezros.com%2F&via=davidnezan"
+                    target="_blank" class="icon-twitter"></a>
+                </li>
+                <li>
+                  <a href="https://plus.google.com/share?url=https%3A%2F%2Fwww.davidmartinezros.com&text=A%20Catalan%20Software%20Engineer!%20Try%20it%20and%20have%20fun!"
+                    target="_blank" class="icon-google-plus"></a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/shareArticle?title=A%20Catalan%20Software%20Engineer!%20Try+it+and+have+fun%21&mini=true&url=https%3A%2F%2Fwww%2Edavidmartinezros%2Ecom"
+                    target="_blank" class="icon-linkedin"></a>
+                </li>
+                <li><a href="mailto:davidnezan@gmail.com" class="icon-mail"></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-2 col-xs-4">
+            <div class="withPaddingRight withPaddingTopMedium">
+                <span style="float:right"><a (click)="changeLanguage('es')">ES</a> | <a (click)="changeLanguage('en')">EN</a> | <a (click)="changeLanguage('zh')">ZH</a></span>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10  withPaddingTop divContent">
+  </div>
+  <div class="row">
+    <div class="col-xs-12 withPaddingTopHeader divContent">
       <div class="row">
         <div class="col-sm-3 hidden-xs">
           <img class="img-thumbnail hidden-xs" src="assets/foto_petita.jpg" alt="David Martinez Ros" title="David Martinez Ros" width="250" height="250"/>
         </div>
-        <div class="col-sm-9 col-xs-12">
+        <div class="col-sm-9 col-xs-12" style="vertical-align: middle;">
           <div class="row div">
-            <div class="col-xs-12">
-              <div class="row">
-                <div class="col-xs-12">
-                    <span  style="float:right"><a (click)="changeLanguage('es')">ES</a> | <a (click)="changeLanguage('en')">EN</a> | <a (click)="changeLanguage('zh')">ZH</a></span>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-xs-12">
-                  <h2 class="withPaddingLeft">
-                    David Martinez Ros (<a href="http://www.twitter.com/davidnezan" target="_blank">@davidnezan</a>)
-                  </h2>
-                </div>
-              </div>
-              
+            <div class="col-xs-12">         
               <p>
                 <span [innerHtml]="'Introduction1' | translate"></span>
                 <br/>
@@ -192,3 +200,41 @@
       </div>
     </div>
   </div>
+  <div class="row">
+    <div class="col-xs-12 hidden-md hidden-sm hidden-lg withPaddingTopFooter">
+      <div class="barraInferior">
+        <div class="row">
+          <div class="col-xs-12">
+            <span class="withPaddingLeft">{{ 'ShareText' | translate }}</span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="social">
+              <ul>
+                <li>
+                  <a href="https://www.facebook.com/sharer.php?u=https://www.davidmartinezros.com&title=A%20Catalan%20Software%20Engineer!%20Try%20it%20and%20have%20fun!"
+                    target="_blank" class="icon-facebook"></a>
+                </li>
+                <li>
+                  <a href="https://twitter.com/intent/tweet?text=A%20Catalan%20Software%20Engineer!%20Try%20it%20and%20have%20fun!&url=https%3A%2F%2Fwww.davidmartinezros.com%2F&via=davidnezan"
+                    target="_blank" class="icon-twitter"></a>
+                </li>
+                <li>
+                  <a href="https://plus.google.com/share?url=https%3A%2F%2Fwww.davidmartinezros.com&text=A%20Catalan%20Software%20Engineer!%20Try%20it%20and%20have%20fun!"
+                    target="_blank" class="icon-google-plus"></a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/shareArticle?title=A%20Catalan%20Software%20Engineer!%20Try+it+and+have+fun%21&mini=true&url=https%3A%2F%2Fwww%2Edavidmartinezros%2Ecom"
+                    target="_blank" class="icon-linkedin"></a>
+                </li>
+                <li><a href="mailto:davidnezan@gmail.com" class="icon-mail"></a></li>
+                <li><a href="whatsapp://send?text=A%20Catalan%20Software%20Engineer!%20Try+it+and+have+fun%21" data-action="http://davidmartinezros.com" target="_blank" class="icon-whatsapp"></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
