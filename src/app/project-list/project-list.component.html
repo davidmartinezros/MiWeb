@@ -4,6 +4,7 @@
             <md-expansion-panel>
                 <md-expansion-panel-header class="groupProjects">
                     <md-panel-title>
+                        <span *ngIf="projects">({{(projects | projectPipeFilter : [{tema: tema, cercaText: cercaText}]).length }})</span>
                         <i class="material-icons" style="vertical-align: middle">turned_in</i>
                         <b>{{title}}</b>
                     </md-panel-title>
