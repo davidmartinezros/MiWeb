@@ -4,6 +4,7 @@ import { ActivatedRoute } from '@angular/router';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { ProjectListComponent } from './project-list/project-list.component';
 import { FollowingComponent } from './following/following.component';
+import { ProjectsComponent } from './projects/projects.component';
 
 @Component({
   selector: 'app-root',
@@ -53,6 +54,7 @@ export class AppComponent {
     DashboardComponent.updateStuff.next(false);
     ProjectListComponent.updateStuff.next(false);
     FollowingComponent.updateStuff.next(false);
+    ProjectsComponent.updateStuff.next(false);
     
   }
 

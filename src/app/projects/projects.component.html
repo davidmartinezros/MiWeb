@@ -4,6 +4,7 @@
             <i class="material-icons" style="vertical-align: middle">search</i>
             <label>{{'FindInProjectsTitle' | translate}}</label>
             <input #input class="inputSearch" type="text" (input)="update.emit(input.value)" (update)="cercaText = $event" [placeholder]="'FindInProjectsDescription' | translate"/>
+            <span *ngIf="projects">se han encontrado {{(projects | projectPipeFilter : [{cercaText: input.value}]).length }} resultados.</span>
         </p>
     </div>
 </div>
