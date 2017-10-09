@@ -50,6 +50,8 @@
     "TypeTable": "Tipo",
     "DataTable": "Fecha",
     "StateTable": "Estado",
+    "ResultsFound1": "se han encontrado",
+    "ResultsFound2": "resultados",
     "projects":
     [
         {
