@@ -2,6 +2,7 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { ActivatedRoute, Params }   from '@angular/router';
 import { Location }                 from '@angular/common';
+import { Subject }    from 'rxjs/Subject';
 
 import { ProjectService } from '../project.service';
 import { Project } from '../project';
@@ -16,13 +17,24 @@ export class ProjectDetailComponent implements OnInit {
     
     @Input() project: Project;
 
+    public static updateStuff: Subject<any> = new Subject();
+
     constructor(
         private projectService: ProjectService,
         private route: ActivatedRoute,
         private location: Location
-    ) {}
+    ) {
+        ProjectDetailComponent.updateStuff.subscribe(res => {
+            // here fire functions that fetch the data from the api
+            this.getProject();
+        });
+    }
 
     ngOnInit(): void {
+        this.getProject();
+    }
+
+    getProject() {
         this.route.params.forEach((params: Params) => {
             let id = +params['id'];
             this.projectService.getProject(id)

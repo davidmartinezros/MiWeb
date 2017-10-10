@@ -5,6 +5,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { ProjectListComponent } from './project-list/project-list.component';
 import { FollowingComponent } from './following/following.component';
 import { ProjectsComponent } from './projects/projects.component';
+import { ProjectDetailComponent } from './project-detail/project-detail.component';
 
 @Component({
   selector: 'app-root',
@@ -55,6 +56,7 @@ export class AppComponent {
     ProjectListComponent.updateStuff.next(false);
     FollowingComponent.updateStuff.next(false);
     ProjectsComponent.updateStuff.next(false);
+    ProjectDetailComponent.updateStuff.next(false);
     
   }
 
