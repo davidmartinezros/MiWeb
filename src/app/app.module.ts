@@ -13,6 +13,7 @@ import { ProjectDetailComponent } from './project-detail/project-detail.componen
 import { ProjectsComponent } from './projects/projects.component';
 import { ProjectService } from './project.service';
 import { PipesModule } from './pipes/pipes.module';
+import { CarouselModule } from 'angular4-carousel';
 
 import './rxjs-extensions';
 import { ProjectComponent } from './project/project.component';
@@ -32,6 +33,7 @@ import { MdExpansionModule } from '@angular/material';
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+import { CarouselComponent } from './carousel/carousel.component';
 
 function todos(state = [], action) {
   switch (action.type) {
@@ -58,9 +60,11 @@ store.dispatch({
     ProjectsComponent,
     ProjectComponent,
     ProjectListComponent,
-    ProjectTypeComponent
+    ProjectTypeComponent,
+    CarouselComponent
   ],
   imports: [
+    CarouselModule,
     NgReduxModule,
     BrowserModule,
     BrowserAnimationsModule,
