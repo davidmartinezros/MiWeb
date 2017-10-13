@@ -38,6 +38,15 @@ export class AppComponent {
           this.changeLanguage("en");
         }
       });
+
+      // When the user scrolls down 20px from the top of the document, show the button
+     window.onscroll = function() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+              document.getElementById("myButtonTop").style.display = "block";
+          } else {
+              document.getElementById("myButtonTop").style.display = "none";
+          }
+      };
   }
 
   public changeLanguage(language) {
@@ -66,6 +75,12 @@ export class AppComponent {
         window.alert(key);
       }
     );
+  }
+
+  // When the user clicks on the button, scroll to the top of the document
+  topFunction() {
+    document.body.scrollTop = 0; // For Chrome, Safari and Opera 
+    document.documentElement.scrollTop = 0; // For IE and Firefox
   }
 
 

@@ -26,6 +26,12 @@ img {
 	margin:auto;
 	margin-top: 10px;
 	border: 1px solid white;
+	max-width: 300px;
+	min-width: 200px;
+	max-height: 200px;
+    min-height: 150px;
+	width: 100%;
+	height: 100%; 
 }
 div.imatge {
 	color: #21618C;

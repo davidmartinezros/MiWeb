@@ -15,7 +15,6 @@ body {
 .div {
 		margin-left: 1px;
 		margin-right: 1px;
-		margin-top: 10px;
 		border-radius: 4px;	
 		list-style-type: circle;
 		color: #21618C;
@@ -27,6 +26,9 @@ body {
 .div:hover, .div:active {
 		opacity: 1.0;
 		filter:alpha(opacity=100); /* For IE8 and earlier */
+}
+.withMarginTop {
+	margin-top: 10px;
 }
 .divCarousel {
 	margin-left: 1px;
@@ -236,23 +238,7 @@ a:active {
   padding-top: 30px;
 }
 .withPaddingTopHeader {
-  padding-top: 60px;
-}
-@media only screen and (max-width: 1302px) and (min-width:480px) {
-	.withPaddingTopHeader {
-		padding-top: 100px;
-	}		
-}
-
-@media only screen and (max-width: 1350px) and (min-width:1304px) {
-	.withPaddingTopHeader {
-		padding-top: 80px;
-	}		
-}
-@media only screen and (max-width: 480px) {
-	.withPaddingTopHeader {
-		padding-top: 80px;
-	}		
+  padding-top: 80px;
 }
 
 .titolBarraSuperior {
@@ -261,9 +247,9 @@ font-size: 200%;
 }
 
 @media only screen and (max-width: 480px) {
-.titolBarraSuperior {
-	font-size: 150%;
-}
+	.titolBarraSuperior {
+		font-size: 150%;
+	}
 }
 .withPaddingTopFooter {
 	padding-top: 75px;
@@ -287,4 +273,30 @@ nav a:link, nav a:visited {
 nav a:hover, nav a:active {
   background-color: red;
   border: 1px solid orangered;
+}
+.buttonTop {
+	display: none; /* Hidden by default */
+	position: fixed; /* Fixed/sticky position */
+	bottom: 20px; /* Place the button at the bottom of the page */
+	right: 30px; /* Place the button 30px from the right */
+	width: 50px;
+	height: 50px;
+	border: none; /* Remove borders */
+	outline: none; /* Remove outline */
+	background-color: orangered; /* Set a background color */
+	color: white; /* Text color */
+	cursor: pointer; /* Add a mouse pointer on hover */
+	padding: 15px; /* Some padding */
+	border-radius: 999px; /* Rounded corners */
+	z-index: 3000; /* Make sure it does not overlap */
+}
+
+.buttonTop:hover {
+	background-color: red; /* Add a dark-grey background on hover */
+}
+@media only screen and (max-width: 480px) {
+	.buttonTop {
+		bottom: 80px; /* Place the button at the bottom of the page */
+		right: 20px; /* Place the button 30px from the right */
+	}
 }

@@ -26,6 +26,7 @@ export class CarouselComponent implements OnInit {
        loop: true,
        custom: 'banner'
      }
+
    }
   
    public myfunc(event: Event) {
