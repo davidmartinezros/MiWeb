@@ -9,7 +9,8 @@ body {
 		padding: 0;
 }
 .divContent {
-		background : url('./assets/background.jpg');
+		/*background : url('./assets/background.jpg');*/
+		background-color: white;
 		border: 1px solid white;
 }
 .div {
@@ -37,7 +38,7 @@ body {
 	border-radius: 4px;	
 	list-style-type: circle;
 	color: orangered;
-	background-color: #21618C;
+	background-color: #BBD8DC;
 	border: 1px solid orangered;
 	opacity: 0.8;
 	filter:alpha(opacity=80); /* For IE8 and earlier */
@@ -146,7 +147,7 @@ a:active {
 	/*border-radius: 4px;*/
 	color: #FFF;
 	background-color:#21618C;
-	border: 1px solid #FFF;
+	border: 1px solid orangered;
 }
 
 .barraInferior {
@@ -159,7 +160,7 @@ a:active {
 	/*border-radius: 4px;*/
 	color: #FFF;
 	background-color:#21618C;
-	border: 1px solid #FFF;
+	border: 1px solid orangered;
 }
 
 .social {
@@ -252,7 +253,7 @@ font-size: 200%;
 	}
 }
 .withPaddingTopFooter {
-	padding-top: 75px;
+	padding-top: 70px;
 }
 .withPaddingBottom {
 	padding-bottom: 10px;
@@ -279,14 +280,13 @@ nav a:hover, nav a:active {
 	position: fixed; /* Fixed/sticky position */
 	bottom: 20px; /* Place the button at the bottom of the page */
 	right: 30px; /* Place the button 30px from the right */
-	width: 50px;
-	height: 50px;
+	width: 40px;
+	height: 40px;
 	border: none; /* Remove borders */
 	outline: none; /* Remove outline */
 	background-color: orangered; /* Set a background color */
 	color: white; /* Text color */
 	cursor: pointer; /* Add a mouse pointer on hover */
-	padding: 15px; /* Some padding */
 	border-radius: 999px; /* Rounded corners */
 	z-index: 3000; /* Make sure it does not overlap */
 }

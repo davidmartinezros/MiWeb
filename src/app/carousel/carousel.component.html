@@ -1,72 +1,12 @@
 <ngx-carousel
 [inputs]="carouselOne"
 (carouselLoad)="myfunc($event)">
-  <ngx-item NgxCarouselItem>
-    <div class="imatge" onclick="window.open('http://davidmartinezros.com/Angular2/components-animations-project/')">
-      <img style="background:url('../../assets/carousel/projecte1.png')">
-      <div class="etiqueta">Proyecto de animación de componentes html</div>
+  <ngx-item NgxCarouselItem *ngFor="let project of carousel">
+    <div class="imatge" (click)="gotoCarousel(project.link)">
+      <img [style]="project.style | safeStyle">
+      <div class="etiqueta">{{project.text}}</div>
     </div>
   </ngx-item>
-  <ngx-item NgxCarouselItem>
-    <div class="imatge" onclick="window.open('http://davidmartinezros.com/3D/MySceneWithMoreObjects/')">
-      <img style="background:url('../../assets/carousel/projecte2.png')">
-      <div class="etiqueta">Mi siguiente ejemplo de escena</div>
-    </div>
-  </ngx-item>
-  <ngx-item NgxCarouselItem>
-    <div class="imatge" onclick="window.open('http://davidmartinezros.com/Angular2/TheSnakeGame/')">
-      <img style="background:url('../../assets/carousel/projecte3.png')">
-      <div class="etiqueta">Juego 3D Serpiente</div>
-    </div>
-  </ngx-item>
-  <ngx-item NgxCarouselItem>
-    <div class="imatge" onclick="window.open('http://davidmartinezros.com/Angular2/climate-project/')">
-      <img style="background:url('../../assets/carousel/projecte4.png')">
-      <div class="etiqueta">Predicción meteorológica</div>
-    </div>
-  </ngx-item>
-  <ngx-item NgxCarouselItem>
-    <div class="imatge" onclick="window.open('http://davidmartinezros.com/Angular2/component-tree-project/')">
-      <img style="background:url('../../assets/carousel/projecte5.png')">
-      <div class="etiqueta">Proyecto de componente árbol</div>
-    </div>
-  </ngx-item>
-  <ngx-item NgxCarouselItem>
-    <div class="imatge" onclick="window.open('http://davidmartinezros.com/3D/WaterProject/')">
-      <img style="background:url('../../assets/carousel/projecte6.png')">
-      <div class="etiqueta">Ejemplo de un terreno con agua</div>
-    </div>
-  </ngx-item>
-  <ngx-item NgxCarouselItem>
-    <div class="imatge" onclick="window.open('http://davidmartinezros.com/Angular2/TourOfHeroesWithCliCRUD/')">
-      <img style="background:url('../../assets/carousel/projecte7.png')">
-      <div class="etiqueta">Recopilación de Héroes con Angular-Cli i CRUD</div>
-    </div>
-  </ngx-item>
-  <ngx-item NgxCarouselItem>
-    <div class="imatge" onclick="window.open('https://github.com/davidmartinezros/RemakeGhostnGoblins')">
-      <img style="background:url('../../assets/carousel/projecte8.png')">
-      <div class="etiqueta">Remake de Ghost'n Goblins</div>
-    </div>  
-  </ngx-item>
-  <ngx-item NgxCarouselItem>
-    <div class="imatge" onclick="window.open('http://davidmartinezros.com/Angular2/component-divs-project/')">
-      <img style="background:url('../../assets/carousel/projecte9.png')">
-      <div class="etiqueta">Proyecto de componentes divs arrastrables</div>
-    </div>
-  </ngx-item>
-  <ngx-item NgxCarouselItem>
-    <div class="imatge" onclick="window.open('http://davidmartinezros.com/3D/ComportamientoFisico/')">
-      <img style="background:url('../../assets/carousel/projecte10.png')">
-      <div class="etiqueta">Mi primer ejemplo físico</div>
-    </div> 
-  </ngx-item>
-  <ngx-item NgxCarouselItem>
-    <div class="imatge" onclick="window.open('http://davidmartinezros.com/web/comparative_Angular2.html')">
-      <img style="background:url('../../assets/carousel/projecte11.png')">
-      <div class="etiqueta">Comparativa entre AngularJS y Angular2</div>
-    </div>
-  </ngx-item>  
-  <button NgxCarouselPrev class='leftRs'>&lt;</button>
-  <button NgxCarouselNext class='rightRs'>&gt;</button>
+  <button NgxCarouselPrev class='leftRs'><i class="glyphicon glyphicon-chevron-left"></i></button>
+  <button NgxCarouselNext class='rightRs'><i class="glyphicon glyphicon-chevron-right"></i></button>
 </ngx-carousel>

@@ -6,6 +6,7 @@ import { ProjectListComponent } from './project-list/project-list.component';
 import { FollowingComponent } from './following/following.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ProjectDetailComponent } from './project-detail/project-detail.component';
+import { CarouselComponent } from './carousel/carousel.component';
 
 @Component({
   selector: 'app-root',
@@ -66,6 +67,7 @@ export class AppComponent {
     FollowingComponent.updateStuff.next(false);
     ProjectsComponent.updateStuff.next(false);
     ProjectDetailComponent.updateStuff.next(false);
+    CarouselComponent.updateStuff.next(false);
     
   }
 

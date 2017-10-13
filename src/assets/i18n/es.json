@@ -52,6 +52,64 @@
     "StateTable": "Estado",
     "ResultsFound1": "se han encontrado",
     "ResultsFound2": "resultados",
+    "carousel":
+    [
+        {
+        "link": "http://davidmartinezros.com/Angular2/components-animations-project/",
+        "style": "background:url('../../assets/carousel/projecte1.png')",
+        "text": "Proyecto de animación de componentes html"
+        },
+        {
+        "link": "http://davidmartinezros.com/3D/MySceneWithMoreObjects/",
+        "style": "background:url('../../assets/carousel/projecte2.png')",
+        "text": "Mi siguiente ejemplo de escena"
+        },
+        {
+        "link": "http://davidmartinezros.com/Angular2/TheSnakeGame/",
+        "style": "background:url('../../assets/carousel/projecte3.png')",
+        "text": "Juego 3D Serpiente"
+        },
+        {
+        "link": "http://davidmartinezros.com/Angular2/climate-project/",
+        "style": "background:url('../../assets/carousel/projecte4.png')",
+        "text": "Predicción meteorológica"
+        },
+        {
+        "link": "http://davidmartinezros.com/Angular2/component-tree-project/",
+        "style": "background:url('../../assets/carousel/projecte5.png')",
+        "text": "Proyecto de componente árbol"
+        },
+        {
+        "link": "http://davidmartinezros.com/3D/WaterProject/",
+        "style": "background:url('../../assets/carousel/projecte6.png')",
+        "text": "Ejemplo de un terreno con agua"
+        },
+        {
+        "link": "http://davidmartinezros.com/Angular2/TourOfHeroesWithCliCRUD/",
+        "style": "background:url('../../assets/carousel/projecte7.png')",
+        "text": "Recopilación de Héroes con Angular-Cli i CRUD"
+        },
+        {
+        "link": "https://github.com/davidmartinezros/RemakeGhostnGoblins",
+        "style": "background:url('../../assets/carousel/projecte8.png')",
+        "text": "Remake de Ghost'n Goblins"
+        },
+        {
+        "link": "http://davidmartinezros.com/Angular2/component-divs-project/",
+        "style": "background:url('../../assets/carousel/projecte9.png')",
+        "text": "Proyecto de componentes divs arrastrables"
+        },
+        {
+        "link": "http://davidmartinezros.com/3D/ComportamientoFisico/",
+        "style": "background:url('../../assets/carousel/projecte10.png')",
+        "text": "Mi primer ejemplo físico"
+        },
+        {
+        "link": "http://davidmartinezros.com/web/comparative_Angular2.html",
+        "style": "background:url('../../assets/carousel/projecte11.png')",
+        "text": "Comparativa entre AngularJS y Angular2"
+        }
+    ],
     "projects":
     [
         {

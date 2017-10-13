@@ -52,6 +52,64 @@
     "StateTable": "State",
     "ResultsFound1": "",
     "ResultsFound2": "results have been found",
+    "carousel":
+    [
+        {
+        "link": "http://davidmartinezros.com/Angular2/components-animations-project/",
+        "style": "background:url('../../assets/carousel/projecte1.png')",
+        "text": "Html Animation Components Project"
+        },
+        {
+        "link": "http://davidmartinezros.com/3D/MySceneWithMoreObjects/",
+        "style": "background:url('../../assets/carousel/projecte2.png')",
+        "text": "My Next Scene Example"
+        },
+        {
+        "link": "http://davidmartinezros.com/Angular2/TheSnakeGame/",
+        "style": "background:url('../../assets/carousel/projecte3.png')",
+        "text": "3D Snake Game"
+        },
+        {
+        "link": "http://davidmartinezros.com/Angular2/climate-project/",
+        "style": "background:url('../../assets/carousel/projecte4.png')",
+        "text": "Weather Forecast"
+        },
+        {
+        "link": "http://davidmartinezros.com/Angular2/component-tree-project/",
+        "style": "background:url('../../assets/carousel/projecte5.png')",
+        "text": "Component Tree Project"
+        },
+        {
+        "link": "http://davidmartinezros.com/3D/WaterProject/",
+        "style": "background:url('../../assets/carousel/projecte6.png')",
+        "text": "A terrain with water example"
+        },
+        {
+        "link": "http://davidmartinezros.com/Angular2/TourOfHeroesWithCliCRUD/",
+        "style": "background:url('../../assets/carousel/projecte7.png')",
+        "text": "Tour of Heroes with Angular-cli and CRUD"
+        },
+        {
+        "link": "https://github.com/davidmartinezros/RemakeGhostnGoblins",
+        "style": "background:url('../../assets/carousel/projecte8.png')",
+        "text": "Remake of Ghost'n Goblins"
+        },
+        {
+        "link": "http://davidmartinezros.com/Angular2/component-divs-project/",
+        "style": "background:url('../../assets/carousel/projecte9.png')",
+        "text": "Component Draggable Divs Project"
+        },
+        {
+        "link": "http://davidmartinezros.com/3D/ComportamientoFisico/",
+        "style": "background:url('../../assets/carousel/projecte10.png')",
+        "text": "My First Fisic Example"
+        },
+        {
+        "link": "http://davidmartinezros.com/web/comparative_Angular2.html",
+        "style": "background:url('../../assets/carousel/projecte11.png')",
+        "text": "Comparative between AngularJS and Angular2"
+        }
+    ],
     "projects":
     [
         {
