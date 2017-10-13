@@ -13,7 +13,8 @@ import { ProjectDetailComponent } from './project-detail/project-detail.componen
 import { ProjectsComponent } from './projects/projects.component';
 import { ProjectService } from './project.service';
 import { PipesModule } from './pipes/pipes.module';
-import { CarouselModule } from 'angular4-carousel';
+import { NgxCarouselModule } from 'ngx-carousel';
+import 'hammerjs';
 
 import './rxjs-extensions';
 import { ProjectComponent } from './project/project.component';
@@ -64,7 +65,7 @@ store.dispatch({
     CarouselComponent
   ],
   imports: [
-    CarouselModule,
+    NgxCarouselModule,
     NgReduxModule,
     BrowserModule,
     BrowserAnimationsModule,

@@ -13,7 +13,9 @@ body {
 		border: 1px solid white;
 }
 .div {
-		margin: 1px;
+		margin-left: 1px;
+		margin-right: 1px;
+		margin-top: 10px;
 		border-radius: 4px;	
 		list-style-type: circle;
 		color: #21618C;
@@ -26,6 +28,22 @@ body {
 		opacity: 1.0;
 		filter:alpha(opacity=100); /* For IE8 and earlier */
 }
+.divCarousel {
+	margin-left: 1px;
+	margin-right: 1px;
+	margin-top: 10px;
+	border-radius: 4px;	
+	list-style-type: circle;
+	color: orangered;
+	background-color: #21618C;
+	border: 1px solid orangered;
+	opacity: 0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+.divCarousel:hover, .divCarousel:active {
+	opacity: 1.0;
+	filter:alpha(opacity=100); /* For IE8 and earlier */
+}
 
 /* Imagen utilizada en pantallas de anchura 480 px y superior */
 @media only screen and (max-width: 768px) and (orientation:landscape) {
@@ -33,12 +51,20 @@ body {
 				opacity: 1.0;
 				filter:alpha(opacity=100); /* For IE8 and earlier */
 		}
+		.divCarousel {
+			opacity: 1.0;
+			filter:alpha(opacity=100); /* For IE8 and earlier */
+		}
 }
 @media only screen and (max-width: 768px) and (orientation:portrait) {
 		.div {
 				opacity: 1.0;
 				filter:alpha(opacity=100); /* For IE8 and earlier */
-		}		
+		}
+		.divCarousel {
+			opacity: 1.0;
+			filter:alpha(opacity=100); /* For IE8 and earlier */
+		}
 }
 
 .titolBarraSuperior {
@@ -98,7 +124,6 @@ a:link, a:visited {
 	font-weight: bold;
 	color: orangered;
 	text-decoration: none;
-	font-size: 130%;
 }
 a:hover {
 	color: red;
