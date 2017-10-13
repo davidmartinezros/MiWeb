@@ -9,7 +9,6 @@ body {
 		padding: 0;
 }
 .divContent {
-		/*background : url('./assets/background.jpg');*/
 		background-color: white;
 		border: 1px solid white;
 }
@@ -144,7 +143,6 @@ a:active {
 	left: 0; /* Establecemos la barra en la izquierda */
 	top: 0px; /* Bajamos la barra 200px de arriba a abajo */
 	z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
-	/*border-radius: 4px;*/
 	color: #FFF;
 	background-color:#21618C;
 	border: 1px solid orangered;
@@ -157,7 +155,6 @@ a:active {
 	/*top: 0px; /* Bajamos la barra 200px de arriba a abajo */
 	bottom: 0px;
 	z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
-	/*border-radius: 4px;*/
 	color: #FFF;
 	background-color:#21618C;
 	border: 1px solid orangered;
