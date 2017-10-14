@@ -52,6 +52,11 @@
     "StateTable": "Estado",
     "ResultsFound1": "se han encontrado",
     "ResultsFound2": "resultados",
+    "ProjectLinkText": "Link del proyecto",
+    "StateText": "ESTADO:",
+    "SourceText1": "Código fuente en el",
+    "SourceText2": "repositorio del proyecto",
+    "Back": "Volver",
     "carousel":
     [
         {

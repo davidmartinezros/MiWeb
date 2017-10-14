@@ -25,10 +25,10 @@
                                 <div class="titolProjecteText withPaddingLeft">
                                     <div class="row">
                                         <div class="col-xs-12 col-md-3 col-sm-3 col-lg-2">
-                                            <button (click)="goLink()">project link</button>
+                                            <button (click)="goLink()">{{ 'ProjectLinkText' | translate }}</button>
                                         </div>
                                         <div class="col-xs-7 col-md-3 col-sm-3 col-lg-2 estilEstat">
-                                            STATE: <b>{{project.estat}}</b>
+                                            {{ 'StateText' | translate }} <b>{{project.estat}}</b>
                                         </div>
                                     </div>
                                 </div>
@@ -42,7 +42,7 @@
                         <div class="row">
                             <div class="col-xs-12">
                                 <div *ngIf="project.repositori" class="repositoriText withPaddingLeft">
-                                    Source code in the <a href="{{project.repositori}}" target="_blank">repository project</a>.
+                                    {{ 'SourceText1' | translate }} <a href="{{project.repositori}}" target="_blank">{{ 'SourceText2' | translate }}</a>.
                                 </div>
                             </div>
                         </div>

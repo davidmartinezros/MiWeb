@@ -13,7 +13,7 @@ export class CarouselComponent implements OnInit {
 
   public carouselOne: NgxCarousel;
 
-  private carousel: any;
+  public carousel: any;
 
   public static updateStuff: Subject<any> = new Subject();
 
