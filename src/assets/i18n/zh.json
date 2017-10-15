@@ -118,7 +118,7 @@
     "projects":
     [
         {
-        "id": 1, "titol": "我的第一个HelloWorld",
+        "id": 1, "titol": "我的第一个你好世界",
         "tema": "Angular2",
         "tipus": "Example",
         "data": "10/07/2016",
@@ -137,7 +137,6 @@
         "html": "这个例子包括下面的对象:<br/> - 使用<a href ='https://angular.io/docs/ts/latest/guide/template-syntax.html#!#event-binding' target ='_blank'>事件绑定</a>.<br/> - 使用<a href ='https：//angular.io/docs/ts/latest/guide/forms.html#!#ngModel' target='_blank'>form和ngModel</a>(指令双向绑定). - 使用css样式和html模板.<br/> - 英雄列表（可以是任何东西的列表). > - 使用像<a href='https://angular.io/docs/ts/latest/guide/template-syntax.html#!#ngFor' target='_blank'> nFor </a>这样的打字机句子. <br/> - 一个英雄的细节(或你需要的任何实体). - 具有ID和名称的英雄版本.<br/> - 服务实现比从模拟数据获得列表和英雄的细节 来源(浏览器上没有任何数据库和所有数据). - 使用路由器参数化的类导航.<br/>可以在下一个<a href='https://angular.io/docs/ts/latest/tutorial/' target='_ blank'>教程</a>.",
         "repositori": "https://github.com/davidmartinezros/angular-tour-of-heroes-by-me"
         },
-        ---
         {
         "id": 3, "titol": "英雄与角色之旅",
         "tema": "Angular2",
@@ -145,7 +144,7 @@
         "data": "10/18/2016",
         "estat": "完",
         "link": "http://davidmartinezros.com/Angular2/TourOfHeroesWithCli/",
-        "html": "This example is the same as the <b><a href='/detail/2'>2. Tour of Heroes Example (17/10/2016)</a></b>.<br/>The difference is using <a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'>Angular-Cli</a> for generate the project, the components and for build.<br/><a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'>Angular-Cli</a> is in the 17th beta version for the moment, but it feels interesting.<br/><br/>With Angular-Cli you can:<br/>- Generate your project with a Cli Project Structure.<br/>- Generate the elements of your web (Components, Modules, Services, Classes, etc.).<br/>- Build the project and <a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'>Angular-Cli</a> generates only the files necessary identifying the environment mode (dev, prod, etc.). This build compacts the project and you don't need the node_modules carpet with the dependencies.<br/><br/>You can do the example in the next tutorial and with the angular-cli instructions.",
+        "html": "此示例与<a href='/detail/2'>2相同.英雄之旅(17/10/2016)</a>.<br/>不同之处在于使用<a href ='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'>Angular-Cli</a>，用于生成项目，组件和构建.<br/><a href ='https://github.com/angular/angular- cli/blob/master/README.md' target='_blank'>Angular-Cli</a>目前是第17个测试版，但感觉很有趣.<br/><br/>与Angular-Cli您可以: - 使用Cli项目结构生成您的项目. - 生成您的Web元素(组件，模块，服务，类等). - 构建项目和<a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'>Angular-Cli</a>仅生成必要的文件，用于识别环境模式(dev，prod等).该构建压缩了项目，并且您不需要依赖关系的node_modules地毯.<br/>可以在下一个教程中使用angular-cli指令.",
         "repositori": "https://github.com/davidmartinezros/angular-tour-of-heroes-by-me-with-cli"
         },
         {
@@ -155,7 +154,7 @@
         "data": "10/18/2016",
         "estat": "完",
         "link": "http://davidmartinezros.com/Angular2/TourOfHeroesWithCliCRUD/",
-        "html": "This example is the same as the <b><a href='/detail/3'>3. Tour of Heroes with Angular-Cli (18/10/2016)</a></b>.<br/>Here is implemented the edition, deleting and searching of a heroe (or any entity you need).<br/><br/>You can:<br/>- Edit a hero in the detail of a hero.<br/>- Delete a hero in the list of heroes.<br/>- Search a hero in the dashboard.<br/><br/>You can do the example in the next <a href='https://angular.io/docs/ts/latest/tutorial/toh-pt6.html' target='_blank'>tutorial</a>.",
+        "html": "此示例与<a href='/detail/3'>3相同.与Angular-Cli(18/10/2016)的英雄之旅</a>.<br/>这是实施版本，删除和搜索英雄(或任何你需要的实体). >你可以: - 在英雄的细节中编辑一个英雄. - 删除英雄列表中的英雄.<br/> - 在信息中心搜索一个英雄.<br/><br/>你可以在下面的<a href='https://angular.io/docs/ts/latest/tutorial/toh-pt6.html' target='_blank'>教程中做这个例子</a>.",
         "repositori": "https://github.com/davidmartinezros/angular-tour-of-heroes-by-me-with-cli"
         },
         {
@@ -165,7 +164,7 @@
         "data": "10/19/2016",
         "estat": "加工",
         "link": "http://davidmartinezros.com",
-        "html": "I develop my Web with <b>angular 4</b> using <b>angular/Cli</b>.<br/>Is a responsive web done with <b>bootstrap 3</b>.<br/><br/>The projects are done with <a href='https://angular.io' target='blank'>angular</a>, <a href='https://unity3d.com' target='blank'>unity</a> or <a href='https://www.java.com/' target='_blank'>java</a>.<br/><b>New objectives</b>: a <a href='/detail/301'>Artificial Intelligence Learning</a>, a <a href='/detail/14'>Remake of Snake Game</a>, a <a href='/detail/109'>Remake of Ghost'n Goblins</a> and a <a href='/detail/401'>Mobile App done with ionic: Which Monument</a>.",
+        "html": "我使用<b>angular/Cli</b>使用<b>角度4</b>开发我的网页.是使用<b>引导3</b>的响应网页.<br/>这些项目是通过<a href='https://angular.io' target='blank'>angular</a>完成的，<a href ='https://unity3d.com' target ='_blank'>Unity</a>或<a href='https://www.java.com/' target='_blank'>java</a>.<br/><b>新目标</b>: <a href='/detail/301'>人工智能学习</a>，<a href='/detail/14'>重新制作蛇游戏</a>，<a href ='/detail/109'>重制Ghost'n Goblins</a>和<a href='/detail/401'>移动应用程序完成离子:哪个纪念碑</a>.",
         "repositori": "https://github.com/davidmartinezros/MiWeb"
         },
         {
@@ -175,7 +174,7 @@
         "data": "10/27/2016",
         "estat": "完",
         "link": "http://davidmartinezros.com/Angular2/bind-json-array-to-html-table",
-        "html": "This example is developed with <a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'>Angular-Cli</a>.<br/><br/>Is a simple example that <b>load a JSON file into an html table</b> with an Angular-Cli Service.<br/><br/>Here in <a href='https://davidlearns.blogspot.com.es/2016/10/bind-json-data-to-html-table-with.html' target='_blank'>davidlearns.blogspot.com</a> you can see the explanation of the example and you can learn to do it.",
+        "html": "此示例是使用<a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'>Angular-Cli</a>进行开发的.<br/><br/>是一个简单的例子，将<b>将JSON文件加载到具有Angular-Cli服务的html表</b>中.<br/>在<a href ='https://davidlearns.blogspot.com.es/2016/10/bind-json-data-to-html-table-with.html' target='_blank'>davidlearns.blogspot.com</a>，您可以看到 例子，你可以学会做到这一点.",
         "repositori": "https://github.com/davidmartinezros/bind-json-array-to-html-table"
         },
         {
@@ -185,7 +184,7 @@
         "data": "10/30/2016",
         "estat": "完",
         "link": "http://davidmartinezros.com/Angular2/components-animations-project",
-        "html": "This project is developed with <a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'>Angular-Cli</a>.<br/><br/>Shows some <b>animation in html components</b> that you can use in your Angular2 Web.<br/><br/>You have to extends the effect you want for your component and implements the html template and css file.<br/><br/>For example:<br/>export class MyComponent extends BounceAnimationComponent { }<br/><br/>The animations are <b>bounce</b>, <b>fade</b>, <b>flip</b>, <b>roll</b>, <b>rotate</b>, <b>zoom</b> and <b>others</b>.<br/><br/>The source code have inspired my project is <a href='http://daneden.github.io/animate.css/' target='_blank'>http://daneden.github.io/animate.css/</a>.",
+        "html": "该项目是通过<a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'>Angular-Cli</a>开发的.<br/><br/>在html组件中显示一些<b>动画</b>，您可以在Angular2 Web中使用.<br/><br/>您必须扩展您想要的组件效果并实现html模板 和</b>，<b>淡入淡出</b>，<b>滚动</b>，<b>滚动</b>，<b>旋转</b>，<b>缩放</b>和<b>其他</b>.<br/><br/>源代码启发我的项目是<a href='http://daneden.github.io/animate.css/' target='_blank'>http://daneden.github.io/animate.css/</a>.",
         "repositori": "https://github.com/davidmartinezros/components-animations-project"
         },
         {
@@ -195,7 +194,7 @@
         "data": "11/06/2016",
         "estat": "完",
         "link": "http://davidmartinezros.com/Angular2/component-tree-project/",
-        "html": "This project is developed with <a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'>Angular-Cli</a>.<br/><br/>Shows a <b>tree component loaded from a json file data with a structure of ancestors and children</b>.<br/><br/>This tree is generated recursively with a <b>app-tree-node</b> component that calls itself.<br/><br/>And when the app-tree-node is loaded, ancestors are loaded recursively and the next children as well.<br/><br/>You <b>can load the json file you want</b> and the tree will show the file you choose.<br/><br/>The project is inspired in a tree component I did in java with xsl reading xml files five years ago.<br/><br/>And I thought: <b>Could I try to do this in Angular2?</b>",
+        "html": "该项目是通过<a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'>Angular-Cli</a>开发的.<br/><br/>显示一个从具有祖先和孩子结构的json文件数据加载的树组件</b>.<br/>这棵树是使用<b>app-tree-node</b>组件，它自己调用.<br/><br/>当应用程序树节点被加载时，祖先被递归地加载和下一个孩子.<br/><br/>你 <b>可以加载您想要的json文件</b>，树将显示您选择的文件.<br/><br/>该项目灵感来自于我在java中使用xsl读取xml文件的树组件 几年前.<br/><br/>我想:<b>我可以尝试在Angular2吗?</b>",
         "repositori": "https://github.com/davidmartinezros/component-tree-project"
         },
         {
