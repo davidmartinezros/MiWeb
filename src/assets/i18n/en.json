@@ -11,11 +11,16 @@
     "Subtitle1.2": "Projects with Angular:",
     "Description1.2.1": "<a href='http://davidmartinezros.com/Angular2/climate-project/' target='_blank'>weather forecasts</a> and a <a href='http://davidmartinezros.com/Angular2/TheSnakeGame/' target='_blank'>3d snake game</a>.",
     "Subtitle1.3": "Project with Angular and Java:",
-    "Description1.3.1": "<a href='/detail/301'>artificial intelligence learning</a> (backend) - <a href='/detail/15'>myyme</a> (frontend).",
+    "Description1.3.1": "artificial intelligence learning",
+    "Description1.3.2": "backend",
+    "Description1.3.3": "frontend",
     "Subtitle1.4": "Project with Ionic and Java:",
-    "Description1.4.1": "<a href='/detail/401'>which monument</a>.",
+    "Description1.4.1": "which monument",
     "Subtitle1.5": "Game with Unity:",
-    "Description1.5.1": "Looking for collaborators for remake the <strong>new</strong> <a href='/detail/109'>ghost'n goblins</a> taking advantage of new technologies (<a href='https://en.wikipedia.org/wiki/Ghosts_%27n_Goblins' target='_blank'>reference</a>).",
+    "Description1.5.1": "Looking for collaborators for remake the new<",
+    "Description1.5.2": "ghost'n goblins",
+    "Description1.5.3": "taking advantage of new technologies",
+    "Description1.5.4": "reference",
     "Subtitle1.6": "Google trends comparatives:",
     "Description1.6.1": "I have done some investigations: <a href='http://davidmartinezros.com/web/comparative_Angular2.html' target='_blank'>where goes angular?</a> and <a href='http://davidmartinezros.com/web/comparative_Unity.html' target='_blank'>where is unity?</a>.",
     "Description1.6.2": "I'm doing some studies: <a href='http://davidmartinezros.com/web/comparative_GoogleSearches.html' target='_blank'>what are people interested in?</a>.",
@@ -144,7 +149,7 @@
         "data": "10/18/2016",
         "estat": "FINISHED",
         "link": "http://davidmartinezros.com/Angular2/TourOfHeroesWithCli/",
-        "html": "This example is the same as the <a href='/detail/2'>2. Tour of Heroes Example (17/10/2016)</a>.<br/>The difference is using <a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'>Angular-Cli</a> for generate the project, the components and for build.<br/><a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'>Angular-Cli</a> is in the 17th beta version for the moment, but it feels interesting.<br/><br/>With Angular-Cli you can:<br/>- Generate your project with a Cli Project Structure.<br/>- Generate the elements of your web (Components, Modules, Services, Classes, etc.).<br/>- Build the project and <a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'>Angular-Cli</a> generates only the files necessary identifying the environment mode (dev, prod, etc.). This build compacts the project and you don't need the node_modules carpet with the dependencies.<br/><br/>You can do the example in the next tutorial and with the angular-cli instructions.",
+        "html": "This example is the same as the <a href='/detail/2?lang=en'>2. Tour of Heroes Example (17/10/2016)</a>.<br/>The difference is using <a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'>Angular-Cli</a> for generate the project, the components and for build.<br/><a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'>Angular-Cli</a> is in the 17th beta version for the moment, but it feels interesting.<br/><br/>With Angular-Cli you can:<br/>- Generate your project with a Cli Project Structure.<br/>- Generate the elements of your web (Components, Modules, Services, Classes, etc.).<br/>- Build the project and <a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'>Angular-Cli</a> generates only the files necessary identifying the environment mode (dev, prod, etc.). This build compacts the project and you don't need the node_modules carpet with the dependencies.<br/><br/>You can do the example in the next tutorial and with the angular-cli instructions.",
         "repositori": "https://github.com/davidmartinezros/angular-tour-of-heroes-by-me-with-cli"
         },
         {
@@ -154,7 +159,7 @@
         "data": "10/18/2016",
         "estat": "FINISHED",
         "link": "http://davidmartinezros.com/Angular2/TourOfHeroesWithCliCRUD/",
-        "html": "This example is the same as the <a href='/detail/3'>3. Tour of Heroes with Angular-Cli (18/10/2016)</a>.<br/>Here is implemented the edition, deleting and searching of a heroe (or any entity you need).<br/><br/>You can:<br/>- Edit a hero in the detail of a hero.<br/>- Delete a hero in the list of heroes.<br/>- Search a hero in the dashboard.<br/><br/>You can do the example in the next <a href='https://angular.io/docs/ts/latest/tutorial/toh-pt6.html' target='_blank'>tutorial</a>.",
+        "html": "This example is the same as the <a href='/detail/3?lang=en'>3. Tour of Heroes with Angular-Cli (18/10/2016)</a>.<br/>Here is implemented the edition, deleting and searching of a heroe (or any entity you need).<br/><br/>You can:<br/>- Edit a hero in the detail of a hero.<br/>- Delete a hero in the list of heroes.<br/>- Search a hero in the dashboard.<br/><br/>You can do the example in the next <a href='https://angular.io/docs/ts/latest/tutorial/toh-pt6.html' target='_blank'>tutorial</a>.",
         "repositori": "https://github.com/davidmartinezros/angular-tour-of-heroes-by-me-with-cli"
         },
         {
@@ -164,7 +169,7 @@
         "data": "10/19/2016",
         "estat": "WORKING",
         "link": "http://davidmartinezros.com",
-        "html": "I develop my Web with <b>angular 4</b> using <b>angular/Cli</b>.<br/>Is a responsive web done with <b>bootstrap 3</b>.<br/><br/>The projects are done with <a href='https://angular.io' target='blank'>angular</a>, <a href='https://unity3d.com' target='blank'>unity</a> or <a href='https://www.java.com/' target='_blank'>java</a>.<br/><b>New objectives</b>: a <a href='/detail/301'>Artificial Intelligence Learning</a>, a <a href='/detail/14'>Remake of Snake Game</a>, a <a href='/detail/109'>Remake of Ghost'n Goblins</a> and a <a href='/detail/401'>Mobile App done with ionic: Which Monument</a>.",
+        "html": "I develop my Web with <b>angular 4</b> using <b>angular/Cli</b>.<br/>Is a responsive web done with <b>bootstrap 3</b>.<br/><br/>The projects are done with <a href='https://angular.io' target='blank'>angular</a>, <a href='https://unity3d.com' target='blank'>unity</a> or <a href='https://www.java.com/' target='_blank'>java</a>.<br/><b>New objectives</b>: a <a href='/detail/301?lang=en'>Artificial Intelligence Learning</a>, a <a href='/detail/14?lang=en'>Remake of Snake Game</a>, a <a href='/detail/109?lang=en'>Remake of Ghost'n Goblins</a> and a <a href='/detail/401?lang=en'>Mobile App done with ionic: Which Monument</a>.",
         "repositori": "https://github.com/davidmartinezros/MiWeb"
         },
         {

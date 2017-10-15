@@ -11,11 +11,16 @@
     "Subtitle1.2": "有角度的项目:",
     "Description1.2.1": "<a href='http://davidmartinezros.com/Angular2/climate-project/' target='_blank'>天气预报</a>和<a href ='http://davidmartinezros.com/Angular2/TheSnakeGame/ 'target ='_blank'>3d蛇游戏</a>.",
     "Subtitle1.3": "Angular和Java项目:",
-    "Description1.3.1": "<a href='/detail/301'>人工智能学习</a> (后端) - <a href='/detail/15'>myyme</a> (前端).",
+    "Description1.3.1": "人工智能学习",
+    "Description1.3.2": "后端",
+    "Description1.3.3": "前端",
     "Subtitle1.4": "Ionic和Java项目:",
-    "Description1.4.1": "<a href='/detail/401'>哪个纪念碑</a>.",
+    "Description1.4.1": "哪个纪念碑",
     "Subtitle1.5": "团结游戏:",
-    "Description1.5.1": "寻找合作者重新使用新技术的<strong>新</ strong> <a href='/detail/109'>ghost'n goblins</a> (<a href ='https://en.wikipedia.org/wiki/Ghosts_%27n_Goblins' target ='_ blank'>reference</a>).",
+    "Description1.5.1": "寻找合作者重新使用新技术的新",
+    "Description1.5.2": "ghost'n goblins",
+    "Description1.5.3": "利用新技术",
+    "Description1.5.4": "参考",
     "Subtitle1.6": "Google趋势比较:",
     "Description1.6.1": "我已经做了一些调查:<a href='http://davidmartinezros.com/web/comparative_Angular2.html' target='_blank'>哪里有角度?</a>和<a href ='http：//davidmartinezros.com/web/comparative_Unity.html' target ='_ blank'>哪里是单位?</a>",
     "Description1.6.2": "我正在做一些研究:<a href='http://davidmartinezros.com/web/comparative_GoogleSearches.html' target='_blank'>有兴趣的人</a>.",
@@ -144,7 +149,7 @@
         "data": "10/18/2016",
         "estat": "完",
         "link": "http://davidmartinezros.com/Angular2/TourOfHeroesWithCli/",
-        "html": "此示例与<a href='/detail/2'>2相同.英雄之旅(17/10/2016)</a>.<br/>不同之处在于使用<a href ='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'>Angular-Cli</a>，用于生成项目，组件和构建.<br/><a href ='https://github.com/angular/angular- cli/blob/master/README.md' target='_blank'>Angular-Cli</a>目前是第17个测试版，但感觉很有趣.<br/><br/>与Angular-Cli您可以: - 使用Cli项目结构生成您的项目. - 生成您的Web元素(组件，模块，服务，类等). - 构建项目和<a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'>Angular-Cli</a>仅生成必要的文件，用于识别环境模式(dev，prod等).该构建压缩了项目，并且您不需要依赖关系的node_modules地毯.<br/>可以在下一个教程中使用angular-cli指令.",
+        "html": "此示例与<a href='/detail/2?lang=zh'>2相同.英雄之旅(17/10/2016)</a>.<br/>不同之处在于使用<a href ='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'>Angular-Cli</a>，用于生成项目，组件和构建.<br/><a href ='https://github.com/angular/angular- cli/blob/master/README.md' target='_blank'>Angular-Cli</a>目前是第17个测试版，但感觉很有趣.<br/><br/>与Angular-Cli您可以: - 使用Cli项目结构生成您的项目. - 生成您的Web元素(组件，模块，服务，类等). - 构建项目和<a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'>Angular-Cli</a>仅生成必要的文件，用于识别环境模式(dev，prod等).该构建压缩了项目，并且您不需要依赖关系的node_modules地毯.<br/>可以在下一个教程中使用angular-cli指令.",
         "repositori": "https://github.com/davidmartinezros/angular-tour-of-heroes-by-me-with-cli"
         },
         {
@@ -154,7 +159,7 @@
         "data": "10/18/2016",
         "estat": "完",
         "link": "http://davidmartinezros.com/Angular2/TourOfHeroesWithCliCRUD/",
-        "html": "此示例与<a href='/detail/3'>3相同.与Angular-Cli(18/10/2016)的英雄之旅</a>.<br/>这是实施版本，删除和搜索英雄(或任何你需要的实体). >你可以: - 在英雄的细节中编辑一个英雄. - 删除英雄列表中的英雄.<br/> - 在信息中心搜索一个英雄.<br/><br/>你可以在下面的<a href='https://angular.io/docs/ts/latest/tutorial/toh-pt6.html' target='_blank'>教程中做这个例子</a>.",
+        "html": "此示例与<a href='/detail/3?lang=zh'>3相同.与Angular-Cli(18/10/2016)的英雄之旅</a>.<br/>这是实施版本，删除和搜索英雄(或任何你需要的实体). >你可以: - 在英雄的细节中编辑一个英雄. - 删除英雄列表中的英雄.<br/> - 在信息中心搜索一个英雄.<br/><br/>你可以在下面的<a href='https://angular.io/docs/ts/latest/tutorial/toh-pt6.html' target='_blank'>教程中做这个例子</a>.",
         "repositori": "https://github.com/davidmartinezros/angular-tour-of-heroes-by-me-with-cli"
         },
         {
@@ -164,7 +169,7 @@
         "data": "10/19/2016",
         "estat": "加工",
         "link": "http://davidmartinezros.com",
-        "html": "我使用<b>angular/Cli</b>使用<b>角度4</b>开发我的网页.是使用<b>引导3</b>的响应网页.<br/>这些项目是通过<a href='https://angular.io' target='blank'>angular</a>完成的，<a href ='https://unity3d.com' target ='_blank'>Unity</a>或<a href='https://www.java.com/' target='_blank'>java</a>.<br/><b>新目标</b>: <a href='/detail/301'>人工智能学习</a>，<a href='/detail/14'>重新制作蛇游戏</a>，<a href ='/detail/109'>重制Ghost'n Goblins</a>和<a href='/detail/401'>移动应用程序完成离子:哪个纪念碑</a>.",
+        "html": "我使用<b>angular/Cli</b>使用<b>角度4</b>开发我的网页.是使用<b>引导3</b>的响应网页.<br/>这些项目是通过<a href='https://angular.io' target='blank'>angular</a>完成的，<a href ='https://unity3d.com' target ='_blank'>Unity</a>或<a href='https://www.java.com/' target='_blank'>java</a>.<br/><b>新目标</b>: <a href='/detail/301?lang=zh'>人工智能学习</a>，<a href='/detail/14?lang=zh'>重新制作蛇游戏</a>，<a href ='/detail/109?lang=zh'>重制Ghost'n Goblins</a>和<a href='/detail/401?lang=zh'>移动应用程序完成离子:哪个纪念碑</a>.",
         "repositori": "https://github.com/davidmartinezros/MiWeb"
         },
         {
@@ -354,7 +359,7 @@
         "data": "04/13/2017",
         "estat": "还没",
         "link": "https://github.com/davidmartinezros/RemakeGhostnGoblins",
-        "html": "这个项目是使用新技术的Ghost'n Goblins游戏的改编.<br/>我的协作者将是<a href ='https://twitter.com/JordiViaVia' target='_blank'>Jordi Via</a>和<a href='mailto:xavi.warrior.peace@gmail.com'>Xavi Guerrero</a>.<br/><br/><b>即将推出!</b>",
+        "html": "这个项目是使用新技术的Ghost'n Goblins游戏的改编.<br/><br/>我的协作者将是<a href ='https://twitter.com/JordiViaVia' target='_blank'>Jordi Via</a>和<a href='mailto:xavi.warrior.peace@gmail.com'>Xavi Guerrero</a>.<br/><br/><b>即将推出!</b>",
         "repositori": "https://github.com/davidmartinezros/RemakeGhostnGoblins"
         },
         {

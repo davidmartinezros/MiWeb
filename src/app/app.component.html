@@ -104,19 +104,25 @@
                 <li>
                   <strong>{{ 'Subtitle1.3' | translate }}</strong>
                   <ul>
-                    <li [innerHtml]="'Description1.3.1' | translate "></li>
+                    <li>
+                      <a routerLink="/detail/301" routerLinkActive="active">{{ 'Description1.3.1' | translate }}</a> ({{ 'Description1.3.2' | translate }}) - <a routerLink="/detail/15" routerLinkActive="active">myyme</a> ({{ 'Description1.3.3' | translate }}).
+                    </li>
                   </ul>
                 </li>
                 <li>
                   <strong>{{ 'Subtitle1.4' | translate }}</strong>
                   <ul>
-                    <li [innerHtml]="'Description1.4.1' | translate "></li>
+                    <li>
+                      <a routerLink="/detail/401" routerLinkActive="active">{{ 'Description1.4.1' | translate }}</a>
+                    </li>
                   </ul>
                 </li>
                 <li>
                   <strong>{{ 'Subtitle1.5' | translate }}</strong>
                   <ul>
-                    <li [innerHtml]="'Description1.5.1' | translate "></li>
+                    <li>
+                      {{ 'Description1.5.1' | translate }} <a routerLink="/detail/109" routerLinkActive="active">{{ 'Description1.5.2' | translate }}</a> {{ 'Description1.5.3' | translate }} (<a href ='https://en.wikipedia.org/wiki/Ghosts_%27n_Goblins' target ='_blank'>{{ 'Description1.5.4' | translate }}</a>).
+                    </li>
                   </ul>
                 </li>
                 <li>
