@@ -204,7 +204,7 @@
         "data": "12/08/2016",
         "estat": "完",
         "link": "http://davidmartinezros.com/Angular2/component-divs-project/",
-        "html": "This project is developed with <a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'>Angular-Cli</a>.<br/><br/>Shows some <b>divs components loaded from a json file data with title, content and styles</b>.<br/><br/>These divs are <b>draggable</b> and <b>droppable</b> and you can use them with the <b>app-div-node</b> component.<br/><br/> This component is generated in the <b>app-layout</b> component with callback functions that make the events between divs.",
+        "html": "该项目是通过<a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'>Angular-Cli</a>开发的.<br/><br/>显示从标题，内容和样式的json文件数据中加载的一些<b>div组件</b>.<br/>这些div是<b>draggable</b>和<b>droppable</b>，您可以将它们与<b>app-div-node</b>组件一起使用.<br/>这个组件是在<b>app-layout</b>组件具有使div之间的事件的回调函数.",
         "repositori": "https://github.com/davidmartinezros/component-divs-project"
         },
         {
@@ -214,7 +214,7 @@
         "data": "01/26/2017",
         "estat": "完",
         "link": "http://davidmartinezros.com/Angular2/climate-project/",
-        "html": "This project shows the weather forecast of any municipality in Spain the next four days.<br/><br/>Use a configurable widget provided by <a href='http://www.aemet.es/es/portada' target='_blank'>AEMET</a>.<br/><br/>You can search the municipality and click the button 'search'. The application will find the municipality and ask to AEMET for the weather forecast of the next 4 days and more details that are configurable.<br/><br/>If <b>are you interested</b> in this project, <a href='mailto:davidnezan@gmail.com'>contact me</a> to improve the product and make it commercial!",
+        "html": "该项目显示了接下来四天内任何西班牙直辖市的天气预报.<br/><br/>使用由<a href ='http://www.aemet.es/es/portada' target='_blank'>AEMET</a>.<br/>您可以搜索自治市，然后点击按钮“搜索”. 该应用程序将找到市政府，并要求AEMET了解未来4天的天气预报以及可配置的更多详细信息.<br/>如果您在本项目中感兴趣，<a href ='mailto：davidnezan@gmail.com'>与我联系</a>，以改进产品，使其成为商业!",
         "repositori": "https://github.com/davidmartinezros/climate-project"
         },
         {
@@ -224,7 +224,7 @@
         "data": "03/09/2017",
         "estat": "完",
         "link": "http://davidmartinezros.com/Angular2/Mi3DWorld/",
-        "html": "This example shows a 3D Scene with some cubes that you can picking them and they change the color and the camera is moved.<br/><br/>This example needs the <a href='http://glmatrix.net/' target='_blank'>gl-matrix.js</a> and the <a href='https://github.com/jagenjo/litegl.js' target='_blank'>litegl.js</a> libraries for running.",
+        "html": "此示例显示一个3D场景，其中包含一些可以挑选它们的多维数据集，并且它们会更改颜色并移动相机.<br/>该示例需要<a href ='http://glmatrix.net/' target ='_blank'>gl-matrix.js</a>和<a href='https://github.com/jagenjo/litegl.js' target='_blank'>litegl.js</a>运行库",
         "repositori": "https://github.com/davidmartinezros/Mi3DWorld"
         },
         {
@@ -234,7 +234,7 @@
         "data": "03/19/2017",
         "estat": "完",
         "link": "http://davidmartinezros.com/Angular2/Mi3DWorld2/",
-        "html": "This example shows a 3D Scene with a big cube and some cubes that you can picking them and they change the color.<br/><br/>You can rotate the camera dragging on the mouse in the scene.<br/><br/>This example needs the <a href='http://glmatrix.net/' target='_blank'>gl-matrix.js</a> and the <a href='https://github.com/jagenjo/litegl.js' target='_blank'>litegl.js</a> libraries for running.",
+        "html": "此示例显示具有大立方体和一些多维数据集的3D场景，您可以挑选它们，并更改颜色.<br/>可以旋转场景中鼠标拖动的相机.<br/><br/>此示例需要<a href='http://glmatrix.net/' target='_blank'>gl-matrix.js</a>和<a href ='https://github.com/jagenjo/litegl.js' target='_blank'>litegl.js</a>运行库.",
         "repositori": "https://github.com/davidmartinezros/Mi3DWorld"
         },
         {
@@ -244,7 +244,7 @@
         "data": "03/29/2017",
         "estat": "完",
         "link": "http://davidmartinezros.com/Angular2/Mi3DWorld3/",
-        "html": "This example shows a 3D Scene with some cubes that you can picking them and they change the color and the camera is moved.<br/><br/>The cubes are in X axe, when you pick one of them, this one is propagated on the Z axe, and occurs the same when you pick them in axe Y.<br/><br/>So the cubes are propagated on the three axes X, Y and Z.<br/><br/>This example needs the <a href='http://glmatrix.net/' target='_blank'>gl-matrix.js</a> and the <a href='https://github.com/jagenjo/litegl.js' target='_blank'>litegl.js</a> libraries for running.",
+        "html": "此示例显示一个3D场景，其中包含一些可以挑选它们的多维数据集，并且它们会更改颜色，并移动相机.<br/>这些多维数据集位于X轴中，当您选择其中一个时， 在Z轴上传播，并且在斧头X中挑选时发生相同的方式.因此立方体在三个轴X，Y和Z上传播. 示例需要<a href='http://glmatrix.net/' target='_blank'>gl-matrix.js</a>和<a href='https://github.com/jagenjo/litegl.js' target='_blank'>litegl.js</a>库进行运行.",
         "repositori": "https://github.com/davidmartinezros/Mi3DWorld"
         },
         {
@@ -254,7 +254,7 @@
         "data": "04/04/2017",
         "estat": "规划",
         "link": "http://davidmartinezros.com/Angular2/TheSnakeGame/",
-        "html": "This project is a <b>remake of the Snake Game</b> that becomes very famous on Nokia and other mobiles on 90's finals.<br/><br/>In this version, you can move the Snake on a 3D Scene, a cube with X, Y and Z axes and you have to capture the alone cube to make grow the Snake.<br/><br/>This project needs the <a href='http://glmatrix.net/' target='_blank'>gl-matrix.js</a> and the <a href='https://github.com/jagenjo/litegl.js' target='_blank'>litegl.js</a> libraries for running.<br/><br/><b>Working on it!</b>",
+        "html": "该项目是Snake Game<b>的</b>重制，在90年代的决赛中，诺基亚和其他手机变得非常有名.<br/>在这个版本中，您可以在三维场景中移动Snake ，具有X，Y和Z轴的立方体，您必须捕获单独的多维数据集才能使Snake成长.<br/>该项目需要<a href ='http://glmatrix.net/' target ='_blank'>gl-matrix.js</a>和<a href='https://github.com/jagenjo/litegl.js' target='_blank'>litegl.js</a>库 为了运行.<br/><br/><b>使用它!</b>",
         "repositori": "https://github.com/davidmartinezros/Mi3DWorld/tree/TheSnakeGame"
         },
         {
@@ -264,7 +264,7 @@
         "data": "07/02/2017",
         "estat": "加工",
         "link": "https://github.com/davidmartinezros/myyme",
-        "html": "This project is <b>the Angular2 Web of the Artificial Intelligence Project</b>.<br/><br/>It are going to show the relations of the Robots and the Unity Knowledge of a Robot and you could manage them: adding, removing, listing and modifying.<br/><br/>It also have a acurate presentation envolving the Robot concept and trying to near the Intelligence Artificial to the web user.<br/><br/>Working on it!",
+        "html": "这个项目是<b>人造智能项目的Angular2 Web</b>.<br/><br/>它将显示机器人与机器人的统一知识的关系，你可以管理它们: 增加，删除，列出和修改.<br/><br/>它还具有包含机器人概念并尝试靠近智能人造网络用户的精辟表现.",
         "repositori": "https://github.com/davidmartinezros/myyme"
         },
         {
@@ -274,7 +274,7 @@
         "data": "10/10/2016",
         "estat": "完",
         "link": "http://davidmartinezros.com/3D/MyFirstScene/",
-        "html": "The camera follows the character in a terrain.<br/><br/><a href='http://unity3d.com' target='_blank'>Unity</a> do all the work!",
+        "html": "相机跟随地形中的角色.<br/><br/><a href='http://unity3d.com' target='_blank'>Unity</a>做所有的工作!",
         "repositori": "https://github.com/davidmartinezros/MiPrimerProyecto"
         },
         {
@@ -284,7 +284,7 @@
         "data": "10/11/2016",
         "estat": "完",
         "link": "http://davidmartinezros.com/3D/MySceneWithMoreObjects/",
-        "html": "There are three moons with lights and new objects like trees and houses all with textures and shadows.",
+        "html": "有三个月亮的灯光和新的物体，如树木和房子都有纹理和阴影.",
         "repositori": "https://github.com/davidmartinezros/MiPrimerProyecto"
         },
         {
@@ -294,7 +294,7 @@
         "data": "10/12/2016",
         "estat": "完",
         "link": "http://davidmartinezros.com/3D/ComportamientoFisico/",
-        "html": "In this example you can move the camera dragging the mouse and with the key row up you can throw the ball that collisions with the cube and the action changes the material of the two objects.",
+        "html": "在这个例子中，您可以移动摄像机拖动鼠标，并且按键行可以抛出与多维数据集冲突的球，并且动作会更改两个对象的素材.",
         "repositori": "https://github.com/davidmartinezros/ComportamientoFisico"
         },
         {
@@ -304,7 +304,7 @@
         "data": "10/13/2016",
         "estat": "完",
         "link": "http://davidmartinezros.com/3D/PersonMovement/",
-        "html": "In this example, you can see the player and you can move him only in the platform.<br/><br/>The camera follows the player (the follows could be do better).<br/><br/>The player can walk, run and jump. It want to emulate a Platforms Games (at least initially).",
+        "html": "在这个例子中，你可以看到播放器，只能在平台上移动他.<br/><br/>相机跟随玩家(以下可以做得更好). 玩家可以步行，跑步和跳跃. 它想要模仿一个平台游戏(至少最初).",
         "repositori": "https://github.com/davidmartinezros/PersonMovement"
         },
         {
@@ -314,7 +314,7 @@
         "data": "10/17/2016",
         "estat": "完",
         "link": "http://davidmartinezros.com/3D/MiFirstShader/",
-        "html": "This example shows three cubes.<br/><br/>One with a texture, another with another texture and the middle one with a Shader Texture with 50% of a the first texture and 50% of the second texture.",
+        "html": "此示例显示三个立方体.<br/>一个具有纹理，另一个具有另一个纹理，中间具有着色纹理，第一个纹理的50％和第二个纹理的50%.",
         "repositori": "https://github.com/davidmartinezros/ShadersProject"
         },
         {
@@ -324,7 +324,7 @@
         "data": "10/18/2016",
         "estat": "完",
         "link": "http://davidmartinezros.com/3D/DifferentsCameras/",
-        "html": "This example shows the screen divided for the middle.<br/><br/>On the left side, there's a perspective camera that follows the player always behind him.<br/><br/>On the right side, there's a multipurpose perspective camera that follows the player recovering the position behind him.",
+        "html": "这个例子显示了分为中间的屏幕.<br/>在左边，有一个透视相机，跟随玩家总是在他身后.<br/><br/>在右边，有一个 多用途透视摄像头跟随玩家恢复他身后的位置.",
         "repositori": "https://github.com/davidmartinezros/CameraProject"
         },
         {
@@ -334,7 +334,7 @@
         "data": "10/29/2016",
         "estat": "完",
         "link": "http://davidmartinezros.com/3D/ImportingColladas/",
-        "html": "This example shows a Dragon that was generated in Blender 3D modeling computer program gets from <a href='http://tf3dm.com/3d-models/blender' target='_blank'>tf3dm.com</a>.<br/><br/>This Dragon have animations created in Blender and I use one of this on a key event.<br/><br/>There's load a default animation that loads on the beginning.<br/><br/>If you press the key up arrow the dragon walk.",
+        "html": "此示例显示在Blender 3D建模计算机程序中生成的Dragon从<a href='http://tf3dm.com/3d-models/blender' target='_blank'>tf3dm.com</a>获取.<br/><br/>这个龙在Blender中创建的动画，我在一个关键事件中使用了这个动画.<br/><br/>加载一个默认动画，开始时加载.<br/><br/>如果按箭头键箭头走龙.",
         "repositori": "https://github.com/davidmartinezros/ImportingColladas"
         },
         {
@@ -344,7 +344,7 @@
         "data": "10/30/2016",
         "estat": "完",
         "link": "http://davidmartinezros.com/3D/WaterProject/",
-        "html": "This example shows a terrain with textures and with water.<br/><br/>This is my first example with water, so it's very easy.",
+        "html": "这个例子显示了一个具有纹理和水的地形。<br/>这是我第一个用水的例子，所以很容易.",
         "repositori": "https://github.com/davidmartinezros/WaterProject"
         },
         {
@@ -354,7 +354,7 @@
         "data": "04/13/2017",
         "estat": "还没",
         "link": "https://github.com/davidmartinezros/RemakeGhostnGoblins",
-        "html": "This project is a remake of the Ghost'n Goblins Game taking advantage of new technologies.<br/><br/>My collaborators will be <a href='https://twitter.com/JordiViaVia' target='_blank'>Jordi Via</a> and <a href='mailto:xavi.warrior.peace@gmail.com'>Xavi Guerrero</a>.<br/><br/><b>Coming Soon!</b>",
+        "html": "这个项目是使用新技术的Ghost'n Goblins游戏的改编.<br/>我的协作者将是<a href ='https://twitter.com/JordiViaVia' target='_blank'>Jordi Via</a>和<a href='mailto:xavi.warrior.peace@gmail.com'>Xavi Guerrero</a>.<br/><br/><b>即将推出!</b>",
         "repositori": "https://github.com/davidmartinezros/RemakeGhostnGoblins"
         },
         {
@@ -364,7 +364,7 @@
         "data": "10/28/2016",
         "estat": "完",
         "link": "http://davidmartinezros.com/web/comparative_Angular2.html",
-        "html": "This is a comparative between AngularJS and Angular2 with the Google application <a href='http://www.google.com/trends' target='_blank'>Trends</a>.<br/><br/><b>· Conclusions at October of 2016</b><br/><br/>- Angular2 began one year ago, but it's relevance doesn't arrive at 25% of AngularJS's relevance.<br/>- Angular2 and AngularJS are mostly use in India.<br/>- Angular2 only arrive in India, Canada, USA, Japan and Europe. The rest of the World doesn't know it.<br/><br/><b>· Conclusions at April of 2017</b><br/><br/>- Angular2 began two years ago, and continues growing. Now arrive at 30% of AngularJS's revelance.<br/>- Angular2 and AngularJS are mostly use in India.<br/>- Angular2 is growing in Europe (Germany, France Poland and Spain).",
+        "html": "这是AngularJS和Angular2与Google应用程序<a href='http://www.google.com/trends' target='_blank'>趋势</a>的比较.<br/><br/><b>·2016年10月的结论</b><br/><br/> - Angular2从一年前开始，但相关性并未达到AngularJS相关性的25%.<br/>·Angular2和AngularJS是 大部分在印度使用.<br/> - Angular2只到达印度，加拿大，美国，日本和欧洲. 世界其他地方不知道.<br/><br/><b>·在2017年4月的结论</b><br/><br/>现在，AngularJS的声望达到30%.“ - Angular2和AngularJS主要用于印度.” - Angular2在欧洲(德国，法国波兰和西班牙)正在增长.",
         "repositori": null
         },
         {
@@ -374,7 +374,7 @@
         "data": "10/28/2016",
         "estat": "完",
         "link": "http://davidmartinezros.com/web/comparative_Unity.html",
-        "html": "This is a comparative between <a href='https://unity3d.com' target='_blank'>Unity</a> and the other Game Engine with the Google application <a href='http://www.google.com/trends' target='_blank'>Trends</a>.<br/><br/><b> · Conclusions at October of 2016</b><br/><br/>- Unity is mostly use Game Engine.<br/>- PlayStation4 and Xbox 360 are more relevant than Unity.<br/>- Nvidia is equatable with Unity.<br/>- In China, people are more interested in produce Games than in play them.<br/>- PlayStation4 is the most used in USA, Canada, Australia and Europe.<br/>- XBox 360 is most used in South America and Mexico.<br/>- Nvidia is most used in Rusia.<br/><br/><b> · Conclusions at April of 2017</b><br/><br/>- The situation not change and is more or less the same.<br/>- An important patern is repeated in the game's target people and them interests.<br/>- On the December months the revelance of the the theme increase exponentially.",
+        "html": "这是<a href='https://unity3d.com' target='_blank'>Unity</a>与使用Google应用程序的其他游戏引擎<a href ='http://www.google.com/trends' target='_blank'>趋势</a>.<br/><b>·2016年10月的结论</b><br/><br/>使用游戏引擎. - PlayStation4和Xbox 360与Unity相比更为重要.<br/> - Nvidia与Unity相当.在中国，人们对生产游戏的兴趣比在玩游戏更感兴趣.<br/> - PlayStation4是美国，加拿大，澳大利亚和欧洲最常用的.<br/> - XBox 360最常用于南美洲和墨西哥.<br/> - Nvidia最常用于Rusia.<br/><br/><b>·在2017年4月的结论</b><br/><br/>·这种情况没有变化，或多或少是相同的. 游戏的目标人和他们的兴趣. - 在12月份，这个主题的狂飙呈指数级增长.",
         "repositori": null
         },
         {
@@ -384,7 +384,7 @@
         "data": "10/28/2016",
         "estat": "完",
         "link": "http://davidmartinezros.com/web/comparative_Sketchup.html",
-        "html": "This is a comparative between <a href='http://www.sketchup.com/download' target='_blank'>Sketchup</a> and the other 3D modeling computer program with the Google application <a href='http://www.google.com/trends' target='_blank'>Trends</a>.<br/><br/><b>· Conclusions at October of 2016</b><br/><br/>- Skechtup and Blender are the most relevant 3D modeling computer program in the last year.<br/>- Sketchup is mostly used in South America and Australia and Blender in USA and Europe.<br/>- 3d Studio Max and Maya are mostly used in Asia and India.<br/>- Studying the evolution, we can see that 3d Studio Max and Maya were more important in the USA and in Europe ten years ago.<br/>- In the last five years, Sketchup and Blender got more relevance, because these last ones are free.<br/>- Considering that the USA and Europe are the future, Sketchtup and Blender are the 3D modeling computer program of the future as well.<br/>- Like we saw in the comparative between <a href='/web/comparative_Unity.html' target='_blank'>Game Engines</a>, XBox is mostly used were is mostly used Sketchup. And PlayStation4 is mostly used were is mostly used Blender.<br/><br/><b> · Conclusions at April of 2017</b><br/><br/>- The situation not change and is more or less the same.<br/>- The revelance of Skechtup is growing respect Blender.<br/>- An important patern is repeated in the game's target people and them interests.<br/>- On the final of December months the revelance of the theme decrease exponentially. Perhaps is relationated with the exponential growing of the Game Trending Topics.",
+        "html": "这是<a href='http://www.sketchup.com/download' target='_blank'>Sketchup</a>和其他使用Google应用程序的3D建模计算机程序的比较<a href ='http://www.google.com/trends' target='_blank'>趋势</a>.<br/><br/><b>·在2016年10月的结论</b><br/><br/> - Skechtup和Blender是去年最相关的3D建模计算机程序. - Sketchup主要用于南美洲和澳大利亚以及美国和欧洲的Blender. - 3D Studio Max和Maya主要用于亚洲和印度.“ - 研究演变，我们可以看到3D Studio Max和Maya在十年前在美国和欧洲更为重要.<br/> - 在过去五年中， Sketchup和Blender具有更多的相关性，因为这些最后一个是免费的.<br/> - 考虑到美国和欧洲是未来，Sketchtup和Blender是未来的3D建模计算机程序.我们在<a href='/web/comparative_Unity.html' target='_blank'>游戏引擎</a>，XBox主要用于大多数使用Sketchup.而PlayStation4主要用于大多数使用的搅拌机.<br/><br/><b>·结论在2017年4月</b><br/><br/>这个情况没有改变，或多或少是相同的.主题呈指数下降.也许与游戏趋势主题的指数增长有关.",
         "repositori": null
         },
         {
@@ -394,7 +394,7 @@
         "data": "12/15/2016",
         "estat": "完",
         "link": "http://davidmartinezros.com/web/comparative_VR.html",
-        "html": "This is a comparative between <a href='https://en.wikipedia.org/wiki/Virtual_reality' target='_blank'>VR (Virtual Reality)</a> and <a href='https://www.playstation.com' target='_blank'>PlayStation4</a> and <a href='https://www.xbox.com/' target='_blank'>XBox 360</a> GameConsoles with the Google application <a href='http://www.google.com/trends' target='_blank'>Trends</a>.<br/><br/><b>· Conclusions at December of 2016</b><br/><br/>- VR is growing in all the World in the last year.<br/>- PlayStation4 and Xbox 360 are more relevant than VR.<br/>- The growing of PlayStation4 and XBox 360 is influenced by VR.<br/>- VR is more relevant in Europe, North America, Canada and Australia.<br/><br/><b> · Conclusions at April of 2017</b><br/><br/>- The situation is making tendencies.<br/>- The tendence of Playstation 4 is growing.<br/>- And the tendence of Xbox 360 and Virtual Reality are decreasing. Perhaps, Virtual Reality is a transient trend and XBox 360 have to change their Game Engine.",
+        "html": "这是<a href='https://en.wikipedia.org/wiki/Virtual_reality' target='_blank'>VR(虚拟现实)</a>和<a href='https://www.playstation.com' target='_blank'>PlayStation4</a>和<a href='https://www.xbox.com/' target='_blank'>XBox 360</a> GameConsoles与Google应用程序 <a href='http://www.google.com/trends' target='_blank'>趋势</a>.<br/><br/><b>·在2016年12月的结论</b><br/><br/> - 去年，VR在世界各地越来越多.<br/> - PlayStation4和Xbox 360比VR更为相关.<br/> - PlayStation4和XBox 360的增长受到影响 _VR在欧洲，北美，加拿大和澳大利亚更相关.<br/><br/><b>·在2017年4月的结论</b><br/><br/> - 情况正在倾向.“ - Playstation 4的倾向越来越大.” - Xbox 360和虚拟现实的倾向正在减弱. 也许，虚拟现实是一个暂时的趋势，XBox 360必须改变他们的游戏引擎.",
         "repositori": null
         },
         {
@@ -404,7 +404,7 @@
         "data": "12/23/2016",
         "estat": "完",
         "link": "http://davidmartinezros.com/web/comparative_GoogleSearches.html",
-        "html": "Objectives:<br/><br/>- This project aims to investigate and find out which subjects are of interest to the world.<br/>- As the interests of the world are very wide, center the searches in regions with similar interests (I begin with Spain).<br/>- And as interests vary over time, I will focus on the present.<br/>- The Searches use the <a href='https://www.google.com/trends/explore' target='_blank'>Google Trends Engine</a>.",
+        "html": "目标:<br/>这个项目旨在调查并找出世界感兴趣的哪些科目? - 由于世界的利益非常广泛，将搜索集中在具有相似性的地区 兴趣(我从西班牙开始).<br/> - 随着兴趣随着时间的推移而变化，我将专注于现在.<br/> - 搜索使用<a href='https://www.google.com/trends/explore' target='_blank'>Google趋势引擎</a>.",
         "repositori": null
         },
         {
@@ -414,7 +414,7 @@
         "data": "04/13/2017",
         "estat": "加工",
         "link": "http://davidmartinezros.com:8080/how-do-you-learn-SB-2.5.0-SNAPSHOT/api/howdyl/listRobots",
-        "html": "This Project is done in <b>Java 8</b> with <b>Spring Boot 1.5</b> and <b>Angular 4</b> with <b>Bootstrap 3</b>.<br/><br/>I'm doing the architecture and thinking and designing the concepts.<br/><br/>For the moment, I've done:<br/><br/>An Spring Boot <a href='http://davidmartinezros.com:8080/how-do-you-learn-SB-2.5.0-SNAPSHOT/api/howdyl/state' target='_blank'>Unity Knowledge Rest Service</a> saved in a <b>MongoDB</b>.<br/><br/><b>This are the Services Published:</b><ul><li><a href='http://davidmartinezros.com:8080/how-do-you-learn-SB-2.5.0-SNAPSHOT/api/howdyl/addRobot' target='_blank'>POST Call adds a Robot in the mongoDB</a>: You have to indicate the parameters required.</li><li><a href='http://davidmartinezros.com:8080/how-do-you-learn-SB-2.5.0-SNAPSHOT/api/howdyl/listRobots' target='_blank'>GET call returns the list of Robots saved in the mongoDB</a></li><li><a href='http://davidmartinezros.com:8080/how-do-you-learn-SB-2.5.0-SNAPSHOT/api/howdyl/addUnity' target='_blank'>POST Call adds a unity knowledge in the mongoDB</a>: You have to indicate the parameters required.</li><li><a href='http://davidmartinezros.com:8080/how-do-you-learn-SB-2.5.0-SNAPSHOT/api/howdyl/listUnities' target='_blank'>GET call returns the list of Unities saved in the MongoDB</a></li></ul><br/><b>Working on it!</b>",
+        "html": "该项目是在<b>Java 8</b>中使用<b>Spring Boot 1.5</b>和<b>Angular 4</b>与<b> Bootstrap 3 </b>完成的.<br/><br/>我正在做架构，思考和设计这些概念.<br/><br/>目前，我已经做了:<br/>一个Spring Boot <a href='http://davidmartinezros.com:8080/how-do-you-learn-SB-2.5.0-SNAPSHOT/api/howdyl/state' target='_blank'>Unity Knowledge Rest服务</a>保存在<b>MongoDB</b>.<br/><br/><b>这是发布的服务:</b><ul><li><a href='http://davidmartinezros.com:8080/how-do-you-learn-SB-2.5.0-SNAPSHOT/api/howdyl/addRobot' target='_blank'>POST调用在mongoDB中添加一个机器人</a>:你必须指出所需的参数.</li><li><a href='http://davidmartinezros.com:8080/how-do-you-learn-SB-2.5.0-SNAPSHOT/api/howdyl/listRobots' target='_blank'>GET调用返回保存在mongoDB中的机器人列表</a></li><li><a href='http://davidmartinezros.com:8080/how-do-you-learn-SB-2.5.0-SNAPSHOT/api/howdyl/addUnity' target='_blank'>POST调用添加mongoDB中的统一知识</a>:您必须指明所需的参数.</li><li><a href='http://davidmartinezros.com:8080/how-do-you-learn-SB-2.5.0-SNAPSHOT/api/howdyl/listUnities' target='_blank'>GET调用返回保存在MongoDB中的Unities列表</a></li></ul><br/><b>工作就可以了!</b>",
         "repositori": "https://github.com/davidmartinezros/how-do-you-learn"
         },
         {
@@ -424,7 +424,7 @@
         "data": "04/17/2017",
         "estat": "完",
         "link": "http://davidmartinezros.com:8080/calling-to-internet-1.0.0-SNAPSHOT/api/lru/state",
-        "html": "This Project is done in <b>Java 8</b> with <b>Spring Boot 1.5</b>.<br/><br/>Is a Rest Service that call to an url to internet and response the content of the url. <br/><br/>You can call it with:<br/><a href='http://davidmartinezros.com:8080/calling-to-internet-1.0.0-SNAPSHOT/api/lru/getTagsFromGoogle' target='_blank'>POST Call with array of tags by parameter</a><br/><a href='http://davidmartinezros.com:8080/calling-to-internet-1.0.0-SNAPSHOT/api/lru/getContentUrl' target='_blank'>POST Call with a url parameter</a><br/><a href='http://davidmartinezros.com:8080/calling-to-internet-1.0.0-SNAPSHOT/api/lru/getTagsOfContentUrl' target='_blank'>POST Call with a url parameter and a tag parameter</a><br/><br/>You can call them with <a href='https://www.getpostman.com/' target='_blank'>Postman App</a>.",
+        "html": "这个项目是在<b>Java 8</b>中使用<b>Spring Boot 1.5</b>完成的.<br/>是一个休息服务，调用一个网址到互联网，并回应 网址.<br/><br/>您可以使用以下内容来呼叫:<br/><a href='http://davidmartinezros.com:8080/call-to-internet-1.0.0-SNAPSHOT/api/lru/getTagsFromGoogle 'target='_blank'>POST通过参数对代码数组进行调用</a><a href='http://davidmartinezros.com:8080/calling-to-internet-1.0.0-SNAPSHOT/api/lru/getContentUrl' target='_blank'>具有url参数的POST调用</a><br/><a href='http://davidmartinezros.com:8080/calling-to-internet-1.0.0-SNAPSHOT/api/lru/getTagsOfContentUrl' target='_blank'>POST带有url参数和标签参数的调用</a>可以使用<a href='https://www.getpostman.com/' target='_blank'>邮递员应用</a>.",
         "repositori": "https://github.com/davidmartinezros/calling-to-internet"
         },
         {
@@ -434,7 +434,7 @@
         "data": "09/14/2017",
         "estat": "还没",
         "link": "https://github.com/davidmartinezros/which-image-is",
-        "html": "This Project will be done with <a href='https://ionicframework.com/'>Ionic</a>, <b>Java 8</b> with <b>Spring Boot 1.5</b> and <a href='https://www.tensorflow.org/install/install_java' target='blank'>Tensor Flow</a>.<br/><br/>The objective is the mobile does a fotography of a monument and the App shows the description of it.<br/><br/><b>Comming soon!</b>",
+        "html": "该项目将使用<a href='https://ionicframework.com/'>Ionic</a>，<b>Java 8</b>与<b>Spring Boot 1.5</b>和<a href='https://www.tensorflow.org/install/install_java' target='_blank'>张量流</a>.<br/>目标是手机拍摄纪念碑和 应用程式会显示其说明.<br/><br/><b>即将推出!</b>",
         "repositori": "https://github.com/davidmartinezros/which-image-is"
         }
     ]
