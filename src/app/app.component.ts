@@ -8,7 +8,6 @@ import { ProjectsComponent } from './projects/projects.component';
 import { ProjectDetailComponent } from './project-detail/project-detail.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { Title, Meta, MetaDefinition }  from '@angular/platform-browser';
-import { SeoService } from './seo.service';
 
 @Component({
   selector: 'app-root',
@@ -23,8 +22,10 @@ export class AppComponent {
   constructor(
     private translate: TranslateService,
     private route: ActivatedRoute,
-    private seoService: SeoService) {
+    private meta: Meta,
+    private title: Title) {
       debugger;
+
       var userLang = "";
       this.route.queryParams.subscribe(params => {
         userLang = params['lang'];
@@ -65,6 +66,28 @@ export class AppComponent {
 
     this.language = language;
 
+    this.translate.get("TitleIndex").subscribe(
+      key => {
+        this.title.setTitle(key);
+      }
+    );
+    
+    this.translate.get("TagAuthorIndex").subscribe(
+      key => {
+        this.meta.updateTag(key);
+      }
+    );
+    this.translate.get("TagKeywordsIndex").subscribe(
+      key => {
+        this.meta.updateTag(key);
+      }
+    );
+    this.translate.get("TagDescriptionIndex").subscribe(
+      key => {
+        this.meta.updateTag(key);
+      }
+    );
+
     DashboardComponent.updateStuff.next(false);
     ProjectListComponent.updateStuff.next(false);
     FollowingComponent.updateStuff.next(false);
@@ -72,10 +95,6 @@ export class AppComponent {
     ProjectDetailComponent.updateStuff.next(false);
     CarouselComponent.updateStuff.next(false);
 
-    debugger;
-
-    this.seoService.setTitle("hola hola hola");
-    this.seoService.setMetaDescription("soc el david modificat");
   }
 
   public showIntroductionAlert() {

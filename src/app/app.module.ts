@@ -36,9 +36,6 @@ import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { CarouselComponent } from './carousel/carousel.component';
 
-import { Title }  from '@angular/platform-browser';
-import {SeoService} from './seo.service';
-
 function todos(state = [], action) {
   switch (action.type) {
     case 'ADD_TODO':
@@ -87,9 +84,7 @@ store.dispatch({
     })
   ],
   providers: [
-    ProjectService,
-    Title,
-    SeoService
+    ProjectService
   ],
   bootstrap: [
     AppComponent
