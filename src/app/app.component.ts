@@ -71,7 +71,7 @@ export class AppComponent {
         this.title.setTitle(key);
       }
     );
-    
+    /*
     this.translate.get("TagAuthorIndex").subscribe(
       key => {
         this.meta.updateTag(key);
@@ -87,7 +87,7 @@ export class AppComponent {
         this.meta.updateTag(key);
       }
     );
-
+    */
     DashboardComponent.updateStuff.next(false);
     ProjectListComponent.updateStuff.next(false);
     FollowingComponent.updateStuff.next(false);
