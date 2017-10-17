@@ -17,7 +17,7 @@ import { Title, Meta, MetaDefinition }  from '@angular/platform-browser';
 
 export class AppComponent {
 
-  private language: String;
+  private language;
   
   constructor(
     private translate: TranslateService,
@@ -28,7 +28,11 @@ export class AppComponent {
 
       var userLang = "";
       this.route.queryParams.subscribe(params => {
-        userLang = params['lang'];
+        if(!params['lang'] || params['lang'] == "") {
+          userLang = this.language;
+        } else {
+          userLang = params['lang'];
+        }
         console.log("queryParams:" + userLang);
 
         if(!userLang || userLang == "") {
