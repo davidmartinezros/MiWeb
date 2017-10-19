@@ -1,13 +1,19 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
-import { ActivatedRoute } from '@angular/router';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { ProjectListComponent } from './project-list/project-list.component';
 import { FollowingComponent } from './following/following.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ProjectDetailComponent } from './project-detail/project-detail.component';
 import { CarouselComponent } from './carousel/carousel.component';
-import { Title, Meta, MetaDefinition }  from '@angular/platform-browser';
+import { Title }  from '@angular/platform-browser';
+import { MetaService } from './meta.service';
+
+import 'rxjs/add/operator/filter';
+import 'rxjs/add/operator/map';
+import 'rxjs/add/operator/mergeMap';
+
+import { Router, NavigationEnd, ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -15,15 +21,16 @@ import { Title, Meta, MetaDefinition }  from '@angular/platform-browser';
   styleUrls: ['./app.component.css'],
 })
 
-export class AppComponent {
+export class AppComponent implements OnInit {
 
   private language;
   
   constructor(
     private translate: TranslateService,
     private route: ActivatedRoute,
-    private meta: Meta,
-    private title: Title) {
+    private router: Router,
+    private title: Title,
+    private metaService: MetaService) {
       debugger;
 
       var userLang = "";
@@ -78,17 +85,17 @@ export class AppComponent {
     
     this.translate.get("TagAuthorIndex").subscribe(
       key => {
-        this.meta.updateTag({"author": key});
+        this.metaService.setMeta("author", key);
       }
     );
     this.translate.get("TagKeywordsIndex").subscribe(
       key => {
-        this.meta.updateTag({"keywords": key});
+        this.metaService.setMeta("keywords", key);
       }
     );
     this.translate.get("TagDescriptionIndex").subscribe(
       key => {
-        this.meta.updateTag({"description": key});
+        this.metaService.setMeta("description", key);
       }
     );
     
@@ -99,6 +106,19 @@ export class AppComponent {
     ProjectDetailComponent.updateStuff.next(false);
     CarouselComponent.updateStuff.next(false);
 
+  }
+
+  ngOnInit() {
+    this.router.events
+      .filter(event => event instanceof NavigationEnd)
+      .map(() => this.route)
+      .map(route => {
+        while (route.firstChild) route = route.firstChild;
+        return route;
+      })
+      .filter(route => route.outlet === 'primary')
+      .mergeMap(route => route.data)
+      .subscribe((event) => this.title.setTitle(event['title']));
   }
 
   public showIntroductionAlert() {

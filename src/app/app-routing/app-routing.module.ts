@@ -24,11 +24,11 @@ export class ComponentGuard implements CanActivate {
 
 const routes: Routes = [
   { path: '', redirectTo: '/dashboard', pathMatch: 'full', canActivate: [ComponentGuard] },
-  { path: 'dashboard', component: DashboardComponent, canActivate: [ComponentGuard] },
-  { path: 'projects', component: ProjectsComponent, canActivate: [ComponentGuard] },
-  { path: 'following', component: FollowingComponent, canActivate: [ComponentGuard] },
-  { path: 'detail/:id', component: ProjectDetailComponent, canActivate: [ComponentGuard] },
-  { path: 'type/:tipus', component: ProjectTypeComponent, canActivate: [ComponentGuard] }
+  { path: 'dashboard', component: DashboardComponent, canActivate: [ComponentGuard], data: { title: 'Escritorio' } },
+  { path: 'projects', component: ProjectsComponent, canActivate: [ComponentGuard], data: { title: 'Listado de proyectos' } },
+  { path: 'following', component: FollowingComponent, canActivate: [ComponentGuard], data: { title: 'Seguimiento de proyectos' } },
+  { path: 'detail/:id', component: ProjectDetailComponent, canActivate: [ComponentGuard], data: { title: 'Detalle de proyecto' } },
+  { path: 'type/:tipus', component: ProjectTypeComponent, canActivate: [ComponentGuard], data: { title: 'Tipo de proyecto' } }
 ];
 
 @NgModule({
