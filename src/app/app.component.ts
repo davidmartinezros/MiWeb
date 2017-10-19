@@ -7,6 +7,7 @@ import { FollowingComponent } from './following/following.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ProjectDetailComponent } from './project-detail/project-detail.component';
 import { CarouselComponent } from './carousel/carousel.component';
+import { Title, Meta, MetaDefinition }  from '@angular/platform-browser';
 
 @Component({
   selector: 'app-root',
@@ -16,15 +17,22 @@ import { CarouselComponent } from './carousel/carousel.component';
 
 export class AppComponent {
 
-  private language: String;
+  private language;
   
   constructor(
     private translate: TranslateService,
-    private route: ActivatedRoute) {
+    private route: ActivatedRoute,
+    private meta: Meta,
+    private title: Title) {
       debugger;
+
       var userLang = "";
       this.route.queryParams.subscribe(params => {
-        userLang = params['lang'];
+        if(!params['lang'] || params['lang'] == "") {
+          userLang = this.language;
+        } else {
+          userLang = params['lang'];
+        }
         console.log("queryParams:" + userLang);
 
         if(!userLang || userLang == "") {
@@ -62,13 +70,35 @@ export class AppComponent {
 
     this.language = language;
 
+    this.translate.get("TitleIndex").subscribe(
+      key => {
+        this.title.setTitle(key);
+      }
+    );
+    /*
+    this.translate.get("TagAuthorIndex").subscribe(
+      key => {
+        this.meta.updateTag(key);
+      }
+    );
+    this.translate.get("TagKeywordsIndex").subscribe(
+      key => {
+        this.meta.updateTag(key);
+      }
+    );
+    this.translate.get("TagDescriptionIndex").subscribe(
+      key => {
+        this.meta.updateTag(key);
+      }
+    );
+    */
     DashboardComponent.updateStuff.next(false);
     ProjectListComponent.updateStuff.next(false);
     FollowingComponent.updateStuff.next(false);
     ProjectsComponent.updateStuff.next(false);
     ProjectDetailComponent.updateStuff.next(false);
     CarouselComponent.updateStuff.next(false);
-    
+
   }
 
   public showIntroductionAlert() {
