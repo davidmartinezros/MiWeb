@@ -75,23 +75,23 @@ export class AppComponent {
         this.title.setTitle(key);
       }
     );
-    /*
+    
     this.translate.get("TagAuthorIndex").subscribe(
       key => {
-        this.meta.updateTag(key);
+        this.meta.updateTag({"author": key});
       }
     );
     this.translate.get("TagKeywordsIndex").subscribe(
       key => {
-        this.meta.updateTag(key);
+        this.meta.updateTag({"keywords": key});
       }
     );
     this.translate.get("TagDescriptionIndex").subscribe(
       key => {
-        this.meta.updateTag(key);
+        this.meta.updateTag({"description": key});
       }
     );
-    */
+    
     DashboardComponent.updateStuff.next(false);
     ProjectListComponent.updateStuff.next(false);
     FollowingComponent.updateStuff.next(false);
