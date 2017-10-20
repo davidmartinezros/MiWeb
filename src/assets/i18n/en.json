@@ -272,7 +272,7 @@
         "tipus": "Project",
         "data": "07/02/2017",
         "estat": "WORKING",
-        "link": "https://github.com/davidmartinezros/myyme",
+        "link": "http://davidmartinezros.com/Angular2/myyme",
         "html": "This project is <b>the Angular2 Web of the Artificial Intelligence Project</b>.<br/><br/>It are going to show the relations of the Robots and the Unity Knowledge of a Robot and you could manage them: adding, removing, listing and modifying.<br/><br/>It also have a acurate presentation envolving the Robot concept and trying to near the Intelligence Artificial to the web user.<br/><br/>Working on it!",
         "repositori": "https://github.com/davidmartinezros/myyme"
         },
@@ -422,8 +422,8 @@
         "tipus": "Project",
         "data": "04/13/2017",
         "estat": "WORKING",
-        "link": "http://davidmartinezros.com:8080/how-do-you-learn-SB-2.5.0-SNAPSHOT/api/howdyl/listRobots",
-        "html": "This Project is done in <b>Java 8</b> with <b>Spring Boot 1.5</b> and <b>Angular 4</b> with <b>Bootstrap 3</b>.<br/><br/>I'm doing the architecture and thinking and designing the concepts.<br/><br/>For the moment, I've done:<br/><br/>An Spring Boot <a href='http://davidmartinezros.com:8080/how-do-you-learn-SB-2.5.0-SNAPSHOT/api/howdyl/state' target='_blank'>Unity Knowledge Rest Service</a> saved in a <b>MongoDB</b>.<br/><br/><b>This are the Services Published:</b><ul><li><a href='http://davidmartinezros.com:8080/how-do-you-learn-SB-2.5.0-SNAPSHOT/api/howdyl/addRobot' target='_blank'>POST Call adds a Robot in the mongoDB</a>: You have to indicate the parameters required.</li><li><a href='http://davidmartinezros.com:8080/how-do-you-learn-SB-2.5.0-SNAPSHOT/api/howdyl/listRobots' target='_blank'>GET call returns the list of Robots saved in the mongoDB</a></li><li><a href='http://davidmartinezros.com:8080/how-do-you-learn-SB-2.5.0-SNAPSHOT/api/howdyl/addUnity' target='_blank'>POST Call adds a unity knowledge in the mongoDB</a>: You have to indicate the parameters required.</li><li><a href='http://davidmartinezros.com:8080/how-do-you-learn-SB-2.5.0-SNAPSHOT/api/howdyl/listUnities' target='_blank'>GET call returns the list of Unities saved in the MongoDB</a></li></ul><br/><b>Working on it!</b>",
+        "link": "http://davidmartinezros.com:8080/how-do-you-learn-2.9.0-SNAPSHOT/api/howdyl/listRobots",
+        "html": "This Project is done in <b>Java 8</b> with <b>Spring Boot 1.5</b> and <b>Angular 4</b> with <b>Bootstrap 3</b>.<br/><br/>I'm doing the architecture and thinking and designing the concepts.<br/><br/>For the moment, I've done:<br/><br/>An Spring Boot <a href='http://davidmartinezros.com:8080/how-do-you-learn-2.9.0-SNAPSHOT/api/howdyl/state' target='_blank'>Unity Knowledge Rest Service</a> saved in a <b>MongoDB</b>.<br/><br/><b>This are the Services Published:</b><ul><li><a href='http://davidmartinezros.com:8080/how-do-you-learn-2.9.0-SNAPSHOT/api/howdyl/addRobot' target='_blank'>POST Call adds a Robot in the mongoDB</a>: You have to indicate the parameters required.</li><li><a href='http://davidmartinezros.com:8080/how-do-you-learn-SB-2.9.0-SNAPSHOT/api/howdyl/listRobots' target='_blank'>GET call returns the list of Robots saved in the mongoDB</a></li><li><a href='http://davidmartinezros.com:8080/how-do-you-learn-2.9.0-SNAPSHOT/api/howdyl/addUnity' target='_blank'>POST Call adds a unity knowledge in the mongoDB</a>: You have to indicate the parameters required.</li><li><a href='http://davidmartinezros.com:8080/how-do-you-learn-2.9.0-SNAPSHOT/api/howdyl/listUnities' target='_blank'>GET call returns the list of Unities saved in the MongoDB</a></li></ul><br/><b>Working on it!</b>",
         "repositori": "https://github.com/davidmartinezros/how-do-you-learn"
         },
         {
