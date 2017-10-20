@@ -101,7 +101,7 @@
         {
         "link": "http://davidmartinezros.com/Angular2/TourOfHeroesWithCliCRUD/",
         "style": "background:url('../../assets/carousel/projecte7.png')",
-        "text": "Recopilación de Héroes con Angular-Cli i CRUD"
+        "text": "Recopilación de Héroes con Angular-Cli"
         },
         {
         "link": "https://github.com/davidmartinezros/RemakeGhostnGoblins",
@@ -157,7 +157,7 @@
         "repositori": "https://github.com/davidmartinezros/angular-tour-of-heroes-by-me-with-cli"
         },
         {
-        "id": 4, "titol": "Recopilación de Héroes con Angular-Cli i CRUD",
+        "id": 4, "titol": "Recopilación de Héroes con Angular-Cli y CRUD",
         "tema": "Angular2",
         "tipus": "Example",
         "data": "10/18/2016",
