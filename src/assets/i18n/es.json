@@ -11,9 +11,9 @@
     "IntroductionAlertMessage": "¡INTÉNTALO Y DIVIÉRTETE!",
     "Title1": "Actividades en las que estoy trabajando:",
     "Subtitle1.1": "Componentes con Angular:",
-    "Description1.1.1": "<a href='http://davidmartinezros.com/Angular2/components-animations-project/' target='_blank'>animaciones</a>, un <a href='http://davidmartinezros.com/Angular2/component-tree-project/' target='_blank'>árbol</a> y <a href='http://davidmartinezros.com/Angular2/component-divs-project/' target='_blank'>divs arrastrables</a>.",
+    "Description1.1.1": "<a href='https://davidmartinezros.com/Angular2/components-animations-project/' target='_blank'>animaciones</a>, un <a href='https://davidmartinezros.com/Angular2/component-tree-project/' target='_blank'>árbol</a> y <a href='https://davidmartinezros.com/Angular2/component-divs-project/' target='_blank'>divs arrastrables</a>.",
     "Subtitle1.2": "Proyectos con Angular:",
-    "Description1.2.1": "<a href='http://davidmartinezros.com/Angular2/climate-project/' target='_blank'>predicción meteorológica</a> y una <a href='http://davidmartinezros.com/Angular2/TheSnakeGame/' target='_blank'>serpiente: juego 3d</a>.",
+    "Description1.2.1": "<a href='https://davidmartinezros.com/Angular2/climate-project/' target='_blank'>predicción meteorológica</a> y una <a href='https://davidmartinezros.com/Angular2/TheSnakeGame/' target='_blank'>serpiente: juego 3d</a>.",
     "Subtitle1.3": "Proyecto con Angular y Java:",
     "Description1.3.1": "aprendizaje con inteligencia articial",
     "Description1.3.2": "backend",
@@ -26,8 +26,8 @@
     "Description1.5.3": "aprovechando las nuevas tecnologías",
     "Description1.5.4": "referencia",
     "Subtitle1.6": "Comparativas con Google Trends:",
-    "Description1.6.1": "He realizado varias investigaciones: <a href='http://davidmartinezros.com/web/comparative_Angular2.html' target='_blank'>¿hacia dónde va angular?</a> y <a href='http://davidmartinezros.com/web/comparative_Unity.html' target='_blank'>¿dónde se encuentra unity?</a>.",
-    "Description1.6.2": "Estoy realizando diferentes estudios: <a href='http://davidmartinezros.com/web/comparative_GoogleSearches.html' target='_blank'>¿qué les interesa a la gente?</a>.",
+    "Description1.6.1": "He realizado varias investigaciones: <a href='https://davidmartinezros.com/web/comparative_Angular2.html' target='_blank'>¿hacia dónde va angular?</a> y <a href='https://davidmartinezros.com/web/comparative_Unity.html' target='_blank'>¿dónde se encuentra unity?</a>.",
+    "Description1.6.2": "Estoy realizando diferentes estudios: <a href='https://davidmartinezros.com/web/comparative_GoogleSearches.html' target='_blank'>¿qué les interesa a la gente?</a>.",
     "Title2": "Para cualquier duda técnica: <a href='http://davidlearns.blogspot.com' target='_blank'>davidlearns.blogspot.com</a>.",
     "Title3": "Leyenda de Actividades",
     "Subtitle3.1": "Ejemplos",
@@ -69,37 +69,37 @@
     "carousel":
     [
         {
-        "link": "http://davidmartinezros.com/Angular2/components-animations-project/",
+        "link": "https://davidmartinezros.com/Angular2/components-animations-project/",
         "style": "background:url('../../assets/carousel/projecte1.png')",
         "text": "Proyecto de animación de componentes html"
         },
         {
-        "link": "http://davidmartinezros.com/3D/MySceneWithMoreObjects/",
+        "link": "https://davidmartinezros.com/3D/MySceneWithMoreObjects/",
         "style": "background:url('../../assets/carousel/projecte2.png')",
         "text": "Mi siguiente ejemplo de escena"
         },
         {
-        "link": "http://davidmartinezros.com/Angular2/TheSnakeGame/",
+        "link": "https://davidmartinezros.com/Angular2/TheSnakeGame/",
         "style": "background:url('../../assets/carousel/projecte3.png')",
         "text": "Juego 3D Serpiente"
         },
         {
-        "link": "http://davidmartinezros.com/Angular2/climate-project/",
+        "link": "https://davidmartinezros.com/Angular2/climate-project/",
         "style": "background:url('../../assets/carousel/projecte4.png')",
         "text": "Predicción meteorológica"
         },
         {
-        "link": "http://davidmartinezros.com/Angular2/component-tree-project/",
+        "link": "https://davidmartinezros.com/Angular2/component-tree-project/",
         "style": "background:url('../../assets/carousel/projecte5.png')",
         "text": "Proyecto de componente árbol"
         },
         {
-        "link": "http://davidmartinezros.com/3D/WaterProject/",
+        "link": "https://davidmartinezros.com/3D/WaterProject/",
         "style": "background:url('../../assets/carousel/projecte6.png')",
         "text": "Ejemplo de un terreno con agua"
         },
         {
-        "link": "http://davidmartinezros.com/Angular2/TourOfHeroesWithCliCRUD/",
+        "link": "https://davidmartinezros.com/Angular2/TourOfHeroesWithCliCRUD/",
         "style": "background:url('../../assets/carousel/projecte7.png')",
         "text": "Recopilación de Héroes con Angular-Cli"
         },
@@ -109,17 +109,17 @@
         "text": "Remake de Ghost'n Goblins"
         },
         {
-        "link": "http://davidmartinezros.com/Angular2/component-divs-project/",
+        "link": "https://davidmartinezros.com/Angular2/component-divs-project/",
         "style": "background:url('../../assets/carousel/projecte9.png')",
         "text": "Proyecto de componentes divs arrastrables"
         },
         {
-        "link": "http://davidmartinezros.com/3D/ComportamientoFisico/",
+        "link": "https://davidmartinezros.com/3D/ComportamientoFisico/",
         "style": "background:url('../../assets/carousel/projecte10.png')",
         "text": "Mi primer ejemplo físico"
         },
         {
-        "link": "http://davidmartinezros.com/web/comparative_Angular2.html",
+        "link": "https://davidmartinezros.com/web/comparative_Angular2.html",
         "style": "background:url('../../assets/carousel/projecte11.png')",
         "text": "Comparativa entre AngularJS y Angular2"
         }
@@ -132,7 +132,7 @@
         "tipus": "Example",
         "data": "10/07/2016",
         "estat": "ACABADO",
-        "link": "http://davidmartinezros.com/Angular2/HelloWorld/",
+        "link": "https://davidmartinezros.com/Angular2/HelloWorld/",
         "html": "Mi primer Component Angular2 que pinta algo en la pantalla (<b>'Hello World'</b>).",
         "repositori": "https://github.com/davidmartinezros/HolaAngular2"
         },
@@ -142,7 +142,7 @@
         "tipus": "Example",
         "data": "10/17/2016",
         "estat": "ACABADO",
-        "link": "http://davidmartinezros.com/Angular2/TourOfHeroes/",
+        "link": "https://davidmartinezros.com/Angular2/TourOfHeroes/",
         "html": "Este ejemplo incluye los siguientes objetivos:<br/>- Uso de <a href='https://angular.io/docs/ts/latest/guide/template-syntax.html#!#event-binding' target='_blank'>event binding</a>.<br/>- Uso de <a href='https://angular.io/docs/ts/latest/guide/forms.html#!#ngModel' target='_blank'>form and ngModel</a> (enlazado en las dos direcciones).<br/>- Uso de estilos Css y plantillas html.<br/>- Lista de Héroes (puede ser una lista de lo que sea).<br/>- Uso de sentencia Typescript como <a href='https://angular.io/docs/ts/latest/guide/template-syntax.html#!#ngFor' target='_blank'>nFor</a>.<br/>- Detalla de un Héroe (o cualquier otra entidad).<br/>- Edición de Héroes con id y nombre.<br/>- Implementación de Servicio que devuelve el listado y el detalle de héroes de un mock data source (no hay ninguna base de datos y todos los datos están en el navegador).<br/>- Navegación con una parametrización de Router.<br/><br/>Puedes realizar el ejemplo en el siguiente <a href='https://angular.io/docs/ts/latest/tutorial/' target='_blank'>tutorial</a>.",
         "repositori": "https://github.com/davidmartinezros/angular-tour-of-heroes-by-me"
         },
@@ -152,7 +152,7 @@
         "tipus": "Example",
         "data": "10/18/2016",
         "estat": "ACABADO",
-        "link": "http://davidmartinezros.com/Angular2/TourOfHeroesWithCli/",
+        "link": "https://davidmartinezros.com/Angular2/TourOfHeroesWithCli/",
         "html": "Este ejemplo es el mismo que el <a href='/detail/2'>2. Ejemplo Recopilación de Héroes (17/10/2016)</a>.<br/>La diferencia es el uso de <a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'>Angular-Cli</a> para generar el proyecto, los componentes y hacer el despliegue.<br/><a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'>Angular-Cli</a> está en la versión beta 17 por el momento, pero parece interesante.<br/><br/>Con Angular-Cli puedes:<br/>- Generar tu proyectos con una Estructura de Proyecto Cli.<br/>- Generar elementos de la web (Componentes, Módulos, Servicios, Clases, etc.).<br/>- Desplegar el proyecto y <a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'>Angular-Cli</a> genera solo el código necesario definiendo un entorno de despliegue (dev, prod, etc.). Este despligue compacta el código y no es necesaria la carpeta node_modules con sus dependencias.<br/><br/>Puedes realizar el ejemplo en el siguiente <a href='https://angular.io/docs/ts/latest/tutorial/' target='_blank'>tutorial</a>.",
         "repositori": "https://github.com/davidmartinezros/angular-tour-of-heroes-by-me-with-cli"
         },
@@ -162,7 +162,7 @@
         "tipus": "Example",
         "data": "10/18/2016",
         "estat": "ACABADO",
-        "link": "http://davidmartinezros.com/Angular2/TourOfHeroesWithCliCRUD/",
+        "link": "https://davidmartinezros.com/Angular2/TourOfHeroesWithCliCRUD/",
         "html": "Este ejemplo es el mismo que el <a href='/detail/3'>3. Recopilación de Héroes con Angular-Cli (18/10/2016)</a>.<br/>Aquí está implementada la edición, borrado y búsqueda de héroe (o cualquier entidad que necesites).<br/><br/>Tú puedes:<br/>- Editar un héroe en el detalle del héroe.<br/>- Borrar un héroe en el listado de héroes.<br/>- Buscar un héroe en el escritorio.<br/><br/>Puedes realizar el ejemplo en el siguiente <a href='https://angular.io/docs/ts/latest/tutorial/toh-pt6.html' target='_blank'>tutorial</a>.",
         "repositori": "https://github.com/davidmartinezros/angular-tour-of-heroes-by-me-with-cli"
         },
@@ -172,7 +172,7 @@
         "tipus": "Project",
         "data": "10/19/2016",
         "estat": "EN CURSO",
-        "link": "http://davidmartinezros.com",
+        "link": "https://davidmartinezros.com",
         "html": "He desarollado mi página web con <b>angular 4</b> usando <b>angular/Cli</b>.<br/>Es una web responsiva con <b>bootstrap 3</b>.<br/><br/>Los proyectos están realizados con <a href='https://angular.io' target='blank'>angular</a>, <a href='https://unity3d.com' target='blank'>unity</a> o <a href='https://www.java.com/' target='_blank'>java</a>.<br/><b>Nuevos objetivos</b>: un proyecto de <a href='/detail/301?lang=es'>aprendizaje con inteligencia artificial</a>, un <a href='/detail/14?lang=es'>Remake del juego de la Serpiente</a>, un <a href='/detail/109?lang=es'>Remake del juego Ghost'n Goblins</a> y una <a href='/detail/401?lang=es'>Aplicación Móbil hecha con Ionic: ¿Cuál Monumento?</a>.",
         "repositori": "https://github.com/davidmartinezros/MiWeb"
         },
@@ -182,7 +182,7 @@
         "tipus": "Example",
         "data": "10/27/2016",
         "estat": "ACABADO",
-        "link": "http://davidmartinezros.com/Angular2/bind-json-array-to-html-table",
+        "link": "https://davidmartinezros.com/Angular2/bind-json-array-to-html-table",
         "html": "Este ejemplo está desarrollado con <a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'>Angular-Cli</a>.<br/><br/>Es un ejemplo que <b>carga un fichero JSON en una tabla html</b> con un Servicio Angular-Cli.<br/><br/>Aquí en <a href='https://davidlearns.blogspot.com.es/2016/10/bind-json-data-to-html-table-with.html' target='_blank'>davidlearns.blogspot.com</a> puedes ver la explicación del ejemplo y puedes aprender a hacerlo.",
         "repositori": "https://github.com/davidmartinezros/bind-json-array-to-html-table"
         },
@@ -192,7 +192,7 @@
         "tipus": "Component",
         "data": "10/30/2016",
         "estat": "ACABADO",
-        "link": "http://davidmartinezros.com/Angular2/components-animations-project",
+        "link": "https://davidmartinezros.com/Angular2/components-animations-project",
         "html": "Este ejemplo está desarrollado con <a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'>Angular-Cli</a>.<br/><br/>Muestra algunas <b>animaciones en componentes html</b> que puedes usar en páginas web Angular2.<br/><br/>Puedes extender el efecto que quieras en tu componente y implementar el template html y el estilo css.<br/><br/>Por ejemplo:<br/>export class MyComponent extends BounceAnimationComponent { }<br/><br/>Las animaciones son <b>bounce</b>, <b>fade</b>, <b>flip</b>, <b>roll</b>, <b>rotate</b>, <b>zoom</b> y <b>others</b>.<br/><br/>El código que ha inspirado mi proyecto es <a href='http://daneden.github.io/animate.css/' target='_blank'>http://daneden.github.io/animate.css/</a>.",
         "repositori": "https://github.com/davidmartinezros/components-animations-project"
         },
@@ -202,7 +202,7 @@
         "tipus": "Component",
         "data": "11/06/2016",
         "estat": "ACABADO",
-        "link": "http://davidmartinezros.com/Angular2/component-tree-project/",
+        "link": "https://davidmartinezros.com/Angular2/component-tree-project/",
         "html": "Este proyecto está desarrollado con <a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'>Angular-Cli</a>.<br/><br/>Muestra un <b>componente árbol cargado desde un fichero json con una estructura de antepasados e hijos</b>.<br/><br/>Este árbol está generado recursivamente con un componente <b>app-tree-node</b> que se llama a si mismo.<br/><br/>Y cuando el app-tree-node está cargado, los antepasado y los próximos hijos se cargan recursivamente.<br/><br/>Puedes <b>cargar el fichero json que quieras</b> y el árbol mostrará el fichero que has cargado.<br/><br/>El proyecto está inspirado en un componente árbol que realice en java leyendo un fichero xml con xsl hace cinco años.<br/><br/>Y pensé: <b>¿Podría intentar hacer en Angular2?</b>",
         "repositori": "https://github.com/davidmartinezros/component-tree-project"
         },
@@ -212,7 +212,7 @@
         "tipus": "Component",
         "data": "12/08/2016",
         "estat": "ACABADO",
-        "link": "http://davidmartinezros.com/Angular2/component-divs-project/",
+        "link": "https://davidmartinezros.com/Angular2/component-divs-project/",
         "html": "Este proyecto está desarrollado con <a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'>Angular-Cli</a>.<br/><br/>Muestra algunos <b>componentes divs cargados desde un fichero json con título, contenido y estilos</b>.<br/><br/>Estos divs son <b>arrastrables</b> y <b>dropables</b> y los puedes usar con el componente <b>app-div-node</b>.<br/><br/> Este componente está generado en el componente <b>app-layout</b> con llamadas de eventos entre los divs.",
         "repositori": "https://github.com/davidmartinezros/component-divs-project"
         },
@@ -222,7 +222,7 @@
         "tipus": "Project",
         "data": "01/26/2017",
         "estat": "ACABADO",
-        "link": "http://davidmartinezros.com/Angular2/climate-project/",
+        "link": "https://davidmartinezros.com/Angular2/climate-project/",
         "html": "Este proyecto muestra las predicciones meteorológicas de cualquier municipio de España en los próximos cuatro días.<br/><br/>Usa un widget configurable hecho por <a href='http://www.aemet.es/es/portada' target='_blank'>AEMET</a>.<br/><br/>Puede buscar el municipio y clicar el botón 'buscar'. La aplicación buscará el municipio y preguntará a AEMET por la predicción meteorológica en los próximos cuatro día y los detalles configurados.<br/><br/>Si <b>estás interesado</b> en este proyecto, ¡<a href='mailto:davidnezan@gmail.com'>contacta conmigo</a> para mejorar el producto y hacerlo comercial!",
         "repositori": "https://github.com/davidmartinezros/climate-project"
         },
@@ -232,7 +232,7 @@
         "tipus": "Example",
         "data": "03/09/2017",
         "estat": "ACABADO",
-        "link": "http://davidmartinezros.com/Angular2/Mi3DWorld/",
+        "link": "https://davidmartinezros.com/Angular2/Mi3DWorld/",
         "html": "Este ejemplo muestra una escena 3D con algunos cubos a los que puedes clicar y cambiant de color y la cámara los sigue.<br/><br/>Este ejemplo necesita las librerias <a href='http://glmatrix.net/' target='_blank'>gl-matrix.js</a> y <a href='https://github.com/jagenjo/litegl.js' target='_blank'>litegl.js</a> para ejecutarse.",
         "repositori": "https://github.com/davidmartinezros/Mi3DWorld"
         },
@@ -242,7 +242,7 @@
         "tipus": "Example",
         "data": "03/19/2017",
         "estat": "ACABADO",
-        "link": "http://davidmartinezros.com/Angular2/Mi3DWorld2/",
+        "link": "https://davidmartinezros.com/Angular2/Mi3DWorld2/",
         "html": "Este ejemplo muestra una escena 3D con un cubo gigante y algunos cubos pequeños que puedes clicar y estos cambian de color.<br/><br/>Puedes rotar la cámara arrastrando el ratón en la escena.<br/><br/>Este ejemplo necesita las librerías <a href='http://glmatrix.net/' target='_blank'>gl-matrix.js</a> y <a href='https://github.com/jagenjo/litegl.js' target='_blank'>litegl.js</a> para ejecutarse.",
         "repositori": "https://github.com/davidmartinezros/Mi3DWorld"
         },
@@ -252,7 +252,7 @@
         "tipus": "Example",
         "data": "03/29/2017",
         "estat": "ACABADO",
-        "link": "http://davidmartinezros.com/Angular2/Mi3DWorld3/",
+        "link": "https://davidmartinezros.com/Angular2/Mi3DWorld3/",
         "html": "Este ejemplo muestra una escena 3D con algunos cubos que puedes clicar y estos cambian de color y la cámara los sigue.<br/><br/>Los cubos están en el eje X y, cuando los clicas, estos se propagan en el eje Z. Lo mismo ocurre cuando los clicamos en el eje Y.<br/><br/>Por lo tanto, los cubos se propagan en los tres ejes X, Y y Z.<br/><br/>Este ejemplo necesita las librerías <a href='http://glmatrix.net/' target='_blank'>gl-matrix.js</a> y <a href='https://github.com/jagenjo/litegl.js' target='_blank'>litegl.js</a> para ejecutarse.",
         "repositori": "https://github.com/davidmartinezros/Mi3DWorld"
         },
@@ -262,7 +262,7 @@
         "tipus": "Project",
         "data": "04/04/2017",
         "estat": "TRABAJANDO",
-        "link": "http://davidmartinezros.com/Angular2/TheSnakeGame/",
+        "link": "https://davidmartinezros.com/Angular2/TheSnakeGame/",
         "html": "Este proyecto es un <b>remake del juego de la Serpiente</b> que se volvió muy famoso a finales de los 90 en móbiles Nokia y otros.<br/><br/>En esta versión, puede mover la serpiente en una escena 3D, un cubo en ejes X, Y y Z que puedes ir capturando para hacer crecer la serpiente.<br/><br/>Este proyecto necesita las librerías <a href='http://glmatrix.net/' target='_blank'>gl-matrix.js</a> y <a href='https://github.com/jagenjo/litegl.js' target='_blank'>litegl.js</a> para ejecutarse.<br/><br/><b>¡Trabajando en ello!</b>",
         "repositori": "https://github.com/davidmartinezros/Mi3DWorld/tree/TheSnakeGame"
         },
@@ -272,7 +272,7 @@
         "tipus": "Project",
         "data": "07/02/2017",
         "estat": "TRABAJANDO",
-        "link": "http://davidmartinezros.com/Angular2/myyme",
+        "link": "https://davidmartinezros.com/Angular2/myyme",
         "html": "Este proyecto es la <b>Web Angular2 del proyecto de Inteligencia Artificial</b>.<br/><br/>Éste mostrará una relación de Robots y sus Unidades de Conocimiento y puedes gestionar: añadiendo, borrando, listando y modificando.<br/><br/>También incluye una presentación acurada envolviendo el concepto Robot e intentando acercando la Inteligencia Artificial a la web del usuario.<br/><br/><b>¡Trabando en ello!</b>",
         "repositori": "https://github.com/davidmartinezros/myyme"
         },
@@ -282,7 +282,7 @@
         "tipus": "Example",
         "data": "10/10/2016",
         "estat": "ACABADO",
-        "link": "http://davidmartinezros.com/3D/MyFirstScene/",
+        "link": "https://davidmartinezros.com/3D/MyFirstScene/",
         "html": "La cámara sigue el personaje en un terreno.<br/><br/>¡<a href='http://unity3d.com' target='_blank'>Unity</a> hace todo el trabajo!",
         "repositori": "https://github.com/davidmartinezros/MiPrimerProyecto"
         },
@@ -292,7 +292,7 @@
         "tipus": "Example",
         "data": "10/11/2016",
         "estat": "ACABADO",
-        "link": "http://davidmartinezros.com/3D/MySceneWithMoreObjects/",
+        "link": "https://davidmartinezros.com/3D/MySceneWithMoreObjects/",
         "html": "Hay tres lunas con luces nuevo objetos como árboles y casas. Todos con texturas y sombras.",
         "repositori": "https://github.com/davidmartinezros/MiPrimerProyecto"
         },
@@ -302,7 +302,7 @@
         "tipus": "Example",
         "data": "10/12/2016",
         "estat": "ACABADO",
-        "link": "http://davidmartinezros.com/3D/ComportamientoFisico/",
+        "link": "https://davidmartinezros.com/3D/ComportamientoFisico/",
         "html": "En este ejemplo, puedes mover la cámara arrastrando el ratón y, con la flecha hacia arriba del teclado, puedes lanzar la pelota que colisionará con el cubo y la acción cambiará el material de los dos objetos.",
         "repositori": "https://github.com/davidmartinezros/ComportamientoFisico"
         },
@@ -312,7 +312,7 @@
         "tipus": "Example",
         "data": "10/13/2016",
         "estat": "ACABADO",
-        "link": "http://davidmartinezros.com/3D/PersonMovement/",
+        "link": "https://davidmartinezros.com/3D/PersonMovement/",
         "html": "En este ejemplo, puedes ver el personaje y puedes moverlo por la plataforma.<br/><br/>La cámara seguirá al personaje (el seguimiento puede mejorarse).<br/><br/>El personaje puede caminar, correr y saltar.<br/><br/>Quiere emular un Juego de Plataformas.",
         "repositori": "https://github.com/davidmartinezros/PersonMovement"
         },
@@ -322,7 +322,7 @@
         "tipus": "Example",
         "data": "10/17/2016",
         "estat": "ACABADO",
-        "link": "http://davidmartinezros.com/3D/MiFirstShader/",
+        "link": "https://davidmartinezros.com/3D/MiFirstShader/",
         "html": "Este ejemplo muestra tres cubos.<br/><br/>Uno con una textura, otro con otra textura y, el del medio, con una mezcla de texturas con el 50% de la primera textura y el 50% de la segunda textura.",
         "repositori": "https://github.com/davidmartinezros/ShadersProject"
         },
@@ -332,7 +332,7 @@
         "tipus": "Example",
         "data": "10/18/2016",
         "estat": "ACABADO",
-        "link": "http://davidmartinezros.com/3D/DifferentsCameras/",
+        "link": "https://davidmartinezros.com/3D/DifferentsCameras/",
         "html": "Este ejemplo muestra la pantalla dividida por la mitad.<br/><br/>En el lado izquierdo, nos encontramos una cámara perspectiva que sigue al personaje, siempre detrás suyo.<br/><br/>En el lado derecho, nos encontramos una cámara 'multiporpuse' que sigue al personaje, recuperando la posición siempre detrás suyo.",
         "repositori": "https://github.com/davidmartinezros/CameraProject"
         },
@@ -342,7 +342,7 @@
         "tipus": "Example",
         "data": "10/29/2016",
         "estat": "ACABADO",
-        "link": "http://davidmartinezros.com/3D/ImportingColladas/",
+        "link": "https://davidmartinezros.com/3D/ImportingColladas/",
         "html": "Este ejemplo muestra un Dragón, generado con la herramienta de modelado 3D Blender que podemos obtener en <a href='http://tf3dm.com/3d-models/blender' target='_blank'>tf3dm.com</a>.<br/><br/>Este Dragón tiene animaciones creadas en Blender y he usado una de ella en el evento del teclado.<br/><br/>Se carga una animación por defecto cuando el Dragón inicia el movimiento.<br/><br/>Si clicar la flecha hacia arriba del teclado, el Dragón camina.",
         "repositori": "https://github.com/davidmartinezros/ImportingColladas"
         },
@@ -352,7 +352,7 @@
         "tipus": "Example",
         "data": "10/30/2016",
         "estat": "ACABADO",
-        "link": "http://davidmartinezros.com/3D/WaterProject/",
+        "link": "https://davidmartinezros.com/3D/WaterProject/",
         "html": "Este ejemplo muestra un terreno con texturas y con agua.<br/><br/>Este es mi primer ejemplo con agua, así que es muy sencillo.",
         "repositori": "https://github.com/davidmartinezros/WaterProject"
         },
@@ -372,7 +372,7 @@
         "tipus": "Comparative",
         "data": "10/28/2016",
         "estat": "ACABADO",
-        "link": "http://davidmartinezros.com/web/comparative_Angular2.html",
+        "link": "https://davidmartinezros.com/web/comparative_Angular2.html",
         "html": "Esta es una comparativa entre AngularJS y Angular2, con la aplicación de Google <a href='http://www.google.com/trends' target='_blank'>Trends</a>.<br/><br/><b>· Conclusiones en Octubre de 2016</b><br/><br/>- Angular2 empezó un año atrás, pero su relevancia ha llegado al 25% de AngularJS.<br/>- Angular2 y AngularJS se están usando mayormente en la India.<br/>- Angular2 solo ha llegado a India, Canadá, USA, Japón y Europa. El resto del mundo no lo conocen.<br/><br/><b>· Conclusiones en Abril de 2017</b><br/><br/>- Angular2 empezó dos años atrás, y continua creciendo. Ahora llega al 30% de la relevancia de AngularJS.<br/>- Angular2 y AngularJS se usan mayormente en la India.<br/>- Angular2 está creciendo en Europa (Alemania, Francia, Polonia y España).",
         "repositori": null
         },
@@ -382,7 +382,7 @@
         "tipus": "Comparative",
         "data": "10/28/2016",
         "estat": "ACABADO",
-        "link": "http://davidmartinezros.com/web/comparative_Unity.html",
+        "link": "https://davidmartinezros.com/web/comparative_Unity.html",
         "html": "Esta es una comparativa entre <a href='https://unity3d.com' target='_blank'>Unity</a> y el resto de motores de juegos, con la aplicación de Google <a href='http://www.google.com/trends' target='_blank'>Trends</a>.<br/><br/><b> · Conclusiones en Octubre de 2016</b><br/><br/>- Unity es el motor de juego más usado.<br/>- PlayStation4 y Xbox 360 son más relevantes que Unity.<br/>- Nvidia es equiparable a Unity.<br/>- En China, la gente está más interesado en producir Juegos que en jugarlos.<br/>- PlayStation4 es más usado en USA, Canadá, Australia y Europa.<br/>- XBox 360 es más usado en Sud América y Méjico.<br/>- Nvidia es más usado en Rusia.<br/><br/><b> · Conclusiones en April de 2017</b><br/><br/>- La situación no ha cambiado y está más o menos igual.<br/>- Un patrón importante se repite en la gente que está interesada en los juegos.<br/>- En los meses de Diciembre el interés crece exponencialmente.",
         "repositori": null
         },
@@ -392,7 +392,7 @@
         "tipus": "Comparative",
         "data": "10/28/2016",
         "estat": "ACABADO",
-        "link": "http://davidmartinezros.com/web/comparative_Sketchup.html",
+        "link": "https://davidmartinezros.com/web/comparative_Sketchup.html",
         "html": "Esta es una comparativa entre <a href='http://www.sketchup.com/download' target='_blank'>Sketchup</a> y los otros programas de modelado 3D, con la aplicación Google <a href='http://www.google.com/trends' target='_blank'>Trends</a>.<br/><br/><b>· Conclusiones en Octubre de 2016</b><br/><br/>- Skechtup y Blender son los más relevantes programas de modelado 3D en el último año.<br/>- Sketchup es más usado en Sud América y Australia y Blender en USA u Europa.<br/>- 3d Studio Max y Maya son más usados en Asia e India.<br/>- Estudiando la evolución, podemos ver que 3d Studio Max y Maya eran más importantes en USA y en Europa hace diez años.<br/>- En los últimos cinco años, Sketchup y Blender obtuvieron más relevancia, porqué éstos son gratuitos.<br/>- Considerando que USA y Europa son el futuro, Sketchtup y Blender los programas de modelado 3D también del futuro.<br/>- Como vimos en la comparativa sobre <a href='/web/comparative_Unity.html' target='_blank'>Motores de juegos</a>, XBox es el más usando como Sketchup es el más usado. Y PlayStation4 es el más usado como Blender es el más usado.<br/><br/><b> · Conclusiones en Abril de 2017</b><br/><br/>- La situación no ha cambiado y es más o menos la misma.<br/>- La relevancia de Skechtup está creciendo respecto a Blender.<br/>- Un importante patrón se repite en la gente que está interesada en juegos y sus intereses.<br/>- En los meses finales de Diciembre la relevancia de este tema decrece exponencialmente. Quizás está relacionado con el incremento exponencial de los 'Trending Topics' de juegos.",
         "repositori": null
         },
@@ -402,7 +402,7 @@
         "tipus": "Comparative",
         "data": "12/15/2016",
         "estat": "ACABADO",
-        "link": "http://davidmartinezros.com/web/comparative_VR.html",
+        "link": "https://davidmartinezros.com/web/comparative_VR.html",
         "html": "Esta es una comparativa entre <a href='https://en.wikipedia.org/wiki/Virtual_reality' target='_blank'>VR (Realidad Virtual)</a> y las VideoConsolas <a href='https://www.playstation.com' target='_blank'>PlayStation4</a> y <a href='https://www.xbox.com/' target='_blank'>XBox 360</a>, con la aplicación Google <a href='http://www.google.com/trends' target='_blank'>Trends</a>.<br/><br/><b>· Conclusiones en Diciembre de 2016</b><br/><br/>- VR está creciendo en todo el mundo el último año.<br/>- PlayStation4 y Xbox 360 son más relevantes que VR.<br/>- El crecimiento de PlayStation4 y XBox 360 está influenciado por VR.<br/>- VR es más relevante en Europa, Norte de América, Canadá y Australia.<br/><br/><b> · Conclusiones e Abril de 2017</b><br/><br/>- La situación está definiendo tendencias.<br/>- La tendencia de Playstation 4 está creciendo.<br/>- Y la tendencia de Xbox 360 y Realidad Virtual están decreciendo. Quizás Realidad Virtual es un 'Trending Topic' circumstancial y XBox 360 tiene que cambiar su motor de juegos.",
         "repositori": null
         },
@@ -412,7 +412,7 @@
         "tipus": "Comparative",
         "data": "12/23/2016",
         "estat": "ACABADO",
-        "link": "http://davidmartinezros.com/web/comparative_GoogleSearches.html",
+        "link": "https://davidmartinezros.com/web/comparative_GoogleSearches.html",
         "html": "Objetivos:<br/><br/>- Este proyecto quiere investigar y encontrar cuáles son los temas que interesan al mundo.<br/>- Dado que los intereses del mundo es un termino muy amplio, nos centraremos en buscar por regiones con búsquedas similares (He empezado con España).<br/>- Y dado que los intereses varian mucho a lo largo del tiempo, me centraré en el presente.<br/>- Las búsquedas usan el motor <a href='https://www.google.com/trends/explore' target='_blank'>Google Trends</a>.",
         "repositori": null
         },
