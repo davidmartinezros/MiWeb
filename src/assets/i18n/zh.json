@@ -272,7 +272,7 @@
         "tipus": "Project",
         "data": "07/02/2017",
         "estat": "加工",
-        "link": "https://github.com/davidmartinezros/myyme",
+        "link": "http://davidmartinezros.com/Angular2/myyme",
         "html": "这个项目是<b>人造智能项目的Angular2 Web</b>.<br/><br/>它将显示机器人与机器人的统一知识的关系，你可以管理它们: 增加，删除，列出和修改.<br/><br/>它还具有包含机器人概念并尝试靠近智能人造网络用户的精辟表现.",
         "repositori": "https://github.com/davidmartinezros/myyme"
         },
@@ -422,8 +422,8 @@
         "tipus": "Project",
         "data": "04/13/2017",
         "estat": "加工",
-        "link": "http://davidmartinezros.com:8080/how-do-you-learn-SB-2.5.0-SNAPSHOT/api/howdyl/listRobots",
-        "html": "该项目是在<b>Java 8</b>中使用<b>Spring Boot 1.5</b>和<b>Angular 4</b>与<b> Bootstrap 3 </b>完成的.<br/><br/>我正在做架构，思考和设计这些概念.<br/><br/>目前，我已经做了:<br/>一个Spring Boot <a href='http://davidmartinezros.com:8080/how-do-you-learn-SB-2.5.0-SNAPSHOT/api/howdyl/state' target='_blank'>Unity Knowledge Rest服务</a>保存在<b>MongoDB</b>.<br/><br/><b>这是发布的服务:</b><ul><li><a href='http://davidmartinezros.com:8080/how-do-you-learn-SB-2.5.0-SNAPSHOT/api/howdyl/addRobot' target='_blank'>POST调用在mongoDB中添加一个机器人</a>:你必须指出所需的参数.</li><li><a href='http://davidmartinezros.com:8080/how-do-you-learn-SB-2.5.0-SNAPSHOT/api/howdyl/listRobots' target='_blank'>GET调用返回保存在mongoDB中的机器人列表</a></li><li><a href='http://davidmartinezros.com:8080/how-do-you-learn-SB-2.5.0-SNAPSHOT/api/howdyl/addUnity' target='_blank'>POST调用添加mongoDB中的统一知识</a>:您必须指明所需的参数.</li><li><a href='http://davidmartinezros.com:8080/how-do-you-learn-SB-2.5.0-SNAPSHOT/api/howdyl/listUnities' target='_blank'>GET调用返回保存在MongoDB中的Unities列表</a></li></ul><br/><b>工作就可以了!</b>",
+        "link": "http://davidmartinezros.com:8080/how-do-you-learn-2.9.0-SNAPSHOT/api/howdyl/state",
+        "html": "该项目由<b>Java 8</b>与<b>Spring Boot 1.5</b>和<b>Angular 4</b>与<b>Bootstrap 3</b>. <br/><br/>我正在定义架构，思考和设计这些概念.<br/><br/>目前为止，我已经做了:<br/><br/>服务状态状态<a href ='http://davidmartinezros.com:8080/how-do-you-learn-2.9.0-SNAPSHOT/api/howdyl/state' target='_blank'>Unity Knowledge</a>与Spring Boot保存在一个<b><ul><li>创建机器人</li><li>删除机器人</li><li>删除标签</li><li>删除单位</li><li>创建关系</li><li>删除关系</li><li>机器人列表</li></ul><b>工作吧!</ b>",
         "repositori": "https://github.com/davidmartinezros/how-do-you-learn"
         },
         {
