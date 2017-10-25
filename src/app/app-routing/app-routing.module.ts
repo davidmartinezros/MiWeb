@@ -24,11 +24,46 @@ export class ComponentGuard implements CanActivate {
 
 const routes: Routes = [
   { path: '', redirectTo: '/dashboard', pathMatch: 'full', canActivate: [ComponentGuard] },
-  { path: 'dashboard', component: DashboardComponent, canActivate: [ComponentGuard] },
-  { path: 'projects', component: ProjectsComponent, canActivate: [ComponentGuard] },
-  { path: 'following', component: FollowingComponent, canActivate: [ComponentGuard] },
-  { path: 'detail/:id', component: ProjectDetailComponent, canActivate: [ComponentGuard] },
-  { path: 'type/:tipus', component: ProjectTypeComponent, canActivate: [ComponentGuard] }
+  { path: 'dashboard', component: DashboardComponent, canActivate: [ComponentGuard],
+    data: {
+      title: 'Dashboard | Angular, Ionic, Java and Unity website Projects',
+      author: 'David Martinez Ros',
+      keywords: 'Barcelona, Job, Full, Stack, Developer, Engineer, Technology, Angular, Ionic, Java, Unity, Framework, AngularJS, Ionic, Spring Boot, Unity3D',
+      description: 'Author: David Martinez Ros; Location: Barcelona; Job: Full Stack Developer, Engineer; Technology: Angular, Ionic, Java, Unity; Framework: AngularJS, Ionic, Spring Boot, Unity3D.',
+    }
+  },
+  { path: 'projects', component: ProjectsComponent, canActivate: [ComponentGuard],
+    data: {
+      title: 'List of Projects | Angular, Ionic, Java and Unity website Projects',
+      author: 'David Martinez Ros',
+      keywords: 'Barcelona, Job, Full, Stack, Developer, Engineer, Technology, Angular, Ionic, Java, Unity, Framework, AngularJS, Ionic, Spring Boot, Unity3D',
+      description: 'Author: David Martinez Ros; Location: Barcelona; Job: Full Stack Developer, Engineer; Technology: Angular, Ionic, Java, Unity; Framework: AngularJS, Ionic, Spring Boot, Unity3D.',
+    } 
+  },
+  { path: 'following', component: FollowingComponent, canActivate: [ComponentGuard],
+    data: {
+      title: 'Project Following | Angular, Ionic, Java and Unity website Projects',
+      author: 'David Martinez Ros',
+      keywords: 'Barcelona, Job, Full, Stack, Developer, Engineer, Technology, Angular, Ionic, Java, Unity, Framework, AngularJS, Ionic, Spring Boot, Unity3D',
+      description: 'Author: David Martinez Ros; Location: Barcelona; Job: Full Stack Developer, Engineer; Technology: Angular, Ionic, Java, Unity; Framework: AngularJS, Ionic, Spring Boot, Unity3D.',
+    }
+  },
+  { path: 'detail/:id', component: ProjectDetailComponent, canActivate: [ComponentGuard],
+    data: {
+      title: 'Project Detail | Angular, Ionic, Java and Unity website Projects',
+      author: 'David Martinez Ros',
+      keywords: 'Barcelona, Job, Full, Stack, Developer, Engineer, Technology, Angular, Ionic, Java, Unity, Framework, AngularJS, Ionic, Spring Boot, Unity3D',
+      description: 'Author: David Martinez Ros; Location: Barcelona; Job: Full Stack Developer, Engineer; Technology: Angular, Ionic, Java, Unity; Framework: AngularJS, Ionic, Spring Boot, Unity3D.',
+    }
+  },
+  { path: 'type/:tipus', component: ProjectTypeComponent, canActivate: [ComponentGuard],
+    data: { 
+      title: 'Project Type | Angular, Ionic, Java and Unity website Projects',
+      author: 'David Martinez Ros',
+      keywords: 'Barcelona, Job, Full, Stack, Developer, Engineer, Technology, Angular, Ionic, Java, Unity, Framework, AngularJS, Ionic, Spring Boot, Unity3D',
+      description: 'Author: David Martinez Ros; Location: Barcelona; Job: Full Stack Developer, Engineer; Technology: Angular, Ionic, Java, Unity; Framework: AngularJS, Ionic, Spring Boot, Unity3D.',
+    } 
+  }
 ];
 
 @NgModule({
