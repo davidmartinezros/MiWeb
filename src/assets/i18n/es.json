@@ -6,7 +6,7 @@
     "ShareText": "comparte con tus amigos",
     "Introduction1": "Hola, Soy <strong>David</strong> de <a href='https://www.google.com/maps/place/Barcelona' target='_blank'>Barcelona</a> | <a href='https://www.google.com/maps/place/Catalonia' target='_blank'>Cataluña</a> | <a href='https://www.google.com/maps/place/Spain' target='_blank'>España</a> | <a href='https://www.google.com/maps/place/Europe' target='_blank'>Europa</a>.<br/>",
     "Introduction2": "Soy un <strong>Full Stack Developer</strong> que realiza Actividades en <strong>Angular</strong>, <strong>Ionic</strong>, <strong>Java</strong> y <strong>Unity</strong>.",
-    "Introduction3": "Publico todos mis trabajos en mi <a href='http://github.com/davidmartinezros' target='_blank'>repositorio git</a>.",
+    "Introduction3": "Publico todos mis trabajos en mi <a href='https://github.com/davidmartinezros' target='_blank'>repositorio git</a>.",
     "IntroductionAlert": "Esto solo es una broma, pero gracias por intentarlo.",
     "IntroductionAlertMessage": "¡INTÉNTALO Y DIVIÉRTETE!",
     "Title1": "Actividades en las que estoy trabajando:",
@@ -28,7 +28,7 @@
     "Subtitle1.6": "Comparativas con Google Trends:",
     "Description1.6.1": "He realizado varias investigaciones: <a href='https://davidmartinezros.com/web/comparative_Angular2.html' target='_blank'>¿hacia dónde va angular?</a> y <a href='https://davidmartinezros.com/web/comparative_Unity.html' target='_blank'>¿dónde se encuentra unity?</a>.",
     "Description1.6.2": "Estoy realizando diferentes estudios: <a href='https://davidmartinezros.com/web/comparative_GoogleSearches.html' target='_blank'>¿qué les interesa a la gente?</a>.",
-    "Title2": "Para cualquier duda técnica: <a href='http://davidlearns.blogspot.com' target='_blank'>davidlearns.blogspot.com</a>.",
+    "Title2": "Para cualquier duda técnica: <a href='https://davidlearns.blogspot.com' target='_blank'>davidlearns.blogspot.com</a>.",
     "Title3": "Leyenda de Actividades",
     "Subtitle3.1": "Ejemplos",
     "Description3.1.1": "Para conseguir una buena idea, primero hay que hacer muchas pruebas.",
@@ -193,7 +193,7 @@
         "data": "10/30/2016",
         "estat": "ACABADO",
         "link": "https://davidmartinezros.com/Angular2/components-animations-project",
-        "html": "Este ejemplo está desarrollado con <a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'>Angular-Cli</a>.<br/><br/>Muestra algunas <b>animaciones en componentes html</b> que puedes usar en páginas web Angular2.<br/><br/>Puedes extender el efecto que quieras en tu componente y implementar el template html y el estilo css.<br/><br/>Por ejemplo:<br/>export class MyComponent extends BounceAnimationComponent { }<br/><br/>Las animaciones son <b>bounce</b>, <b>fade</b>, <b>flip</b>, <b>roll</b>, <b>rotate</b>, <b>zoom</b> y <b>others</b>.<br/><br/>El código que ha inspirado mi proyecto es <a href='http://daneden.github.io/animate.css/' target='_blank'>http://daneden.github.io/animate.css/</a>.",
+        "html": "Este ejemplo está desarrollado con <a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'>Angular-Cli</a>.<br/><br/>Muestra algunas <b>animaciones en componentes html</b> que puedes usar en páginas web Angular2.<br/><br/>Puedes extender el efecto que quieras en tu componente y implementar el template html y el estilo css.<br/><br/>Por ejemplo:<br/>export class MyComponent extends BounceAnimationComponent { }<br/><br/>Las animaciones son <b>bounce</b>, <b>fade</b>, <b>flip</b>, <b>roll</b>, <b>rotate</b>, <b>zoom</b> y <b>others</b>.<br/><br/>El código que ha inspirado mi proyecto es <a href='https://daneden.github.io/animate.css/' target='_blank'>https://daneden.github.io/animate.css/</a>.",
         "repositori": "https://github.com/davidmartinezros/components-animations-project"
         },
         {
@@ -283,7 +283,7 @@
         "data": "10/10/2016",
         "estat": "ACABADO",
         "link": "https://davidmartinezros.com/3D/MyFirstScene/",
-        "html": "La cámara sigue el personaje en un terreno.<br/><br/>¡<a href='http://unity3d.com' target='_blank'>Unity</a> hace todo el trabajo!",
+        "html": "La cámara sigue el personaje en un terreno.<br/><br/>¡<a href='https://unity3d.com' target='_blank'>Unity</a> hace todo el trabajo!",
         "repositori": "https://github.com/davidmartinezros/MiPrimerProyecto"
         },
         {
@@ -343,7 +343,7 @@
         "data": "10/29/2016",
         "estat": "ACABADO",
         "link": "https://davidmartinezros.com/3D/ImportingColladas/",
-        "html": "Este ejemplo muestra un Dragón, generado con la herramienta de modelado 3D Blender que podemos obtener en <a href='http://tf3dm.com/3d-models/blender' target='_blank'>tf3dm.com</a>.<br/><br/>Este Dragón tiene animaciones creadas en Blender y he usado una de ella en el evento del teclado.<br/><br/>Se carga una animación por defecto cuando el Dragón inicia el movimiento.<br/><br/>Si clicar la flecha hacia arriba del teclado, el Dragón camina.",
+        "html": "Este ejemplo muestra un Dragón, generado con la herramienta de modelado 3D Blender que podemos obtener en <a href='https://free3d.com/3d-models/blender' target='_blank'>free3d.com</a>.<br/><br/>Este Dragón tiene animaciones creadas en Blender y he usado una de ella en el evento del teclado.<br/><br/>Se carga una animación por defecto cuando el Dragón inicia el movimiento.<br/><br/>Si clicar la flecha hacia arriba del teclado, el Dragón camina.",
         "repositori": "https://github.com/davidmartinezros/ImportingColladas"
         },
         {
@@ -373,7 +373,7 @@
         "data": "10/28/2016",
         "estat": "ACABADO",
         "link": "https://davidmartinezros.com/web/comparative_Angular2.html",
-        "html": "Esta es una comparativa entre AngularJS y Angular2, con la aplicación de Google <a href='http://www.google.com/trends' target='_blank'>Trends</a>.<br/><br/><b>· Conclusiones en Octubre de 2016</b><br/><br/>- Angular2 empezó un año atrás, pero su relevancia ha llegado al 25% de AngularJS.<br/>- Angular2 y AngularJS se están usando mayormente en la India.<br/>- Angular2 solo ha llegado a India, Canadá, USA, Japón y Europa. El resto del mundo no lo conocen.<br/><br/><b>· Conclusiones en Abril de 2017</b><br/><br/>- Angular2 empezó dos años atrás, y continua creciendo. Ahora llega al 30% de la relevancia de AngularJS.<br/>- Angular2 y AngularJS se usan mayormente en la India.<br/>- Angular2 está creciendo en Europa (Alemania, Francia, Polonia y España).",
+        "html": "Esta es una comparativa entre AngularJS y Angular2, con la aplicación de Google <a href='https://www.google.com/trends' target='_blank'>Trends</a>.<br/><br/><b>· Conclusiones en Octubre de 2016</b><br/><br/>- Angular2 empezó un año atrás, pero su relevancia ha llegado al 25% de AngularJS.<br/>- Angular2 y AngularJS se están usando mayormente en la India.<br/>- Angular2 solo ha llegado a India, Canadá, USA, Japón y Europa. El resto del mundo no lo conocen.<br/><br/><b>· Conclusiones en Abril de 2017</b><br/><br/>- Angular2 empezó dos años atrás, y continua creciendo. Ahora llega al 30% de la relevancia de AngularJS.<br/>- Angular2 y AngularJS se usan mayormente en la India.<br/>- Angular2 está creciendo en Europa (Alemania, Francia, Polonia y España).",
         "repositori": null
         },
         {
@@ -383,7 +383,7 @@
         "data": "10/28/2016",
         "estat": "ACABADO",
         "link": "https://davidmartinezros.com/web/comparative_Unity.html",
-        "html": "Esta es una comparativa entre <a href='https://unity3d.com' target='_blank'>Unity</a> y el resto de motores de juegos, con la aplicación de Google <a href='http://www.google.com/trends' target='_blank'>Trends</a>.<br/><br/><b> · Conclusiones en Octubre de 2016</b><br/><br/>- Unity es el motor de juego más usado.<br/>- PlayStation4 y Xbox 360 son más relevantes que Unity.<br/>- Nvidia es equiparable a Unity.<br/>- En China, la gente está más interesado en producir Juegos que en jugarlos.<br/>- PlayStation4 es más usado en USA, Canadá, Australia y Europa.<br/>- XBox 360 es más usado en Sud América y Méjico.<br/>- Nvidia es más usado en Rusia.<br/><br/><b> · Conclusiones en April de 2017</b><br/><br/>- La situación no ha cambiado y está más o menos igual.<br/>- Un patrón importante se repite en la gente que está interesada en los juegos.<br/>- En los meses de Diciembre el interés crece exponencialmente.",
+        "html": "Esta es una comparativa entre <a href='https://unity3d.com' target='_blank'>Unity</a> y el resto de motores de juegos, con la aplicación de Google <a href='https://www.google.com/trends' target='_blank'>Trends</a>.<br/><br/><b> · Conclusiones en Octubre de 2016</b><br/><br/>- Unity es el motor de juego más usado.<br/>- PlayStation4 y Xbox 360 son más relevantes que Unity.<br/>- Nvidia es equiparable a Unity.<br/>- En China, la gente está más interesado en producir Juegos que en jugarlos.<br/>- PlayStation4 es más usado en USA, Canadá, Australia y Europa.<br/>- XBox 360 es más usado en Sud América y Méjico.<br/>- Nvidia es más usado en Rusia.<br/><br/><b> · Conclusiones en April de 2017</b><br/><br/>- La situación no ha cambiado y está más o menos igual.<br/>- Un patrón importante se repite en la gente que está interesada en los juegos.<br/>- En los meses de Diciembre el interés crece exponencialmente.",
         "repositori": null
         },
         {
@@ -393,7 +393,7 @@
         "data": "10/28/2016",
         "estat": "ACABADO",
         "link": "https://davidmartinezros.com/web/comparative_Sketchup.html",
-        "html": "Esta es una comparativa entre <a href='http://www.sketchup.com/download' target='_blank'>Sketchup</a> y los otros programas de modelado 3D, con la aplicación Google <a href='http://www.google.com/trends' target='_blank'>Trends</a>.<br/><br/><b>· Conclusiones en Octubre de 2016</b><br/><br/>- Skechtup y Blender son los más relevantes programas de modelado 3D en el último año.<br/>- Sketchup es más usado en Sud América y Australia y Blender en USA u Europa.<br/>- 3d Studio Max y Maya son más usados en Asia e India.<br/>- Estudiando la evolución, podemos ver que 3d Studio Max y Maya eran más importantes en USA y en Europa hace diez años.<br/>- En los últimos cinco años, Sketchup y Blender obtuvieron más relevancia, porqué éstos son gratuitos.<br/>- Considerando que USA y Europa son el futuro, Sketchtup y Blender los programas de modelado 3D también del futuro.<br/>- Como vimos en la comparativa sobre <a href='/web/comparative_Unity.html' target='_blank'>Motores de juegos</a>, XBox es el más usando como Sketchup es el más usado. Y PlayStation4 es el más usado como Blender es el más usado.<br/><br/><b> · Conclusiones en Abril de 2017</b><br/><br/>- La situación no ha cambiado y es más o menos la misma.<br/>- La relevancia de Skechtup está creciendo respecto a Blender.<br/>- Un importante patrón se repite en la gente que está interesada en juegos y sus intereses.<br/>- En los meses finales de Diciembre la relevancia de este tema decrece exponencialmente. Quizás está relacionado con el incremento exponencial de los 'Trending Topics' de juegos.",
+        "html": "Esta es una comparativa entre <a href='https://www.sketchup.com/download' target='_blank'>Sketchup</a> y los otros programas de modelado 3D, con la aplicación Google <a href='https://www.google.com/trends' target='_blank'>Trends</a>.<br/><br/><b>· Conclusiones en Octubre de 2016</b><br/><br/>- Skechtup y Blender son los más relevantes programas de modelado 3D en el último año.<br/>- Sketchup es más usado en Sud América y Australia y Blender en USA u Europa.<br/>- 3d Studio Max y Maya son más usados en Asia e India.<br/>- Estudiando la evolución, podemos ver que 3d Studio Max y Maya eran más importantes en USA y en Europa hace diez años.<br/>- En los últimos cinco años, Sketchup y Blender obtuvieron más relevancia, porqué éstos son gratuitos.<br/>- Considerando que USA y Europa son el futuro, Sketchtup y Blender los programas de modelado 3D también del futuro.<br/>- Como vimos en la comparativa sobre <a href='/web/comparative_Unity.html' target='_blank'>Motores de juegos</a>, XBox es el más usando como Sketchup es el más usado. Y PlayStation4 es el más usado como Blender es el más usado.<br/><br/><b> · Conclusiones en Abril de 2017</b><br/><br/>- La situación no ha cambiado y es más o menos la misma.<br/>- La relevancia de Skechtup está creciendo respecto a Blender.<br/>- Un importante patrón se repite en la gente que está interesada en juegos y sus intereses.<br/>- En los meses finales de Diciembre la relevancia de este tema decrece exponencialmente. Quizás está relacionado con el incremento exponencial de los 'Trending Topics' de juegos.",
         "repositori": null
         },
         {
@@ -403,7 +403,7 @@
         "data": "12/15/2016",
         "estat": "ACABADO",
         "link": "https://davidmartinezros.com/web/comparative_VR.html",
-        "html": "Esta es una comparativa entre <a href='https://en.wikipedia.org/wiki/Virtual_reality' target='_blank'>VR (Realidad Virtual)</a> y las VideoConsolas <a href='https://www.playstation.com' target='_blank'>PlayStation4</a> y <a href='https://www.xbox.com/' target='_blank'>XBox 360</a>, con la aplicación Google <a href='http://www.google.com/trends' target='_blank'>Trends</a>.<br/><br/><b>· Conclusiones en Diciembre de 2016</b><br/><br/>- VR está creciendo en todo el mundo el último año.<br/>- PlayStation4 y Xbox 360 son más relevantes que VR.<br/>- El crecimiento de PlayStation4 y XBox 360 está influenciado por VR.<br/>- VR es más relevante en Europa, Norte de América, Canadá y Australia.<br/><br/><b> · Conclusiones e Abril de 2017</b><br/><br/>- La situación está definiendo tendencias.<br/>- La tendencia de Playstation 4 está creciendo.<br/>- Y la tendencia de Xbox 360 y Realidad Virtual están decreciendo. Quizás Realidad Virtual es un 'Trending Topic' circumstancial y XBox 360 tiene que cambiar su motor de juegos.",
+        "html": "Esta es una comparativa entre <a href='https://en.wikipedia.org/wiki/Virtual_reality' target='_blank'>VR (Realidad Virtual)</a> y las VideoConsolas <a href='https://www.playstation.com' target='_blank'>PlayStation4</a> y <a href='https://www.xbox.com/' target='_blank'>XBox 360</a>, con la aplicación Google <a href='https://www.google.com/trends' target='_blank'>Trends</a>.<br/><br/><b>· Conclusiones en Diciembre de 2016</b><br/><br/>- VR está creciendo en todo el mundo el último año.<br/>- PlayStation4 y Xbox 360 son más relevantes que VR.<br/>- El crecimiento de PlayStation4 y XBox 360 está influenciado por VR.<br/>- VR es más relevante en Europa, Norte de América, Canadá y Australia.<br/><br/><b> · Conclusiones e Abril de 2017</b><br/><br/>- La situación está definiendo tendencias.<br/>- La tendencia de Playstation 4 está creciendo.<br/>- Y la tendencia de Xbox 360 y Realidad Virtual están decreciendo. Quizás Realidad Virtual es un 'Trending Topic' circumstancial y XBox 360 tiene que cambiar su motor de juegos.",
         "repositori": null
         },
         {
@@ -422,8 +422,8 @@
         "tipus": "Project",
         "data": "04/13/2017",
         "estat": "TRABAJANDO",
-        "link": "http://davidmartinezros.com:8080/how-do-you-learn-2.9.0-SNAPSHOT/api/howdyl/state",
-        "html": "Este proyecto está hecho en <b>Java 8</b> con <b>Spring Boot 1.5</b> y <b>Angular 4</b> con <b>Bootstrap 3</b>.<br/><br/>Estoy definiendo la arquitectura y pensando y diseñando los conceptos.<br/><br/>Por el momento, he hecho:<br/><br/>Servicio Rest de estado del <a href='http://davidmartinezros.com:8080/how-do-you-learn-2.9.0-SNAPSHOT/api/howdyl/state' target='_blank'>Unity Knowledge</a> con Spring Boot que se guarda en una <b>MongoDB</b>.<br/><br/><b>Estos son los Servicios Publicados:</b><ul><li>Crear Usuario</li><li>Borrar Ususario</li><li>Crear Robot</li><li>Borrar Robot</li><li>Crear Unidad</li><li>Borrar Unidad</li><li>Crear Tag</li><li>Borrar Tag</li><li>Crear Relación</li><li>Borrar Relación</li><li>Listado de Robots</li><li>Listado de Unidades</li></ul><br/><b>¡Trabajando en ello!</b>",
+        "link": "https://davidmartinezros.com:8443/how-do-you-learn-2.9.0-SNAPSHOT/api/howdyl/state",
+        "html": "Este proyecto está hecho en <b>Java 8</b> con <b>Spring Boot 1.5</b> y <b>Angular 4</b> con <b>Bootstrap 3</b>.<br/><br/>Estoy definiendo la arquitectura y pensando y diseñando los conceptos.<br/><br/>Por el momento, he hecho:<br/><br/>Servicio Rest de estado del <a href='https://davidmartinezros.com:8443/how-do-you-learn-2.9.0-SNAPSHOT/api/howdyl/state' target='_blank'>Unity Knowledge</a> con Spring Boot que se guarda en una <b>MongoDB</b>.<br/><br/><b>Estos son los Servicios Publicados:</b><ul><li>Crear Usuario</li><li>Borrar Ususario</li><li>Crear Robot</li><li>Borrar Robot</li><li>Crear Unidad</li><li>Borrar Unidad</li><li>Crear Tag</li><li>Borrar Tag</li><li>Crear Relación</li><li>Borrar Relación</li><li>Listado de Robots</li><li>Listado de Unidades</li></ul><br/><b>¡Trabajando en ello!</b>",
         "repositori": "https://github.com/davidmartinezros/how-do-you-learn"
         },
         {
@@ -432,8 +432,8 @@
         "tipus": "Project",
         "data": "04/17/2017",
         "estat": "ACABADO",
-        "link": "http://davidmartinezros.com:8080/calling-to-internet-1.0.0-SNAPSHOT/api/lru/state",
-        "html": "Este proyecto está realizado en <b>Java 8</b> con <b>Spring Boot 1.5</b>.<br/><br/>Es un Servicio Rest que llama a una url de internet y responde con el contenido de la url.<br/><br/>Puedes llamarla con:<br/><a href='http://davidmartinezros.com:8080/calling-to-internet-1.0.0-SNAPSHOT/api/lru/getTagsFromGoogle' target='_blank'>Llamada POST con array de tags por parámetro</a><br/><a href='http://davidmartinezros.com:8080/calling-to-internet-1.0.0-SNAPSHOT/api/lru/getContentUrl' target='_blank'>Llamada POST con una url por parámetro</a><br/><a href='http://davidmartinezros.com:8080/calling-to-internet-1.0.0-SNAPSHOT/api/lru/getTagsOfContentUrl' target='_blank'>Llamada POST con una url por parámetro y un parametro con un tag</a><br/><br/>Puedes llamar a todos los servicios con la <a href='https://www.getpostman.com/' target='_blank'>Aplicación Postman</a>.",
+        "link": "https://davidmartinezros.com:8443/calling-to-internet-1.0.0-SNAPSHOT/api/lru/state",
+        "html": "Este proyecto está realizado en <b>Java 8</b> con <b>Spring Boot 1.5</b>.<br/><br/>Es un Servicio Rest que llama a una url de internet y responde con el contenido de la url.<br/><br/>Puedes llamarla con:<br/><a href='https://davidmartinezros.com:8443/calling-to-internet-1.0.0-SNAPSHOT/api/lru/getTagsFromGoogle' target='_blank'>Llamada POST con array de tags por parámetro</a><br/><a href='https://davidmartinezros.com:8443/calling-to-internet-1.0.0-SNAPSHOT/api/lru/getContentUrl' target='_blank'>Llamada POST con una url por parámetro</a><br/><a href='https://davidmartinezros.com:8443/calling-to-internet-1.0.0-SNAPSHOT/api/lru/getTagsOfContentUrl' target='_blank'>Llamada POST con una url por parámetro y un parametro con un tag</a><br/><br/>Puedes llamar a todos los servicios con la <a href='https://www.getpostman.com/' target='_blank'>Aplicación Postman</a>.",
         "repositori": "https://github.com/davidmartinezros/calling-to-internet"
         },
         {

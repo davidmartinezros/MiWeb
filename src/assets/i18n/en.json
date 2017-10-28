@@ -6,7 +6,7 @@
     "ShareText": "share with your friends",
     "Introduction1": "Hi, I'm <strong>David</strong> from <a href='https://www.google.com/maps/place/Barcelona' target='_blank'>Barcelona</a> | <a href='https://www.google.com/maps/place/Catalonia' target='_blank'>Catalonia</a> | <a href='https://www.google.com/maps/place/Spain' target='_blank'>Spain</a> | <a href='https://www.google.com/maps/place/Europe' target='_blank'>Europe</a>.<br/>",
     "Introduction2": "I'm a <strong>Full Stack Developer</strong> doing <strong>Angular</strong>, <strong>Ionic</strong>, <strong>Java</strong> and <strong>Unity</strong> Activities.",
-    "Introduction3": "I publish all my works in my <a href='http://github.com/davidmartinezros' target='_blank'>git repository</a>.",
+    "Introduction3": "I publish all my works in my <a href='https://github.com/davidmartinezros' target='_blank'>git repository</a>.",
     "IntroductionAlert": "This is just a joke, but thanks for trying.",
     "IntroductionAlertMessage": "TRY IT AND HAVE FUN!",
     "Title1": "Current activities I am working in:",
@@ -28,7 +28,7 @@
     "Subtitle1.6": "Google trends comparatives:",
     "Description1.6.1": "I have done some investigations: <a href='https://davidmartinezros.com/web/comparative_Angular2.html' target='_blank'>where goes angular?</a> and <a href='https://davidmartinezros.com/web/comparative_Unity.html' target='_blank'>where is unity?</a>.",
     "Description1.6.2": "I'm doing some studies: <a href='https://davidmartinezros.com/web/comparative_GoogleSearches.html' target='_blank'>what are people interested in?</a>.",
-    "Title2": "For any technical trouble: <a href='http://davidlearns.blogspot.com' target='_blank'>davidlearns.blogspot.com</a>.",
+    "Title2": "For any technical trouble: <a href='https://davidlearns.blogspot.com' target='_blank'>davidlearns.blogspot.com</a>.",
     "Title3": "Activity Legend",
     "Subtitle3.1": "Examples",
     "Description3.1.1": "To come up with a good idea, first you have to do a lot of testing.",
@@ -193,7 +193,7 @@
         "data": "10/30/2016",
         "estat": "FINISHED",
         "link": "https://davidmartinezros.com/Angular2/components-animations-project",
-        "html": "This project is developed with <a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'>Angular-Cli</a>.<br/><br/>Shows some <b>animation in html components</b> that you can use in your Angular2 Web.<br/><br/>You have to extends the effect you want for your component and implements the html template and css file.<br/><br/>For example:<br/>export class MyComponent extends BounceAnimationComponent { }<br/><br/>The animations are <b>bounce</b>, <b>fade</b>, <b>flip</b>, <b>roll</b>, <b>rotate</b>, <b>zoom</b> and <b>others</b>.<br/><br/>The source code have inspired my project is <a href='http://daneden.github.io/animate.css/' target='_blank'>http://daneden.github.io/animate.css/</a>.",
+        "html": "This project is developed with <a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'>Angular-Cli</a>.<br/><br/>Shows some <b>animation in html components</b> that you can use in your Angular2 Web.<br/><br/>You have to extends the effect you want for your component and implements the html template and css file.<br/><br/>For example:<br/>export class MyComponent extends BounceAnimationComponent { }<br/><br/>The animations are <b>bounce</b>, <b>fade</b>, <b>flip</b>, <b>roll</b>, <b>rotate</b>, <b>zoom</b> and <b>others</b>.<br/><br/>The source code have inspired my project is <a href='https://daneden.github.io/animate.css/' target='_blank'>https://daneden.github.io/animate.css/</a>.",
         "repositori": "https://github.com/davidmartinezros/components-animations-project"
         },
         {
@@ -283,7 +283,7 @@
         "data": "10/10/2016",
         "estat": "FINISHED",
         "link": "https://davidmartinezros.com/3D/MyFirstScene/",
-        "html": "The camera follows the character in a terrain.<br/><br/><a href='http://unity3d.com' target='_blank'>Unity</a> do all the work!",
+        "html": "The camera follows the character in a terrain.<br/><br/><a href='https://unity3d.com' target='_blank'>Unity</a> do all the work!",
         "repositori": "https://github.com/davidmartinezros/MiPrimerProyecto"
         },
         {
@@ -343,7 +343,7 @@
         "data": "10/29/2016",
         "estat": "FINISHED",
         "link": "https://davidmartinezros.com/3D/ImportingColladas/",
-        "html": "This example shows a Dragon that was generated in Blender 3D modeling computer program gets from <a href='http://tf3dm.com/3d-models/blender' target='_blank'>tf3dm.com</a>.<br/><br/>This Dragon have animations created in Blender and I use one of this on a key event.<br/><br/>There's load a default animation that loads on the beginning.<br/><br/>If you press the key up arrow the dragon walk.",
+        "html": "This example shows a Dragon that was generated in Blender 3D modeling computer program gets from <a href='https://free3d.com/3d-models/blender' target='_blank'>free3d.com</a>.<br/><br/>This Dragon have animations created in Blender and I use one of this on a key event.<br/><br/>There's load a default animation that loads on the beginning.<br/><br/>If you press the key up arrow the dragon walk.",
         "repositori": "https://github.com/davidmartinezros/ImportingColladas"
         },
         {
@@ -373,7 +373,7 @@
         "data": "10/28/2016",
         "estat": "FINISHED",
         "link": "https://davidmartinezros.com/web/comparative_Angular2.html",
-        "html": "This is a comparative between AngularJS and Angular2 with the Google application <a href='http://www.google.com/trends' target='_blank'>Trends</a>.<br/><br/><b>· Conclusions at October of 2016</b><br/><br/>- Angular2 began one year ago, but it's relevance doesn't arrive at 25% of AngularJS's relevance.<br/>- Angular2 and AngularJS are mostly use in India.<br/>- Angular2 only arrive in India, Canada, USA, Japan and Europe. The rest of the World doesn't know it.<br/><br/><b>· Conclusions at April of 2017</b><br/><br/>- Angular2 began two years ago, and continues growing. Now arrive at 30% of AngularJS's revelance.<br/>- Angular2 and AngularJS are mostly use in India.<br/>- Angular2 is growing in Europe (Germany, France Poland and Spain).",
+        "html": "This is a comparative between AngularJS and Angular2 with the Google application <a href='https://www.google.com/trends' target='_blank'>Trends</a>.<br/><br/><b>· Conclusions at October of 2016</b><br/><br/>- Angular2 began one year ago, but it's relevance doesn't arrive at 25% of AngularJS's relevance.<br/>- Angular2 and AngularJS are mostly use in India.<br/>- Angular2 only arrive in India, Canada, USA, Japan and Europe. The rest of the World doesn't know it.<br/><br/><b>· Conclusions at April of 2017</b><br/><br/>- Angular2 began two years ago, and continues growing. Now arrive at 30% of AngularJS's revelance.<br/>- Angular2 and AngularJS are mostly use in India.<br/>- Angular2 is growing in Europe (Germany, France Poland and Spain).",
         "repositori": null
         },
         {
@@ -383,7 +383,7 @@
         "data": "10/28/2016",
         "estat": "FINISHED",
         "link": "https://davidmartinezros.com/web/comparative_Unity.html",
-        "html": "This is a comparative between <a href='https://unity3d.com' target='_blank'>Unity</a> and the other Game Engine with the Google application <a href='http://www.google.com/trends' target='_blank'>Trends</a>.<br/><br/><b> · Conclusions at October of 2016</b><br/><br/>- Unity is mostly use Game Engine.<br/>- PlayStation4 and Xbox 360 are more relevant than Unity.<br/>- Nvidia is equatable with Unity.<br/>- In China, people are more interested in produce Games than in play them.<br/>- PlayStation4 is the most used in USA, Canada, Australia and Europe.<br/>- XBox 360 is most used in South America and Mexico.<br/>- Nvidia is most used in Rusia.<br/><br/><b> · Conclusions at April of 2017</b><br/><br/>- The situation not change and is more or less the same.<br/>- An important patern is repeated in the game's target people and them interests.<br/>- On the December months the revelance of the the theme increase exponentially.",
+        "html": "This is a comparative between <a href='https://unity3d.com' target='_blank'>Unity</a> and the other Game Engine with the Google application <a href='https://www.google.com/trends' target='_blank'>Trends</a>.<br/><br/><b> · Conclusions at October of 2016</b><br/><br/>- Unity is mostly use Game Engine.<br/>- PlayStation4 and Xbox 360 are more relevant than Unity.<br/>- Nvidia is equatable with Unity.<br/>- In China, people are more interested in produce Games than in play them.<br/>- PlayStation4 is the most used in USA, Canada, Australia and Europe.<br/>- XBox 360 is most used in South America and Mexico.<br/>- Nvidia is most used in Rusia.<br/><br/><b> · Conclusions at April of 2017</b><br/><br/>- The situation not change and is more or less the same.<br/>- An important patern is repeated in the game's target people and them interests.<br/>- On the December months the revelance of the the theme increase exponentially.",
         "repositori": null
         },
         {
@@ -393,7 +393,7 @@
         "data": "10/28/2016",
         "estat": "FINISHED",
         "link": "https://davidmartinezros.com/web/comparative_Sketchup.html",
-        "html": "This is a comparative between <a href='http://www.sketchup.com/download' target='_blank'>Sketchup</a> and the other 3D modeling computer program with the Google application <a href='http://www.google.com/trends' target='_blank'>Trends</a>.<br/><br/><b>· Conclusions at October of 2016</b><br/><br/>- Skechtup and Blender are the most relevant 3D modeling computer program in the last year.<br/>- Sketchup is mostly used in South America and Australia and Blender in USA and Europe.<br/>- 3d Studio Max and Maya are mostly used in Asia and India.<br/>- Studying the evolution, we can see that 3d Studio Max and Maya were more important in the USA and in Europe ten years ago.<br/>- In the last five years, Sketchup and Blender got more relevance, because these last ones are free.<br/>- Considering that the USA and Europe are the future, Sketchtup and Blender are the 3D modeling computer program of the future as well.<br/>- Like we saw in the comparative between <a href='/web/comparative_Unity.html' target='_blank'>Game Engines</a>, XBox is mostly used were is mostly used Sketchup. And PlayStation4 is mostly used were is mostly used Blender.<br/><br/><b> · Conclusions at April of 2017</b><br/><br/>- The situation not change and is more or less the same.<br/>- The revelance of Skechtup is growing respect Blender.<br/>- An important patern is repeated in the game's target people and them interests.<br/>- On the final of December months the revelance of the theme decrease exponentially. Perhaps is relationated with the exponential growing of the Game Trending Topics.",
+        "html": "This is a comparative between <a href='https://www.sketchup.com/download' target='_blank'>Sketchup</a> and the other 3D modeling computer program with the Google application <a href='https://www.google.com/trends' target='_blank'>Trends</a>.<br/><br/><b>· Conclusions at October of 2016</b><br/><br/>- Skechtup and Blender are the most relevant 3D modeling computer program in the last year.<br/>- Sketchup is mostly used in South America and Australia and Blender in USA and Europe.<br/>- 3d Studio Max and Maya are mostly used in Asia and India.<br/>- Studying the evolution, we can see that 3d Studio Max and Maya were more important in the USA and in Europe ten years ago.<br/>- In the last five years, Sketchup and Blender got more relevance, because these last ones are free.<br/>- Considering that the USA and Europe are the future, Sketchtup and Blender are the 3D modeling computer program of the future as well.<br/>- Like we saw in the comparative between <a href='/web/comparative_Unity.html' target='_blank'>Game Engines</a>, XBox is mostly used were is mostly used Sketchup. And PlayStation4 is mostly used were is mostly used Blender.<br/><br/><b> · Conclusions at April of 2017</b><br/><br/>- The situation not change and is more or less the same.<br/>- The revelance of Skechtup is growing respect Blender.<br/>- An important patern is repeated in the game's target people and them interests.<br/>- On the final of December months the revelance of the theme decrease exponentially. Perhaps is relationated with the exponential growing of the Game Trending Topics.",
         "repositori": null
         },
         {
@@ -403,7 +403,7 @@
         "data": "12/15/2016",
         "estat": "FINISHED",
         "link": "https://davidmartinezros.com/web/comparative_VR.html",
-        "html": "This is a comparative between <a href='https://en.wikipedia.org/wiki/Virtual_reality' target='_blank'>VR (Virtual Reality)</a> and <a href='https://www.playstation.com' target='_blank'>PlayStation4</a> and <a href='https://www.xbox.com/' target='_blank'>XBox 360</a> GameConsoles with the Google application <a href='http://www.google.com/trends' target='_blank'>Trends</a>.<br/><br/><b>· Conclusions at December of 2016</b><br/><br/>- VR is growing in all the World in the last year.<br/>- PlayStation4 and Xbox 360 are more relevant than VR.<br/>- The growing of PlayStation4 and XBox 360 is influenced by VR.<br/>- VR is more relevant in Europe, North America, Canada and Australia.<br/><br/><b> · Conclusions at April of 2017</b><br/><br/>- The situation is making tendencies.<br/>- The tendence of Playstation 4 is growing.<br/>- And the tendence of Xbox 360 and Virtual Reality are decreasing. Perhaps, Virtual Reality is a transient trend and XBox 360 have to change their Game Engine.",
+        "html": "This is a comparative between <a href='https://en.wikipedia.org/wiki/Virtual_reality' target='_blank'>VR (Virtual Reality)</a> and <a href='https://www.playstation.com' target='_blank'>PlayStation4</a> and <a href='https://www.xbox.com/' target='_blank'>XBox 360</a> GameConsoles with the Google application <a href='https://www.google.com/trends' target='_blank'>Trends</a>.<br/><br/><b>· Conclusions at December of 2016</b><br/><br/>- VR is growing in all the World in the last year.<br/>- PlayStation4 and Xbox 360 are more relevant than VR.<br/>- The growing of PlayStation4 and XBox 360 is influenced by VR.<br/>- VR is more relevant in Europe, North America, Canada and Australia.<br/><br/><b> · Conclusions at April of 2017</b><br/><br/>- The situation is making tendencies.<br/>- The tendence of Playstation 4 is growing.<br/>- And the tendence of Xbox 360 and Virtual Reality are decreasing. Perhaps, Virtual Reality is a transient trend and XBox 360 have to change their Game Engine.",
         "repositori": null
         },
         {
@@ -422,8 +422,8 @@
         "tipus": "Project",
         "data": "04/13/2017",
         "estat": "WORKING",
-        "link": "http://davidmartinezros.com:8080/how-do-you-learn-2.9.0-SNAPSHOT/api/howdyl/state",
-        "html": "This Project is done in <b>Java 8</b> with <b>Spring Boot 1.5</b> and <b>Angular 4</b> with <b>Bootstrap 3</b>.<br/><br/>I'm doing the architecture and thinking and designing the concepts.<br/><br/>For the moment, I've done:<br/><br/>A Rest State Service of <a href='http://davidmartinezros.com:8080/how-do-you-learn-2.9.0-SNAPSHOT/api/howdyl/state' target='_blank'>Unity Knowledge</a> saved in a <b>MongoDB</b>.<br/><br/><b>This are the Services Published:</b><ul><li>Create User</li><li>Remove User</li><li>Create Robot</li><li>Remove Robot</li><li>Create Unity</li><li>Remove Unity</li><li>Create Tag</li><li>Remove Tag</li><li>Create Relation</li><li>Remove Relation</li><li>List Robots</li><li>List Unities</li></ul><br/><b>Working on it!</b>",
+        "link": "https://davidmartinezros.com:8443/how-do-you-learn-2.9.0-SNAPSHOT/api/howdyl/state",
+        "html": "This Project is done in <b>Java 8</b> with <b>Spring Boot 1.5</b> and <b>Angular 4</b> with <b>Bootstrap 3</b>.<br/><br/>I'm doing the architecture and thinking and designing the concepts.<br/><br/>For the moment, I've done:<br/><br/>A Rest State Service of <a href='https://davidmartinezros.com:8443/how-do-you-learn-2.9.0-SNAPSHOT/api/howdyl/state' target='_blank'>Unity Knowledge</a> saved in a <b>MongoDB</b>.<br/><br/><b>This are the Services Published:</b><ul><li>Create User</li><li>Remove User</li><li>Create Robot</li><li>Remove Robot</li><li>Create Unity</li><li>Remove Unity</li><li>Create Tag</li><li>Remove Tag</li><li>Create Relation</li><li>Remove Relation</li><li>List Robots</li><li>List Unities</li></ul><br/><b>Working on it!</b>",
         "repositori": "https://github.com/davidmartinezros/how-do-you-learn"
         },
         {
@@ -432,8 +432,8 @@
         "tipus": "Project",
         "data": "04/17/2017",
         "estat": "FINISHED",
-        "link": "http://davidmartinezros.com:8080/calling-to-internet-1.0.0-SNAPSHOT/api/lru/state",
-        "html": "This Project is done in <b>Java 8</b> with <b>Spring Boot 1.5</b>.<br/><br/>Is a Rest Service that call to an url to internet and response the content of the url. <br/><br/>You can call it with:<br/><a href='http://davidmartinezros.com:8080/calling-to-internet-1.0.0-SNAPSHOT/api/lru/getTagsFromGoogle' target='_blank'>POST Call with array of tags by parameter</a><br/><a href='http://davidmartinezros.com:8080/calling-to-internet-1.0.0-SNAPSHOT/api/lru/getContentUrl' target='_blank'>POST Call with a url parameter</a><br/><a href='http://davidmartinezros.com:8080/calling-to-internet-1.0.0-SNAPSHOT/api/lru/getTagsOfContentUrl' target='_blank'>POST Call with a url parameter and a tag parameter</a><br/><br/>You can call them with <a href='https://www.getpostman.com/' target='_blank'>Postman App</a>.",
+        "link": "https://davidmartinezros.com:8443/calling-to-internet-1.0.0-SNAPSHOT/api/lru/state",
+        "html": "This Project is done in <b>Java 8</b> with <b>Spring Boot 1.5</b>.<br/><br/>Is a Rest Service that call to an url to internet and response the content of the url. <br/><br/>You can call it with:<br/><a href='https://davidmartinezros.com:8443/calling-to-internet-1.0.0-SNAPSHOT/api/lru/getTagsFromGoogle' target='_blank'>POST Call with array of tags by parameter</a><br/><a href='https://davidmartinezros.com:8443/calling-to-internet-1.0.0-SNAPSHOT/api/lru/getContentUrl' target='_blank'>POST Call with a url parameter</a><br/><a href='https://davidmartinezros.com:8443/calling-to-internet-1.0.0-SNAPSHOT/api/lru/getTagsOfContentUrl' target='_blank'>POST Call with a url parameter and a tag parameter</a><br/><br/>You can call them with <a href='https://www.getpostman.com/' target='_blank'>Postman App</a>.",
         "repositori": "https://github.com/davidmartinezros/calling-to-internet"
         },
         {
