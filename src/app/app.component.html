@@ -237,7 +237,7 @@
                     target="_blank" class="icon-linkedin"></a>
                 </li>
                 <li><a [href]="'ShareWithEmail' | translate" class="icon-mail"></a></li>
-                <li><a [href]="'ShareWithWhatsapp' | translate" target="_blank" class="icon-whatsapp"></a></li>
+                <li><a [href]="'ShareWithWhatsapp' | translate | safeUrl" target="_blank" class="icon-whatsapp"></a></li>
               </ul>
             </div>
           </div>
