@@ -4,9 +4,15 @@
     "TagKeywordsIndex": "巴塞罗那, 工作, 完整, 堆栈, 开发人员, 工程师, 技术, 角色, 离子, Java, Unity, 框架, AngularJS, 离子, 弹簧引导, Unity3D",
     "TagDescriptionIndex": "作者: David Martinez Ros; 位置: 巴塞罗那; 工作: 全堆栈开发人员, 工程师; 技术: Angular, Ionic, Java, Unity; 框架: AngularJS, Ionic, Spring Boot, Unity3D.",
     "ShareText": "与你的朋友分享",
+    "ShareWithFacebook": "https://www.facebook.com/sharer.php?u=https://davidmartinezros.com",
+    "ShareWithTwitter": "https://twitter.com/intent/tweet?text=我发现这个壮观的网站davidmartinezros.com，我想你可能会感兴趣. 一探究竟!&url=https%3A%2F%2Fdavidmartinezros.com%2F&via=davidnezan",
+    "ShareWithGoogle": "https://plus.google.com/share?url=https%3A%2F%2Fdavidmartinezros.com&text=我发现这个壮观的网站davidmartinezros.com，我想你可能会感兴趣. 一探究竟!",
+    "ShareWithLinkedIn": "https://www.linkedin.com/shareArticle?mini=true&url=https%3A//davidmartinezros.com&title=对于Angular，Ionic，Java和Unity感兴趣的完整堆栈开发者的组合&summary=我发现这个壮观的网站davidmartinezros.com，我想你可能会感兴趣. 一探究竟!&source=",
+    "ShareWithEmail": "mailto:?&subject=对于Angular，Ionic, Java和Unity感兴趣的完整堆栈开发者的组合&body=我发现这个壮观的网站davidmartinezros.com，我想你可能会感兴趣. 一探究竟!",
+    "ShareWithWhatsapp": "whatsapp://send?text=我发现这个壮观的网站davidmartinezros.com%20@davidnezan,%20我认为这可能会让你感兴趣.%20一探究竟!",
     "Introduction1": "嗨，我是<a href='https://www.google.com/maps/place/Barcelona' target='_blank'>巴塞罗那</a> <strong>大卫</strong>和<a href ='https://www.google.com/maps/place/Catalonia' target ='_blank'>加泰罗尼亚</a>以及<a href ='https://www.google.com/maps/place/Spain' target ='_blank'>西班牙</a>以及<a href='https://www.google.com/maps/place/Europe' target='_blank'>欧洲</a>.<br/>",
     "Introduction2": "我是一个<strong>全堆栈开发者</strong>，<strong>Angular</strong>，<strong>Ionic</strong>，<strong>Java</strong>和<strong>Unity</strong>活动.",
-    "Introduction3": "我在我的<a href='http://github.com/davidmartinezros' target='_blank'>git存储库</a>中发布我的所有作品.",
+    "Introduction3": "我在我的<a href='https://github.com/davidmartinezros' target='_blank'>git存储库</a>中发布我的所有作品.",
     "IntroductionAlert": "这只是一个笑话，但谢谢你的尝试.",
     "IntroductionAlertMessage": "尝试它，并享受快乐!",
     "Title1": "我目前的工作是:",
@@ -28,7 +34,7 @@
     "Subtitle1.6": "Google趋势比较:",
     "Description1.6.1": "我已经做了一些调查:<a href='https://davidmartinezros.com/web/comparative_Angular2.html' target='_blank'>哪里有角度?</a>和<a href ='http：//davidmartinezros.com/web/comparative_Unity.html' target ='_ blank'>哪里是单位?</a>",
     "Description1.6.2": "我正在做一些研究:<a href='https://davidmartinezros.com/web/comparative_GoogleSearches.html' target='_blank'>有兴趣的人</a>.",
-    "Title2": "任何技术问题: <a href='http://davidlearns.blogspot.com' target='_blank'>davidlearns.blogspot.com</a>.",
+    "Title2": "任何技术问题: <a href='https://davidlearns.blogspot.com' target='_blank'>davidlearns.blogspot.com</a>.",
     "Title3": "活动图例",
     "Subtitle3.1": "例子",
     "Description3.1.1": "想出一个好主意，首先你要做很多的测试.",
@@ -61,7 +67,7 @@
     "StateTable": "州",
     "ResultsFound1": "",
     "ResultsFound2": "结果已经被发现",
-    "ProjectLinkText": "项目链接",
+    "ProjectLinkText": "演示",
     "StateText": "州:",
     "SourceText1": "源代码在",
     "SourceText2": "存储库项目",
@@ -193,7 +199,7 @@
         "data": "10/30/2016",
         "estat": "完",
         "link": "https://davidmartinezros.com/Angular2/components-animations-project",
-        "html": "该项目是通过<a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'>Angular-Cli</a>开发的.<br/><br/>在html组件中显示一些<b>动画</b>，您可以在Angular2 Web中使用.<br/><br/>您必须扩展您想要的组件效果并实现html模板 和</b>，<b>淡入淡出</b>，<b>滚动</b>，<b>滚动</b>，<b>旋转</b>，<b>缩放</b>和<b>其他</b>.<br/><br/>源代码启发我的项目是<a href='http://daneden.github.io/animate.css/' target='_blank'>http://daneden.github.io/animate.css/</a>.",
+        "html": "该项目是通过<a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'>Angular-Cli</a>开发的.<br/><br/>在html组件中显示一些<b>动画</b>，您可以在Angular2 Web中使用.<br/><br/>您必须扩展您想要的组件效果并实现html模板 和</b>，<b>淡入淡出</b>，<b>滚动</b>，<b>滚动</b>，<b>旋转</b>，<b>缩放</b>和<b>其他</b>.<br/><br/>源代码启发我的项目是<a href='https://daneden.github.io/animate.css/' target='_blank'>https://daneden.github.io/animate.css/</a>.",
         "repositori": "https://github.com/davidmartinezros/components-animations-project"
         },
         {
@@ -283,7 +289,7 @@
         "data": "10/10/2016",
         "estat": "完",
         "link": "https://davidmartinezros.com/3D/MyFirstScene/",
-        "html": "相机跟随地形中的角色.<br/><br/><a href='http://unity3d.com' target='_blank'>Unity</a>做所有的工作!",
+        "html": "相机跟随地形中的角色.<br/><br/><a href='https://unity3d.com' target='_blank'>Unity</a>做所有的工作!",
         "repositori": "https://github.com/davidmartinezros/MiPrimerProyecto"
         },
         {
@@ -343,7 +349,7 @@
         "data": "10/29/2016",
         "estat": "完",
         "link": "https://davidmartinezros.com/3D/ImportingColladas/",
-        "html": "此示例显示在Blender 3D建模计算机程序中生成的Dragon从<a href='http://tf3dm.com/3d-models/blender' target='_blank'>tf3dm.com</a>获取.<br/><br/>这个龙在Blender中创建的动画，我在一个关键事件中使用了这个动画.<br/><br/>加载一个默认动画，开始时加载.<br/><br/>如果按箭头键箭头走龙.",
+        "html": "此示例显示在Blender 3D建模计算机程序中生成的Dragon从<a href='https://free3d.com/3d-models/blender' target='_blank'>free3d.com</a>获取.<br/><br/>这个龙在Blender中创建的动画，我在一个关键事件中使用了这个动画.<br/><br/>加载一个默认动画，开始时加载.<br/><br/>如果按箭头键箭头走龙.",
         "repositori": "https://github.com/davidmartinezros/ImportingColladas"
         },
         {
@@ -373,7 +379,7 @@
         "data": "10/28/2016",
         "estat": "完",
         "link": "https://davidmartinezros.com/web/comparative_Angular2.html",
-        "html": "这是AngularJS和Angular2与Google应用程序<a href='http://www.google.com/trends' target='_blank'>趋势</a>的比较.<br/><br/><b>·2016年10月的结论</b><br/><br/> - Angular2从一年前开始，但相关性并未达到AngularJS相关性的25%.<br/>·Angular2和AngularJS是 大部分在印度使用.<br/> - Angular2只到达印度，加拿大，美国，日本和欧洲. 世界其他地方不知道.<br/><br/><b>·在2017年4月的结论</b><br/><br/>现在，AngularJS的声望达到30%.“ - Angular2和AngularJS主要用于印度.” - Angular2在欧洲(德国，法国波兰和西班牙)正在增长.",
+        "html": "这是AngularJS和Angular2与Google应用程序<a href='https://www.google.com/trends' target='_blank'>趋势</a>的比较.<br/><br/><b>·2016年10月的结论</b><br/><br/> - Angular2从一年前开始，但相关性并未达到AngularJS相关性的25%.<br/>·Angular2和AngularJS是 大部分在印度使用.<br/> - Angular2只到达印度，加拿大，美国，日本和欧洲. 世界其他地方不知道.<br/><br/><b>·在2017年4月的结论</b><br/><br/>现在，AngularJS的声望达到30%.“ - Angular2和AngularJS主要用于印度.” - Angular2在欧洲(德国，法国波兰和西班牙)正在增长.",
         "repositori": null
         },
         {
@@ -383,7 +389,7 @@
         "data": "10/28/2016",
         "estat": "完",
         "link": "https://davidmartinezros.com/web/comparative_Unity.html",
-        "html": "这是<a href='https://unity3d.com' target='_blank'>Unity</a>与使用Google应用程序的其他游戏引擎<a href ='http://www.google.com/trends' target='_blank'>趋势</a>.<br/><b>·2016年10月的结论</b><br/><br/>使用游戏引擎. - PlayStation4和Xbox 360与Unity相比更为重要.<br/> - Nvidia与Unity相当.在中国，人们对生产游戏的兴趣比在玩游戏更感兴趣.<br/> - PlayStation4是美国，加拿大，澳大利亚和欧洲最常用的.<br/> - XBox 360最常用于南美洲和墨西哥.<br/> - Nvidia最常用于Rusia.<br/><br/><b>·在2017年4月的结论</b><br/><br/>·这种情况没有变化，或多或少是相同的. 游戏的目标人和他们的兴趣. - 在12月份，这个主题的狂飙呈指数级增长.",
+        "html": "这是<a href='https://unity3d.com' target='_blank'>Unity</a>与使用Google应用程序的其他游戏引擎<a href ='https://www.google.com/trends' target='_blank'>趋势</a>.<br/><b>·2016年10月的结论</b><br/><br/>使用游戏引擎. - PlayStation4和Xbox 360与Unity相比更为重要.<br/> - Nvidia与Unity相当.在中国，人们对生产游戏的兴趣比在玩游戏更感兴趣.<br/> - PlayStation4是美国，加拿大，澳大利亚和欧洲最常用的.<br/> - XBox 360最常用于南美洲和墨西哥.<br/> - Nvidia最常用于Rusia.<br/><br/><b>·在2017年4月的结论</b><br/><br/>·这种情况没有变化，或多或少是相同的. 游戏的目标人和他们的兴趣. - 在12月份，这个主题的狂飙呈指数级增长.",
         "repositori": null
         },
         {
@@ -393,7 +399,7 @@
         "data": "10/28/2016",
         "estat": "完",
         "link": "https://davidmartinezros.com/web/comparative_Sketchup.html",
-        "html": "这是<a href='http://www.sketchup.com/download' target='_blank'>Sketchup</a>和其他使用Google应用程序的3D建模计算机程序的比较<a href ='http://www.google.com/trends' target='_blank'>趋势</a>.<br/><br/><b>·在2016年10月的结论</b><br/><br/> - Skechtup和Blender是去年最相关的3D建模计算机程序. - Sketchup主要用于南美洲和澳大利亚以及美国和欧洲的Blender. - 3D Studio Max和Maya主要用于亚洲和印度.“ - 研究演变，我们可以看到3D Studio Max和Maya在十年前在美国和欧洲更为重要.<br/> - 在过去五年中， Sketchup和Blender具有更多的相关性，因为这些最后一个是免费的.<br/> - 考虑到美国和欧洲是未来，Sketchtup和Blender是未来的3D建模计算机程序.我们在<a href='/web/comparative_Unity.html' target='_blank'>游戏引擎</a>，XBox主要用于大多数使用Sketchup.而PlayStation4主要用于大多数使用的搅拌机.<br/><br/><b>·结论在2017年4月</b><br/><br/>这个情况没有改变，或多或少是相同的.主题呈指数下降.也许与游戏趋势主题的指数增长有关.",
+        "html": "这是<a href='https://www.sketchup.com/download' target='_blank'>Sketchup</a>和其他使用Google应用程序的3D建模计算机程序的比较<a href ='https://www.google.com/trends' target='_blank'>趋势</a>.<br/><br/><b>·在2016年10月的结论</b><br/><br/> - Skechtup和Blender是去年最相关的3D建模计算机程序. - Sketchup主要用于南美洲和澳大利亚以及美国和欧洲的Blender. - 3D Studio Max和Maya主要用于亚洲和印度.“ - 研究演变，我们可以看到3D Studio Max和Maya在十年前在美国和欧洲更为重要.<br/> - 在过去五年中， Sketchup和Blender具有更多的相关性，因为这些最后一个是免费的.<br/> - 考虑到美国和欧洲是未来，Sketchtup和Blender是未来的3D建模计算机程序.我们在<a href='/web/comparative_Unity.html' target='_blank'>游戏引擎</a>，XBox主要用于大多数使用Sketchup.而PlayStation4主要用于大多数使用的搅拌机.<br/><br/><b>·结论在2017年4月</b><br/><br/>这个情况没有改变，或多或少是相同的.主题呈指数下降.也许与游戏趋势主题的指数增长有关.",
         "repositori": null
         },
         {
@@ -403,7 +409,7 @@
         "data": "12/15/2016",
         "estat": "完",
         "link": "https://davidmartinezros.com/web/comparative_VR.html",
-        "html": "这是<a href='https://en.wikipedia.org/wiki/Virtual_reality' target='_blank'>VR(虚拟现实)</a>和<a href='https://www.playstation.com' target='_blank'>PlayStation4</a>和<a href='https://www.xbox.com/' target='_blank'>XBox 360</a> GameConsoles与Google应用程序 <a href='http://www.google.com/trends' target='_blank'>趋势</a>.<br/><br/><b>·在2016年12月的结论</b><br/><br/> - 去年，VR在世界各地越来越多.<br/> - PlayStation4和Xbox 360比VR更为相关.<br/> - PlayStation4和XBox 360的增长受到影响 _VR在欧洲，北美，加拿大和澳大利亚更相关.<br/><br/><b>·在2017年4月的结论</b><br/><br/> - 情况正在倾向.“ - Playstation 4的倾向越来越大.” - Xbox 360和虚拟现实的倾向正在减弱. 也许，虚拟现实是一个暂时的趋势，XBox 360必须改变他们的游戏引擎.",
+        "html": "这是<a href='https://en.wikipedia.org/wiki/Virtual_reality' target='_blank'>VR(虚拟现实)</a>和<a href='https://www.playstation.com' target='_blank'>PlayStation4</a>和<a href='https://www.xbox.com/' target='_blank'>XBox 360</a> GameConsoles与Google应用程序 <a href='https://www.google.com/trends' target='_blank'>趋势</a>.<br/><br/><b>·在2016年12月的结论</b><br/><br/> - 去年，VR在世界各地越来越多.<br/> - PlayStation4和Xbox 360比VR更为相关.<br/> - PlayStation4和XBox 360的增长受到影响 _VR在欧洲，北美，加拿大和澳大利亚更相关.<br/><br/><b>·在2017年4月的结论</b><br/><br/> - 情况正在倾向.“ - Playstation 4的倾向越来越大.” - Xbox 360和虚拟现实的倾向正在减弱. 也许，虚拟现实是一个暂时的趋势，XBox 360必须改变他们的游戏引擎.",
         "repositori": null
         },
         {
@@ -422,8 +428,8 @@
         "tipus": "Project",
         "data": "04/13/2017",
         "estat": "加工",
-        "link": "http://davidmartinezros.com:8080/how-do-you-learn-2.9.0-SNAPSHOT/api/howdyl/state",
-        "html": "该项目由<b>Java 8</b>与<b>Spring Boot 1.5</b>和<b>Angular 4</b>与<b>Bootstrap 3</b>. <br/><br/>我正在定义架构，思考和设计这些概念.<br/><br/>目前为止，我已经做了:<br/><br/>服务状态状态<a href ='http://davidmartinezros.com:8080/how-do-you-learn-2.9.0-SNAPSHOT/api/howdyl/state' target='_blank'>Unity Knowledge</a>与Spring Boot保存在一个<b><ul><li>创建机器人</li><li>删除机器人</li><li>删除标签</li><li>删除单位</li><li>创建关系</li><li>删除关系</li><li>机器人列表</li></ul><b>工作吧!</ b>",
+        "link": "https://davidmartinezros.com:8443/how-do-you-learn-2.9.0-SNAPSHOT/api/howdyl/state",
+        "html": "该项目由<b>Java 8</b>与<b>Spring Boot 1.5</b>和<b>Angular 4</b>与<b>Bootstrap 3</b>. <br/><br/>我正在定义架构，思考和设计这些概念.<br/><br/>目前为止，我已经做了:<br/><br/>服务状态状态<a href ='https://davidmartinezros.com:8443/how-do-you-learn-2.9.0-SNAPSHOT/api/howdyl/state' target='_blank'>Unity Knowledge</a>与Spring Boot保存在一个<b><ul><li>创建机器人</li><li>删除机器人</li><li>删除标签</li><li>删除单位</li><li>创建关系</li><li>删除关系</li><li>机器人列表</li></ul><b>工作吧!</ b>",
         "repositori": "https://github.com/davidmartinezros/how-do-you-learn"
         },
         {
@@ -432,8 +438,8 @@
         "tipus": "Project",
         "data": "04/17/2017",
         "estat": "完",
-        "link": "http://davidmartinezros.com:8080/calling-to-internet-1.0.0-SNAPSHOT/api/lru/state",
-        "html": "这个项目是在<b>Java 8</b>中使用<b>Spring Boot 1.5</b>完成的.<br/>是一个休息服务，调用一个网址到互联网，并回应 网址.<br/><br/>您可以使用以下内容来呼叫:<br/><a href='http://davidmartinezros.com:8080/call-to-internet-1.0.0-SNAPSHOT/api/lru/getTagsFromGoogle 'target='_blank'>POST通过参数对代码数组进行调用</a><a href='http://davidmartinezros.com:8080/calling-to-internet-1.0.0-SNAPSHOT/api/lru/getContentUrl' target='_blank'>具有url参数的POST调用</a><br/><a href='http://davidmartinezros.com:8080/calling-to-internet-1.0.0-SNAPSHOT/api/lru/getTagsOfContentUrl' target='_blank'>POST带有url参数和标签参数的调用</a>可以使用<a href='https://www.getpostman.com/' target='_blank'>邮递员应用</a>.",
+        "link": "https://davidmartinezros.com:8443/calling-to-internet-1.0.0-SNAPSHOT/api/lru/state",
+        "html": "这个项目是在<b>Java 8</b>中使用<b>Spring Boot 1.5</b>完成的.<br/>是一个休息服务，调用一个网址到互联网，并回应 网址.<br/><br/>您可以使用以下内容来呼叫:<br/><a href='https://davidmartinezros.com:8443/call-to-internet-1.0.0-SNAPSHOT/api/lru/getTagsFromGoogle 'target='_blank'>POST通过参数对代码数组进行调用</a><a href='https://davidmartinezros.com:8443/calling-to-internet-1.0.0-SNAPSHOT/api/lru/getContentUrl' target='_blank'>具有url参数的POST调用</a><br/><a href='https://davidmartinezros.com:8443/calling-to-internet-1.0.0-SNAPSHOT/api/lru/getTagsOfContentUrl' target='_blank'>POST带有url参数和标签参数的调用</a>可以使用<a href='https://www.getpostman.com/' target='_blank'>邮递员应用</a>.",
         "repositori": "https://github.com/davidmartinezros/calling-to-internet"
         },
         {

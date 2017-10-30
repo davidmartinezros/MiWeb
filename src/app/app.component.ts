@@ -141,5 +141,4 @@ export class AppComponent implements OnInit {
     document.documentElement.scrollTop = 0; // For IE and Firefox
   }
 
-
 }
