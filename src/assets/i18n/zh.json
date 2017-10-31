@@ -1,8 +1,8 @@
 {
     "TitleIndex": "Angular, Ionic, Java和Unity网站项目| 大卫, 一个完整的堆栈开发者",
     "TagAuthorIndex": "David Martinez Ros",
-    "TagKeywordsIndex": "巴塞罗那, 工作, 完整, 堆栈, 开发人员, 工程师, 技术, 角色, 离子, Java, Unity, 框架, AngularJS, 离子, 弹簧引导, Unity3D",
-    "TagDescriptionIndex": "作者: David Martinez Ros; 位置: 巴塞罗那; 工作: 全堆栈开发人员, 工程师; 技术: Angular, Ionic, Java, Unity; 框架: AngularJS, Ionic, Spring Boot, Unity3D.",
+    "TagKeywordsIndex": "巴塞罗那, 加泰罗尼亚, 西班牙, 我的工作, 工程师, 工程, 技术, Angular, Ionic, Java, Unity, 马达, Node.js, Bootstrap, Spring, 程序设计, JavaScript, C Sharp, C#",
+    "TagDescriptionIndex": "作者: David Martinez Ros; 地方: 巴塞罗那, 加泰罗尼亚, 西班牙; 我的工作: 工程师, 工程; 技术: Angular, Ionic, Java, Unity; 马达: Node.js, Boostrap, Spring; 程序设计: JavaScript, C Sharp, C#.",
     "ShareText": "与你的朋友分享",
     "ShareWithFacebook": "https://www.facebook.com/sharer.php?u=https://davidmartinezros.com",
     "ShareWithTwitter": "https://twitter.com/intent/tweet?text=我发现这个壮观的网站davidmartinezros.com，我想你可能会感兴趣. 一探究竟!&url=https%3A%2F%2Fdavidmartinezros.com%2F&via=davidnezan",
@@ -32,7 +32,7 @@
     "Description1.5.3": "利用新技术",
     "Description1.5.4": "参考",
     "Subtitle1.6": "Google趋势比较:",
-    "Description1.6.1": "我已经做了一些调查:<a href='https://davidmartinezros.com/web/comparative_Angular2.html' target='_blank'>哪里有角度?</a>和<a href ='http：//davidmartinezros.com/web/comparative_Unity.html' target ='_ blank'>哪里是单位?</a>",
+    "Description1.6.1": "我已经做了一些调查:<a href='https://davidmartinezros.com/web/comparative_Angular2.html' target='_blank'>哪里有角度?</a>, <a href ='http：//davidmartinezros.com/web/comparative_Unity.html' target ='_ blank'>哪里是单位?</a>和<a href='https://davidmartinezros.com/web/comparative_IA.html' target='_blank'>AI有什么概念?</a>",
     "Description1.6.2": "我正在做一些研究:<a href='https://davidmartinezros.com/web/comparative_GoogleSearches.html' target='_blank'>有兴趣的人</a>.",
     "Title2": "任何技术问题: <a href='https://davidlearns.blogspot.com' target='_blank'>davidlearns.blogspot.com</a>.",
     "Title3": "活动图例",
@@ -420,6 +420,16 @@
         "estat": "完",
         "link": "https://davidmartinezros.com/web/comparative_GoogleSearches.html",
         "html": "目标:<br/>这个项目旨在调查并找出世界感兴趣的哪些科目? - 由于世界的利益非常广泛，将搜索集中在具有相似性的地区 兴趣(我从西班牙开始).<br/> - 随着兴趣随着时间的推移而变化，我将专注于现在.<br/> - 搜索使用<a href='https://www.google.com/trends/explore' target='_blank'>Google趋势引擎</a>.",
+        "repositori": null
+        },
+        {
+        "id": 206, "titol": "IA(人工智能)中的比较",
+        "tema": "Google Trends",
+        "tipus": "Comparative",
+        "data": "10/31/2017",
+        "estat": "ACABADO",
+        "link": "https://davidmartinezros.com/web/comparative_IA.html",
+        "html": "这是<a href='https://en.wikipedia.org/wiki/Artificial_intelligence' target='_blank'>IA(人工智能)</a>的不同概念之间的比较.<br/><br/><b>·在2017年10月的结论</b><br/><br/>- 自动学习在过去几个月里不断增长.<br/> - 人造智能在比较中是不相关的<br/>- 深度学习和自动学习在西安和日本更为重要.<br/>-欧洲在西安和日本的概念有五个重要意义.<br/>- 人造智能概念不 既不在西安既不到，也不在欧洲发现.<br/><br/> - 搜索使用<a href='https://www.google.com/trends/explore' target='_blank'>Google趋势引擎</a>.",
         "repositori": null
         },
         {

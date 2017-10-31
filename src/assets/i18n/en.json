@@ -1,8 +1,8 @@
 {
     "TitleIndex": "Angular, Ionic, Java and Unity website Projects | David, a Full Stack Developer",
     "TagAuthorIndex": "David Martinez Ros",
-    "TagKeywordsIndex": "Barcelona, Job, Full, Stack, Developer, Engineer, Technology, Angular, Ionic, Java, Unity, Framework, AngularJS, Ionic, Spring Boot, Unity3D",
-    "TagDescriptionIndex": "Author: David Martinez Ros; Location: Barcelona; Job: Full Stack Developer, Engineer; Technology: Angular, Ionic, Java, Unity; Framework: AngularJS, Ionic, Spring Boot, Unity3D.",
+    "TagKeywordsIndex": "Barcelona, Catalonia, Spain, Job, Engineer, Engineering, Technology, Angular, Ionic, Java, Unity, Engine, Node.js, Bootstrap, Spring, Programming, JavaScript, C Sharp, C#",
+    "TagDescriptionIndex": "Author: David Martinez Ros; Location: Barcelona, Catalonia, Spain; Job: Engineer, Engineering; Technology: Angular, Ionic, Java, Unity; Engine: Node.js, Boostrap, Spring; Programming: JavaScript, C Sharp, C#.",
     "ShareText": "share with your friends",
     "ShareWithFacebook": "https://www.facebook.com/sharer.php?u=https://davidmartinezros.com",
     "ShareWithTwitter": "https://twitter.com/intent/tweet?text=I have found this spectacular website davidmartinezros.com and I think it may interest you. Check it out!&url=https%3A%2F%2Fdavidmartinezros.com%2F&via=davidnezan",
@@ -32,7 +32,7 @@
     "Description1.5.3": "taking advantage of new technologies",
     "Description1.5.4": "reference",
     "Subtitle1.6": "Google trends comparatives:",
-    "Description1.6.1": "I have done some investigations: <a href='https://davidmartinezros.com/web/comparative_Angular2.html' target='_blank'>where goes angular?</a> and <a href='https://davidmartinezros.com/web/comparative_Unity.html' target='_blank'>where is unity?</a>.",
+    "Description1.6.1": "I have done some investigations: <a href='https://davidmartinezros.com/web/comparative_Angular2.html' target='_blank'>where goes angular?</a>, <a href='https://davidmartinezros.com/web/comparative_Unity.html' target='_blank'>where is unity?</a> and <a href='https://davidmartinezros.com/web/comparative_IA.html' target='_blank'>Which are the IA concepts?</a>",
     "Description1.6.2": "I'm doing some studies: <a href='https://davidmartinezros.com/web/comparative_GoogleSearches.html' target='_blank'>what are people interested in?</a>.",
     "Title2": "For any technical trouble: <a href='https://davidlearns.blogspot.com' target='_blank'>davidlearns.blogspot.com</a>.",
     "Title3": "Activity Legend",
@@ -420,6 +420,16 @@
         "estat": "FINISHED",
         "link": "https://davidmartinezros.com/web/comparative_GoogleSearches.html",
         "html": "Objectives:<br/><br/>- This project aims to investigate and find out which subjects are of interest to the world.<br/>- As the interests of the world are very wide, center the searches in regions with similar interests (I begin with Spain).<br/>- And as interests vary over time, I will focus on the present.<br/>- The Searches use the <a href='https://www.google.com/trends/explore' target='_blank'>Google Trends Engine</a>.",
+        "repositori": null
+        },
+        {
+        "id": 206, "titol": "Comparatives in IA (Artificial Intelligence)",
+        "tema": "Google Trends",
+        "tipus": "Comparative",
+        "data": "10/31/2017",
+        "estat": "ACABADO",
+        "link": "https://davidmartinezros.com/web/comparative_IA.html",
+        "html": "This is a comparative between the differents concepts of <a href='https://en.wikipedia.org/wiki/Artificial_intelligence' target='_blank'>IA (Artificial Intelligence)</a>.<br/><br/><b>· Conclusions at October of 2017</b><br/<br/>- Automatic Learning is growing a lot in last months.<br/>- Artificial Intelligence it's not relevant in the comparative.<br/>- Deep Learning and Automatic Learning are more significative in Xina and Japan.<br/>- Europe have the five per cent of the significance of the concepts thant in Xina and Japan.<br/>- The Artificial Intelligence concept doesn't arrive yet neither in Xina, but they are finding it neither in Europe.<br/><br/>- The Searches use the <a href='https://www.google.com/trends/explore' target='_blank'>Google Trends Engine</a>.",
         "repositori": null
         },
         {

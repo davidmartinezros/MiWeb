@@ -28,40 +28,40 @@ const routes: Routes = [
     data: {
       title: 'Dashboard | Angular, Ionic, Java and Unity website Projects',
       author: 'David Martinez Ros',
-      keywords: 'Barcelona, Job, Full, Stack, Developer, Engineer, Technology, Angular, Ionic, Java, Unity, Framework, AngularJS, Ionic, Spring Boot, Unity3D',
-      description: 'Author: David Martinez Ros; Location: Barcelona; Job: Full Stack Developer, Engineer; Technology: Angular, Ionic, Java, Unity; Framework: AngularJS, Ionic, Spring Boot, Unity3D.',
+      keywords: 'Barcelona, Catalonia, Spain, Job, Engineer, Engineering, Technology, Angular, Ionic, Java, Unity, Engine, Node.js, Bootstrap, Spring, Programming, JavaScript, C Sharp, C#',
+      description: 'Author: David Martinez Ros; Location: Barcelona, Catalonia, Spain; Job: Engineer, Engineering; Technology: Angular, Ionic, Java, Unity; Engine: Node.js, Boostrap, Spring; Programming: JavaScript, C Sharp, C#.',
     }
   },
   { path: 'projects', component: ProjectsComponent, canActivate: [ComponentGuard],
     data: {
       title: 'List of Projects | Angular, Ionic, Java and Unity website Projects',
       author: 'David Martinez Ros',
-      keywords: 'Barcelona, Job, Full, Stack, Developer, Engineer, Technology, Angular, Ionic, Java, Unity, Framework, AngularJS, Ionic, Spring Boot, Unity3D',
-      description: 'Author: David Martinez Ros; Location: Barcelona; Job: Full Stack Developer, Engineer; Technology: Angular, Ionic, Java, Unity; Framework: AngularJS, Ionic, Spring Boot, Unity3D.',
+      keywords: 'Barcelona, Catalonia, Spain, Job, Engineer, Engineering, Technology, Angular, Ionic, Java, Unity, Engine, Node.js, Bootstrap, Spring, Programming, JavaScript, C Sharp, C#',
+      description: 'Author: David Martinez Ros; Location: Barcelona, Catalonia, Spain; Job: Engineer, Engineering; Technology: Angular, Ionic, Java, Unity; Engine: Node.js, Boostrap, Spring; Programming: JavaScript, C Sharp, C#.',
     } 
   },
   { path: 'following', component: FollowingComponent, canActivate: [ComponentGuard],
     data: {
       title: 'Project Following | Angular, Ionic, Java and Unity website Projects',
       author: 'David Martinez Ros',
-      keywords: 'Barcelona, Job, Full, Stack, Developer, Engineer, Technology, Angular, Ionic, Java, Unity, Framework, AngularJS, Ionic, Spring Boot, Unity3D',
-      description: 'Author: David Martinez Ros; Location: Barcelona; Job: Full Stack Developer, Engineer; Technology: Angular, Ionic, Java, Unity; Framework: AngularJS, Ionic, Spring Boot, Unity3D.',
+      keywords: 'Barcelona, Catalonia, Spain, Job, Engineer, Engineering, Technology, Angular, Ionic, Java, Unity, Engine, Node.js, Bootstrap, Spring, Programming, JavaScript, C Sharp, C#',
+      description: 'Author: David Martinez Ros; Location: Barcelona, Catalonia, Spain; Job: Engineer, Engineering; Technology: Angular, Ionic, Java, Unity; Engine: Node.js, Boostrap, Spring; Programming: JavaScript, C Sharp, C#.',
     }
   },
   { path: 'detail/:id', component: ProjectDetailComponent, canActivate: [ComponentGuard],
     data: {
       title: 'Project Detail | Angular, Ionic, Java and Unity website Projects',
       author: 'David Martinez Ros',
-      keywords: 'Barcelona, Job, Full, Stack, Developer, Engineer, Technology, Angular, Ionic, Java, Unity, Framework, AngularJS, Ionic, Spring Boot, Unity3D',
-      description: 'Author: David Martinez Ros; Location: Barcelona; Job: Full Stack Developer, Engineer; Technology: Angular, Ionic, Java, Unity; Framework: AngularJS, Ionic, Spring Boot, Unity3D.',
+      keywords: 'Barcelona, Catalonia, Spain, Job, Engineer, Engineering, Technology, Angular, Ionic, Java, Unity, Engine, Node.js, Bootstrap, Spring, Programming, JavaScript, C Sharp, C#',
+      description: 'Author: David Martinez Ros; Location: Barcelona, Catalonia, Spain; Job: Engineer, Engineering; Technology: Angular, Ionic, Java, Unity; Engine: Node.js, Boostrap, Spring; Programming: JavaScript, C Sharp, C#.',
     }
   },
   { path: 'type/:tipus', component: ProjectTypeComponent, canActivate: [ComponentGuard],
     data: { 
       title: 'Project Type | Angular, Ionic, Java and Unity website Projects',
       author: 'David Martinez Ros',
-      keywords: 'Barcelona, Job, Full, Stack, Developer, Engineer, Technology, Angular, Ionic, Java, Unity, Framework, AngularJS, Ionic, Spring Boot, Unity3D',
-      description: 'Author: David Martinez Ros; Location: Barcelona; Job: Full Stack Developer, Engineer; Technology: Angular, Ionic, Java, Unity; Framework: AngularJS, Ionic, Spring Boot, Unity3D.',
+      keywords: 'Barcelona, Catalonia, Spain, Job, Engineer, Engineering, Technology, Angular, Ionic, Java, Unity, Engine, Node.js, Bootstrap, Spring, Programming, JavaScript, C Sharp, C#',
+      description: 'Author: David Martinez Ros; Location: Barcelona, Catalonia, Spain; Job: Engineer, Engineering; Technology: Angular, Ionic, Java, Unity; Engine: Node.js, Boostrap, Spring; Programming: JavaScript, C Sharp, C#.',
     } 
   }
 ];

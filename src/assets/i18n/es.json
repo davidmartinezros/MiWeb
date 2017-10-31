@@ -1,8 +1,8 @@
 {
     "TitleIndex": "Página Web de Proyectos Angular, Ionic, Java y Unity | David, un Full Stack Developer",
     "TagAuthorIndex": "David Martinez Ros",
-    "TagKeywordsIndex": "Barcelona, Trabajo, Full, Stack, Developer, Ingeniero, Tecnología, Angular, Ionic, Java, Unity, Framework, AngularJS, Ionic, Spring Boot, Unity3D",
-    "TagDescriptionIndex": "Autor: David Martinez Ros; Localización: Barcelona; Categoría: Full Stack Developer, Ingeniero; Tecnología: Angular, Ionic, Java, Unity; Framework: AngularJS, Ionic, Spring Boot, Unity3D.",
+    "TagKeywordsIndex": "Barcelona, Cataluña, España, Trabajo, Ingeniero, Ingeniería, Tecnología, Angular, Ionic, Java, Unity, Motor, Node.js, Bootstrap, Spring, Programación, JavaScript, C Sharp, C#",
+    "TagDescriptionIndex": "Author: David Martinez Ros; Lugar: Barcelona, Catalonia, Spain; Trabajo: Ingeniero, Ingeniería; Tecnología: Angular, Ionic, Java, Unity; Motor: Node.js, Boostrap, Spring; Programación: JavaScript, C Sharp, C#.",
     "ShareText": "comparte con tus amigos",
     "ShareWithFacebook": "https://www.facebook.com/sharer.php?u=https://davidmartinezros.com",
     "ShareWithTwitter": "https://twitter.com/intent/tweet?text=Me he encontrado con esta espectacular web davidmartinezros.com y creo que puede interesarte. ¡Échale un vistazo!&url=https%3A%2F%2Fdavidmartinezros.com%2F&via=davidnezan",
@@ -32,7 +32,7 @@
     "Description1.5.3": "aprovechando las nuevas tecnologías",
     "Description1.5.4": "referencia",
     "Subtitle1.6": "Comparativas con Google Trends:",
-    "Description1.6.1": "He realizado varias investigaciones: <a href='https://davidmartinezros.com/web/comparative_Angular2.html' target='_blank'>¿hacia dónde va angular?</a> y <a href='https://davidmartinezros.com/web/comparative_Unity.html' target='_blank'>¿dónde se encuentra unity?</a>.",
+    "Description1.6.1": "He realizado varias investigaciones: <a href='https://davidmartinezros.com/web/comparative_Angular2.html' target='_blank'>¿hacia dónde va angular?</a>, <a href='https://davidmartinezros.com/web/comparative_Unity.html' target='_blank'>¿dónde se encuentra unity?</a> y <a href='https://davidmartinezros.com/web/comparative_IA.html' target='_blank'>¿qué conceptos hay en la IA?</a>",
     "Description1.6.2": "Estoy realizando diferentes estudios: <a href='https://davidmartinezros.com/web/comparative_GoogleSearches.html' target='_blank'>¿qué les interesa a la gente?</a>.",
     "Title2": "Para cualquier duda técnica: <a href='https://davidlearns.blogspot.com' target='_blank'>davidlearns.blogspot.com</a>.",
     "Title3": "Leyenda de Actividades",
@@ -420,6 +420,16 @@
         "estat": "ACABADO",
         "link": "https://davidmartinezros.com/web/comparative_GoogleSearches.html",
         "html": "Objetivos:<br/><br/>- Este proyecto quiere investigar y encontrar cuáles son los temas que interesan al mundo.<br/>- Dado que los intereses del mundo es un termino muy amplio, nos centraremos en buscar por regiones con búsquedas similares (He empezado con España).<br/>- Y dado que los intereses varian mucho a lo largo del tiempo, me centraré en el presente.<br/>- Las búsquedas usan el motor <a href='https://www.google.com/trends/explore' target='_blank'>Google Trends</a>.",
+        "repositori": null
+        },
+        {
+        "id": 206, "titol": "Comparativas en IA (Inteligencia Artificial)",
+        "tema": "Google Trends",
+        "tipus": "Comparative",
+        "data": "10/31/2017",
+        "estat": "ACABADO",
+        "link": "https://davidmartinezros.com/web/comparative_IA.html",
+        "html": "Esta es una comparativa entre los conceptos que cohabitan en la <a href='https://en.wikipedia.org/wiki/Artificial_intelligence' target='_blank'>IA (Inteligencia Artificial)</a>.<br/><br/><b>· Conclusions at October of 2017</b><br/<br/>- Automatic Learning is growing a lot in last months.<br/>- Artificial Intelligence it's not relevant in the comparative.<br/>- Deep Learning and Automatic Learning are more significative in Xina and Japan.<br/>- Europe have the five per cent of the significance of the concepts thant in Xina and Japan.<br/>- The Artificial Intelligence concept doesn't arrive yet neither in Xina, but they are finding it neither in Europe.<br/><br/>- Las búsquedas usan el motor <a href='https://www.google.com/trends/explore' target='_blank'>Google Trends</a>.",
         "repositori": null
         },
         {
