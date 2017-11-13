@@ -429,7 +429,7 @@
         "data": "10/31/2017",
         "estat": "ACABADO",
         "link": "https://davidmartinezros.com/web/comparative_IA.html",
-        "html": "Esta es una comparativa entre los conceptos que cohabitan en la <a href='https://en.wikipedia.org/wiki/Artificial_intelligence' target='_blank'>IA (Inteligencia Artificial)</a>.<br/><br/><b>· Conclusions at October of 2017</b><br/<br/>- Automatic Learning is growing a lot in last months.<br/>- Artificial Intelligence it's not relevant in the comparative.<br/>- Deep Learning and Automatic Learning are more significative in Xina and Japan.<br/>- Europe have the five per cent of the significance of the concepts thant in Xina and Japan.<br/>- The Artificial Intelligence concept doesn't arrive yet neither in Xina, but they are finding it neither in Europe.<br/><br/>- Las búsquedas usan el motor <a href='https://www.google.com/trends/explore' target='_blank'>Google Trends</a>.",
+        "html": "Esta es una comparativa entre los conceptos que cohabitan en la <a href='https://en.wikipedia.org/wiki/Artificial_intelligence' target='_blank'>IA (Inteligencia Artificial)</a>.<br/><br/><b>· Conclusiones en Octobre de 2017</b><br/<br/>- El Aprendizaje Automático está creciendo mucho en los últimos meses.<br/>- La Inteligencia Artificial no es relevante en la comparativa.<br/>- El Aprendizaje Profundo y el Aprendizaje Automático son más significativos en China y en Japón.<br/>- Europa tiene un cinco por ciento de la relevacia de los conceptos respeto China y Japón.<br/>- El concepto Inteligencia Artificial no llega ni a ser importante en China, pero tampoco se busca en Europa.<br/><br/>- Las búsquedas usan el motor <a href='https://www.google.com/trends/explore' target='_blank'>Google Trends</a>.",
         "repositori": null
         },
         {
@@ -438,8 +438,8 @@
         "tipus": "Project",
         "data": "04/13/2017",
         "estat": "TRABAJANDO",
-        "link": "https://davidmartinezros.com:8443/how-do-you-learn-2.9.0-SNAPSHOT/api/howdyl/state",
-        "html": "Este proyecto está hecho en <b>Java 8</b> con <b>Spring Boot 1.5</b> y <b>Angular 4</b> con <b>Bootstrap 3</b>.<br/><br/>Estoy definiendo la arquitectura y pensando y diseñando los conceptos.<br/><br/>Por el momento, he hecho:<br/><br/>Servicio Rest de estado del <a href='https://davidmartinezros.com:8443/how-do-you-learn-2.9.0-SNAPSHOT/api/howdyl/state' target='_blank'>Unity Knowledge</a> con Spring Boot que se guarda en una <b>MongoDB</b>.<br/><br/><b>Estos son los Servicios Publicados:</b><ul><li>Crear Usuario</li><li>Borrar Ususario</li><li>Crear Robot</li><li>Borrar Robot</li><li>Crear Unidad</li><li>Borrar Unidad</li><li>Crear Tag</li><li>Borrar Tag</li><li>Crear Relación</li><li>Borrar Relación</li><li>Listado de Robots</li><li>Listado de Unidades</li></ul><br/><b>¡Trabajando en ello!</b>",
+        "link": "https://davidmartinezros.com:8443/how-do-you-learn-3.3.1-SNAPSHOT/health",
+        "html": "Este proyecto está hecho en <b>Java 8</b> con <b>Spring Boot 1.5</b> y <b>Angular 4</b> con <b>Bootstrap 3</b>.<br/><br/>Estoy definiendo la arquitectura y pensando y diseñando los conceptos.<br/><br/>Por el momento, he hecho:<br/><br/>Servicio Rest de estado del <a href='https://davidmartinezros.com:8443/how-do-you-learn-3.3.1-SNAPSHOT/mappings' target='_blank'>Mapeos de Servicio Rest de Unidades de Conocimiento</a> con Spring Boot que se guarda en una <b>MongoDB</b>.<br/><br/><b>Estos son los Servicios Publicados:</b><ul><li>Crear Usuario</li><li>Borrar Ususario</li><li>Crear Robot</li><li>Borrar Robot</li><li>Crear Unidad</li><li>Borrar Unidad</li><li>Crear Tag</li><li>Borrar Tag</li><li>Crear Relación</li><li>Borrar Relación</li><li>Listado de Robots</li><li>Listado de Unidades</li></ul><br/><b>¡Trabajando en ello!</b>",
         "repositori": "https://github.com/davidmartinezros/how-do-you-learn"
         },
         {
@@ -448,8 +448,8 @@
         "tipus": "Project",
         "data": "04/17/2017",
         "estat": "ACABADO",
-        "link": "https://davidmartinezros.com:8443/calling-to-internet-1.0.0-SNAPSHOT/api/lru/state",
-        "html": "Este proyecto está realizado en <b>Java 8</b> con <b>Spring Boot 1.5</b>.<br/><br/>Es un Servicio Rest que llama a una url de internet y responde con el contenido de la url.<br/><br/>Puedes llamarla con:<br/><a href='https://davidmartinezros.com:8443/calling-to-internet-1.0.0-SNAPSHOT/api/lru/getTagsFromGoogle' target='_blank'>Llamada POST con array de tags por parámetro</a><br/><a href='https://davidmartinezros.com:8443/calling-to-internet-1.0.0-SNAPSHOT/api/lru/getContentUrl' target='_blank'>Llamada POST con una url por parámetro</a><br/><a href='https://davidmartinezros.com:8443/calling-to-internet-1.0.0-SNAPSHOT/api/lru/getTagsOfContentUrl' target='_blank'>Llamada POST con una url por parámetro y un parametro con un tag</a><br/><br/>Puedes llamar a todos los servicios con la <a href='https://www.getpostman.com/' target='_blank'>Aplicación Postman</a>.",
+        "link": "https://davidmartinezros.com:8443/calling-to-internet-1.1.0-SNAPSHOT/health",
+        "html": "Este proyecto está realizado en <b>Java 8</b> con <b>Spring Boot 1.5</b>.<br/><br/>Es un Servicio Rest que llama a una url de internet y responde con el contenido de la url.<br/><br/>Puedes usarlo con:<br/><a href='https://davidmartinezros.com:8443/calling-to-internet-1.1.0-SNAPSHOT/mappings' target='_blank'>mapeos</a><br/><br/>Puedes llamar a todos los servicios con la <a href='https://www.getpostman.com/' target='_blank'>Aplicación Postman</a>.",
         "repositori": "https://github.com/davidmartinezros/calling-to-internet"
         },
         {
