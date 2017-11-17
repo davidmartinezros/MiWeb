@@ -448,8 +448,8 @@
         "tipus": "Project",
         "data": "04/17/2017",
         "estat": "ACABADO",
-        "link": "https://davidmartinezros.com:8443/calling-to-internet-1.1.0-SNAPSHOT/health",
-        "html": "Este proyecto está realizado en <b>Java 8</b> con <b>Spring Boot 1.5</b>.<br/><br/>Es un Servicio Rest que llama a una url de internet y responde con el contenido de la url.<br/><br/>Puedes usarlo con: <a href='https://davidmartinezros.com:8443/calling-to-internet-1.1.0-SNAPSHOT/mappings' target='_blank'>mapeos</a><br/><br/>Puedes llamar a todos los servicios con la <a href='https://www.getpostman.com/' target='_blank'>Aplicación Postman</a>.",
+        "link": "https://davidmartinezros.com:8443/calling-to-internet-1.2.0-SNAPSHOT/health",
+        "html": "Este proyecto está realizado en <b>Java 8</b> con <b>Spring Boot 1.5</b>.<br/><br/>Es un Servicio Rest que llama a una url de internet y responde con el contenido de la url.<br/><br/>Puedes usarlo con: <a href='https://davidmartinezros.com:8443/calling-to-internet-1.2.0-SNAPSHOT/mappings' target='_blank'>mapeos</a><br/><br/>Puedes llamar a todos los servicios con la <a href='https://www.getpostman.com/' target='_blank'>Aplicación Postman</a>.",
         "repositori": "https://github.com/davidmartinezros/calling-to-internet"
         },
         {
